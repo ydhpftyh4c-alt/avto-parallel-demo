@@ -21,6 +21,37 @@ const catalogCars = [
     "date": "10.12.2025",
     "status": "sold",
     "statusDate": "10.02.2026",
+    "specs": {
+      "year": 2018,
+      "mileage_km": 85000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "10.12.2025",
+        "amount": 1440000,
+        "currency": "RUB",
+        "message_id": 4,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "26.12.2025",
+        "amount": 1420000,
+        "currency": "RUB",
+        "message_id": 103,
+        "kind": "price_update",
+        "applies_to_current": true
+      },
+      {
+        "date": "27.01.2026",
+        "amount": 1400000,
+        "currency": "RUB",
+        "message_id": 246,
+        "kind": "price_update",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -58,6 +89,21 @@ const catalogCars = [
     "date": "10.12.2025",
     "status": "unknown",
     "statusDate": "10.12.2025",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 84000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "10.12.2025",
+        "amount": 1799000,
+        "currency": "RUB",
+        "message_id": 26,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -95,6 +141,21 @@ const catalogCars = [
     "date": "11.12.2025",
     "status": "unknown",
     "statusDate": "11.12.2025",
+    "specs": {
+      "year": 2020,
+      "mileage_km": 99000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "11.12.2025",
+        "amount": 1770000,
+        "currency": "RUB",
+        "message_id": 33,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -130,6 +191,21 @@ const catalogCars = [
     "date": "12.12.2025",
     "status": "sold",
     "statusDate": "19.12.2025",
+    "specs": {
+      "year": 2016,
+      "mileage_km": 92000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.12.2025",
+        "amount": 1280000,
+        "currency": "RUB",
+        "message_id": 42,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -167,6 +243,21 @@ const catalogCars = [
     "date": "15.12.2025",
     "status": "unknown",
     "statusDate": "15.12.2025",
+    "specs": {
+      "year": 2018,
+      "mileage_km": 92000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "15.12.2025",
+        "amount": 3190000,
+        "currency": "RUB",
+        "message_id": 78,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -202,6 +293,12 @@ const catalogCars = [
     "date": "23.12.2025",
     "status": "unknown",
     "statusDate": "23.12.2025",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -228,6 +325,37 @@ const catalogCars = [
     "date": "23.12.2025",
     "status": "sold",
     "statusDate": "17.03.2026",
+    "specs": {
+      "year": 2012,
+      "mileage_km": 199000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "23.12.2025",
+        "amount": 1500000,
+        "currency": "RUB",
+        "message_id": 95,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "07.01.2026",
+        "amount": 1450000,
+        "currency": "RUB",
+        "message_id": 115,
+        "kind": "price_update",
+        "applies_to_current": true
+      },
+      {
+        "date": "19.01.2026",
+        "amount": 1400000,
+        "currency": "RUB",
+        "message_id": 186,
+        "kind": "price_update",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -262,6 +390,12 @@ const catalogCars = [
     "date": "05.01.2026",
     "status": "unknown",
     "statusDate": "05.01.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -288,6 +422,29 @@ const catalogCars = [
     "date": "07.01.2026",
     "status": "sold",
     "statusDate": "17.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 65000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "07.01.2026",
+        "amount": 1925000,
+        "currency": "RUB",
+        "message_id": 105,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "26.01.2026",
+        "amount": 1890000,
+        "currency": "RUB",
+        "message_id": 245,
+        "kind": "price_update",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -325,6 +482,21 @@ const catalogCars = [
     "date": "12.01.2026",
     "status": "unknown",
     "statusDate": "12.01.2026",
+    "specs": {
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "12.01.2026",
+        "amount": 6250000,
+        "currency": "RUB",
+        "message_id": 135,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -362,6 +534,21 @@ const catalogCars = [
     "date": "13.01.2026",
     "status": "sold",
     "statusDate": "22.01.2026",
+    "specs": {
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "13.01.2026",
+        "amount": 8250000,
+        "currency": "RUB",
+        "message_id": 146,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -399,6 +586,21 @@ const catalogCars = [
     "date": "15.01.2026",
     "status": "unknown",
     "statusDate": "15.01.2026",
+    "specs": {
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "15.01.2026",
+        "amount": 7199000,
+        "currency": "RUB",
+        "message_id": 160,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -436,6 +638,21 @@ const catalogCars = [
     "date": "16.01.2026",
     "status": "sold",
     "statusDate": "02.02.2026",
+    "specs": {
+      "year": 2018,
+      "mileage_km": 118000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "16.01.2026",
+        "amount": 2750000,
+        "currency": "RUB",
+        "message_id": 170,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -470,6 +687,21 @@ const catalogCars = [
     "date": "18.01.2026",
     "status": "sold",
     "statusDate": "06.02.2026",
+    "specs": {
+      "year": 2017,
+      "mileage_km": 77000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "18.01.2026",
+        "amount": 2850000,
+        "currency": "RUB",
+        "message_id": 178,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -504,6 +736,21 @@ const catalogCars = [
     "date": "19.01.2026",
     "status": "unknown",
     "statusDate": "19.01.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": 11000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "19.01.2026",
+        "amount": 1900000,
+        "currency": "RUB",
+        "message_id": 187,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -539,6 +786,21 @@ const catalogCars = [
     "date": "22.01.2026",
     "status": "unknown",
     "statusDate": "22.01.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 109000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "22.01.2026",
+        "amount": 1625000,
+        "currency": "RUB",
+        "message_id": 220,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -570,6 +832,21 @@ const catalogCars = [
     "date": "24.01.2026",
     "status": "unknown",
     "statusDate": "24.01.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "24.01.2026",
+        "amount": 2200000,
+        "currency": "RUB",
+        "message_id": 224,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -603,6 +880,21 @@ const catalogCars = [
     "date": "30.01.2026",
     "status": "unknown",
     "statusDate": "30.01.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 7800,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "30.01.2026",
+        "amount": 1300000,
+        "currency": "RUB",
+        "message_id": 275,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -629,6 +921,12 @@ const catalogCars = [
     "date": "31.01.2026",
     "status": "unknown",
     "statusDate": "31.01.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -658,6 +956,12 @@ const catalogCars = [
     "date": "31.01.2026",
     "status": "unknown",
     "statusDate": "31.01.2026",
+    "specs": {
+      "year": 2020,
+      "mileage_km": 99000,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -692,6 +996,12 @@ const catalogCars = [
     "date": "03.02.2026",
     "status": "sold",
     "statusDate": "09.03.2026",
+    "specs": {
+      "year": 2020,
+      "mileage_km": 105000,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -720,6 +1030,12 @@ const catalogCars = [
     "date": "04.02.2026",
     "status": "sold",
     "statusDate": "06.02.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 47000,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -757,6 +1073,21 @@ const catalogCars = [
     "date": "14.02.2026",
     "status": "unknown",
     "statusDate": "14.02.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 42000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "14.02.2026",
+        "amount": 1370000,
+        "currency": "RUB",
+        "message_id": 322,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -791,6 +1122,21 @@ const catalogCars = [
     "date": "15.02.2026",
     "status": "unknown",
     "statusDate": "15.02.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 33000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "15.02.2026",
+        "amount": 1900000,
+        "currency": "RUB",
+        "message_id": 329,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -826,6 +1172,21 @@ const catalogCars = [
     "date": "16.02.2026",
     "status": "unknown",
     "statusDate": "16.02.2026",
+    "specs": {
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "16.02.2026",
+        "amount": 6800000,
+        "currency": "RUB",
+        "message_id": 337,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -862,6 +1223,21 @@ const catalogCars = [
     "date": "18.02.2026",
     "status": "unknown",
     "statusDate": "18.02.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "18.02.2026",
+        "amount": 35000,
+        "currency": "USD",
+        "message_id": 346,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -894,6 +1270,21 @@ const catalogCars = [
     "date": "25.02.2026",
     "status": "unknown",
     "statusDate": "25.02.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 63000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "25.02.2026",
+        "amount": 2660000,
+        "currency": "RUB",
+        "message_id": 352,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -929,6 +1320,21 @@ const catalogCars = [
     "date": "25.02.2026",
     "status": "unknown",
     "statusDate": "25.02.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 67000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "25.02.2026",
+        "amount": 5000000,
+        "currency": "RUB",
+        "message_id": 360,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -966,6 +1372,21 @@ const catalogCars = [
     "date": "25.02.2026",
     "status": "unknown",
     "statusDate": "25.02.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 42000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "25.02.2026",
+        "amount": 2225000,
+        "currency": "RUB",
+        "message_id": 371,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1002,6 +1423,21 @@ const catalogCars = [
     "date": "26.02.2026",
     "status": "unknown",
     "statusDate": "26.02.2026",
+    "specs": {
+      "year": 2025,
+      "mileage_km": 20500,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "26.02.2026",
+        "amount": 11300000,
+        "currency": "RUB",
+        "message_id": 380,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1036,6 +1472,21 @@ const catalogCars = [
     "date": "27.02.2026",
     "status": "unknown",
     "statusDate": "27.02.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "27.02.2026",
+        "amount": 2515000,
+        "currency": "RUB",
+        "message_id": 387,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1071,6 +1522,21 @@ const catalogCars = [
     "date": "27.02.2026",
     "status": "unknown",
     "statusDate": "27.02.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 60000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "27.02.2026",
+        "amount": 5100000,
+        "currency": "RUB",
+        "message_id": 394,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1108,6 +1574,21 @@ const catalogCars = [
     "date": "27.02.2026",
     "status": "unknown",
     "statusDate": "27.02.2026",
+    "specs": {
+      "year": 2024,
+      "mileage_km": 38100,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "27.02.2026",
+        "amount": 5800000,
+        "currency": "RUB",
+        "message_id": 404,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1145,6 +1626,21 @@ const catalogCars = [
     "date": "03.03.2026",
     "status": "unknown",
     "statusDate": "03.03.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 24000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "03.03.2026",
+        "amount": 2380000,
+        "currency": "RUB",
+        "message_id": 417,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1182,6 +1678,12 @@ const catalogCars = [
     "date": "09.03.2026",
     "status": "unknown",
     "statusDate": "09.03.2026",
+    "specs": {
+      "year": 2019,
+      "mileage_km": 108000,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1216,6 +1718,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 27000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 1565000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1242,6 +1759,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 46000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2725000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1268,6 +1800,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 41000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 1800000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1294,6 +1841,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 40000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2920000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1320,6 +1882,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 17000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2585000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1346,6 +1923,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 48000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2305000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1372,6 +1964,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 36000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2000000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1398,6 +2005,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 30000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2110000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1424,6 +2046,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 39000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 1830000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1450,6 +2087,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 49000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 1820000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1476,6 +2128,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 46000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2420000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1502,6 +2169,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 41000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2350000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1528,6 +2210,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 55000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2610000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1554,6 +2251,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 33000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 1775000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1580,6 +2292,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 26000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 2285000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1606,6 +2333,21 @@ const catalogCars = [
     "date": "12.03.2026",
     "status": "unknown",
     "statusDate": "12.03.2026",
+    "specs": {
+      "year": 2023,
+      "mileage_km": 29000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "12.03.2026",
+        "amount": 1505000,
+        "currency": "RUB",
+        "message_id": 455,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1632,6 +2374,21 @@ const catalogCars = [
     "date": "17.03.2026",
     "status": "unknown",
     "statusDate": "17.03.2026",
+    "specs": {
+      "year": 2019,
+      "mileage_km": 196000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "17.03.2026",
+        "amount": 2390000,
+        "currency": "RUB",
+        "message_id": 466,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1669,6 +2426,21 @@ const catalogCars = [
     "date": "17.03.2026",
     "status": "unknown",
     "statusDate": "17.03.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 46700,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "17.03.2026",
+        "amount": 7800000,
+        "currency": "RUB",
+        "message_id": 470,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1706,6 +2478,12 @@ const catalogCars = [
     "date": "19.03.2026",
     "status": "unknown",
     "statusDate": "19.03.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1732,6 +2510,21 @@ const catalogCars = [
     "date": "19.03.2026",
     "status": "unknown",
     "statusDate": "19.03.2026",
+    "specs": {
+      "year": 2018,
+      "mileage_km": 104300,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "19.03.2026",
+        "amount": 2790000,
+        "currency": "RUB",
+        "message_id": 481,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1769,6 +2562,21 @@ const catalogCars = [
     "date": "27.03.2026",
     "status": "unknown",
     "statusDate": "27.03.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 67000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "27.03.2026",
+        "amount": 2355000,
+        "currency": "RUB",
+        "message_id": 491,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1806,6 +2614,12 @@ const catalogCars = [
     "date": "02.04.2026",
     "status": "unknown",
     "statusDate": "02.04.2026",
+    "specs": {
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1832,6 +2646,21 @@ const catalogCars = [
     "date": "09.04.2026",
     "status": "unknown",
     "statusDate": "09.04.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 22000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "09.04.2026",
+        "amount": 2650000,
+        "currency": "RUB",
+        "message_id": 508,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1868,6 +2697,21 @@ const catalogCars = [
     "date": "14.05.2026",
     "status": "unknown",
     "statusDate": "14.05.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "14.05.2026",
+        "amount": 3750000,
+        "currency": "RUB",
+        "message_id": 576,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1905,6 +2749,39 @@ const catalogCars = [
     "date": "23.05.2026",
     "status": "unknown",
     "statusDate": "23.05.2026",
+    "specs": {
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "23.05.2026",
+        "amount": 4050000,
+        "currency": "RUB",
+        "message_id": 586,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "23.05.2026",
+        "amount": 3950000,
+        "currency": "RUB",
+        "message_id": 587,
+        "kind": "variant_quote",
+        "applies_to_current": false,
+        "note": "Чёрный цвет, приблизительная цена"
+      },
+      {
+        "date": "23.05.2026",
+        "amount": 3850000,
+        "currency": "RUB",
+        "message_id": 587,
+        "kind": "variant_quote",
+        "applies_to_current": false,
+        "note": "Вариант 2025 года из того же ответа"
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -1931,6 +2808,21 @@ const catalogCars = [
     "date": "23.06.2026",
     "status": "unknown",
     "statusDate": "23.06.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 90500,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "23.06.2026",
+        "amount": 6500000,
+        "currency": "RUB",
+        "message_id": 597,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -1968,6 +2860,21 @@ const catalogCars = [
     "date": "09.07.2026",
     "status": "unknown",
     "statusDate": "09.07.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 50000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "09.07.2026",
+        "amount": 2650000,
+        "currency": "RUB",
+        "message_id": 613,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2000,6 +2907,29 @@ const catalogCars = [
     "date": "11.08.2026",
     "status": "unknown",
     "statusDate": "11.08.2026",
+    "specs": {
+      "year": 2016,
+      "mileage_km": 73000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "11.08.2026",
+        "amount": 2400000,
+        "currency": "RUB",
+        "message_id": 676,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "22.09.2026",
+        "amount": 2350000,
+        "currency": "RUB",
+        "message_id": 741,
+        "kind": "price_update",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Комплектация Supreme",
       "Кожаный салон",
@@ -2042,6 +2972,29 @@ const catalogCars = [
     "date": "23.08.2026",
     "status": "sold",
     "statusDate": "29.09.2026",
+    "specs": {
+      "year": 2024,
+      "mileage_km": 32500,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "23.08.2026",
+        "amount": 5990000,
+        "currency": "RUB",
+        "message_id": 688,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "15.09.2026",
+        "amount": 5500000,
+        "currency": "RUB",
+        "message_id": 707,
+        "kind": "temporary",
+        "applies_to_current": false
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2078,6 +3031,29 @@ const catalogCars = [
     "date": "26.08.2026",
     "status": "unknown",
     "statusDate": "26.08.2026",
+    "specs": {
+      "year": 2016,
+      "mileage_km": 103300,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "26.08.2026",
+        "amount": 1999000,
+        "currency": "RUB",
+        "message_id": 697,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "13.10.2026",
+        "amount": 1900000,
+        "currency": "RUB",
+        "message_id": 810,
+        "kind": "price_update",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Комплектация GT",
       "Панорамная крыша",
@@ -2120,6 +3096,21 @@ const catalogCars = [
     "date": "04.10.2026",
     "status": "unknown",
     "statusDate": "16.09.2026",
+    "specs": {
+      "year": 2012,
+      "mileage_km": 110000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "16.09.2026",
+        "amount": 1890000,
+        "currency": "RUB",
+        "message_id": 717,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2157,6 +3148,29 @@ const catalogCars = [
     "date": "16.09.2026",
     "status": "unknown",
     "statusDate": "16.09.2026",
+    "specs": {
+      "year": 2026,
+      "mileage_km": 8,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "16.09.2026",
+        "amount": 8650000,
+        "currency": "RUB",
+        "message_id": 721,
+        "kind": "initial",
+        "applies_to_current": true
+      },
+      {
+        "date": "01.10.2026",
+        "amount": 8550000,
+        "currency": "RUB",
+        "message_id": 795,
+        "kind": "price_update",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Полный привод 4MATIC",
       "Бензиновый двигатель 2,0 л",
@@ -2198,6 +3212,21 @@ const catalogCars = [
     "date": "16.10.2026",
     "status": "unknown",
     "statusDate": "21.09.2026",
+    "specs": {
+      "year": 2017,
+      "mileage_km": 122000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "21.09.2026",
+        "amount": 2090000,
+        "currency": "RUB",
+        "message_id": 731,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2235,6 +3264,12 @@ const catalogCars = [
     "date": "24.09.2026",
     "status": "unknown",
     "statusDate": "24.09.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2268,6 +3303,21 @@ const catalogCars = [
     "date": "26.09.2026",
     "status": "unknown",
     "statusDate": "26.09.2026",
+    "specs": {
+      "year": 2022,
+      "mileage_km": 117000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "26.09.2026",
+        "amount": 4500000,
+        "currency": "RUB",
+        "message_id": 758,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Панорамная крыша",
       "Колёсные диски 19″",
@@ -2310,6 +3360,12 @@ const catalogCars = [
     "date": "26.09.2026",
     "status": "unknown",
     "statusDate": "26.09.2026",
+    "specs": {
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2342,6 +3398,21 @@ const catalogCars = [
     "date": "27.09.2026",
     "status": "unknown",
     "statusDate": "27.09.2026",
+    "specs": {
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "27.09.2026",
+        "amount": 79000,
+        "currency": "GEL",
+        "message_id": 779,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2374,6 +3445,21 @@ const catalogCars = [
     "date": "01.10.2026",
     "status": "unknown",
     "statusDate": "01.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "01.10.2026",
+        "amount": 2500000,
+        "currency": "RUB",
+        "message_id": 789,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [
@@ -2406,6 +3492,21 @@ const catalogCars = [
     "date": "01.10.2026",
     "status": "unknown",
     "statusDate": "01.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "01.10.2026",
+        "amount": 3300000,
+        "currency": "RUB",
+        "message_id": 796,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -2432,6 +3533,21 @@ const catalogCars = [
     "date": "03.10.2026",
     "status": "unknown",
     "statusDate": "03.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "03.10.2026",
+        "amount": 3700000,
+        "currency": "RUB",
+        "message_id": 797,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -2458,6 +3574,21 @@ const catalogCars = [
     "date": "03.10.2026",
     "status": "unknown",
     "statusDate": "03.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "03.10.2026",
+        "amount": 4250000,
+        "currency": "RUB",
+        "message_id": 797,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -2484,6 +3615,21 @@ const catalogCars = [
     "date": "05.10.2026",
     "status": "unknown",
     "statusDate": "05.10.2026",
+    "specs": {
+      "year": 2019,
+      "mileage_km": 70000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "05.10.2026",
+        "amount": 1450000,
+        "currency": "RUB",
+        "message_id": 799,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Год выпуска — 2019",
       "Пробег по объявлению — 70 000 км"
@@ -2524,6 +3670,21 @@ const catalogCars = [
     "date": "08.10.2026",
     "status": "unknown",
     "statusDate": "08.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "08.10.2026",
+        "amount": 6000000,
+        "currency": "RUB",
+        "message_id": 809,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [],
     "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
     "images": [],
@@ -2550,6 +3711,21 @@ const catalogCars = [
     "date": "15.10.2026",
     "status": "unknown",
     "statusDate": "15.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "15.10.2026",
+        "amount": 2300000,
+        "currency": "RUB",
+        "message_id": 811,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Доступен к заказу — по публикации",
       "Электрическая и гибридная версии",
@@ -2588,6 +3764,21 @@ const catalogCars = [
     "date": "17.10.2026",
     "status": "unknown",
     "statusDate": "17.10.2026",
+    "specs": {
+      "year": 2021,
+      "mileage_km": 21000,
+      "is_new": false
+    },
+    "price_history": [
+      {
+        "date": "17.10.2026",
+        "amount": 9850000,
+        "currency": "RUB",
+        "message_id": 828,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Пневмоподвеска",
       "Аудиосистема BOSE",
@@ -2631,6 +3822,21 @@ const catalogCars = [
     "date": "17.10.2026",
     "status": "unknown",
     "statusDate": "17.10.2026",
+    "specs": {
+      "year": null,
+      "mileage_km": null,
+      "is_new": true
+    },
+    "price_history": [
+      {
+        "date": "17.10.2026",
+        "amount": 2780000,
+        "currency": "RUB",
+        "message_id": 838,
+        "kind": "initial",
+        "applies_to_current": true
+      }
+    ],
     "features": [
       "Версия 520 Pro+",
       "Панорамная крыша",

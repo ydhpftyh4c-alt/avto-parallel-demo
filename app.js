@@ -9,6 +9,18 @@ const reset = document.querySelector('#catalog-reset');
 const stateFilter=document.querySelector('#catalog-state');
 const more=document.querySelector('#catalog-more');
 let shownLimit=12;
+const limits=[['budget',document.querySelector('#budget-max')],['yearFrom',document.querySelector('#year-min')],['kmTo',document.querySelector('#mileage-max')]];
+function hasLimits(){return limits.some(([,input])=>input.value!=='');}
+function matchesLimits(car){
+  for(const [key,input] of limits){
+    if(!input.validity.valid)return false;
+    if(input.value==='')continue;
+    const bound=Number(input.value);
+    if(key==='budget' && (car.currency!=='RUB' || car.price===null || car.price>bound))return false;
+    if(key==='yearFrom' && (car.specs?.year==null || car.specs.year<bound))return false;
+    if(key==='kmTo' && (car.specs?.mileage_km==null || car.specs.mileage_km>bound))return false;
+  }return true;
+}
 const statusLabels={unknown:'Наличие уточняйте',sold:'Продан — по каналу',reserved:'Забронирован — по каналу'};
 const aliases = {'тойота':'toyota','порше':'porsche','порш':'porsche','фольксваген':'volkswagen','фольц':'volkswagen','джетта':'jetta','бмв':'bmw','мерседес':'mercedes','киа':'kia','мазда':'mazda','тайкан':'taycan','оптима':'optima','киюань':'qiyuan','шкода':'skoda','ауди':'audi','лексус':'lexus','ниссан':'nissan','хонда':'honda','митсубиси':'mitsubishi','хендай':'hyundai','хундай':'hyundai','джили':'geely','зикр':'zeekr','зеекр':'zeekr','мини':'mini','шевроле':'chevrolet','дукатти':'ducati','дукати':'ducati','лисян':'li auto'};
 const normalizeSearch = text => text.toLowerCase().normalize('NFKC').replace(/ё/g,'е').replace(/[а-я]+/g,word=>aliases[word]||word).replace(/[\s-]+/g,' ').trim();
@@ -26,8 +38,13 @@ function el(tag, className, text){
 function priceLabel(car){if(car.price===null)return 'Цена по запросу';return car.pricePrefix+priceFormat.format(car.price)+' '+({RUB:'₽',USD:'$',GEL:'GEL'}[car.currency]||car.currency||'₽');}
 function renderCars(resetLimit=true){
   if(resetLimit)shownLimit=12;
+  const invalid=limits.filter(([,input])=>!input.validity.valid);
+  document.querySelector('#limits-error').textContent=invalid.length?'Проверьте параметры: бюджет — положительное целое число, год — от 1900 до 2100, пробег — целое число от нуля.':'';
+  limits.forEach(([,input])=>input.setAttribute('aria-invalid',String(!input.validity.valid)));
+  const activeLimitCount=limits.filter(([,input])=>input.value!=='').length;
+  document.querySelector('#advanced-summary').textContent='Бюджет, год и пробег'+(activeLimitCount?' · '+activeLimitCount:'');
   const words=normalizeSearch(search.value).split(' ').filter(Boolean);
-  const visible = cars.filter(car => (activeType === 'all' || car.types.includes(activeType)) && (country.value === 'all' || car.country === country.value) && (stateFilter.value==='all' || car.status===stateFilter.value) && words.every(word=>normalizeSearch(car.name).replace(/\s/g,'').includes(word.replace(/\s/g,''))));
+  const visible = cars.filter(car => (activeType === 'all' || car.types.includes(activeType)) && (country.value === 'all' || car.country === country.value) && (stateFilter.value==='all' || car.status===stateFilter.value) && matchesLimits(car) && words.every(word=>normalizeSearch(car.name).replace(/\s/g,'').includes(word.replace(/\s/g,''))));
   visible.sort((a,b)=>{if(sort.value==='newest')return dateValue(b.date).localeCompare(dateValue(a.date)) || b.id-a.id;const aKnown=a.price!==null && a.currency==='RUB',bKnown=b.price!==null && b.currency==='RUB';if(aKnown!==bKnown)return aKnown?-1:1;return aKnown?(sort.value==='price-asc'?a.price-b.price:b.price-a.price):dateValue(b.date).localeCompare(dateValue(a.date));});
   grid.replaceChildren(...visible.slice(0,shownLimit).map(car => {
     const article = el('article','car');
@@ -45,7 +62,7 @@ function renderCars(resetLimit=true){
   document.querySelector('#empty').hidden = visible.length > 0;
   document.querySelector('#catalog-status').textContent = `Показано ${Math.min(shownLimit,visible.length)} из ${visible.length} по условиям · всего в каталоге ${cars.length}`;
   more.hidden=visible.length<=shownLimit;
-  reset.hidden=activeType==='all' && country.value==='all' && !search.value && sort.value==='newest' && stateFilter.value==='unknown';
+  reset.hidden=activeType==='all' && country.value==='all' && !search.value && sort.value==='newest' && stateFilter.value==='unknown' && !hasLimits();
 }
 function renderPhoto(){
   const image=document.querySelector('#detail-image');
@@ -61,11 +78,19 @@ function openCar(car, writeHistory = true){
   document.querySelector('#detail-price').textContent=priceLabel(car);
   document.querySelector('#detail-price-date').textContent=(car.price===null?'Цена не указана':'Цена из канала на '+car.priceDate)+' · '+(statusLabels[car.status]||'Наличие уточняйте');
   document.querySelector('#detail-price-note').textContent=car.priceNote;
+  const status=document.querySelector('#detail-status');
+  status.textContent=car.status==='sold'?'Отметка о продаже: '+car.statusDate:car.status==='reserved'?'Отметка о бронировании: '+car.statusDate:'Наличие нужно подтвердить у агентства';
+  status.classList.toggle('sold',car.status==='sold');
+  const priceHistoryPanel=document.querySelector('#price-history');priceHistoryPanel.open=false;
+  const events=car.price_history||[];priceHistoryPanel.hidden=!events.length;
+  priceHistoryPanel.querySelector('summary').textContent='История цены · '+events.length;
+  const labels={initial:'Цена в объявлении',price_update:'Изменение цены',temporary:'Историческая временная акция',variant_quote:'Цена другого варианта'};
+  document.querySelector('#price-history-list').replaceChildren(...[...events].reverse().map(event=>{const item=el('li');const header=el('div','price-event-top');header.append(el('time','',event.date),el('strong','',priceLabel({price:event.amount,currency:event.currency,pricePrefix:''})));item.append(header,el('p','',labels[event.kind]||'Публикация цены'));if(event.note)item.append(el('small','',event.note));return item;}));
   const specs=document.querySelector('#detail-specs');specs.replaceChildren();
   for(const [label,value] of [['Год',car.year],['Пробег',car.mileage],['Двигатель',car.engine]]){specs.append(el('dt','',label),el('dd','',value));}
   document.querySelector('#detail-features').replaceChildren(...car.features.map(text=>el('li','',text)));
   document.querySelector('#detail-description').textContent=car.description;
-  document.querySelector('#detail-source').textContent='Источник: '+car.record_id+' · публикация от '+car.date+'. Характеристики указаны продавцом и не являются результатом независимой проверки.';
+  document.querySelector('#detail-source').textContent='Объявление агентства от '+car.date+'. Характеристики указаны продавцом и не являются результатом независимой проверки.';
   if(writeHistory){const url=new URL(location.href);url.searchParams.set('car',car.slug);url.hash='catalog';history.pushState({avtoDialog:true},'',url);}
   const shareUrl=new URL(location.href);shareUrl.search='';shareUrl.searchParams.set('car',car.slug);shareUrl.hash='catalog';
   document.querySelector('#car-share-url').value=shareUrl.href;
@@ -95,6 +120,7 @@ function setActiveType(value){
 function writeCatalogUrl(){
   const url=new URL(location.href);
   for(const [key,value,defaultValue] of [['q',search.value.trim(),''],['type',activeType,'all'],['country',country.value,'all'],['sort',sort.value,'newest'],['status',stateFilter.value,'unknown']]){if(value===defaultValue)url.searchParams.delete(key);else url.searchParams.set(key,value);}
+  for(const [key,input] of limits){if(input.value!=='' && input.validity.valid)url.searchParams.set(key,input.value);else url.searchParams.delete(key);}
   history.replaceState(history.state,'',url);
 }
 function updateCatalog(){renderCars();writeCatalogUrl();}
@@ -104,13 +130,16 @@ function restoreCatalog(){
   country.value=[...country.options].some(option=>option.value===params.get('country'))?params.get('country'):'all';
   sort.value=[...sort.options].some(option=>option.value===params.get('sort'))?params.get('sort'):'newest';
   stateFilter.value=[...stateFilter.options].some(option=>option.value===params.get('status'))?params.get('status'):'unknown';
+  for(const [key,input] of limits){const value=params.get(key)||'';input.value=/^\d{1,10}$/.test(value)?value:'';if(!input.validity.valid)input.value='';}
+  document.querySelector('#advanced-filters').open=hasLimits();
   search.value=(params.get('q')||'').slice(0,80);renderCars();
   const car=cars.find(item=>item.slug===params.get('car'));
   if(car)openCar(car,false);else{if(dialog.open)dialog.close();if(params.has('car'))document.querySelector('#catalog-status').textContent='Автомобиль по этой ссылке не найден. Выберите другой из каталога.';}
 }
+limits.forEach(([,input])=>input.addEventListener('input',updateCatalog));
 stateFilter.addEventListener('change',updateCatalog);more.addEventListener('click',()=>{shownLimit+=12;renderCars(false);});
 country.addEventListener('change',updateCatalog);sort.addEventListener('change',updateCatalog);search.addEventListener('input',updateCatalog);
-reset.addEventListener('click',()=>{setActiveType('all');country.value='all';sort.value='newest';stateFilter.value='unknown';search.value='';updateCatalog();search.focus();});
+reset.addEventListener('click',()=>{setActiveType('all');country.value='all';sort.value='newest';stateFilter.value='unknown';search.value='';limits.forEach(([,input])=>input.value='');document.querySelector('#advanced-filters').open=false;updateCatalog();search.focus();});
 window.addEventListener('popstate',restoreCatalog);
 document.querySelector('#copy-car-link').addEventListener('click',async()=>{
   const input=document.querySelector('#car-share-url');const status=document.querySelector('#share-status');
@@ -145,6 +174,7 @@ lead.addEventListener('submit',event=>{event.preventDefault();const phone=lead.e
 lead.elements.phone.addEventListener('input',()=>{lead.elements.phone.setCustomValidity('');document.querySelector('#lead-status').textContent='';});
 lead.addEventListener('input',()=>{document.querySelector('#lead-status').textContent='';});
 if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(element=>observer.observe(element));document.documentElement.classList.add('motion-ready');}
+
 
 
 
