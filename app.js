@@ -1,11 +1,11 @@
 'use strict';
 const cars = [
   {name:'Porsche 911',type:'coupe',country:'de',body:'Купе',category:'Для удовольствия',image:'sport.jpg'},
-  {name:'BMW X5',type:'suv',country:'de',body:'Кроссовер',category:'Для больших планов',image:'suv.jpg'},
-  {name:'Zeekr 001',type:'electric',country:'cn',body:'Электромобиль',category:'Новая энергия',image:'electric.jpg'},
+  {name:'BMW 4 серии',type:'coupe',country:'de',body:'Купе',category:'Для больших планов',image:'suv.jpg'},
+  {name:'Tesla Model 3',type:'electric',country:'us',body:'Электромобиль',category:'Новая энергия',image:'electric.jpg'},
   {name:'Toyota Camry',type:'sedan',country:'jp',body:'Седан',category:'Каждый день',image:'sedan.jpg'},
-  {name:'Li Auto L7',type:'suv',country:'cn',body:'Кроссовер',category:'Больше пространства',image:'family.jpg'},
-  {name:'Porsche Taycan',type:'electric',country:'de',body:'Электромобиль',category:'Другой импульс',image:'touring.jpg'}
+  {name:'Honda CR-V',type:'suv',country:'jp',body:'Кроссовер',category:'Больше пространства',image:'family.jpg'},
+  {name:'Nissan GT-R',type:'coupe',country:'jp',body:'Купе',category:'Другой импульс',image:'touring.jpg'}
 ];
 let activeType = 'all';
 const grid = document.querySelector('#car-grid');
@@ -61,4 +61,5 @@ lead.addEventListener('submit',event=>{event.preventDefault();const phone=lead.e
 lead.elements.phone.addEventListener('input',()=>{lead.elements.phone.setCustomValidity('');document.querySelector('#lead-status').textContent='';});
 lead.addEventListener('input',()=>{document.querySelector('#lead-status').textContent='';});
 if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(element=>observer.observe(element));document.documentElement.classList.add('motion-ready');}
+
 
