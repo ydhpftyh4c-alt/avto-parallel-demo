@@ -1,0 +1,126 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 380,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "BMW X6 (G06)xDrive40i M\n\n🔹3 литра бензин \n380 сил\n🔹2025 год выпуска\n🔹Пробег 20.500 км\n\nЦена под ключ 11.300.000₽",
+      "photos": [
+        "photos/photo_289@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 381,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_290@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 382,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_291@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 383,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_292@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 384,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_293@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 385,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_294@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 386,
+      "date": "26.02.2026 09:37:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_295@26-02-2026_09-37-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_289@26-02-2026_09-37-34.jpg",
+      "source_sha256": "fca48fefb9756d9678166fadfcd0bf194da3d63b9071e8646fc5765cb256d703",
+      "width": 640,
+      "height": 384
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_290@26-02-2026_09-37-34.jpg",
+      "source_sha256": "3ff1d34227cb2c147afb40522f14fa27c071e4bd6a2bd68f4cf17bc75161abd2",
+      "width": 640,
+      "height": 384
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_291@26-02-2026_09-37-34.jpg",
+      "source_sha256": "272c6b5cf6c6524f59b6d981bba24cd01fa713c122aade3099911d370035a1f6",
+      "width": 640,
+      "height": 384
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_292@26-02-2026_09-37-34.jpg",
+      "source_sha256": "cb50b7624e3cdf1a2997fa2c9b3f3e7c54c16f92655c0b12b8872e12e0b59e72",
+      "width": 640,
+      "height": 384
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_293@26-02-2026_09-37-34.jpg",
+      "source_sha256": "61ed2f2e98b81829720fe8ec9b65add8e4d25a4cfb7d34c1ecf843f9fd4d328f",
+      "width": 640,
+      "height": 384
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_294@26-02-2026_09-37-34.jpg",
+      "source_sha256": "6a29e670a94188efc3fd18b60d5d22538375e345b586cd299af49c79f0f8a7f6",
+      "width": 640,
+      "height": 384
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_295@26-02-2026_09-37-34.jpg",
+      "source_sha256": "0ae94ba4f60bfbe1d205c9424af3b850c88ab2179426ff8f8be7f1cdca26d0a5",
+      "width": 640,
+      "height": 384
+    }
+  ]
+}

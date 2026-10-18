@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 481,
+      "date": "19.03.2026 11:17:42 UTC+03:00",
+      "text": "*БМВ 320d Gt | BMW 3 GT Xdrive*\n2018 год 2.0 дизель Полный привод \nДиллерская машина.\n*Пробег:* 104.300 км.\n2 владелец брали в салоне\n*Кузов*: окрас левой стороны была притертость. \nТехнически без нарекания. Полностью обслуживалась  в профильном сервисе. \n\n*Комплектация*:подогрев сидений, память сидений, led оптика, кожаный салон, безключивой доступ, электропривод багажника, Стандартный монитор заменён на андроид. Кар плей, навигатор Яндекс, Ютуб все работает, камера заднего вида. \n\n*Цена* : 2.790.000. \nНа ресурсах нет\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_381@19-03-2026_11-17-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 482,
+      "date": "19.03.2026 11:17:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_382@19-03-2026_11-17-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 483,
+      "date": "19.03.2026 11:17:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_383@19-03-2026_11-17-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 484,
+      "date": "19.03.2026 11:17:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_384@19-03-2026_11-17-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 485,
+      "date": "19.03.2026 11:17:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_385@19-03-2026_11-17-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 486,
+      "date": "19.03.2026 11:17:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_386@19-03-2026_11-17-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 487,
+      "date": "19.03.2026 11:17:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_387@19-03-2026_11-17-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 488,
+      "date": "19.03.2026 11:17:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_388@19-03-2026_11-17-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 489,
+      "date": "19.03.2026 11:17:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_389@19-03-2026_11-17-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 490,
+      "date": "19.03.2026 11:17:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_390@19-03-2026_11-17-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_381@19-03-2026_11-17-42.jpg",
+      "source_sha256": "63bca04d62f28f274efd770713e146b9c2e78964162d953b201d532b51b7b4e6",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_382@19-03-2026_11-17-42.jpg",
+      "source_sha256": "33e7f325a8a6a1ed86422a4a81c5351b53645abe21eca1a644af6aa2a2d8be89",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_383@19-03-2026_11-17-42.jpg",
+      "source_sha256": "c5ac50169978863397aab286894f38f91a3317da3a3e0b6ae51f28276711d9e9",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_384@19-03-2026_11-17-42.jpg",
+      "source_sha256": "3a6ba7cf72d0071fdacc08408978d50ae26fa1d6fd241de2ac45039211492bb9",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_385@19-03-2026_11-17-42.jpg",
+      "source_sha256": "3ff0d0ad4fb8221ba12d79de716d960d637e895a68a3f8f5e88e3731a7732d3c",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_386@19-03-2026_11-17-42.jpg",
+      "source_sha256": "c158d22c751ad3c40353fca0c769d4338592f091a6267cfc6b8d1947639b3629",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_387@19-03-2026_11-17-43.jpg",
+      "source_sha256": "6803b299b7c5ac040e9ace909d6918518b1976a4ec4681c81c0b4d30c38180ed",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_388@19-03-2026_11-17-43.jpg",
+      "source_sha256": "300167b7ad8edf920db395a7b4adc273e0e27b2e1d392af1dd63d562dd95840b",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_389@19-03-2026_11-17-43.jpg",
+      "source_sha256": "12e35462c0a0cf85ff08fdf32efcc7bf05ba2ba89830213d1a0f17c8609523dd",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_390@19-03-2026_11-17-43.jpg",
+      "source_sha256": "c644709a8451bebc7fa35705c366cb30acecfa4409d2a41daa446f78eeb13c97",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

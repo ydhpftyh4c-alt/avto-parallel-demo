@@ -1,0 +1,185 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 721,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "*В наличии*\nMercedes GLC 300\n2,0 бензин 258 л.с. 4matic \n2026 год Немец из Кореи\nПробег:8км\nЦена: 8️⃣.6️⃣5️⃣0️⃣.0️⃣0️⃣0️⃣торг, откат 🤑\n!На ресурсах нет! \n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_538@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 722,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_539@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 723,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_540@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 724,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_541@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 725,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_542@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 726,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_543@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 727,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_544@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 728,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_545@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 729,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_546@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 730,
+      "date": "16.09.2026 15:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_547@16-09-2026_15-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 795,
+      "date": "01.10.2026 17:20:24 UTC+03:00",
+      "text": "Понижение цены до \n‼️8️⃣.5️⃣5️⃣0️⃣.0️⃣0️⃣0️⃣‼️",
+      "photos": [],
+      "reply_to": 721,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_538@16-09-2026_15-13-15.jpg",
+      "source_sha256": "fc6c15b9497300494185e6b9e1377bfe3bba1880a2cf2a1b6d6548e013f0bb84",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_539@16-09-2026_15-13-15.jpg",
+      "source_sha256": "5ca8a74edd87464ec05f6f172f7b7c24baeb6a2072b7e8dfde551321de0ee0f4",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_540@16-09-2026_15-13-15.jpg",
+      "source_sha256": "896c5b7420698fe055c21a392981f1fbf3462d2de96cdf6b7d627c658f907944",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_541@16-09-2026_15-13-15.jpg",
+      "source_sha256": "867eee4a61837ebb3ae9acf8a85b85a0908588faf435f46ef2c1410e748720b6",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_542@16-09-2026_15-13-15.jpg",
+      "source_sha256": "dd52686b266d295139e34076c052fd36a2c2639d4cdf2a47b3d065ca20490092",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_543@16-09-2026_15-13-15.jpg",
+      "source_sha256": "fb8922076791f75f8e143b3793714126d3088c71a34d51a7c336b777a34a748e",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_544@16-09-2026_15-13-15.jpg",
+      "source_sha256": "f70fd107df405a93230d706e953aeb53ca41d203ad250b19f121d29ee23df41a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_545@16-09-2026_15-13-15.jpg",
+      "source_sha256": "e640bddb270e1f33f69347324bd7c3188bd79afa765e5b0a7be2eb7322920f66",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_546@16-09-2026_15-13-15.jpg",
+      "source_sha256": "a480a9ac795e9515d1c531e6f32b73afe151bdbae2c8771c055ee5d83c2ea310",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_547@16-09-2026_15-13-15.jpg",
+      "source_sha256": "cc7e50dbae49c021e98956a5536682c76317fc7111e52445b3693cead1e0b15d",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

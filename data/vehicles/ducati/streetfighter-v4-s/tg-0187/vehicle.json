@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0187",
+  "id": 187,
+  "slug": "ducati-streetfighter-v4-s-tg-0187",
+  "brand": "ducati",
+  "model": "Streetfighter V4 S",
+  "name": "Ducati Streetfighter V4 S",
+  "types": [
+    "motorcycle"
+  ],
+  "country": "it",
+  "body": "Мотоцикл",
+  "year": "Год не указан",
+  "mileage": "11 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 1900000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "19.01.2026",
+  "priceNote": "Цена без тюнинга — 1 900 000 ₽; с тюнингом в публикации указано 2 200 000 ₽. Уточняйте состав предложения.",
+  "date": "19.01.2026",
+  "status": "unknown",
+  "statusDate": "19.01.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": 11000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194
+  ],
+  "price_history": [
+    {
+      "date": "19.01.2026",
+      "amount": 1900000,
+      "currency": "RUB",
+      "message_id": 187,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/001.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/002.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/003.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/004.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/005.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/006.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/007.jpg",
+    "data/vehicles/ducati/streetfighter-v4-s/tg-0187/photos/008.jpg"
+  ],
+  "image": "data/vehicles/ducati/streetfighter-v4-s/tg-0187/cover.jpg"
+}

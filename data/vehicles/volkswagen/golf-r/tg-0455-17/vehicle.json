@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0455-17",
+  "id": 45517,
+  "slug": "volkswagen-golf-r-tg-0455-17",
+  "brand": "volkswagen",
+  "model": "Golf R",
+  "name": "Volkswagen Golf R",
+  "types": [
+    "hatchback"
+  ],
+  "country": "de",
+  "body": "Хэтчбек",
+  "year": "2023 год",
+  "mileage": "26 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 2285000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "12.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "12.03.2026",
+  "status": "unknown",
+  "statusDate": "12.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2023,
+    "mileage_km": 26000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    455
+  ],
+  "price_history": [
+    {
+      "date": "12.03.2026",
+      "amount": 2285000,
+      "currency": "RUB",
+      "message_id": 455,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

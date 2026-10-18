@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0697",
+  "id": 697,
+  "slug": "kia-optima",
+  "brand": "kia",
+  "model": "Optima GT",
+  "name": "Kia Optima GT",
+  "types": [
+    "sedan"
+  ],
+  "country": "kr",
+  "body": "Седан",
+  "year": "2016 год",
+  "mileage": "103 300 км",
+  "engine": "2,0 л · автомат · 245 л.с.",
+  "price": 1900000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "13.10.2026",
+  "priceNote": "Учтено снижение цены от 13 октября в ответе к исходному объявлению.",
+  "date": "26.08.2026",
+  "status": "unknown",
+  "statusDate": "26.08.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2016,
+    "mileage_km": 103300,
+    "is_new": false
+  },
+  "features": [
+    "Комплектация GT",
+    "Панорамная крыша",
+    "Аудиосистема Harman Kardon",
+    "Подогрев и вентиляция сидений"
+  ],
+  "description": "В исходной публикации указаны один владелец и сервисная книжка. Состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    810
+  ],
+  "price_history": [
+    {
+      "date": "26.08.2026",
+      "amount": 1999000,
+      "currency": "RUB",
+      "message_id": 697,
+      "kind": "initial",
+      "applies_to_current": true
+    },
+    {
+      "date": "13.10.2026",
+      "amount": 1900000,
+      "currency": "RUB",
+      "message_id": 810,
+      "kind": "price_update",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/kia/optima-gt/tg-0697/photos/001.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/002.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/003.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/004.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/005.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/006.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/007.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/008.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/009.jpg",
+    "data/vehicles/kia/optima-gt/tg-0697/photos/010.jpg"
+  ],
+  "image": "data/vehicles/kia/optima-gt/tg-0697/cover.jpg"
+}

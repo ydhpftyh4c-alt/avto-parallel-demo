@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0448",
+  "id": 448,
+  "slug": "nissan-x-trail-tg-0448",
+  "brand": "nissan",
+  "model": "X-Trail",
+  "name": "Nissan X-Trail",
+  "types": [
+    "suv"
+  ],
+  "country": "jp",
+  "body": "Кроссовер",
+  "year": "2019 год",
+  "mileage": "108 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "09.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "09.03.2026",
+  "status": "unknown",
+  "statusDate": "09.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2019,
+    "mileage_km": 108000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    448,
+    449,
+    450,
+    451,
+    452,
+    453,
+    454
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [
+    "data/vehicles/nissan/x-trail/tg-0448/photos/001.jpg",
+    "data/vehicles/nissan/x-trail/tg-0448/photos/002.jpg",
+    "data/vehicles/nissan/x-trail/tg-0448/photos/003.jpg",
+    "data/vehicles/nissan/x-trail/tg-0448/photos/004.jpg",
+    "data/vehicles/nissan/x-trail/tg-0448/photos/005.jpg",
+    "data/vehicles/nissan/x-trail/tg-0448/photos/006.jpg",
+    "data/vehicles/nissan/x-trail/tg-0448/photos/007.jpg"
+  ],
+  "image": "data/vehicles/nissan/x-trail/tg-0448/cover.jpg"
+}

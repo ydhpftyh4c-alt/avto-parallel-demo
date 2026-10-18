@@ -1,0 +1,158 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 88,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_55@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 89,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_56@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 90,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_57@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 91,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_58@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 92,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_59@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 93,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_60@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 94,
+      "date": "23.12.2025 15:28:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_61@23-12-2025_15-28-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 95,
+      "date": "23.12.2025 15:28:19 UTC+03:00",
+      "text": "*АУДИ КУ5 | AUDI Q5*\n2012 год \n2.0 211 л.с 4WD.\n*Пробег*:199.000 км.\n*Автотека*:Без ДТП✅. Расчет по бамперу.\n3 владельца, Птс оригинал.\nВсе стекла оригинал. Без трещин. \n*Кузов*: окрас  ЗПД, ППД.\n*Техника*: 🔥Без вложений🔥. Было большое то, все болячки устранены,подробности в л.с.\n*Комплектация*: Off Road пакет, электропривод багажника и передних 2-х сидений, 2-х зонный климат, запуск без ключа (с кнопки), Autohold и многое другое. \nВидео по запросу🎦\nЦена 1️⃣.5️⃣0️⃣0️⃣.0️⃣0️⃣0️⃣ торг, откат🤑.\n89999797008 Дмитрий.",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 115,
+      "date": "07.01.2026 14:39:14 UTC+03:00",
+      "text": "Снижение цены 1️⃣.4️⃣5️⃣0️⃣.0️⃣0️⃣0️⃣ ‼️",
+      "photos": [],
+      "reply_to": 88,
+      "missing_video": false
+    },
+    {
+      "id": 186,
+      "date": "19.01.2026 11:38:22 UTC+03:00",
+      "text": "Снижение цены‼️\n-100.000 рублей \nИтого 🟰 1️⃣.4️⃣0️⃣0️⃣.0️⃣0️⃣0️⃣\nСамая низкая цена на рынке за живой экземпляр .",
+      "photos": [],
+      "reply_to": 88,
+      "missing_video": false
+    },
+    {
+      "id": 457,
+      "date": "17.03.2026 00:02:24 UTC+03:00",
+      "text": "ПРОДАН С КОМИССИИ. \nСтоял на авито и авто.ру 2 месяца , по итогу продан через телеграмм канал!!!",
+      "photos": [],
+      "reply_to": 95,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_55@23-12-2025_15-28-01.jpg",
+      "source_sha256": "1e18d83c5e320897705975f92f5cb877198a804fe971c961549e1de9c5047f9e",
+      "width": 1280,
+      "height": 932
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_56@23-12-2025_15-28-01.jpg",
+      "source_sha256": "4e06e09ca856bd07a6be779ce328a99e2186067cadd61be584d6ae0981bdffa4",
+      "width": 1280,
+      "height": 873
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_57@23-12-2025_15-28-01.jpg",
+      "source_sha256": "68e7db81ca374b3bd3594ed1331300f8a3eb287e70b6a8ddcacafa4aa214aa12",
+      "width": 1248,
+      "height": 930
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_58@23-12-2025_15-28-01.jpg",
+      "source_sha256": "582e13a838aa98c439c8c79bec0cade44907186e28be07f68eaa90197b21790f",
+      "width": 1270,
+      "height": 875
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_59@23-12-2025_15-28-01.jpg",
+      "source_sha256": "2f7cda04a953dcfdddfcbd817a2d3abbade6561bd7fd31fe725f543e7b1cd1bc",
+      "width": 1280,
+      "height": 887
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_60@23-12-2025_15-28-01.jpg",
+      "source_sha256": "f7b131a6ffee826d3edf39d041f89738b7ab70d7927853ab2c7c7195d498f0b1",
+      "width": 1280,
+      "height": 869
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_61@23-12-2025_15-28-01.jpg",
+      "source_sha256": "f8a632c559f42edc51885324c55d28c7a491f7f1342f881dde1793be684a330b",
+      "width": 1280,
+      "height": 879
+    }
+  ]
+}

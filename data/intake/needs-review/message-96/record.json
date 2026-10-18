@@ -1,0 +1,90 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 96,
+      "date": "25.12.2025 18:58:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_62@25-12-2025_18-58-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 97,
+      "date": "25.12.2025 18:58:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_63@25-12-2025_18-58-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 98,
+      "date": "25.12.2025 18:58:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_64@25-12-2025_18-58-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 99,
+      "date": "25.12.2025 18:58:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_65@25-12-2025_18-58-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 100,
+      "date": "25.12.2025 18:58:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_66@25-12-2025_18-58-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_62@25-12-2025_18-58-38.jpg",
+      "source_file": "photos/photo_62@25-12-2025_18-58-38.jpg",
+      "source_sha256": "71e7a36164acf8e4f4548d012497368a2b453e2e4cb8bb7bd3925b535e6dcc41"
+    },
+    {
+      "file": "photos/photo_63@25-12-2025_18-58-38.jpg",
+      "source_file": "photos/photo_63@25-12-2025_18-58-38.jpg",
+      "source_sha256": "0d6cad3526bcf0579af66fb418cc64a36d93d05d5db471653f5186cea656b715"
+    },
+    {
+      "file": "photos/photo_64@25-12-2025_18-58-38.jpg",
+      "source_file": "photos/photo_64@25-12-2025_18-58-38.jpg",
+      "source_sha256": "031f82a490bdd3a4905075a8a2f0b1355f88ee1110e5107a10c3681875617596"
+    },
+    {
+      "file": "photos/photo_65@25-12-2025_18-58-38.jpg",
+      "source_file": "photos/photo_65@25-12-2025_18-58-38.jpg",
+      "source_sha256": "97db8eb8607032595240fc94d3f4199809abac186e37f7432a49a186c48fe202"
+    },
+    {
+      "file": "photos/photo_66@25-12-2025_18-58-38.jpg",
+      "source_file": "photos/photo_66@25-12-2025_18-58-38.jpg",
+      "source_sha256": "2816eeadf1d757500814b085fb52431d8bc2aba6ea17beb24e59f404e81939ec"
+    }
+  ]
+}

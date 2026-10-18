@@ -2,3 +2,8 @@ dist/
 node_modules/
 test-results/
 .DS_Store
+/.local-source/
+/data/catalog.sqlite*
+
+__pycache__/
+*.pyc

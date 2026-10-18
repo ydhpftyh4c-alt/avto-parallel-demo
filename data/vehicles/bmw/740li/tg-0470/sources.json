@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 470,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "*БМВ 7 | BMW 740Li*\n2021 \n3.0 340л.с. \n*Пробег:* 46.700 км.\n1 владелец \n\n*Кузов*: родной окрас\nТехнически без нарекания. Полностью обслуживалась. Есть все заказ наряды.\n\n*Комплектация*: полный М пакет,массаж, вентиляция, подогрев, всез силени, задние дисплеи, панорама+люк,музыка Bowers&Wilkins, расширенная отделка кожей (торпеда, карты дверей и тд), камера 360. Короче комплектация 🔝 \n\n*Цена* : 7.800.000\nНа ресурсах нет\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_371@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 471,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_372@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 472,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_373@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 473,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_374@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 474,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_375@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 475,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_376@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 476,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_377@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 477,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_378@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 478,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_379@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 479,
+      "date": "17.03.2026 21:20:41 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_380@17-03-2026_21-20-41.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_371@17-03-2026_21-20-41.jpg",
+      "source_sha256": "5868743b57829eb9ba0a5f2a3f4cba56ef7b469c32cf5b7117b1251717e4a3ac",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_372@17-03-2026_21-20-41.jpg",
+      "source_sha256": "f222af0295d5f1e583a015d907a4b4ad60c08b1e450daaebffe17aa0018ffee3",
+      "width": 1280,
+      "height": 975
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_373@17-03-2026_21-20-41.jpg",
+      "source_sha256": "385b47328bb73c45e6e49d9646d113df0d4073fa717ac44926f3d75054acc645",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_374@17-03-2026_21-20-41.jpg",
+      "source_sha256": "57426a8580b0dcb823ffbe7b23e63d0cf9d29042c931a1dc0f7780b1892f4575",
+      "width": 1280,
+      "height": 958
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_375@17-03-2026_21-20-41.jpg",
+      "source_sha256": "c163b66b9ed680fb1c94ff325c855ba279d98c2df857a5b69db9a17f679ea9ba",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_376@17-03-2026_21-20-41.jpg",
+      "source_sha256": "c8e0182a6a4ce42317a82244b96c82132b170ddcfbcd9e641c26e6a8a0371ec6",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_377@17-03-2026_21-20-41.jpg",
+      "source_sha256": "b13fe5ce698611ecaae5e888ac7db33864112f14adebef79ec4b4157087263ab",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_378@17-03-2026_21-20-41.jpg",
+      "source_sha256": "ad358abf151ea51c598a41f0fd830d8758cc7540dad1693e8c52f37673083899",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_379@17-03-2026_21-20-41.jpg",
+      "source_sha256": "45587d73942ce3095deef0b7a5b4c58c3ef1ac8ae763cb43d1ea54940a8fd88f",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_380@17-03-2026_21-20-41.jpg",
+      "source_sha256": "facf874f22b7daa9918f1a69fd54d1dcc643d9a5820d32bcf453c14ec021c319",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

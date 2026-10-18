@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 459,
+      "date": "17.03.2026 21:09:51 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_361@17-03-2026_21-09-51.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 460,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_362@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 461,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_363@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 462,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_364@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 463,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_365@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 464,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_366@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 465,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_367@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 466,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "*Ниссан Мурано | Nissan Murano*\n2019 год покупали март 2020\nДиллерская машина.\n3.5 Автомат 249л.с. \n*Пробег:* 196. 000 км.\n1 владелец брали в салоне\n*Кузов*: родной окрас\nТехнически без нарекания. Полностью обслуживалась у ОД где и покупалась. Последнее ТО 13 марта 2026 года с заменой всех фильтров, масла, колодки перед и зад. \n\n*Комплектация*:подогрев передних и задних сидения, вентиляция передних,обогрев руля,3-х зонный климат контроль,навигация, датчик слепых зон, камеры 360,вебасто,без ключевой доступ,охранный комплекс, метка,\n\n*Цена* : 2.390.000. \nНа ресурсах нет\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_368@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 467,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_369@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 468,
+      "date": "17.03.2026 21:09:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_370@17-03-2026_21-09-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_361@17-03-2026_21-09-51.jpg",
+      "source_sha256": "43b8c054719e6d6595dd56b4444a0a887208d1c5cb35ed61e18c94d11d60416d",
+      "width": 587,
+      "height": 697
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_362@17-03-2026_21-09-52.jpg",
+      "source_sha256": "8ffd6f39711e5b87a64de9437dff11d7172210e58a54f90142c8e78d0876898e",
+      "width": 730,
+      "height": 734
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_363@17-03-2026_21-09-52.jpg",
+      "source_sha256": "f9ba20189f95b0435ab2b7e348b180e1b25753972110e14ff3b9fafdf334b3d2",
+      "width": 770,
+      "height": 793
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_364@17-03-2026_21-09-52.jpg",
+      "source_sha256": "abf5b796e17e1e81a78c2eede009a34207e0762a2edb8018a6fc300874cfa916",
+      "width": 716,
+      "height": 841
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_365@17-03-2026_21-09-52.jpg",
+      "source_sha256": "c63bfcf872911aa2f3aee8f2b1734ecf0c303ede7871104277a9e4141d3fae92",
+      "width": 743,
+      "height": 732
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_366@17-03-2026_21-09-52.jpg",
+      "source_sha256": "6f4d33d585b2432bbd30ebc01910af4c984e5df016e19b1a9a4d2b24311ba619",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_367@17-03-2026_21-09-52.jpg",
+      "source_sha256": "ac42e36bd72f50b62d0fedb564d4f988f7d438290530e3f8fc2f7876ca501e63",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_368@17-03-2026_21-09-52.jpg",
+      "source_sha256": "5d2b94635061888f89e58579cf74593c3ceb15aa8d82e52a9fc73edc0d8c712c",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_369@17-03-2026_21-09-52.jpg",
+      "source_sha256": "ac1dabd1aa04d047e3ebc92da6e8a664711acc6de6ef920b426b469306aa04c5",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_370@17-03-2026_21-09-52.jpg",
+      "source_sha256": "7c2a0902dd2d84647abcc14cf8bb4f1d2d6ab2c0a7c2057a32ab85b203ee408a",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 16,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_13@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 17,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_14@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 18,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_15@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 19,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_16@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 20,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_17@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 21,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_18@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 22,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_19@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 23,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_20@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 24,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_21@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 25,
+      "date": "10.12.2025 20:13:07 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_22@10-12-2025_20-13-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 26,
+      "date": "10.12.2025 20:13:11 UTC+03:00",
+      "text": "*Фольксваген Поло | Volkswagen Polo*  \n*Год:* 2022 год \n1.4АT 125 л.с. \n*Пробег*: 84.000\n1 владельц, Птс электронный. \n*Автотека*: полностью ✅\n*Кузов*: *Без окрасов* !!!без вмятин, притертостей и тд. Идеален. \n*По технике*:Вложений нет,состояние 🔥.\n*Комплектация*: \nМаксимальная, зимний пакет, цифровая приборка, диодная оптика IG-LIGHT , климат 2-х зонный, кнопка стартстоп, комфортный доступ, обогревы всех сидений, руля и лобового. Камера зад вида, ,парктроники перед/зад. aux, bluetooth, Apple CarPlay.\n*Цена*: 1️⃣.7️⃣9️⃣9️⃣.0️⃣0️⃣0️⃣\n89999797008 Дмитрий",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_13@10-12-2025_20-13-07.jpg",
+      "source_sha256": "d564c6bf27e3b92bdcbe0529ef559b38204fb2f45f47be2a8c5a1184a3552540",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_14@10-12-2025_20-13-07.jpg",
+      "source_sha256": "c84ab5bbbbe10b689f2215580baa22b75906a9644a8b31727515bfa33276205f",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_15@10-12-2025_20-13-07.jpg",
+      "source_sha256": "447f858bf88e46ffe2e4bd8e1ddb94aa85d05b7ed00df31bb829bf1b361466e3",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_16@10-12-2025_20-13-07.jpg",
+      "source_sha256": "02bce1bc059cc869b5ef053b9bb0880436184921de73644d1dc1f21998dddd4d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_17@10-12-2025_20-13-07.jpg",
+      "source_sha256": "2dfa7a8260cdd223cd56198cd453f2e22d02dc65ee1625885ab41968c279f587",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_18@10-12-2025_20-13-07.jpg",
+      "source_sha256": "89475b33e61a6d703ba90d5222c28c86bf296a3ba06dfab45b8d40051efd698d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_19@10-12-2025_20-13-07.jpg",
+      "source_sha256": "9af0dc2e73193bde4ccd5b7bf5d3db0a545bcf3a291f80c0dae06fac44a4da8f",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_20@10-12-2025_20-13-07.jpg",
+      "source_sha256": "eb6e6cd4df53a8ee0a864c884af9f1f7c4657b1daee396974be84c0ac3960e44",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_21@10-12-2025_20-13-07.jpg",
+      "source_sha256": "1cedc12c8b88ae067b0593fa66f3ba44d0f1702f4f6e887dbed8283dd43b6fa6",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_22@10-12-2025_20-13-07.jpg",
+      "source_sha256": "951a6d08f50f11a8fccd81e6d1ba4b231f2651bab138e991f39937b9f8039db8",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

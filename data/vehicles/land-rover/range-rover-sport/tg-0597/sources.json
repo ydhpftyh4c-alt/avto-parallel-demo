@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 597,
+      "date": "23.06.2026 16:06:00 UTC+03:00",
+      "text": "*Land Rover Sport   | Рендж ровер спорт*\n2021 год рестайлинг\n3.0 дизель. \n*Пробег:* 90.500 родной \n1 владелец 1 запись \n*Кузов*: Без окрасов. Вообще !! Даже бампера.\n*Техника*: без нареканий.\nВсе ТО в центре Ленд Ровер, все чеки есть\n\n*Комплектация*: полный Black Pack черный внутри и снаружи. Пакет Dynamic, расширенный Meridian. \n\n*Цена* : 6.500.000 торг откат 🤑\nНа ресурсах нет\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_484@23-06-2026_16-06-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 598,
+      "date": "23.06.2026 16:06:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_485@23-06-2026_16-06-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 599,
+      "date": "23.06.2026 16:06:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_486@23-06-2026_16-06-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 600,
+      "date": "23.06.2026 16:06:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_487@23-06-2026_16-06-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 601,
+      "date": "23.06.2026 16:06:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_488@23-06-2026_16-06-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 602,
+      "date": "23.06.2026 16:06:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_489@23-06-2026_16-06-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 603,
+      "date": "23.06.2026 16:06:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_490@23-06-2026_16-06-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 604,
+      "date": "23.06.2026 16:06:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_491@23-06-2026_16-06-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 605,
+      "date": "23.06.2026 16:06:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_492@23-06-2026_16-06-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 606,
+      "date": "23.06.2026 16:06:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_493@23-06-2026_16-06-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_484@23-06-2026_16-06-00.jpg",
+      "source_sha256": "841d7b908748666a58f59dfb141b5ef23e670c0d17b8c4a7f282eed5ffb303b9",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_485@23-06-2026_16-06-00.jpg",
+      "source_sha256": "e6671f6488dc071cd89928db274e944afb7828767052f85b27787f757ec87e7d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_486@23-06-2026_16-06-00.jpg",
+      "source_sha256": "2e615dd74db5bbb874118b7f5bd8be5cbd18e6e793c018115085504e82bda033",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_487@23-06-2026_16-06-00.jpg",
+      "source_sha256": "b54d97133126314069f4a174b3a1c1057038092005b56bffa804c34ebb6e7bc4",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_488@23-06-2026_16-06-00.jpg",
+      "source_sha256": "056b6f9522c164dd254f313c00c6b7115a0a99d0e5f4b6db96396e2f151f70ac",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_489@23-06-2026_16-06-01.jpg",
+      "source_sha256": "59edf167ca4e65c4caaf10e76219d80982907e836a55406a74b60340d881c0bb",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_490@23-06-2026_16-06-01.jpg",
+      "source_sha256": "86a2afa613fd6da2b441bb2f6373bbd7554d375ebcef7be028874938b4329c01",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_491@23-06-2026_16-06-01.jpg",
+      "source_sha256": "ea3ff7f11f38d82ae661ed8e7250dcf9791ab4f5ffa6a00afbae39f2f4151889",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_492@23-06-2026_16-06-01.jpg",
+      "source_sha256": "4b79f4a89ba9e6276b883fea06ce655c94974ff7180479e9b76b966a0ad53877",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_493@23-06-2026_16-06-01.jpg",
+      "source_sha256": "4f2cc007c92b72ccbc775da2140f72cf34ba9295401de9536c6b06cd689bc5fe",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

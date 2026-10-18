@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0104",
+  "id": 104,
+  "slug": "toyota-rav4-tg-0104",
+  "brand": "toyota",
+  "model": "RAV4",
+  "name": "Toyota RAV4",
+  "types": [
+    "suv"
+  ],
+  "country": "jp",
+  "body": "Кроссовер",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "05.01.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "05.01.2026",
+  "status": "unknown",
+  "statusDate": "05.01.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    104
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

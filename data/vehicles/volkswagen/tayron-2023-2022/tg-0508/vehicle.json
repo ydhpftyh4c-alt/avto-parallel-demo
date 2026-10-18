@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0508",
+  "id": 508,
+  "slug": "volkswagen-tayron-2023-2022-tg-0508",
+  "brand": "volkswagen",
+  "model": "Tayron — модель 2023, выпуск 2022",
+  "name": "Volkswagen Tayron — модель 2023, выпуск 2022",
+  "types": [
+    "suv"
+  ],
+  "country": "de",
+  "body": "Кроссовер",
+  "year": "2022 год",
+  "mileage": "22 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 2650000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "09.04.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "09.04.2026",
+  "status": "unknown",
+  "statusDate": "09.04.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2022,
+    "mileage_km": 22000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517
+  ],
+  "price_history": [
+    {
+      "date": "09.04.2026",
+      "amount": 2650000,
+      "currency": "RUB",
+      "message_id": 508,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/001.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/002.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/003.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/004.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/005.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/006.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/007.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/008.jpg",
+    "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/photos/009.jpg"
+  ],
+  "image": "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/cover.jpg"
+}

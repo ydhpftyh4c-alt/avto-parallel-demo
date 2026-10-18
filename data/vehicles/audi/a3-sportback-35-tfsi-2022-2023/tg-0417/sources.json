@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 417,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "Audi A3 2022 Sportback 35 TFSI\nПроизводство в январе 2023 года, 24 000 км\n2.380.000",
+      "photos": [
+        "photos/photo_326@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 418,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_327@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 419,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_328@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 420,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_329@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 421,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_330@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 422,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_331@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 423,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_332@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 424,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_333@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 425,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_334@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 426,
+      "date": "03.03.2026 12:30:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_335@03-03-2026_12-30-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_326@03-03-2026_12-30-14.jpg",
+      "source_sha256": "83359c0435e74c6aec63d426c9b017feabb641d14e13450278b9e35acf84c6e3",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_327@03-03-2026_12-30-14.jpg",
+      "source_sha256": "5fee407724563ea4376d0427b4f7990654cc9819fefc1d9298a87774b5971dd2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_328@03-03-2026_12-30-14.jpg",
+      "source_sha256": "a573b328d09159bfcd9e8fb653a216922095f81d91632693cc0bac0ea746135d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_329@03-03-2026_12-30-14.jpg",
+      "source_sha256": "167d958d7d178aaef84acee8ab30f27397ac99dfbc5cb9676a5e37bbfe8b081f",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_330@03-03-2026_12-30-14.jpg",
+      "source_sha256": "acd5debe4991adeb8741d68985b13ea7228c0f0deac41ba1c9b3331491859348",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_331@03-03-2026_12-30-14.jpg",
+      "source_sha256": "8c25e132f3265ce942c431b228fc15d338c3aff08ca80219728e811e1147626d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_332@03-03-2026_12-30-14.jpg",
+      "source_sha256": "e3a29c796a31a60e083654fd5902b222e71ba7a31c29638e3351cdfeb78c872a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_333@03-03-2026_12-30-14.jpg",
+      "source_sha256": "1d9bd8efb2673acfaaba7a5039dbb5bb4d37c1e44d7a254cbc7d0a5262a35656",
+      "width": 1280,
+      "height": 964
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_334@03-03-2026_12-30-14.jpg",
+      "source_sha256": "40224e5f9a950652a9b519a172a1194ec1c59291c85f4dede49a9d9cac6c2d3d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_335@03-03-2026_12-30-14.jpg",
+      "source_sha256": "9ab398605b9bddbd9e178ac65055af9f2d268acfa3e3bcbe3115e94016b62a9b",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

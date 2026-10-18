@@ -1,0 +1,170 @@
+{
+  "category": "cases",
+  "related_message_ids": [
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 247,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "🔥Подобрали и отправили🔥\n на Россию для нашей клиентки Дарьи автомобиль BMW 3 2021 год пробег 49.000. \nЦена под ключ 🔑 3️⃣.5️⃣0️⃣0️⃣.0️⃣0️⃣0️⃣ \nВидео с полной проверки автомобиля закрепим завтра ⏭️\nP.S такой же или похожий автомобиль привезем и под вас. Ждём ваших обращений. \nВсем доброй ночи. 💤",
+      "photos": [
+        "photos/photo_175@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 248,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_176@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 249,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_177@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 250,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_178@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 251,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_179@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 252,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_180@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 253,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_181@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 254,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_182@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 255,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_183@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 256,
+      "date": "27.01.2026 22:12:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_184@27-01-2026_22-12-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_175@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_175@27-01-2026_22-12-08.jpg",
+      "source_sha256": "67fc519b94fbaa16fc77cedccd17a6ea988c9856edc251df966819f4b2dca5be"
+    },
+    {
+      "file": "photos/photo_176@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_176@27-01-2026_22-12-08.jpg",
+      "source_sha256": "23c0533da76f04e79acff36dc2503e56a48beb20c8e5161d6a88b35268f61afa"
+    },
+    {
+      "file": "photos/photo_177@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_177@27-01-2026_22-12-08.jpg",
+      "source_sha256": "4ba56a9c7c5d65af563f7317e04f7245bebaab7d205aa509d27d6b3571d14084"
+    },
+    {
+      "file": "photos/photo_178@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_178@27-01-2026_22-12-08.jpg",
+      "source_sha256": "4eb99b1f712009a0ff84a3b4a782980b9525626b327c7e018e0acd6ace332188"
+    },
+    {
+      "file": "photos/photo_179@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_179@27-01-2026_22-12-08.jpg",
+      "source_sha256": "4fa9e64483bccd61790dcf8b06d32054a960ae194e3317e4184317f9cb6897c8"
+    },
+    {
+      "file": "photos/photo_180@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_180@27-01-2026_22-12-08.jpg",
+      "source_sha256": "f25203dd2ba3915da62770d88a3cb1b81d932b318dc8cfd571e24bdba385aded"
+    },
+    {
+      "file": "photos/photo_181@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_181@27-01-2026_22-12-08.jpg",
+      "source_sha256": "e1d99792d60845db6fcebfdd5ce633143349ac1dee2b9a233c4b0c4f9fba691d"
+    },
+    {
+      "file": "photos/photo_182@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_182@27-01-2026_22-12-08.jpg",
+      "source_sha256": "28de86fdd23cdcb8fb0b0c50840b07432ac3be387cb54da795de0ffac982a023"
+    },
+    {
+      "file": "photos/photo_183@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_183@27-01-2026_22-12-08.jpg",
+      "source_sha256": "df8604c8bfa82831e3ab2ed52f244d16ccf64c2bacd42eeb1a41474e1d74a206"
+    },
+    {
+      "file": "photos/photo_184@27-01-2026_22-12-08.jpg",
+      "source_file": "photos/photo_184@27-01-2026_22-12-08.jpg",
+      "source_sha256": "40d11330f1e7f3e76e036b2cf49e8d3ae672f0472b33be94c185f76f5f15778e"
+    }
+  ]
+}

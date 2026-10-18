@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0502",
+  "id": 502,
+  "slug": "chevrolet-orlando-tg-0502",
+  "brand": "chevrolet",
+  "model": "Orlando — год требует проверки",
+  "name": "Chevrolet Orlando — год требует проверки",
+  "types": [
+    "minivan"
+  ],
+  "country": "us",
+  "body": "Минивэн",
+  "year": "2022 год",
+  "mileage": "52 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 1850000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "07.04.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "07.04.2026",
+  "status": "unknown",
+  "statusDate": "07.04.2026",
+  "review_required": true,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2022,
+    "mileage_km": 52000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    502,
+    503,
+    504,
+    505,
+    506,
+    507
+  ],
+  "price_history": [
+    {
+      "date": "07.04.2026",
+      "amount": 1850000,
+      "currency": "RUB",
+      "message_id": 502,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/chevrolet/orlando/tg-0502/photos/001.jpg",
+    "data/vehicles/chevrolet/orlando/tg-0502/photos/002.jpg",
+    "data/vehicles/chevrolet/orlando/tg-0502/photos/003.jpg",
+    "data/vehicles/chevrolet/orlando/tg-0502/photos/004.jpg",
+    "data/vehicles/chevrolet/orlando/tg-0502/photos/005.jpg",
+    "data/vehicles/chevrolet/orlando/tg-0502/photos/006.jpg"
+  ],
+  "image": "data/vehicles/chevrolet/orlando/tg-0502/cover.jpg"
+}

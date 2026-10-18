@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0768",
+  "id": 768,
+  "slug": "mini-cooper-c-tg-0768",
+  "brand": "mini",
+  "model": "Cooper C",
+  "name": "MINI Cooper C",
+  "types": [
+    "hatchback"
+  ],
+  "country": "gb",
+  "body": "Хэтчбек",
+  "year": "2026 год",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "26.09.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "26.09.2026",
+  "status": "unknown",
+  "statusDate": "26.09.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2026,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    768,
+    769,
+    770,
+    771,
+    772
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [
+    "data/vehicles/mini/cooper-c/tg-0768/photos/001.jpg",
+    "data/vehicles/mini/cooper-c/tg-0768/photos/002.jpg",
+    "data/vehicles/mini/cooper-c/tg-0768/photos/003.jpg",
+    "data/vehicles/mini/cooper-c/tg-0768/photos/004.jpg",
+    "data/vehicles/mini/cooper-c/tg-0768/photos/005.jpg"
+  ],
+  "image": "data/vehicles/mini/cooper-c/tg-0768/cover.jpg"
+}

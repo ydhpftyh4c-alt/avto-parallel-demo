@@ -1,0 +1,36 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    270,
+    271,
+    272
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 270,
+      "date": "29.01.2026 11:19:32 UTC+03:00",
+      "text": "Видео 🎦 с осмотра автомобиля, перед отправкой. Выкладываю как обещал 🤝",
+      "photos": [],
+      "reply_to": 247,
+      "missing_video": true
+    },
+    {
+      "id": 271,
+      "date": "29.01.2026 11:19:32 UTC+03:00",
+      "text": "",
+      "photos": [],
+      "reply_to": 247,
+      "missing_video": true
+    },
+    {
+      "id": 272,
+      "date": "29.01.2026 11:19:32 UTC+03:00",
+      "text": "",
+      "photos": [],
+      "reply_to": 247,
+      "missing_video": true
+    }
+  ],
+  "media": []
+}

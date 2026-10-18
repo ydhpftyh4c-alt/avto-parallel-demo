@@ -1,0 +1,18 @@
+{
+  "category": "channel-notes",
+  "related_message_ids": [
+    177
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 177,
+      "date": "17.01.2026 17:39:26 UTC+03:00",
+      "text": "Зачем мы открыли наш канал? Видео ответ.",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": true
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0087",
+  "id": 87,
+  "slug": "zeekr-8x-tg-0087",
+  "brand": "zeekr",
+  "model": "8X",
+  "name": "Zeekr 8X",
+  "types": [
+    "suv"
+  ],
+  "country": "cn",
+  "body": "Кроссовер",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "23.12.2025",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "23.12.2025",
+  "status": "unknown",
+  "statusDate": "23.12.2025",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    87
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

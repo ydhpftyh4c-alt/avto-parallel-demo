@@ -1,0 +1,75 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 220,
+      "date": "22.01.2026 19:43:59 UTC+03:00",
+      "text": "🅿️ НОВОЕ ПОСТУПЛЕНИЕ 🅿️\n            ❗️На подготовке ❗️\nПоло | VW Polo\n2021 год \n1.6 Автомат\nПробег 109 000\n\n1 владелец (девушка)\nРодной окрас \nТехнически без нареканий \nАвтотека зеленая\n\nКомплектация: климатконтроль, круизконтроль, мультируль, обогрев сидений, парктроник, 4 эл. стеклоподьемника, 16-е диски, подлокотник, aux, bluetooth, usb, carplay.\n\nЦена 1 625 000\nНа ресурсах нет",
+      "photos": [
+        "photos/photo_158@22-01-2026_19-43-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 221,
+      "date": "22.01.2026 19:43:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_159@22-01-2026_19-43-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 222,
+      "date": "22.01.2026 19:44:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_160@22-01-2026_19-44-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 223,
+      "date": "22.01.2026 19:44:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_161@22-01-2026_19-44-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_158@22-01-2026_19-43-59.jpg",
+      "source_sha256": "e7b1a2a22819527345652de57d454fcefe6a6aaeaf1b7c63b7da9105ba883fb0",
+      "width": 498,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_159@22-01-2026_19-43-59.jpg",
+      "source_sha256": "6fea3192a8abd0c0d2c240f7ce3742d85055ea95e58f55f5d269c6282cd757b6",
+      "width": 498,
+      "height": 1080
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_160@22-01-2026_19-44-00.jpg",
+      "source_sha256": "a33ce5800f47a230ec9ebdaffe421fe1c7487cadced9f2f4d5a703c7f63098ad",
+      "width": 498,
+      "height": 1080
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_161@22-01-2026_19-44-00.jpg",
+      "source_sha256": "97a1b4089dbf3b066798d4275db9c5f3772cf00ffa03f0cee6f6c57c9cabaa31",
+      "width": 498,
+      "height": 1080
+    }
+  ]
+}

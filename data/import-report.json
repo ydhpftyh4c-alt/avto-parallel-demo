@@ -1,0 +1,2674 @@
+{
+  "schema_version": 1,
+  "export_date": "2026-10-18",
+  "message_count": 827,
+  "text_posts": 146,
+  "original_photos": 618,
+  "thumbnail_files": 630,
+  "vehicle_records": 90,
+  "vehicle_photos": 473,
+  "review_required_records": 9,
+  "statuses": {
+    "sold": 10,
+    "unknown": 80
+  },
+  "intake_groups": 175,
+  "unreferenced_originals": [],
+  "missing_videos": 52,
+  "unresolved_replies": [
+    {
+      "message_id": 85,
+      "reply_to": 29,
+      "reason": "target_not_resolved_to_vehicle"
+    },
+    {
+      "message_id": 270,
+      "reply_to": 247,
+      "reason": "target_not_resolved_to_vehicle"
+    },
+    {
+      "message_id": 271,
+      "reply_to": 247,
+      "reason": "target_not_resolved_to_vehicle"
+    },
+    {
+      "message_id": 272,
+      "reply_to": 247,
+      "reason": "target_not_resolved_to_vehicle"
+    },
+    {
+      "message_id": 629,
+      "reply_to": 618,
+      "reason": "target_missing_from_export"
+    },
+    {
+      "message_id": 642,
+      "reply_to": 618,
+      "reason": "target_missing_from_export"
+    },
+    {
+      "message_id": 643,
+      "reply_to": 607,
+      "reason": "target_not_resolved_to_vehicle"
+    },
+    {
+      "message_id": 708,
+      "reply_to": 665,
+      "reason": "target_missing_from_export"
+    },
+    {
+      "message_id": 709,
+      "reply_to": 655,
+      "reason": "target_missing_from_export"
+    },
+    {
+      "message_id": 710,
+      "reply_to": 631,
+      "reason": "target_missing_from_export"
+    }
+  ],
+  "all_messages_accounted_for": 827,
+  "all_original_photos_accounted_for": 618,
+  "vehicles": [
+    {
+      "record_id": "tg-0004",
+      "name": "Skoda Rapid",
+      "path": "data/vehicles/skoda/rapid/tg-0004",
+      "status": "sold",
+      "review_required": false,
+      "price": 1400000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0026",
+      "name": "Volkswagen Polo",
+      "path": "data/vehicles/volkswagen/polo/tg-0026",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1799000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0033",
+      "name": "Volkswagen Polo",
+      "path": "data/vehicles/volkswagen/polo/tg-0033",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1770000,
+      "currency": "RUB",
+      "photos": 8
+    },
+    {
+      "record_id": "tg-0042",
+      "name": "Volkswagen Polo",
+      "path": "data/vehicles/volkswagen/polo/tg-0042",
+      "status": "sold",
+      "review_required": false,
+      "price": 1280000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0078",
+      "name": "Skoda Kodiaq",
+      "path": "data/vehicles/skoda/kodiaq/tg-0078",
+      "status": "unknown",
+      "review_required": false,
+      "price": 3190000,
+      "currency": "RUB",
+      "photos": 8
+    },
+    {
+      "record_id": "tg-0084",
+      "name": "BMW 235",
+      "path": "data/vehicles/bmw/235/tg-0084",
+      "status": "unknown",
+      "review_required": true,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0087",
+      "name": "Zeekr 8X",
+      "path": "data/vehicles/zeekr/8x/tg-0087",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0095",
+      "name": "Audi Q5",
+      "path": "data/vehicles/audi/q5/tg-0095",
+      "status": "sold",
+      "review_required": false,
+      "price": 1400000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0104",
+      "name": "Toyota RAV4",
+      "path": "data/vehicles/toyota/rav4/tg-0104",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0105",
+      "name": "Skoda Rapid",
+      "path": "data/vehicles/skoda/rapid/tg-0105",
+      "status": "sold",
+      "review_required": false,
+      "price": 1890000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0116",
+      "name": "BMW 3 серии — два автомобиля",
+      "path": "data/vehicles/bmw/3/tg-0116",
+      "status": "unknown",
+      "review_required": true,
+      "price": null,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0135",
+      "name": "BMW 235 Li",
+      "path": "data/vehicles/bmw/235-li/tg-0135",
+      "status": "unknown",
+      "review_required": false,
+      "price": 6250000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0146",
+      "name": "BMW 530Li xDrive",
+      "path": "data/vehicles/bmw/530li-xdrive/tg-0146",
+      "status": "sold",
+      "review_required": false,
+      "price": 8250000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0160",
+      "name": "BMW 330i юбилейная версия",
+      "path": "data/vehicles/bmw/330i/tg-0160",
+      "status": "unknown",
+      "review_required": false,
+      "price": 7199000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0170",
+      "name": "Volkswagen Tiguan",
+      "path": "data/vehicles/volkswagen/tiguan/tg-0170",
+      "status": "sold",
+      "review_required": false,
+      "price": 2750000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0178",
+      "name": "Mazda CX-5 Supreme",
+      "path": "data/vehicles/mazda/cx-5-supreme/tg-0178",
+      "status": "sold",
+      "review_required": false,
+      "price": 2850000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0187",
+      "name": "Ducati Streetfighter V4 S",
+      "path": "data/vehicles/ducati/streetfighter-v4-s/tg-0187",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1900000,
+      "currency": "RUB",
+      "photos": 8
+    },
+    {
+      "record_id": "tg-0220",
+      "name": "Volkswagen Polo",
+      "path": "data/vehicles/volkswagen/polo/tg-0220",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1625000,
+      "currency": "RUB",
+      "photos": 4
+    },
+    {
+      "record_id": "tg-0224",
+      "name": "Volkswagen T-Roc — предложение модели",
+      "path": "data/vehicles/volkswagen/t-roc/tg-0224",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2200000,
+      "currency": "RUB",
+      "photos": 6
+    },
+    {
+      "record_id": "tg-0275",
+      "name": "BMW R18 Roland Sands Design",
+      "path": "data/vehicles/bmw/r18-roland-sands-design/tg-0275",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1300000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0278",
+      "name": "Mercedes-Benz S-Class W223 — предзаказ",
+      "path": "data/vehicles/mercedes-benz/s-class-w223/tg-0278",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 2
+    },
+    {
+      "record_id": "tg-0282",
+      "name": "Skoda Octavia",
+      "path": "data/vehicles/skoda/octavia/tg-0282",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0291",
+      "name": "Kia K5 Prestige",
+      "path": "data/vehicles/kia/k5-prestige/tg-0291",
+      "status": "sold",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 1
+    },
+    {
+      "record_id": "tg-0298",
+      "name": "Volkswagen Golf 280TSI R-Line",
+      "path": "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298",
+      "status": "sold",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0319",
+      "name": "Lexus RX 300 — два автомобиля",
+      "path": "data/vehicles/lexus/rx-300/tg-0319",
+      "status": "unknown",
+      "review_required": true,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0322",
+      "name": "Chevrolet Monza",
+      "path": "data/vehicles/chevrolet/monza/tg-0322",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1370000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0329",
+      "name": "BMW 1 серии",
+      "path": "data/vehicles/bmw/1/tg-0329",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1900000,
+      "currency": "RUB",
+      "photos": 8
+    },
+    {
+      "record_id": "tg-0337",
+      "name": "BMW X3 30L",
+      "path": "data/vehicles/bmw/x3-30l/tg-0337",
+      "status": "unknown",
+      "review_required": false,
+      "price": 6800000,
+      "currency": "RUB",
+      "photos": 9
+    },
+    {
+      "record_id": "tg-0346",
+      "name": "Mazda CX-5 High+",
+      "path": "data/vehicles/mazda/cx-5-high/tg-0346",
+      "status": "unknown",
+      "review_required": false,
+      "price": 35000,
+      "currency": "USD",
+      "photos": 5
+    },
+    {
+      "record_id": "tg-0352",
+      "name": "Volkswagen Tiguan L 280TSI",
+      "path": "data/vehicles/volkswagen/tiguan-l-280tsi/tg-0352",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2660000,
+      "currency": "RUB",
+      "photos": 8
+    },
+    {
+      "record_id": "tg-0360",
+      "name": "BMW Z4",
+      "path": "data/vehicles/bmw/z4/tg-0360",
+      "status": "unknown",
+      "review_required": false,
+      "price": 5000000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0371",
+      "name": "Skoda Octavia PRO — модель 2022, выпуск 2021",
+      "path": "data/vehicles/skoda/octavia-pro-2022-2021/tg-0371",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2225000,
+      "currency": "RUB",
+      "photos": 9
+    },
+    {
+      "record_id": "tg-0380",
+      "name": "BMW X6 xDrive40i M",
+      "path": "data/vehicles/bmw/x6-xdrive40i-m/tg-0380",
+      "status": "unknown",
+      "review_required": false,
+      "price": 11300000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0387",
+      "name": "Audi A3 Sport Progressive",
+      "path": "data/vehicles/audi/a3-sport-progressive/tg-0387",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2515000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0394",
+      "name": "Zeekr 001 YOU Z SPORT",
+      "path": "data/vehicles/zeekr/001-you-z-sport/tg-0394",
+      "status": "unknown",
+      "review_required": false,
+      "price": 5100000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0404",
+      "name": "BYD FangChengBao Leopard 5",
+      "path": "data/vehicles/byd/fangchengbao-leopard-5/tg-0404",
+      "status": "unknown",
+      "review_required": false,
+      "price": 5800000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0417",
+      "name": "Audi A3 Sportback 35 TFSI — модель 2022, выпуск 2023",
+      "path": "data/vehicles/audi/a3-sportback-35-tfsi-2022-2023/tg-0417",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2380000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0437",
+      "name": "Nissan Xiaoxing 22 — название из объявления",
+      "path": "data/vehicles/nissan/xiaoxing-22/tg-0437",
+      "status": "unknown",
+      "review_required": true,
+      "price": 1975000,
+      "currency": "RUB",
+      "photos": 8
+    },
+    {
+      "record_id": "tg-0445",
+      "name": "BMW xDrive30L Premium M Sport — модель не указана",
+      "path": "data/vehicles/bmw/xdrive30l-premium-m-sport/tg-0445",
+      "status": "unknown",
+      "review_required": true,
+      "price": 7600000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0448",
+      "name": "Nissan X-Trail",
+      "path": "data/vehicles/nissan/x-trail/tg-0448",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0466",
+      "name": "Nissan Murano",
+      "path": "data/vehicles/nissan/murano/tg-0466",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2390000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0470",
+      "name": "BMW 740Li",
+      "path": "data/vehicles/bmw/740li/tg-0470",
+      "status": "unknown",
+      "review_required": false,
+      "price": 7800000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0480",
+      "name": "Zeekr 8X — предзаказ",
+      "path": "data/vehicles/zeekr/8x/tg-0480",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0481",
+      "name": "BMW 320d GT xDrive",
+      "path": "data/vehicles/bmw/320d-gt-xdrive/tg-0481",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2790000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0491",
+      "name": "Volkswagen Tiguan L R-Line — модель 2023, выпуск 2022",
+      "path": "data/vehicles/volkswagen/tiguan-l-r-line-2023-2022/tg-0491",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2355000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0501",
+      "name": "Geely Galaxy Starship 7",
+      "path": "data/vehicles/geely/galaxy-starship-7/tg-0501",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0502",
+      "name": "Chevrolet Orlando — год требует проверки",
+      "path": "data/vehicles/chevrolet/orlando/tg-0502",
+      "status": "unknown",
+      "review_required": true,
+      "price": 1850000,
+      "currency": "RUB",
+      "photos": 6
+    },
+    {
+      "record_id": "tg-0508",
+      "name": "Volkswagen Tayron — модель 2023, выпуск 2022",
+      "path": "data/vehicles/volkswagen/tayron-2023-2022/tg-0508",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2650000,
+      "currency": "RUB",
+      "photos": 9
+    },
+    {
+      "record_id": "tg-0576",
+      "name": "Audi A3 New Premium",
+      "path": "data/vehicles/audi/a3-new-premium/tg-0576",
+      "status": "unknown",
+      "review_required": false,
+      "price": 3750000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0586",
+      "name": "Toyota Camry Hybrid",
+      "path": "data/vehicles/toyota/camry-hybrid/tg-0586",
+      "status": "unknown",
+      "review_required": false,
+      "price": 4050000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0597",
+      "name": "Land Rover Range Rover Sport",
+      "path": "data/vehicles/land-rover/range-rover-sport/tg-0597",
+      "status": "unknown",
+      "review_required": false,
+      "price": 6500000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0613",
+      "name": "BMW X1 F48 Fashion Edition",
+      "path": "data/vehicles/bmw/x1-f48-fashion-edition/tg-0613",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2650000,
+      "currency": "RUB",
+      "photos": 5
+    },
+    {
+      "record_id": "tg-0628",
+      "name": "Mercedes-Benz GLC 300 Coupe — в тексте Clc",
+      "path": "data/vehicles/mercedes-benz/glc-300-coupe-clc/tg-0628",
+      "status": "unknown",
+      "review_required": true,
+      "price": null,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0676",
+      "name": "Mazda CX-5 Supreme",
+      "path": "data/vehicles/mazda/cx-5-supreme/tg-0676",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2350000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0688",
+      "name": "Li Auto Lixiang L6 MAX",
+      "path": "data/vehicles/li-auto/lixiang-l6-max/tg-0688",
+      "status": "sold",
+      "review_required": false,
+      "price": 5990000,
+      "currency": "RUB",
+      "photos": 9
+    },
+    {
+      "record_id": "tg-0697",
+      "name": "Kia Optima GT",
+      "path": "data/vehicles/kia/optima-gt/tg-0697",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1900000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0717",
+      "name": "Audi Q5 quattro",
+      "path": "data/vehicles/audi/q5-quattro/tg-0717",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1890000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0721",
+      "name": "Mercedes-Benz GLC 300",
+      "path": "data/vehicles/mercedes-benz/glc-300/tg-0721",
+      "status": "unknown",
+      "review_required": false,
+      "price": 8550000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0731",
+      "name": "Skoda Octavia A7",
+      "path": "data/vehicles/skoda/octavia-a7/tg-0731",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2090000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0742",
+      "name": "Mitsubishi L200",
+      "path": "data/vehicles/mitsubishi/l200/tg-0742",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 6
+    },
+    {
+      "record_id": "tg-0758",
+      "name": "BMW X3",
+      "path": "data/vehicles/bmw/x3/tg-0758",
+      "status": "unknown",
+      "review_required": false,
+      "price": 4500000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0768",
+      "name": "MINI Cooper C",
+      "path": "data/vehicles/mini/cooper-c/tg-0768",
+      "status": "unknown",
+      "review_required": false,
+      "price": null,
+      "currency": "RUB",
+      "photos": 5
+    },
+    {
+      "record_id": "tg-0779",
+      "name": "MINI Countryman",
+      "path": "data/vehicles/mini/countryman/tg-0779",
+      "status": "unknown",
+      "review_required": false,
+      "price": 79000,
+      "currency": "GEL",
+      "photos": 5
+    },
+    {
+      "record_id": "tg-0789",
+      "name": "Hyundai KONA",
+      "path": "data/vehicles/hyundai/kona/tg-0789",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2500000,
+      "currency": "RUB",
+      "photos": 5
+    },
+    {
+      "record_id": "tg-0796",
+      "name": "Qiyuan Q07",
+      "path": "data/vehicles/qiyuan/q07/tg-0796",
+      "status": "unknown",
+      "review_required": false,
+      "price": 3300000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0799",
+      "name": "Volkswagen Jetta",
+      "path": "data/vehicles/volkswagen/jetta/tg-0799",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1450000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0809",
+      "name": "Toyota Camry 80 — европейская версия",
+      "path": "data/vehicles/toyota/camry-80/tg-0809",
+      "status": "unknown",
+      "review_required": false,
+      "price": 6000000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0811",
+      "name": "Qiyuan A07",
+      "path": "data/vehicles/qiyuan/a07/tg-0811",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2300000,
+      "currency": "RUB",
+      "photos": 6
+    },
+    {
+      "record_id": "tg-0828",
+      "name": "Porsche Taycan Turbo",
+      "path": "data/vehicles/porsche/taycan-turbo/tg-0828",
+      "status": "unknown",
+      "review_required": false,
+      "price": 9850000,
+      "currency": "RUB",
+      "photos": 10
+    },
+    {
+      "record_id": "tg-0838",
+      "name": "Toyota bZ3X 520 Pro+",
+      "path": "data/vehicles/toyota/bz3x-520-pro/tg-0838",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2780000,
+      "currency": "RUB",
+      "photos": 7
+    },
+    {
+      "record_id": "tg-0455-01",
+      "name": "Toyota Yaris",
+      "path": "data/vehicles/toyota/yaris/tg-0455-01",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1565000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-02",
+      "name": "Audi Q3 синий",
+      "path": "data/vehicles/audi/q3/tg-0455-02",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2725000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-03",
+      "name": "Volkswagen Bora",
+      "path": "data/vehicles/volkswagen/bora/tg-0455-03",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1800000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-04",
+      "name": "Audi Q3 белый",
+      "path": "data/vehicles/audi/q3/tg-0455-04",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2920000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-05",
+      "name": "Audi A3",
+      "path": "data/vehicles/audi/a3/tg-0455-05",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2585000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-06",
+      "name": "Volkswagen Golf R",
+      "path": "data/vehicles/volkswagen/golf-r/tg-0455-06",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2305000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-07",
+      "name": "Honda XR-V",
+      "path": "data/vehicles/honda/xr-v/tg-0455-07",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2000000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-08",
+      "name": "BMW 1 серии",
+      "path": "data/vehicles/bmw/1/tg-0455-08",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2110000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-09",
+      "name": "BMW 1 серии",
+      "path": "data/vehicles/bmw/1/tg-0455-09",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1830000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-10",
+      "name": "BMW 1 серии",
+      "path": "data/vehicles/bmw/1/tg-0455-10",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1820000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-11",
+      "name": "Suzuki Jimny — в источнике «Джимик»",
+      "path": "data/vehicles/suzuki/jimny/tg-0455-11",
+      "status": "unknown",
+      "review_required": true,
+      "price": 2840000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-12",
+      "name": "Audi A3L седан",
+      "path": "data/vehicles/audi/a3l/tg-0455-12",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2420000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-13",
+      "name": "Audi A3 хэтчбек",
+      "path": "data/vehicles/audi/a3/tg-0455-13",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2350000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-14",
+      "name": "Honda Crider — в источнике «Кридер»",
+      "path": "data/vehicles/honda/crider/tg-0455-14",
+      "status": "unknown",
+      "review_required": true,
+      "price": 1650000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-15",
+      "name": "Audi Q3 белый",
+      "path": "data/vehicles/audi/q3/tg-0455-15",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2610000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-16",
+      "name": "Toyota Corolla 1.2T",
+      "path": "data/vehicles/toyota/corolla-1-2t/tg-0455-16",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1775000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-17",
+      "name": "Volkswagen Golf R",
+      "path": "data/vehicles/volkswagen/golf-r/tg-0455-17",
+      "status": "unknown",
+      "review_required": false,
+      "price": 2285000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0455-18",
+      "name": "Geely Emgrand синий",
+      "path": "data/vehicles/geely/emgrand/tg-0455-18",
+      "status": "unknown",
+      "review_required": false,
+      "price": 1505000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0797-01",
+      "name": "Toyota Camry 80",
+      "path": "data/vehicles/toyota/camry-80/tg-0797-01",
+      "status": "unknown",
+      "review_required": false,
+      "price": 3700000,
+      "currency": "RUB",
+      "photos": 0
+    },
+    {
+      "record_id": "tg-0797-02",
+      "name": "Toyota Camry 85",
+      "path": "data/vehicles/toyota/camry-85/tg-0797-02",
+      "status": "unknown",
+      "review_required": false,
+      "price": 4250000,
+      "currency": "RUB",
+      "photos": 0
+    }
+  ],
+  "intake": [
+    {
+      "id": "message-service-1",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-1",
+      "message_ids": [
+        -1
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-1",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-1",
+      "message_ids": [
+        1
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-2",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-2",
+      "message_ids": [
+        2
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-3",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-3",
+      "message_ids": [
+        3
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-14",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-14",
+      "message_ids": [
+        14
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-15",
+      "category": "news",
+      "path": "data/intake/news/message-15",
+      "message_ids": [
+        15
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-service-2",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-2",
+      "message_ids": [
+        -2
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-27",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-27",
+      "message_ids": [
+        27,
+        28
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-29",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-29",
+      "message_ids": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "photos": 4
+    },
+    {
+      "id": "message-service-3",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-3",
+      "message_ids": [
+        -3
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-4",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-4",
+      "message_ids": [
+        -4
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-53",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-53",
+      "message_ids": [
+        53
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-5",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-5",
+      "message_ids": [
+        -5
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-6",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-6",
+      "message_ids": [
+        -6
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-80",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-80",
+      "message_ids": [
+        80
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-81",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-81",
+      "message_ids": [
+        81
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-82",
+      "category": "news",
+      "path": "data/intake/news/message-82",
+      "message_ids": [
+        82
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-7",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-7",
+      "message_ids": [
+        -7
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-8",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-8",
+      "message_ids": [
+        -8
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-85",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-85",
+      "message_ids": [
+        85
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-9",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-9",
+      "message_ids": [
+        -9
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-86",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-86",
+      "message_ids": [
+        86
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-10",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-10",
+      "message_ids": [
+        -10
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-11",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-11",
+      "message_ids": [
+        -11
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-96",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-96",
+      "message_ids": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "photos": 5
+    },
+    {
+      "id": "message-101",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-101",
+      "message_ids": [
+        101
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-102",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-102",
+      "message_ids": [
+        102
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-service-12",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-12",
+      "message_ids": [
+        -12
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-13",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-13",
+      "message_ids": [
+        -13
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-14",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-14",
+      "message_ids": [
+        -14
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-15",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-15",
+      "message_ids": [
+        -15
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-126",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-126",
+      "message_ids": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "photos": 7
+    },
+    {
+      "id": "message-service-16",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-16",
+      "message_ids": [
+        -16
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-133",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-133",
+      "message_ids": [
+        133,
+        134
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-17",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-17",
+      "message_ids": [
+        -17
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-18",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-18",
+      "message_ids": [
+        -18
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-145",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-145",
+      "message_ids": [
+        145
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-19",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-19",
+      "message_ids": [
+        -19
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-156",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-156",
+      "message_ids": [
+        156
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-20",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-20",
+      "message_ids": [
+        -20
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-157",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-157",
+      "message_ids": [
+        157
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-158",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-158",
+      "message_ids": [
+        158
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-159",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-159",
+      "message_ids": [
+        159
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-service-21",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-21",
+      "message_ids": [
+        -21
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-22",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-22",
+      "message_ids": [
+        -22
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-177",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-177",
+      "message_ids": [
+        177
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-23",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-23",
+      "message_ids": [
+        -23
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-24",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-24",
+      "message_ids": [
+        -24
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-185",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-185",
+      "message_ids": [
+        185
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-25",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-25",
+      "message_ids": [
+        -25
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-201",
+      "category": "news",
+      "path": "data/intake/news/message-201",
+      "message_ids": [
+        201,
+        202,
+        203
+      ],
+      "photos": 3
+    },
+    {
+      "id": "message-service-26",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-26",
+      "message_ids": [
+        -26
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-212",
+      "category": "news",
+      "path": "data/intake/news/message-212",
+      "message_ids": [
+        212,
+        213,
+        214
+      ],
+      "photos": 3
+    },
+    {
+      "id": "message-216",
+      "category": "news",
+      "path": "data/intake/news/message-216",
+      "message_ids": [
+        216,
+        217,
+        218,
+        219
+      ],
+      "photos": 4
+    },
+    {
+      "id": "message-service-27",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-27",
+      "message_ids": [
+        -27
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-28",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-28",
+      "message_ids": [
+        -28
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-230",
+      "category": "news",
+      "path": "data/intake/news/message-230",
+      "message_ids": [
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "photos": 5
+    },
+    {
+      "id": "message-service-29",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-29",
+      "message_ids": [
+        -29
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-242",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-242",
+      "message_ids": [
+        242,
+        243
+      ],
+      "photos": 2
+    },
+    {
+      "id": "message-244",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-244",
+      "message_ids": [
+        244
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-30",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-30",
+      "message_ids": [
+        -30
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-247",
+      "category": "cases",
+      "path": "data/intake/cases/message-247",
+      "message_ids": [
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-257",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-257",
+      "message_ids": [
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-267",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-267",
+      "message_ids": [
+        267,
+        268
+      ],
+      "photos": 2
+    },
+    {
+      "id": "message-service-31",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-31",
+      "message_ids": [
+        -31
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-270",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-270",
+      "message_ids": [
+        270,
+        271,
+        272
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-273",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-273",
+      "message_ids": [
+        273
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-274",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-274",
+      "message_ids": [
+        274
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-32",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-32",
+      "message_ids": [
+        -32
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-276",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-276",
+      "message_ids": [
+        276
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-33",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-33",
+      "message_ids": [
+        -33
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-281",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-281",
+      "message_ids": [
+        281
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-service-34",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-34",
+      "message_ids": [
+        -34
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-35",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-35",
+      "message_ids": [
+        -35
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-292",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-292",
+      "message_ids": [
+        292,
+        293,
+        294,
+        295,
+        296,
+        297
+      ],
+      "photos": 5
+    },
+    {
+      "id": "message-service-36",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-36",
+      "message_ids": [
+        -36
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-308",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-308",
+      "message_ids": [
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315
+      ],
+      "photos": 8
+    },
+    {
+      "id": "message-service-37",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-37",
+      "message_ids": [
+        -37
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-38",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-38",
+      "message_ids": [
+        -38
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-39",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-39",
+      "message_ids": [
+        -39
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-40",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-40",
+      "message_ids": [
+        -40
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-41",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-41",
+      "message_ids": [
+        -41
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-42",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-42",
+      "message_ids": [
+        -42
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-43",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-43",
+      "message_ids": [
+        -43
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-44",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-44",
+      "message_ids": [
+        -44
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-351",
+      "category": "cases",
+      "path": "data/intake/cases/message-351",
+      "message_ids": [
+        351
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-service-45",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-45",
+      "message_ids": [
+        -45
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-46",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-46",
+      "message_ids": [
+        -46
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-47",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-47",
+      "message_ids": [
+        -47
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-48",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-48",
+      "message_ids": [
+        -48
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-414",
+      "category": "news",
+      "path": "data/intake/news/message-414",
+      "message_ids": [
+        414,
+        415,
+        416
+      ],
+      "photos": 3
+    },
+    {
+      "id": "message-service-49",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-49",
+      "message_ids": [
+        -49
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-50",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-50",
+      "message_ids": [
+        -50
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-427",
+      "category": "news",
+      "path": "data/intake/news/message-427",
+      "message_ids": [
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-service-51",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-51",
+      "message_ids": [
+        -51
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-52",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-52",
+      "message_ids": [
+        -52
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-446",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-446",
+      "message_ids": [
+        446
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-53",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-53",
+      "message_ids": [
+        -53
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-54",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-54",
+      "message_ids": [
+        -54
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-55",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-55",
+      "message_ids": [
+        -55
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-56",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-56",
+      "message_ids": [
+        -56
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-57",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-57",
+      "message_ids": [
+        -57
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-58",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-58",
+      "message_ids": [
+        -58
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-59",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-59",
+      "message_ids": [
+        -59
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-60",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-60",
+      "message_ids": [
+        -60
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-61",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-61",
+      "message_ids": [
+        -61
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-518",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-518",
+      "message_ids": [
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-528",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-528",
+      "message_ids": [
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-538",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-538",
+      "message_ids": [
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-548",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-548",
+      "message_ids": [
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557
+      ],
+      "photos": 10
+    },
+    {
+      "id": "message-558",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-558",
+      "message_ids": [
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573
+      ],
+      "photos": 16
+    },
+    {
+      "id": "message-service-62",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-62",
+      "message_ids": [
+        -62
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-574",
+      "category": "cases",
+      "path": "data/intake/cases/message-574",
+      "message_ids": [
+        574,
+        575
+      ],
+      "photos": 1
+    },
+    {
+      "id": "message-service-63",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-63",
+      "message_ids": [
+        -63
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-64",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-64",
+      "message_ids": [
+        -64
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-588",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-588",
+      "message_ids": [
+        588
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-65",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-65",
+      "message_ids": [
+        -65
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-589",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-589",
+      "message_ids": [
+        589
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-66",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-66",
+      "message_ids": [
+        -66
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-590",
+      "category": "cases",
+      "path": "data/intake/cases/message-590",
+      "message_ids": [
+        590
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-591",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-591",
+      "message_ids": [
+        591
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-593",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-593",
+      "message_ids": [
+        593
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-67",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-67",
+      "message_ids": [
+        -67
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-594",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-594",
+      "message_ids": [
+        594
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-68",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-68",
+      "message_ids": [
+        -68
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-595",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-595",
+      "message_ids": [
+        595
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-69",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-69",
+      "message_ids": [
+        -69
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-596",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-596",
+      "message_ids": [
+        596
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-70",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-70",
+      "message_ids": [
+        -70
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-71",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-71",
+      "message_ids": [
+        -71
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-607",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-607",
+      "message_ids": [
+        607
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-72",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-72",
+      "message_ids": [
+        -72
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-73",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-73",
+      "message_ids": [
+        -73
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-629",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-629",
+      "message_ids": [
+        629
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-74",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-74",
+      "message_ids": [
+        -74
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-642",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-642",
+      "message_ids": [
+        642
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-643",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-643",
+      "message_ids": [
+        643
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-75",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-75",
+      "message_ids": [
+        -75
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-675",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-675",
+      "message_ids": [
+        675
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-76",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-76",
+      "message_ids": [
+        -76
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-686",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-686",
+      "message_ids": [
+        686
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-77",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-77",
+      "message_ids": [
+        -77
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-687",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-687",
+      "message_ids": [
+        687
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-78",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-78",
+      "message_ids": [
+        -78
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-79",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-79",
+      "message_ids": [
+        -79
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-80",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-80",
+      "message_ids": [
+        -80
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-81",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-81",
+      "message_ids": [
+        -81
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-708",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-708",
+      "message_ids": [
+        708
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-709",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-709",
+      "message_ids": [
+        709
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-710",
+      "category": "needs-review",
+      "path": "data/intake/needs-review/message-710",
+      "message_ids": [
+        710
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-82",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-82",
+      "message_ids": [
+        -82
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-83",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-83",
+      "message_ids": [
+        -83
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-84",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-84",
+      "message_ids": [
+        -84
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-85",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-85",
+      "message_ids": [
+        -85
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-748",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-748",
+      "message_ids": [
+        748
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-86",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-86",
+      "message_ids": [
+        -86
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-773",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-773",
+      "message_ids": [
+        773
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-87",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-87",
+      "message_ids": [
+        -87
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-784",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-784",
+      "message_ids": [
+        784
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-88",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-88",
+      "message_ids": [
+        -88
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-785",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-785",
+      "message_ids": [
+        785
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-786",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-786",
+      "message_ids": [
+        786
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-89",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-89",
+      "message_ids": [
+        -89
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-90",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-90",
+      "message_ids": [
+        -90
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-788",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-788",
+      "message_ids": [
+        788
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-91",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-91",
+      "message_ids": [
+        -91
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-794",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-794",
+      "message_ids": [
+        794
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-92",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-92",
+      "message_ids": [
+        -92
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-93",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-93",
+      "message_ids": [
+        -93
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-94",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-94",
+      "message_ids": [
+        -94
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-95",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-95",
+      "message_ids": [
+        -95
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-96",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-96",
+      "message_ids": [
+        -96
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-97",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-97",
+      "message_ids": [
+        -97
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-98",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-98",
+      "message_ids": [
+        -98
+      ],
+      "photos": 0
+    },
+    {
+      "id": "message-service-99",
+      "category": "channel-notes",
+      "path": "data/intake/channel-notes/message-service-99",
+      "message_ids": [
+        -99
+      ],
+      "photos": 0
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 448,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "Ниссан Икстреил | Nissan X-Trail\n2019 год рест\n2.0 Полный привод\nПробег 108 000 км\n\nОдин владелец\nРодной окрас\nПолностью дилерское обслуживание\nТехнически без нареканий.\n\nКомплектация максимальная : кожаный салон, камеры 360, панорама, круиз, удержание в полосе, слепые зоны, эл.привод багажника, обогрев всех сидений, руля и лобового, led-фары, автосвет, эл. складывания зеркал, навигация, 19-е диски. \n\nЦена: 2650000",
+      "photos": [
+        "photos/photo_354@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 449,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_355@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 450,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_356@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 451,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_357@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 452,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_358@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 453,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_359@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 454,
+      "date": "09.03.2026 20:06:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_360@09-03-2026_20-06-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_354@09-03-2026_20-06-23.jpg",
+      "source_sha256": "6c81daeb42c68f69947f2381d06b7c6903ef1fbdc49f8a7152da4abdfaaea5ad",
+      "width": 1280,
+      "height": 965
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_355@09-03-2026_20-06-23.jpg",
+      "source_sha256": "e88afdc22dac0208081cfc78421004a94c729b9812560b5f7c323ef0ceed9919",
+      "width": 1280,
+      "height": 1012
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_356@09-03-2026_20-06-23.jpg",
+      "source_sha256": "dc550b39d2d1a20bd83ec406226f249c1cb18f53932cabd8eec05d7ce4c4e1e2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_357@09-03-2026_20-06-23.jpg",
+      "source_sha256": "6145d26b691ed6cc982f48730c7b93d9f534508f3bd35367fd4b5585b0976e0c",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_358@09-03-2026_20-06-23.jpg",
+      "source_sha256": "2391de78424dc98f7ef23ffad6fd72b26cb69fdeead31795d1ca8ae6413282e2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_359@09-03-2026_20-06-23.jpg",
+      "source_sha256": "bc519886ac616adfba1476e4e90413d3e5d54332f00c40da8abc3cb7f8cf1a9a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_360@09-03-2026_20-06-23.jpg",
+      "source_sha256": "053b97e375bc5394243c0d9f85466aebf121694b3c1bb2e96f6a462dfa9c2864",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

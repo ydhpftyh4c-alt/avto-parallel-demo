@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0797-02",
+  "id": 79702,
+  "slug": "toyota-camry-85-tg-0797-02",
+  "brand": "toyota",
+  "model": "Camry 85",
+  "name": "Toyota Camry 85",
+  "types": [
+    "sedan"
+  ],
+  "country": "jp",
+  "body": "Седан",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": 4250000,
+  "currency": "RUB",
+  "pricePrefix": "от ",
+  "priceDate": "03.10.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "03.10.2026",
+  "status": "unknown",
+  "statusDate": "03.10.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    797
+  ],
+  "price_history": [
+    {
+      "date": "03.10.2026",
+      "amount": 4250000,
+      "currency": "RUB",
+      "message_id": 797,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

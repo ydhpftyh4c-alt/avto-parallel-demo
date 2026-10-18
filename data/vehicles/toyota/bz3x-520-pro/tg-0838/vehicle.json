@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0838",
+  "id": 838,
+  "slug": "toyota-bz3x",
+  "brand": "toyota",
+  "model": "bZ3X 520 Pro+",
+  "name": "Toyota bZ3X 520 Pro+",
+  "types": [
+    "electric",
+    "suv"
+  ],
+  "country": "jp",
+  "body": "Кроссовер",
+  "year": "Новый автомобиль",
+  "mileage": "Пробег не указан",
+  "engine": "Электрический привод",
+  "price": 2780000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "17.10.2026",
+  "priceNote": "В объявлении — под ключ в России. Состав расходов и актуальную цену уточняйте.",
+  "date": "17.10.2026",
+  "status": "unknown",
+  "statusDate": "17.10.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": true
+  },
+  "features": [
+    "Версия 520 Pro+",
+    "Панорамная крыша",
+    "Подогрев и вентиляция передних сидений",
+    "Электропривод багажника"
+  ],
+  "description": "В публикации указан запас хода до 520 км CLTC. Фактический запас хода зависит от условий эксплуатации.",
+  "source_message_ids": [
+    838,
+    839,
+    840,
+    841,
+    842,
+    843,
+    844
+  ],
+  "price_history": [
+    {
+      "date": "17.10.2026",
+      "amount": 2780000,
+      "currency": "RUB",
+      "message_id": 838,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/001.jpg",
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/002.jpg",
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/003.jpg",
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/004.jpg",
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/005.jpg",
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/006.jpg",
+    "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/007.jpg"
+  ],
+  "image": "data/vehicles/toyota/bz3x-520-pro/tg-0838/cover.jpg"
+}

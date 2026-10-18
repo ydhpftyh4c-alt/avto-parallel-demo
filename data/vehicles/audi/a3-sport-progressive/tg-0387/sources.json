@@ -1,0 +1,126 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 387,
+      "date": "27.02.2026 11:44:32 UTC+03:00",
+      "text": "Audi A3 Sport Progressive 2022 \n\n🔹 Двигатель: экономичный и динамичный 1.4T мощностью 150 л.с.\n🔹 Тип привода: передний \n\nЦена:  2.515.000₽",
+      "photos": [
+        "photos/photo_296@27-02-2026_11-44-32.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 388,
+      "date": "27.02.2026 11:44:32 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_297@27-02-2026_11-44-32.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 389,
+      "date": "27.02.2026 11:44:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_298@27-02-2026_11-44-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 390,
+      "date": "27.02.2026 11:44:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_299@27-02-2026_11-44-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 391,
+      "date": "27.02.2026 11:44:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_300@27-02-2026_11-44-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 392,
+      "date": "27.02.2026 11:44:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_301@27-02-2026_11-44-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 393,
+      "date": "27.02.2026 11:44:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_302@27-02-2026_11-44-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_296@27-02-2026_11-44-32.jpg",
+      "source_sha256": "ed3894da89681d5a5abbb213788863554573ea2bcef8c78b013c5d41d98690e1",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_297@27-02-2026_11-44-32.jpg",
+      "source_sha256": "ecaa848faf28acc0d49d09ef6e1241772b5be767da3d9617981d63ce7eea780a",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_298@27-02-2026_11-44-33.jpg",
+      "source_sha256": "1ca6c22b714717e9de03f2a5db75c644ee60d037a5b12139619ee24af8b6237b",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_299@27-02-2026_11-44-33.jpg",
+      "source_sha256": "18744aec383e37db860b6bd279d8513657c9fc07e8debd8b6658c07aeae4d017",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_300@27-02-2026_11-44-33.jpg",
+      "source_sha256": "933f9b5e1d797bf3ad4ef68368782c5bbc317bae5d4a7624c508766fb56f4841",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_301@27-02-2026_11-44-33.jpg",
+      "source_sha256": "f19af6c46497ab68eb84dd7b1e3fbe34543b35bf98f6b8aa40fa85245552eacc",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_302@27-02-2026_11-44-33.jpg",
+      "source_sha256": "c8e6c728c947b13652fb31f043cc9baca2653db6b947e44e95750b3fb4338bc0",
+      "width": 1280,
+      "height": 959
+    }
+  ]
+}

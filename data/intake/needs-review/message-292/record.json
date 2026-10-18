@@ -1,0 +1,101 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    292,
+    293,
+    294,
+    295,
+    296,
+    297
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 292,
+      "date": "03.02.2026 12:40:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_208@03-02-2026_12-40-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 293,
+      "date": "03.02.2026 12:40:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_207@03-02-2026_12-25-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 294,
+      "date": "03.02.2026 12:40:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_210@03-02-2026_12-40-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 295,
+      "date": "03.02.2026 12:40:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_211@03-02-2026_12-40-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 296,
+      "date": "03.02.2026 12:40:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_212@03-02-2026_12-40-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 297,
+      "date": "03.02.2026 12:40:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_213@03-02-2026_12-40-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_208@03-02-2026_12-40-24.jpg",
+      "source_file": "photos/photo_208@03-02-2026_12-40-24.jpg",
+      "source_sha256": "7e581c29b765cda317f7692337ebc4707e52d2a34341a902b78573147141e282"
+    },
+    {
+      "file": "photos/photo_210@03-02-2026_12-40-25.jpg",
+      "source_file": "photos/photo_210@03-02-2026_12-40-25.jpg",
+      "source_sha256": "ad9c2fcd9f3c7b8b793dd782cd6852695b3f307973dd3db547bfffe52988f9f0"
+    },
+    {
+      "file": "photos/photo_211@03-02-2026_12-40-25.jpg",
+      "source_file": "photos/photo_211@03-02-2026_12-40-25.jpg",
+      "source_sha256": "e3632c4a04b73ee05bdeedbe113110f30fb3823fa516e085c40a5aaf3ca96c44"
+    },
+    {
+      "file": "photos/photo_212@03-02-2026_12-40-25.jpg",
+      "source_file": "photos/photo_212@03-02-2026_12-40-25.jpg",
+      "source_sha256": "be4637d60ab2585ccf4cdbe7cc8c021eabe8d0b51e2a7cce987404f4070bbf18"
+    },
+    {
+      "file": "photos/photo_213@03-02-2026_12-40-25.jpg",
+      "source_file": "photos/photo_213@03-02-2026_12-40-25.jpg",
+      "source_sha256": "258f167f18bf618cee40eb18fabcec783fed9e67428b40bed7ed3c97651f6544"
+    }
+  ]
+}

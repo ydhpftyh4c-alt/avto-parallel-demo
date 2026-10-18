@@ -1,0 +1,151 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 70,
+      "date": "15.12.2025 14:22:30 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_46@15-12-2025_14-22-30.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 71,
+      "date": "15.12.2025 14:22:30 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_47@15-12-2025_14-22-30.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 72,
+      "date": "15.12.2025 14:22:30 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_48@15-12-2025_14-22-30.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 73,
+      "date": "15.12.2025 14:22:30 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_49@15-12-2025_14-22-30.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 74,
+      "date": "15.12.2025 14:22:31 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_50@15-12-2025_14-22-31.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 75,
+      "date": "15.12.2025 14:22:31 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_51@15-12-2025_14-22-31.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 76,
+      "date": "15.12.2025 14:22:31 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_52@15-12-2025_14-22-31.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 77,
+      "date": "15.12.2025 14:22:31 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_53@15-12-2025_14-22-31.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 78,
+      "date": "15.12.2025 14:22:35 UTC+03:00",
+      "text": "Шкода Кодиак | Skoda Kodiaq\n2018 год\n2.0 дизель , полный привод\nПробег 92 000 км\n\n1 владелец, птс оригинал \n1 окрас, ппд косметика \nАвтотека зеленая\n\nКомплектация: кожаный салон с  памятью сидений, камеры 360, музыка Сanton, круизконтроль, слепые зоны, led фары, 3-х зонный климат, кнопка запуска двс, комфортный доступ, обогревы всех сидений, руля и лобового, CarPlay.\n\nЦена 3️⃣.1️⃣9️⃣0️⃣.0️⃣0️⃣0️⃣ \nНа ресурсах нет\n89999797008 Дмитрий",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_46@15-12-2025_14-22-30.jpg",
+      "source_sha256": "b6cb5a9a2dacd36a6a812f897e67245d3c04f9adfb36cf4f7ff43b592812d8d7",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_47@15-12-2025_14-22-30.jpg",
+      "source_sha256": "10f33b303b98fa7566c7d741113b53eb2a60fe478ae3fedd23a0b3e8566f25b5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_48@15-12-2025_14-22-30.jpg",
+      "source_sha256": "d8dc8c6862cc299f5bb2f067ee0dec55907c07547ebee693919966745cac1833",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_49@15-12-2025_14-22-30.jpg",
+      "source_sha256": "deb6d24f9e486eaa2e5282bd10195f6bd27c7df76706fb98dae2c1a6cdfd0363",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_50@15-12-2025_14-22-31.jpg",
+      "source_sha256": "83f886e14eff483d00e2c9eaa6cc5b9c1e6bed6cb3876c06fc39240c9638c324",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_51@15-12-2025_14-22-31.jpg",
+      "source_sha256": "a573b04937004367d4dee2908e9e85d72d755e8293251a52ad8a72d31e3bc2ad",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_52@15-12-2025_14-22-31.jpg",
+      "source_sha256": "a0ca3ff24a6b024acddcf809a419f6d954557e98854b7ee5fe91867089d5b517",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_53@15-12-2025_14-22-31.jpg",
+      "source_sha256": "5e2e133663020989758f9bc146dad8619a5f75f2d32249a17938b7012bb77dcb",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

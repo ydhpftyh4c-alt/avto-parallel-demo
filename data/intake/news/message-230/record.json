@@ -1,0 +1,90 @@
+{
+  "category": "news",
+  "related_message_ids": [
+    230,
+    231,
+    232,
+    233,
+    234
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 230,
+      "date": "25.01.2026 12:02:42 UTC+03:00",
+      "text": "🆕 НОВИНКА В ЕВРОПЕ 🆕\n Компания Volvo представила новый премиальный электрический кроссовер EX60. Модель оснащена мощным двигателем, развивающим до 680 лошадиных сил, полным приводом и внушительным запасом хода до 810 километров в топовой комплектации.\n\nДля тех, кто ищет менее мощные варианты, доступны модификации с двигателями на 510 и 660 лошадиных сил, а также заднеприводная версия с мощностью 374 лошадиных силы и запасом хода до 620 километров.\n\nОдной из интересных особенностей EX60 является возможность быстрой зарядки: всего за 19 минут аккумулятор заряжается с 10% до 80%.\n\nКроме того, компания предлагает модификацию Cross Country с улучшенной защитой днища и пластиковым обвесом, что делает автомобиль ещё более пригодным для эксплуатации на бездорожье.\n\nСтоимость Volvo EX60 в Европе начинается от 52 тысяч евро (около 4,6 миллиона рублей).\n \n⚠️ ПО ПРЕДЗАКАЗУ БУДЕТ ВЫГОДНЕЕ⚠️",
+      "photos": [
+        "photos/photo_168@25-01-2026_12-02-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 231,
+      "date": "25.01.2026 12:02:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_169@25-01-2026_12-02-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 232,
+      "date": "25.01.2026 12:02:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_170@25-01-2026_12-02-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 233,
+      "date": "25.01.2026 12:02:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_171@25-01-2026_12-02-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 234,
+      "date": "25.01.2026 12:02:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_172@25-01-2026_12-02-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_168@25-01-2026_12-02-42.jpg",
+      "source_file": "photos/photo_168@25-01-2026_12-02-42.jpg",
+      "source_sha256": "281cb8c3905a08086acc40cd83fe43684c6317ed12ac15d8a81bf796a2f407af"
+    },
+    {
+      "file": "photos/photo_169@25-01-2026_12-02-42.jpg",
+      "source_file": "photos/photo_169@25-01-2026_12-02-42.jpg",
+      "source_sha256": "9f3c48656e427f418a11d9a7baa3b533ce37f8a6e85dcd5d7c12d48350c184d8"
+    },
+    {
+      "file": "photos/photo_170@25-01-2026_12-02-42.jpg",
+      "source_file": "photos/photo_170@25-01-2026_12-02-42.jpg",
+      "source_sha256": "e114f239ca4e1dbdbf4929215ada433189797038241a57f432d189f0d18fdb45"
+    },
+    {
+      "file": "photos/photo_171@25-01-2026_12-02-42.jpg",
+      "source_file": "photos/photo_171@25-01-2026_12-02-42.jpg",
+      "source_sha256": "f8b7910a04d14238eb8a65452293d191791facd4e13de1d09a226f7d48e4f1ae"
+    },
+    {
+      "file": "photos/photo_172@25-01-2026_12-02-42.jpg",
+      "source_file": "photos/photo_172@25-01-2026_12-02-42.jpg",
+      "source_sha256": "5d1e08b9524dd36f8a73095ce46f99b2b61367cba4c5dd1bc268eb77456edd8a"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0026",
+  "id": 26,
+  "slug": "volkswagen-polo-tg-0026",
+  "brand": "volkswagen",
+  "model": "Polo",
+  "name": "Volkswagen Polo",
+  "types": [
+    "sedan"
+  ],
+  "country": "de",
+  "body": "Седан",
+  "year": "2022 год",
+  "mileage": "84 000 км",
+  "engine": "1.4АT 125 л.с.",
+  "price": 1799000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "10.12.2025",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "10.12.2025",
+  "status": "unknown",
+  "statusDate": "10.12.2025",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2022,
+    "mileage_km": 84000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "price_history": [
+    {
+      "date": "10.12.2025",
+      "amount": 1799000,
+      "currency": "RUB",
+      "message_id": 26,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/volkswagen/polo/tg-0026/photos/001.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/002.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/003.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/004.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/005.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/006.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/007.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/008.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/009.jpg",
+    "data/vehicles/volkswagen/polo/tg-0026/photos/010.jpg"
+  ],
+  "image": "data/vehicles/volkswagen/polo/tg-0026/cover.jpg"
+}

@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 394,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "ZEEKR 001/Зеекр 001\n2023 год,544 л.с, \nПробег: 60.000км.\nКузов: Родной окрас \nАвтотека: Вся зеленая ✅\nКомплектация: Автомобиль в максимальной комплектации YOU, пакет Z SPORT. Дополнительно сделана шумоизоляция, руссификация, интернет, приложения. Два комплекта резины. Автомобиль в авариях не участвовал. Обслуживался строго по регламенту. На последнем то заменил передние тормозные диски и колодки.\nЦена: 5.100.000 с НДС.\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_303@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 395,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_304@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 396,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_305@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 397,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_306@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 398,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_307@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 399,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_308@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 400,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_309@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 401,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_310@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 402,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_311@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 403,
+      "date": "27.02.2026 19:34:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_312@27-02-2026_19-34-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_303@27-02-2026_19-34-17.jpg",
+      "source_sha256": "6e103039f43bbadcef27a21d318c8ccb9c6d31e4b1422beb6414d481211ef861",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_304@27-02-2026_19-34-17.jpg",
+      "source_sha256": "3511d2ba7fa59a31eac529029f8be935a9858397645fad0c6edb3d7f9990b057",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_305@27-02-2026_19-34-17.jpg",
+      "source_sha256": "a8461d09d761d1e0361e6f9f3eec750b804a42e6c801354ee59658eba5698fb5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_306@27-02-2026_19-34-17.jpg",
+      "source_sha256": "75ac1d53cf3f3379ac877e9ef5f4d4dbee02fb98cea5105897dcf644044ecd24",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_307@27-02-2026_19-34-17.jpg",
+      "source_sha256": "8bcd7a27a8bea6d51718c6a3a5488f3c2886e10dd7c0a69af1c171617de153bd",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_308@27-02-2026_19-34-17.jpg",
+      "source_sha256": "3c618ad0793dc09e21e613850dae9f158f254118b22ed50a5c1109907d0a4e69",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_309@27-02-2026_19-34-17.jpg",
+      "source_sha256": "20138272bc7a67c9249ed546a59e4fb8f10a47407c821cf639484c75fbb9caab",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_310@27-02-2026_19-34-17.jpg",
+      "source_sha256": "a445b73c5687ba390552544ac76c037355f42eb78b9d7a4dabba067fea3ee440",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_311@27-02-2026_19-34-17.jpg",
+      "source_sha256": "68b2f6bbe0f7a53071f793243c2f0bb68de3f6ad0e6cdc5a7069b51c54c1e8db",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_312@27-02-2026_19-34-17.jpg",
+      "source_sha256": "1e1436a82e2a610ca248ca85e8a665f705166dacd745c3ba3c31b9e1c6668889",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

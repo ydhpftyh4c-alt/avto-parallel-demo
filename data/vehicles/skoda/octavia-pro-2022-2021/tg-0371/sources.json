@@ -1,0 +1,160 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 371,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "Skoda Octavia 2022 Модель, PRO \n\n🔹1.4TSI TSI280 Premium Edition Automatic\n🔹Пробег 42 000 км\n🔹Оригинальная краска, изготовлена в августе 2021 года\n\nЦена:2.225.000₽ под ключ",
+      "photos": [
+        "photos/photo_280@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 372,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_281@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 373,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_282@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 374,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_283@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 375,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_284@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 376,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_285@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 377,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_286@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 378,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_287@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 379,
+      "date": "25.02.2026 19:00:42 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_288@25-02-2026_19-00-42.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_280@25-02-2026_19-00-42.jpg",
+      "source_sha256": "78ad67cc6d4fc30abba355c225ba601e8a505e10fd05b59e73997ab8254dc76f",
+      "width": 861,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_281@25-02-2026_19-00-42.jpg",
+      "source_sha256": "646c782de3cea0916374ebece49f2d798f7d5a15dd843f4deae724e91c098d78",
+      "width": 1123,
+      "height": 1080
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_282@25-02-2026_19-00-42.jpg",
+      "source_sha256": "0db9d0faae7ed2fd3aed35146e49a28ecce07c1e8bb057384c6507f8bc306434",
+      "width": 1170,
+      "height": 1080
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_283@25-02-2026_19-00-42.jpg",
+      "source_sha256": "25a60580fa75b6e36f54dca1db4dffb75a8b6e8758143de33e60ce41c4141c4d",
+      "width": 1115,
+      "height": 1080
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_284@25-02-2026_19-00-42.jpg",
+      "source_sha256": "0e065b232af15efb35e76ea13c1323638236bd6ed370ab09b38a1c41cd2ae8eb",
+      "width": 841,
+      "height": 1080
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_285@25-02-2026_19-00-42.jpg",
+      "source_sha256": "b71923c2ddb9fd018eba27e8765e6e06970a1ecb26f7a73f6ee3ad0eb5cc80da",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_286@25-02-2026_19-00-42.jpg",
+      "source_sha256": "05fd1ca1466d27d3938fcb9e1bde00cdc09081077fca3e1345c780cc81247778",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_287@25-02-2026_19-00-42.jpg",
+      "source_sha256": "cebcacb118664234af5f5ac99c9504560379777b395c743c4f2f0a8de1fa93f9",
+      "width": 1063,
+      "height": 1080
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_288@25-02-2026_19-00-42.jpg",
+      "source_sha256": "d9d5fa6eb9a50213cd59c51047db39eabd490ee2698edddaf7fa7659e6c14e27",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

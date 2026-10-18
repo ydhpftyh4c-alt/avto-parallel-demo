@@ -1,0 +1,26 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    281
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 281,
+      "date": "31.01.2026 17:09:04 UTC+03:00",
+      "text": "💳 Вот и готовы наши визитки 💳",
+      "photos": [
+        "photos/photo_199@31-01-2026_17-09-04.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_199@31-01-2026_17-09-04.jpg",
+      "source_file": "photos/photo_199@31-01-2026_17-09-04.jpg",
+      "source_sha256": "9868875895ae5f17e78b8c9910f9137abe091fd8731bbbb6ed21b672dadbd2d2"
+    }
+  ]
+}

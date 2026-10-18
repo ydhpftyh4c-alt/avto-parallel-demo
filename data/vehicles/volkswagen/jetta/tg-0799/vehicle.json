@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0799",
+  "id": 799,
+  "slug": "volkswagen-jetta",
+  "brand": "volkswagen",
+  "model": "Jetta",
+  "name": "Volkswagen Jetta",
+  "types": [
+    "sedan"
+  ],
+  "country": "de",
+  "body": "Седан",
+  "year": "2019 год",
+  "mileage": "70 000 км",
+  "engine": "Двигатель не указан",
+  "price": 1450000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "05.10.2026",
+  "priceNote": "В публикации — цена «до РФ». Таможенные платежи, оформление и доставка до города требуют уточнения.",
+  "date": "05.10.2026",
+  "status": "unknown",
+  "statusDate": "05.10.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2019,
+    "mileage_km": 70000,
+    "is_new": false
+  },
+  "features": [
+    "Год выпуска — 2019",
+    "Пробег по объявлению — 70 000 км"
+  ],
+  "description": "Характеристики и стоимость перенесены из объявления. Комплектация, двигатель и условия доставки в тексте не указаны.",
+  "source_message_ids": [
+    799,
+    800,
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808
+  ],
+  "price_history": [
+    {
+      "date": "05.10.2026",
+      "amount": 1450000,
+      "currency": "RUB",
+      "message_id": 799,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/001.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/002.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/003.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/004.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/005.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/006.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/007.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/008.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/009.jpg",
+    "data/vehicles/volkswagen/jetta/tg-0799/photos/010.jpg"
+  ],
+  "image": "data/vehicles/volkswagen/jetta/tg-0799/cover.jpg"
+}

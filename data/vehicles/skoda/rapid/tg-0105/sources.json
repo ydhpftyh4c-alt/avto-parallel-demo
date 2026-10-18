@@ -1,0 +1,193 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 105,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "*Шкода Рапид | Skoda Rapid*\n2021 год \n1.6 Автомат\nПробег 65 000 км\n\n2 владельца по факту 1\n*Кузов*: родной окрас\nТехнически без нарекания\nАвтотека зеленая ✅\n\n*Комплектация*:максимальная Black edition: адаптивный круиз,спорт ковши с алькантарой, цифровая приборка, диодная оптика Crystal lighting, климат, кнопка стартстоп, комфортный доступ, обогревы всех сидений, руля и лобового. Камера, парктроники перед/зад. aux, bluetooth, Apple CarPlay.\n\n*Цена* : 1.925.000. Торг🤑\nНа ресурсах нет\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_68@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 106,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_69@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 107,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_70@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 108,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_71@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 109,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_72@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 110,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_73@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 111,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_74@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 112,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_75@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 113,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_76@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 114,
+      "date": "07.01.2026 14:35:29 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_77@07-01-2026_14-35-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 245,
+      "date": "26.01.2026 16:30:58 UTC+03:00",
+      "text": "‼️СНИЖЕНИЕ ЦЕНЫ‼️.   1️⃣.8️⃣9️⃣0️⃣.0️⃣0️⃣0️⃣",
+      "photos": [],
+      "reply_to": 105,
+      "missing_video": false
+    },
+    {
+      "id": 458,
+      "date": "17.03.2026 00:03:09 UTC+03:00",
+      "text": "Продан!!!",
+      "photos": [],
+      "reply_to": 105,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_68@07-01-2026_14-35-29.jpg",
+      "source_sha256": "e1a5c7288d040a6ceb024ee19a95ee4b78a8ff5ddd12fa99df4aedad412afd91",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_69@07-01-2026_14-35-29.jpg",
+      "source_sha256": "7a31f705eb3e2e654fc5d013214e7cf511ca70ae3fc55d326888b6370380d5d5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_70@07-01-2026_14-35-29.jpg",
+      "source_sha256": "86b9f4e2c298ef56bf993dfe3a19be43f7b7e93be9721486a9560ee1f16aafe7",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_71@07-01-2026_14-35-29.jpg",
+      "source_sha256": "e62284014d9a618371ad46963a1d30b384b5e011fbc80f6333307f7e6a041922",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_72@07-01-2026_14-35-29.jpg",
+      "source_sha256": "ebd746c65f7570b0bb1792af82908f35491a1cd9f51c65e5aee28a009f15100c",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_73@07-01-2026_14-35-29.jpg",
+      "source_sha256": "3e3dc39a85c5dde87466ac18e6540ccb523a4f33fa73b26958d9fbf1b8d01fbb",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_74@07-01-2026_14-35-29.jpg",
+      "source_sha256": "e3b01fee24faade2a807b8c8ea0cda71f7cadf68f8fcb936ae25969d1537d5d6",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_75@07-01-2026_14-35-29.jpg",
+      "source_sha256": "7adf32151bd2a50cc5335ae84b4e8406ec481588bcd01f346b2488e87ed0eedc",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_76@07-01-2026_14-35-29.jpg",
+      "source_sha256": "f55e8b4fee17e7e9d269e10c602a0e37b0d6324d99ae374ac68163036d4f99e7",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_77@07-01-2026_14-35-29.jpg",
+      "source_sha256": "13e3754ad59cc2615c0108edf014770de0b72c37bef7032552d5a9b0d68799c5",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

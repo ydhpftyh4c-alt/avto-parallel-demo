@@ -1,0 +1,26 @@
+{
+  "category": "cases",
+  "related_message_ids": [
+    351
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 351,
+      "date": "19.02.2026 11:56:03 UTC+03:00",
+      "text": "Lexus RX300 готов к выдаче для нашей клиентки Марии. Подарок 🎁 от мужа  на 8 марта. А вы что будете дарить своей второй половинке?",
+      "photos": [
+        "photos/photo_261@19-02-2026_11-56-03.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_261@19-02-2026_11-56-03.jpg",
+      "source_file": "photos/photo_261@19-02-2026_11-56-03.jpg",
+      "source_sha256": "8d181619b12c1e80a3bb7dffcc5cb7794c2cea5155ebd7f3679d36de0f374457"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 322,
+      "date": "14.02.2026 17:00:16 UTC+03:00",
+      "text": "🔥Chevrolet Monza🔥2022 год \n1.5Т 113 сил \n42.000км \nПередний привод \nОтличный бюджетный авто👍\nЦена: 1.370.000₽",
+      "photos": [
+        "photos/photo_232@14-02-2026_17-00-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 323,
+      "date": "14.02.2026 17:00:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_233@14-02-2026_17-00-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 324,
+      "date": "14.02.2026 17:00:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_234@14-02-2026_17-00-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 325,
+      "date": "14.02.2026 17:00:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_235@14-02-2026_17-00-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 326,
+      "date": "14.02.2026 17:00:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_236@14-02-2026_17-00-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 327,
+      "date": "14.02.2026 17:00:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_237@14-02-2026_17-00-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 328,
+      "date": "14.02.2026 17:00:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_238@14-02-2026_17-00-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_232@14-02-2026_17-00-16.jpg",
+      "source_sha256": "d63c3bf800aad9ff64e4561a53ba3307c1609bcd18f79287d61dedea4f9bfbd9",
+      "width": 719,
+      "height": 540
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_233@14-02-2026_17-00-17.jpg",
+      "source_sha256": "57d3cf54ecda1e07bd3f132dbe3269cb50d5125f200fcba4c246e565103d4cd2",
+      "width": 719,
+      "height": 540
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_234@14-02-2026_17-00-17.jpg",
+      "source_sha256": "f12240d75db4bb21c1c1f58dd742c8de3557208bf07946ca2b3d7c58dd9c97cd",
+      "width": 719,
+      "height": 540
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_235@14-02-2026_17-00-17.jpg",
+      "source_sha256": "e819976b2a014ae3ff78be7dc006ed705b13319d3cf5ef421c20cb4870a610fd",
+      "width": 719,
+      "height": 540
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_236@14-02-2026_17-00-17.jpg",
+      "source_sha256": "b9dcd5b27aae1fdf127319f9dbd8f1c868cb25ce834d321c1647c8ccb1a0fc52",
+      "width": 719,
+      "height": 540
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_237@14-02-2026_17-00-17.jpg",
+      "source_sha256": "47293c6e121bfa761648eecda6f4b09c96569343729c8675d4cdde45325d1435",
+      "width": 719,
+      "height": 540
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_238@14-02-2026_17-00-17.jpg",
+      "source_sha256": "ed5005f26f29cfc164e38cbce350ed10a95382ffc7880a42d44eef907fe35bb0",
+      "width": 719,
+      "height": 540
+    }
+  ]
+}

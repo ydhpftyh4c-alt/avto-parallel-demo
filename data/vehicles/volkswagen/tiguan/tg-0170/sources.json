@@ -1,0 +1,142 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 170,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "Тигуан | vw Tiguan\n2018 год \n2.0 Бензин. Полный привод.\nПробег 118 000 км\n\nДва владельца\nКузов: зпд косметика\nАвтотека зеленая\nЗоны риска в пленке\nТехнически без нареканий\n\nКомплектация: фары диодные iq light, комбинированный салон, электронная приборная панель, адаптивный круизконтроль, бесключевой доступ, кнопка запуска двс, обогревы всех сидений руля и лобового, 3-х зонный климат, камера, эл. складывание зеркал, Carplay.\n\nЦена 2 750.000",
+      "photos": [
+        "photos/photo_126@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 171,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_127@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 172,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_128@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 173,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_129@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 174,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_130@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 175,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_131@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 176,
+      "date": "16.01.2026 22:19:52 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_132@16-01-2026_22-19-52.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 289,
+      "date": "02.02.2026 11:46:36 UTC+03:00",
+      "text": "",
+      "photos": [],
+      "reply_to": 170,
+      "missing_video": false
+    },
+    {
+      "id": 290,
+      "date": "02.02.2026 11:47:45 UTC+03:00",
+      "text": "👋ПРОДАН👋",
+      "photos": [],
+      "reply_to": 170,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_126@16-01-2026_22-19-52.jpg",
+      "source_sha256": "2f98d137cd13c303af6199eb9729c90bef66011ea1bd718e29697a7ca44bd33d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_127@16-01-2026_22-19-52.jpg",
+      "source_sha256": "77fcfaf4346767a4ec7104a6fbec13200f0a012a07143afd86c9adb356686683",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_128@16-01-2026_22-19-52.jpg",
+      "source_sha256": "c368344b6cc37149d4da735f7222f826e40bec9290f55906524f59b411fa4238",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_129@16-01-2026_22-19-52.jpg",
+      "source_sha256": "7b2064ab1e5cec373e9054f58686a4917f55e484338bbfda309b486fea31e7ce",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_130@16-01-2026_22-19-52.jpg",
+      "source_sha256": "f7ae524d6f73b0507efec9bc3dc54d56a69520fae29084c9cd5c35ac6c048012",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_131@16-01-2026_22-19-52.jpg",
+      "source_sha256": "37071dead6f0cbd70ff39b611c7ed6c6e7f2ed0c24e398bb955625187f5a488e",
+      "width": 694,
+      "height": 1080
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_132@16-01-2026_22-19-52.jpg",
+      "source_sha256": "3e20cd073810e2fdb92be18b6140b99f5b3f4400923a2cb15c80ba1554ed7b31",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 298,
+      "date": "04.02.2026 17:59:37 UTC+03:00",
+      "text": "‼️СРОЧНАЯ ПРОДАЖА МАШИНА В БЛИЖАЙШЕЙ ПОСТАВКЕ, ЦЕНА НИЖЕ ВСЕХ РЫНКОВ‼️\nМодель автомобиля: Volkswagen Golf 2021 280TSI DSG R-Line  \nДата выхода: август 2021 года  \nДата выхода: октябрь 2021 года  \nПротяженность: 47 000 км  \nВместимость: 1,4 т  \nСостояние автомобиля: оригинальная краска автомобиля, звук Harman Cardon, подогрев сидений, интерьер без износа, почти новое состояние  \nКлючи: 2",
+      "photos": [
+        "photos/photo_214@04-02-2026_17-59-37.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 299,
+      "date": "04.02.2026 17:59:37 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_215@04-02-2026_17-59-37.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 300,
+      "date": "04.02.2026 17:59:37 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_216@04-02-2026_17-59-37.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 301,
+      "date": "04.02.2026 17:59:37 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_217@04-02-2026_17-59-37.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 302,
+      "date": "04.02.2026 17:59:37 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_218@04-02-2026_17-59-37.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 303,
+      "date": "04.02.2026 17:59:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_219@04-02-2026_17-59-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 304,
+      "date": "04.02.2026 17:59:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_220@04-02-2026_17-59-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 305,
+      "date": "04.02.2026 17:59:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_221@04-02-2026_17-59-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 306,
+      "date": "04.02.2026 17:59:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_222@04-02-2026_17-59-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 307,
+      "date": "04.02.2026 17:59:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_223@04-02-2026_17-59-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 318,
+      "date": "06.02.2026 16:44:26 UTC+03:00",
+      "text": "🤑ПРОДАН🤑",
+      "photos": [],
+      "reply_to": 298,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_214@04-02-2026_17-59-37.jpg",
+      "source_sha256": "314fc44dce45d6881dc874f7cb967d24816ecdb7c3d83786ab2d6a084df2417e",
+      "width": 498,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_215@04-02-2026_17-59-37.jpg",
+      "source_sha256": "9ca15604300f343742eda3b24f909fdf23092238571850cfebd32e70459cb0af",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_216@04-02-2026_17-59-37.jpg",
+      "source_sha256": "277e1876fc89ecae5376f1c66fdc608174aba7e4d290f30c45d8a0c28a157692",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_217@04-02-2026_17-59-37.jpg",
+      "source_sha256": "916e5b8d77d7c69b4fc75de86d3e14fcc0c40e81d6d4615831d52bedc0aa7e78",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_218@04-02-2026_17-59-37.jpg",
+      "source_sha256": "c4c71ebc7a0745e4edebfa7bc9c3b379d892684fa6087e5043160773123a23a8",
+      "width": 1280,
+      "height": 822
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_219@04-02-2026_17-59-38.jpg",
+      "source_sha256": "51038bf673eaecb48bea9e01305ef6d91e787a0c42b362d66cef690447a5d9a9",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_220@04-02-2026_17-59-38.jpg",
+      "source_sha256": "4cf5cff8526d959820b6438cd763963ca95a97fd31ee6c68199d174280d827c0",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_221@04-02-2026_17-59-38.jpg",
+      "source_sha256": "f2fb3ba986aa281eb5f7680e334b0477555b46af2bc8d7dc3a1dcaa0e232411d",
+      "width": 1280,
+      "height": 750
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_222@04-02-2026_17-59-38.jpg",
+      "source_sha256": "ea88f60392edb481006ef0ee735b40a97990061757cb7c7b992c6f025bd47d46",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_223@04-02-2026_17-59-38.jpg",
+      "source_sha256": "33bdeb5b2d344e724ccf101d267536535113d588f33b37ab285dcf43896f73b2",
+      "width": 1280,
+      "height": 959
+    }
+  ]
+}

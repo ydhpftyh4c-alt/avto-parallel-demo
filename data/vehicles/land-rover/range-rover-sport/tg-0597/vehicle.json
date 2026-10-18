@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0597",
+  "id": 597,
+  "slug": "land-rover-range-rover-sport-tg-0597",
+  "brand": "land-rover",
+  "model": "Range Rover Sport",
+  "name": "Land Rover Range Rover Sport",
+  "types": [
+    "suv"
+  ],
+  "country": "gb",
+  "body": "Кроссовер",
+  "year": "2021 год",
+  "mileage": "90 500 км",
+  "engine": "3.0 дизель.",
+  "price": 6500000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "23.06.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "23.06.2026",
+  "status": "unknown",
+  "statusDate": "23.06.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2021,
+    "mileage_km": 90500,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606
+  ],
+  "price_history": [
+    {
+      "date": "23.06.2026",
+      "amount": 6500000,
+      "currency": "RUB",
+      "message_id": 597,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/001.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/002.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/003.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/004.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/005.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/006.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/007.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/008.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/009.jpg",
+    "data/vehicles/land-rover/range-rover-sport/tg-0597/photos/010.jpg"
+  ],
+  "image": "data/vehicles/land-rover/range-rover-sport/tg-0597/cover.jpg"
+}

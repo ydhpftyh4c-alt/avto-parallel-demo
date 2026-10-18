@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0004",
+  "id": 4,
+  "slug": "skoda-rapid-tg-0004",
+  "brand": "skoda",
+  "model": "Rapid",
+  "name": "Skoda Rapid",
+  "types": [
+    "sedan"
+  ],
+  "country": "cz",
+  "body": "Седан",
+  "year": "2018 год",
+  "mileage": "85 000 км",
+  "engine": "1.4 125 л.с.",
+  "price": 1400000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "27.01.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "10.12.2025",
+  "status": "sold",
+  "statusDate": "10.02.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2018,
+    "mileage_km": 85000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    103,
+    246,
+    316,
+    321
+  ],
+  "price_history": [
+    {
+      "date": "10.12.2025",
+      "amount": 1440000,
+      "currency": "RUB",
+      "message_id": 4,
+      "kind": "initial",
+      "applies_to_current": true
+    },
+    {
+      "date": "26.12.2025",
+      "amount": 1420000,
+      "currency": "RUB",
+      "message_id": 103,
+      "kind": "price_update",
+      "applies_to_current": true
+    },
+    {
+      "date": "27.01.2026",
+      "amount": 1400000,
+      "currency": "RUB",
+      "message_id": 246,
+      "kind": "price_update",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [
+    {
+      "date": "06.02.2026",
+      "status": "reserved",
+      "message_id": 316
+    },
+    {
+      "date": "10.02.2026",
+      "status": "sold",
+      "message_id": 321
+    }
+  ],
+  "images": [
+    "data/vehicles/skoda/rapid/tg-0004/photos/001.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/002.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/003.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/004.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/005.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/006.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/007.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/008.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/009.jpg",
+    "data/vehicles/skoda/rapid/tg-0004/photos/010.jpg"
+  ],
+  "image": "data/vehicles/skoda/rapid/tg-0004/cover.jpg"
+}

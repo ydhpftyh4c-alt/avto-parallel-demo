@@ -1,0 +1,185 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 146,
+      "date": "13.01.2026 15:13:44 UTC+03:00",
+      "text": "В наличии📌\n\n🚘 BMW 530li Xdrive\n\n• Год выпуска: 2025\n• Пробег: Новый\n• Двигатель:бензин  / 2.0 / 258 л.с.\n• Цвет:черный   /  на черном \n\n\nЦена: 8.250.000 торг",
+      "photos": [
+        "photos/photo_105@13-01-2026_15-13-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 147,
+      "date": "13.01.2026 15:13:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_106@13-01-2026_15-13-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 148,
+      "date": "13.01.2026 15:13:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_107@13-01-2026_15-13-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 149,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_108@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 150,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_109@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 151,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_110@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 152,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_111@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 153,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_112@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 154,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_113@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 155,
+      "date": "13.01.2026 15:13:45 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_114@13-01-2026_15-13-45.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 215,
+      "date": "22.01.2026 15:17:26 UTC+03:00",
+      "text": "ПРОДАН 👋",
+      "photos": [],
+      "reply_to": 146,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_105@13-01-2026_15-13-44.jpg",
+      "source_sha256": "d4c46decd51105dd5a4f6ecfedcf7e55e04fddd622b12605612125c6f98d57e7",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_106@13-01-2026_15-13-44.jpg",
+      "source_sha256": "cd83fa9b52003ead15c0140dc5b7bb7f95b5f2423d6c104946f9b1785096e362",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_107@13-01-2026_15-13-44.jpg",
+      "source_sha256": "eadc4f68e0c3dc38a50635a6a5598fc2cdce9f0e6c3105a2e1a5bab38b82085d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_108@13-01-2026_15-13-45.jpg",
+      "source_sha256": "938db51203cc92db75c94e74a8f1fd33886a0936484c82205eefcba75afea49b",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_109@13-01-2026_15-13-45.jpg",
+      "source_sha256": "87bce9eda466d032892243a012766ab466ef6fd5f15349e087af2cef77d93f05",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_110@13-01-2026_15-13-45.jpg",
+      "source_sha256": "e6a10e12527465f06db926c2e6a3a6958e808a0122b74529f5cb2cff216edac8",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_111@13-01-2026_15-13-45.jpg",
+      "source_sha256": "a6fbe61639982b84a689c2820c5c10daaca01e8f53e9790f303bfdc951c16e12",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_112@13-01-2026_15-13-45.jpg",
+      "source_sha256": "b7e24bc39c54a439da98cf6014d546aecce9d77a936c36e2afb174b5350acfc4",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_113@13-01-2026_15-13-45.jpg",
+      "source_sha256": "e0256fa8979072925bd88fa95125d0edff627eee39c3b108bf8f381979ba6dff",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_114@13-01-2026_15-13-45.jpg",
+      "source_sha256": "269f4c2874954fee815a0aff39d04ec170827bac4ea87500f3e6e38540e1399b",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

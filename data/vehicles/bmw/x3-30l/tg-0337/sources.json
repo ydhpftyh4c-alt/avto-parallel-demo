@@ -1,0 +1,160 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 337,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "В наличии📌\n\n🚘 BMW. X3 30L полный привод \n\n• Год выпуска: 2025\n• Пробег: Новый\n• Двигатель:бензин  / 2.0 / 258л.с. \n• Цвет:Карбон шварц (черный)/  на  коричневом\n\n\nЦена: 6.800.000",
+      "photos": [
+        "photos/photo_247@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 338,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_248@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 339,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_249@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 340,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_250@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 341,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_251@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 342,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_252@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 343,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_253@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 344,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_254@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 345,
+      "date": "16.02.2026 19:54:23 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_255@16-02-2026_19-54-23.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_247@16-02-2026_19-54-23.jpg",
+      "source_sha256": "aeb966f2e89a82eb53d36f494f0d9a7024c321a2d7e65219e8946a37595e36b5",
+      "width": 901,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_248@16-02-2026_19-54-23.jpg",
+      "source_sha256": "a669280c093df0129c433acd089b9154a4f258f27c011fdccd253a87ad5d0a93",
+      "width": 1049,
+      "height": 1080
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_249@16-02-2026_19-54-23.jpg",
+      "source_sha256": "f0ebe69c76f2025cab2a3f21f569161dd8a78ed4dd47f69eeeae3a83759f2c64",
+      "width": 721,
+      "height": 1080
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_250@16-02-2026_19-54-23.jpg",
+      "source_sha256": "1d3aa84403c552a805267fa8265d4bfaed6f39d4545c73ee8030edd5bdcc1392",
+      "width": 999,
+      "height": 1080
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_251@16-02-2026_19-54-23.jpg",
+      "source_sha256": "4717a17c628ab876770a92e5b1c86c24525eb78e658eb6c2b77892890e5c5729",
+      "width": 974,
+      "height": 1080
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_252@16-02-2026_19-54-23.jpg",
+      "source_sha256": "1a18dc82580c38a98f544d5d9173d37f2cfe2ead87f9ba20a4d151094bbd5d23",
+      "width": 948,
+      "height": 1080
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_253@16-02-2026_19-54-23.jpg",
+      "source_sha256": "5817133c1e5dd2c1866f775ea08cdb69919708641e73bde83e973226fd348ca3",
+      "width": 1040,
+      "height": 1080
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_254@16-02-2026_19-54-23.jpg",
+      "source_sha256": "30cacd61c06009a8be4e5f3fc7651383f3f02034d20e1c7e02d9c59589bdfe8f",
+      "width": 1040,
+      "height": 1080
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_255@16-02-2026_19-54-23.jpg",
+      "source_sha256": "8efbc68904f0a4e26b1dfa715c0cf6fa13701bd269a77d32a65e12261c451140",
+      "width": 953,
+      "height": 1080
+    }
+  ]
+}

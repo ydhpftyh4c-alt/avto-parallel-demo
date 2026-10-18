@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0404",
+  "id": 404,
+  "slug": "byd-fangchengbao-leopard-5-tg-0404",
+  "brand": "byd",
+  "model": "FangChengBao Leopard 5",
+  "name": "BYD FangChengBao Leopard 5",
+  "types": [
+    "suv"
+  ],
+  "country": "cn",
+  "body": "Кроссовер",
+  "year": "2024 год",
+  "mileage": "38 100 км",
+  "engine": "2024, 1.5, гибрид 687 л.с",
+  "price": 5800000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "27.02.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "27.02.2026",
+  "status": "unknown",
+  "statusDate": "27.02.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2024,
+    "mileage_km": 38100,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413
+  ],
+  "price_history": [
+    {
+      "date": "27.02.2026",
+      "amount": 5800000,
+      "currency": "RUB",
+      "message_id": 404,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/001.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/002.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/003.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/004.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/005.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/006.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/007.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/008.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/009.jpg",
+    "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/photos/010.jpg"
+  ],
+  "image": "data/vehicles/byd/fangchengbao-leopard-5/tg-0404/cover.jpg"
+}

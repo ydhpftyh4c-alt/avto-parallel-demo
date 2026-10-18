@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0628",
+  "id": 628,
+  "slug": "mercedes-benz-glc-300-coupe-clc-tg-0628",
+  "brand": "mercedes-benz",
+  "model": "GLC 300 Coupe — в тексте Clc",
+  "name": "Mercedes-Benz GLC 300 Coupe — в тексте Clc",
+  "types": [
+    "suv"
+  ],
+  "country": "de",
+  "body": "Кроссовер",
+  "year": "2026 год",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "14.07.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "14.07.2026",
+  "status": "unknown",
+  "statusDate": "14.07.2026",
+  "review_required": true,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2026,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    628
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

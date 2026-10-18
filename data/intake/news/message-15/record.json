@@ -1,0 +1,26 @@
+{
+  "category": "news",
+  "related_message_ids": [
+    15
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 15,
+      "date": "10.12.2025 14:53:15 UTC+03:00",
+      "text": "Новинка года-2025 от Авто.ру: вот и топ-3 лучших в каждой категории\n\n👍 «Абсолютная новинка»: Lada Iskra, в топ-3 также вошли Tank 400 и Haval H7.\n\n👍 «Семейная»: Tank 400, в топ-3 также вошли Hongqi HQ9 и Chery Tiggo 9.\n\n👍 «Зелёная новинка»: Avatr 11, в топ-3 также вошли Exeed Exlantix ES и Geely EX5.\n\n👍 «Внедорожная новинка»: Tank 400, в топ-3 также вошли Foton Tunland V7 и KGM Rexton.\n\n👍 «Для путешествий»: Tank 400, в топ-3 также вошли Chery Tiggo 9 и Jetour T1.\n\n👍 «Параллельная»: Skoda Kodiaq, в топ-3 также вошли Hyundai Palisade и Xiaomi YU7.\n\nСпасибо вам, что активно участвовали! И увидимся через год на новой премии ❤️",
+      "photos": [
+        "photos/photo_12@10-12-2025_14-53-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_12@10-12-2025_14-53-15.jpg",
+      "source_file": "photos/photo_12@10-12-2025_14-53-15.jpg",
+      "source_sha256": "cbe6189ec81f01ecd8cdfc1369a4bad9903e73fd3bb01c224f19d1b64c2acb13"
+    }
+  ]
+}

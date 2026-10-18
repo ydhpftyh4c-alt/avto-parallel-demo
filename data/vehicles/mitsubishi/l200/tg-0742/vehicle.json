@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0742",
+  "id": 742,
+  "slug": "mitsubishi-l200-tg-0742",
+  "brand": "mitsubishi",
+  "model": "L200",
+  "name": "Mitsubishi L200",
+  "types": [
+    "pickup"
+  ],
+  "country": "jp",
+  "body": "Пикап",
+  "year": "Год не указан",
+  "mileage": "Новый — по объявлению",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "24.09.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "24.09.2026",
+  "status": "unknown",
+  "statusDate": "24.09.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": true
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    742,
+    743,
+    744,
+    745,
+    746,
+    747
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [
+    "data/vehicles/mitsubishi/l200/tg-0742/photos/001.jpg",
+    "data/vehicles/mitsubishi/l200/tg-0742/photos/002.jpg",
+    "data/vehicles/mitsubishi/l200/tg-0742/photos/003.jpg",
+    "data/vehicles/mitsubishi/l200/tg-0742/photos/004.jpg",
+    "data/vehicles/mitsubishi/l200/tg-0742/photos/005.jpg",
+    "data/vehicles/mitsubishi/l200/tg-0742/photos/006.jpg"
+  ],
+  "image": "data/vehicles/mitsubishi/l200/tg-0742/cover.jpg"
+}

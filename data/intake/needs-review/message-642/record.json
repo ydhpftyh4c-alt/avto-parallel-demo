@@ -1,0 +1,18 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    642
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 642,
+      "date": "08.08.2026 17:14:13 UTC+03:00",
+      "text": "Продан",
+      "photos": [],
+      "reply_to": 618,
+      "missing_video": false
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,126 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 282,
+      "date": "31.01.2026 19:43:50 UTC+03:00",
+      "text": "🆕 НОВИНКА В ПРОДАЖЕ 🆕\nШкода Октавия | Skoda Octavia\n2020 год\n1.4 (125 л.с)\nПробег: 99 000 км.\n\n1 владелец\nКузов: злк, злд (устранялись ваг болячки, мелкие царапины, есть фото до)\nАвтотека зеленая \nТехнически без нареканий\n\nКомплектация: Led фары, цифровая приборная панель, слепые зоны, контурная подсветка салона, Камера, большой монитор с CarPlay, беспроводная зарядка. обогрев сидений, руля и лобового, эл.складывание зеркал.",
+      "photos": [
+        "photos/photo_200@31-01-2026_19-43-50.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 283,
+      "date": "31.01.2026 19:43:50 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_201@31-01-2026_19-43-50.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 284,
+      "date": "31.01.2026 19:43:50 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_202@31-01-2026_19-43-50.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 285,
+      "date": "31.01.2026 19:43:50 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_203@31-01-2026_19-43-50.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 286,
+      "date": "31.01.2026 19:43:50 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_204@31-01-2026_19-43-50.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 287,
+      "date": "31.01.2026 19:43:50 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_205@31-01-2026_19-43-50.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 288,
+      "date": "31.01.2026 19:43:51 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_206@31-01-2026_19-43-51.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_200@31-01-2026_19-43-50.jpg",
+      "source_sha256": "829603beecdefee81504a6580576b0e172d674124841833a5126f1012eb47180",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_201@31-01-2026_19-43-50.jpg",
+      "source_sha256": "bef8c9d837995699970db3058d543cb6377a72995589b36390a927c0f52a56f4",
+      "width": 1280,
+      "height": 923
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_202@31-01-2026_19-43-50.jpg",
+      "source_sha256": "1bb13c3d8eb5408489d4b828ca200ef32bcee85cbeadfe8a76990ff613af27aa",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_203@31-01-2026_19-43-50.jpg",
+      "source_sha256": "66003406c60b61e79b8ef3b6444332e2eb252695393eefbb0359b9e0d3793b2d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_204@31-01-2026_19-43-50.jpg",
+      "source_sha256": "229abc2ba8945389998f416ab6fddb89eba2c5cd31f3fc0f43da80004b038c50",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_205@31-01-2026_19-43-50.jpg",
+      "source_sha256": "18d529b615e28aeb18e7b440943f7e14c9287a8550939032e405b4d3112f6d50",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_206@31-01-2026_19-43-51.jpg",
+      "source_sha256": "c7923c49943023f746f677cac852e6237ff9f11bbbd584858780340ea7e4d17d",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 502,
+      "date": "07.04.2026 14:40:27 UTC+03:00",
+      "text": "Chevrolet Orlando 2020 года!\n\n✨ Модель: Orlando 48V 1.3T Redline 530T Luxury Edition  \n📅 Дата выпуска: февраль 2022 г.  \n📏 Пробег: всего 52 000 км\nЦена — 1.850.000₽.",
+      "photos": [
+        "photos/photo_401@07-04-2026_14-40-27.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 503,
+      "date": "07.04.2026 14:40:27 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_402@07-04-2026_14-40-27.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 504,
+      "date": "07.04.2026 14:40:27 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_403@07-04-2026_14-40-27.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 505,
+      "date": "07.04.2026 14:40:27 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_404@07-04-2026_14-40-27.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 506,
+      "date": "07.04.2026 14:40:27 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_405@07-04-2026_14-40-27.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 507,
+      "date": "07.04.2026 14:40:27 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_406@07-04-2026_14-40-27.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_401@07-04-2026_14-40-27.jpg",
+      "source_sha256": "f4f5c5de5abe5cfef6764cf3b2cc1a9fd8dc027fb08225c221741b9523a0b0ee",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_402@07-04-2026_14-40-27.jpg",
+      "source_sha256": "beef099b19b92310d42b4515b97741475f2f609f673a4b790b048eb8a6def464",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_403@07-04-2026_14-40-27.jpg",
+      "source_sha256": "5c8dc5f70c185216ad5ca0269788d3d83fe154028f55dd99cab0d2866cdb3563",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_404@07-04-2026_14-40-27.jpg",
+      "source_sha256": "7a95b30cfc54684a88743bfe864758e1c0cc25e0d8e22554daff61ee07e77344",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_405@07-04-2026_14-40-27.jpg",
+      "source_sha256": "9ae0189b92bb9e519a9fa9d8162ec6b434967fa06a725e63eda0e9d7fa010596",
+      "width": 1280,
+      "height": 959
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_406@07-04-2026_14-40-27.jpg",
+      "source_sha256": "cda5d6ac85380b28607026cdd56348556f09e0157a231bfd0e0c772a57d3fbe3",
+      "width": 1280,
+      "height": 959
+    }
+  ]
+}

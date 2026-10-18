@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 116,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "К нам едут 2 автомобиля BMW 3 серии. Вы можете быть первым. Работаем по предоплате‼️пишите или звоните📲. Я специе до повышения курса доллара.",
+      "photos": [
+        "photos/photo_78@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 117,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_79@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 118,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_80@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 119,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_81@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 120,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_82@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 121,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_83@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 122,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_84@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 123,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_85@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 124,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_86@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 125,
+      "date": "10.01.2026 14:26:24 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_87@10-01-2026_14-26-24.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_78@10-01-2026_14-26-24.jpg",
+      "source_sha256": "276783e6354a62070df13122cd102fc7343fcd2085c42ad60cf730cfc70b1725",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_79@10-01-2026_14-26-24.jpg",
+      "source_sha256": "4a79aa622585587ad3abb9aca6f4308fa586adf69ae68ab088fe9ea21046b38a",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_80@10-01-2026_14-26-24.jpg",
+      "source_sha256": "2197ace272f06f3c3dc57f75f0f2e88706f49a5cea9d7fffae08c53f10073c24",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_81@10-01-2026_14-26-24.jpg",
+      "source_sha256": "c90f415730612e6c872983bbe49d6713d59f8f62bd3efac6b7dc875eec6971c4",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_82@10-01-2026_14-26-24.jpg",
+      "source_sha256": "68c0b59acf005798fa60a7f877a246e3ac15ef1fc47f228faa30f028822974cc",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_83@10-01-2026_14-26-24.jpg",
+      "source_sha256": "1e234d816522e35a3c72269bdffcad2c6cfdef6def1393ed7417d04ae9700fae",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_84@10-01-2026_14-26-24.jpg",
+      "source_sha256": "86f6c6bfab30d85b6b988d568ccf37891c4ea2d97fec9a90167727d5f43563ed",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_85@10-01-2026_14-26-24.jpg",
+      "source_sha256": "90c5debd333100f12662a30aa5a2cbe4c62d173643961d0dc16b2ac770c7cfdd",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_86@10-01-2026_14-26-24.jpg",
+      "source_sha256": "661c1cdbd164a1c5258d87c969a3b242a97d181ad4810d42bdfb70d47d5a75b5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_87@10-01-2026_14-26-24.jpg",
+      "source_sha256": "c678cfb9adae45036bc85b58bd02d2691513bb8ec7987f9f9d4a944fa290acfa",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

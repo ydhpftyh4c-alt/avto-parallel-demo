@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0319",
+  "id": 319,
+  "slug": "lexus-rx-300-tg-0319",
+  "brand": "lexus",
+  "model": "RX 300 — два автомобиля",
+  "name": "Lexus RX 300 — два автомобиля",
+  "types": [
+    "suv"
+  ],
+  "country": "jp",
+  "body": "Кроссовер",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "08.02.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "08.02.2026",
+  "status": "unknown",
+  "statusDate": "08.02.2026",
+  "review_required": true,
+  "record_kind": "offer_group",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    319,
+    320
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

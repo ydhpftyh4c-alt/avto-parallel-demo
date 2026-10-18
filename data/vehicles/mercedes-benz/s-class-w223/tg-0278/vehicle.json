@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0278",
+  "id": 278,
+  "slug": "mercedes-benz-s-class-w223-tg-0278",
+  "brand": "mercedes-benz",
+  "model": "S-Class W223 — предзаказ",
+  "name": "Mercedes-Benz S-Class W223 — предзаказ",
+  "types": [
+    "sedan"
+  ],
+  "country": "de",
+  "body": "Седан",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "31.01.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "31.01.2026",
+  "status": "unknown",
+  "statusDate": "31.01.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    278,
+    279,
+    280
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [
+    "data/vehicles/mercedes-benz/s-class-w223/tg-0278/photos/001.jpg",
+    "data/vehicles/mercedes-benz/s-class-w223/tg-0278/photos/002.jpg"
+  ],
+  "image": "data/vehicles/mercedes-benz/s-class-w223/tg-0278/cover.jpg"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0809",
+  "id": 809,
+  "slug": "toyota-camry-80-tg-0809",
+  "brand": "toyota",
+  "model": "Camry 80 — европейская версия",
+  "name": "Toyota Camry 80 — европейская версия",
+  "types": [
+    "sedan"
+  ],
+  "country": "jp",
+  "body": "Седан",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": 6000000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "08.10.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "08.10.2026",
+  "status": "unknown",
+  "statusDate": "08.10.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    809
+  ],
+  "price_history": [
+    {
+      "date": "08.10.2026",
+      "amount": 6000000,
+      "currency": "RUB",
+      "message_id": 809,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

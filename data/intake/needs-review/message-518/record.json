@@ -1,0 +1,170 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 518,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "‼️РАСПРОДАЖА РЕТРО АВТОМОБИЛЕЙ ‼️\nПрошу без воздуха 🌬️\nКонкретные предложения. \n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_417@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 519,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_418@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 520,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_419@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 521,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_420@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 522,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_421@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 523,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_422@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 524,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_423@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 525,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_424@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 526,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_425@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 527,
+      "date": "27.04.2026 19:47:01 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_426@27-04-2026_19-47-01.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_417@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_417@27-04-2026_19-47-01.jpg",
+      "source_sha256": "75e1d84e4495cfb82b1f163727d4c8eaa6c803f9b5d75a8354b93e38940c54d2"
+    },
+    {
+      "file": "photos/photo_418@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_418@27-04-2026_19-47-01.jpg",
+      "source_sha256": "5a79a9674e54391b67063925fb8a3a8e98790dc032bafab1770d53b753faea1c"
+    },
+    {
+      "file": "photos/photo_419@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_419@27-04-2026_19-47-01.jpg",
+      "source_sha256": "069b4c07c29b9b5d03c711d240d5a64c6b531f3be8740fc27d19ffa1f144ce5f"
+    },
+    {
+      "file": "photos/photo_420@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_420@27-04-2026_19-47-01.jpg",
+      "source_sha256": "da049dedb2a3bb5b5c679f7daab87d5d1cd9236e2a78f080646db61aa0f6f09c"
+    },
+    {
+      "file": "photos/photo_421@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_421@27-04-2026_19-47-01.jpg",
+      "source_sha256": "b9696cb7e5e35faa5ef62f548b8712cbc26b51432092f09c7eb6616591b37c9f"
+    },
+    {
+      "file": "photos/photo_422@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_422@27-04-2026_19-47-01.jpg",
+      "source_sha256": "21d45cd1333066eadf80fa4b4f505e772bdeb9e139153de4acae1e58e86eef40"
+    },
+    {
+      "file": "photos/photo_423@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_423@27-04-2026_19-47-01.jpg",
+      "source_sha256": "cbac1608ff26ae05d8c487c222bbc4715f62f1417724b9e84370eb5856ee8400"
+    },
+    {
+      "file": "photos/photo_424@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_424@27-04-2026_19-47-01.jpg",
+      "source_sha256": "9b92579478498604648bfe598954d0b475ca8bfb2eebbc6001772dc1b7538fe6"
+    },
+    {
+      "file": "photos/photo_425@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_425@27-04-2026_19-47-01.jpg",
+      "source_sha256": "2274be24f9a71971a941cf371ba6a05a1f34fba82d398ab21850c6d7518c9c40"
+    },
+    {
+      "file": "photos/photo_426@27-04-2026_19-47-01.jpg",
+      "source_file": "photos/photo_426@27-04-2026_19-47-01.jpg",
+      "source_sha256": "43539acc964a46e3078e4bbfbbe9574186fd971d9e711349f104f06ed39f05c8"
+    }
+  ]
+}

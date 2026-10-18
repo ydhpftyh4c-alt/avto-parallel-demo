@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0329",
+  "id": 329,
+  "slug": "bmw-1-tg-0329",
+  "brand": "bmw",
+  "model": "1 серии",
+  "name": "BMW 1 серии",
+  "types": [
+    "hatchback"
+  ],
+  "country": "de",
+  "body": "Хэтчбек",
+  "year": "2022 год",
+  "mileage": "33 000 км",
+  "engine": "1.5т 140сил",
+  "price": 1900000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "15.02.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "15.02.2026",
+  "status": "unknown",
+  "statusDate": "15.02.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2022,
+    "mileage_km": 33000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336
+  ],
+  "price_history": [
+    {
+      "date": "15.02.2026",
+      "amount": 1900000,
+      "currency": "RUB",
+      "message_id": 329,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/bmw/1/tg-0329/photos/001.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/002.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/003.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/004.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/005.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/006.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/007.jpg",
+    "data/vehicles/bmw/1/tg-0329/photos/008.jpg"
+  ],
+  "image": "data/vehicles/bmw/1/tg-0329/cover.jpg"
+}

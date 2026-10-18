@@ -1,0 +1,143 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 352,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "Volkswagen Tiguan L 1.4TSI 280TSI Trendy Limited Edition, 2023 model, \n🔹Пробег: 63,000 km,\n\nЦена: 2.660.000₽",
+      "photos": [
+        "photos/photo_262@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 353,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_263@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 354,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_264@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 355,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_265@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 356,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_266@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 357,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_267@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 358,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_268@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 359,
+      "date": "25.02.2026 16:43:33 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_269@25-02-2026_16-43-33.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_262@25-02-2026_16-43-33.jpg",
+      "source_sha256": "9b79a588212137594f0071589257e6d3a642e9e80e72b87f82757af45ec031b5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_263@25-02-2026_16-43-33.jpg",
+      "source_sha256": "e06a0b80472feb336c5fe2d4638d502ddb2eb96d7f4c9f4e1fb3ae064e8d11c1",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_264@25-02-2026_16-43-33.jpg",
+      "source_sha256": "8274261d2ff78bccc6199bf79644f2476cf42fc6d8d6878097571bfb9c5a127b",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_265@25-02-2026_16-43-33.jpg",
+      "source_sha256": "d007c8595bf9ac33a2c23dd0f723b8d38892a4178165f1f86d7e1620b40a000a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_266@25-02-2026_16-43-33.jpg",
+      "source_sha256": "7dd993af9bb60137612b1db0422a05b8950bf922042c0bf92a2fd68ccac13e61",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_267@25-02-2026_16-43-33.jpg",
+      "source_sha256": "bc6f4b095b3f44c7a52adeccfaf01de21fa1fcd9409d4e69e012fbb586de149a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_268@25-02-2026_16-43-33.jpg",
+      "source_sha256": "03df12b732e94b847f7e81b7b8e1a10cd5863b2b138823647c18b1f5903f3b9e",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_269@25-02-2026_16-43-33.jpg",
+      "source_sha256": "509880b44ceefe416285bf5926df7cef08cb9d66902b6ed047781a169ef11b15",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

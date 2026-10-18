@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0282",
+  "id": 282,
+  "slug": "skoda-octavia-tg-0282",
+  "brand": "skoda",
+  "model": "Octavia",
+  "name": "Skoda Octavia",
+  "types": [
+    "liftback"
+  ],
+  "country": "cz",
+  "body": "Лифтбек",
+  "year": "2020 год",
+  "mileage": "99 000 км",
+  "engine": "1.4 (125 л.с)",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "31.01.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "31.01.2026",
+  "status": "unknown",
+  "statusDate": "31.01.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2020,
+    "mileage_km": 99000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [
+    "data/vehicles/skoda/octavia/tg-0282/photos/001.jpg",
+    "data/vehicles/skoda/octavia/tg-0282/photos/002.jpg",
+    "data/vehicles/skoda/octavia/tg-0282/photos/003.jpg",
+    "data/vehicles/skoda/octavia/tg-0282/photos/004.jpg",
+    "data/vehicles/skoda/octavia/tg-0282/photos/005.jpg",
+    "data/vehicles/skoda/octavia/tg-0282/photos/006.jpg",
+    "data/vehicles/skoda/octavia/tg-0282/photos/007.jpg"
+  ],
+  "image": "data/vehicles/skoda/octavia/tg-0282/cover.jpg"
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0146",
+  "id": 146,
+  "slug": "bmw-530li-xdrive-tg-0146",
+  "brand": "bmw",
+  "model": "530Li xDrive",
+  "name": "BMW 530Li xDrive",
+  "types": [
+    "sedan"
+  ],
+  "country": "de",
+  "body": "Седан",
+  "year": "2025 год",
+  "mileage": "Новый — по объявлению",
+  "engine": "Двигатель:бензин  / 2.0 / 258 л.с.",
+  "price": 8250000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "13.01.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "13.01.2026",
+  "status": "sold",
+  "statusDate": "22.01.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2025,
+    "mileage_km": null,
+    "is_new": true
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    215
+  ],
+  "price_history": [
+    {
+      "date": "13.01.2026",
+      "amount": 8250000,
+      "currency": "RUB",
+      "message_id": 146,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [
+    {
+      "date": "22.01.2026",
+      "status": "sold",
+      "message_id": 215
+    }
+  ],
+  "images": [
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/001.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/002.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/003.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/004.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/005.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/006.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/007.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/008.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/009.jpg",
+    "data/vehicles/bmw/530li-xdrive/tg-0146/photos/010.jpg"
+  ],
+  "image": "data/vehicles/bmw/530li-xdrive/tg-0146/cover.jpg"
+}

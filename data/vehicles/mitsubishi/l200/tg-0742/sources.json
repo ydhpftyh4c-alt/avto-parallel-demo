@@ -1,0 +1,109 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 742,
+      "date": "24.09.2026 17:57:12 UTC+03:00",
+      "text": "Mitsubishi L200 🆕 Новый \nПод заказ. Из Грузии за 1️⃣ неделю.",
+      "photos": [
+        "photos/photo_558@24-09-2026_17-57-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 743,
+      "date": "24.09.2026 17:57:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_559@24-09-2026_17-57-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 744,
+      "date": "24.09.2026 17:57:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_560@24-09-2026_17-57-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 745,
+      "date": "24.09.2026 17:57:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_561@24-09-2026_17-57-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 746,
+      "date": "24.09.2026 17:57:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_562@24-09-2026_17-57-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 747,
+      "date": "24.09.2026 17:57:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_563@24-09-2026_17-57-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_558@24-09-2026_17-57-12.jpg",
+      "source_sha256": "56b73a4a6cf4f38691802c7549977a4471b2c859aab3e043b8e0c0d5c3e2b8cd",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_559@24-09-2026_17-57-12.jpg",
+      "source_sha256": "2363489f4db8ba7c2b053f9381a22c8f9a0bb98f030584eeafbf671d9ebcb971",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_560@24-09-2026_17-57-12.jpg",
+      "source_sha256": "0c06d072889675a84a12d47d03896a077f6206adf5821c1e7ed8ee684caf1e0b",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_561@24-09-2026_17-57-12.jpg",
+      "source_sha256": "249546b89a4c4891fa5a4f1cc90faa791303dac6c6b71c8525f544b7a73ce7e1",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_562@24-09-2026_17-57-12.jpg",
+      "source_sha256": "fa404edd51061c29dd33034958abc548d8284b2a848d72bce8d254c96cdb7ae7",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_563@24-09-2026_17-57-12.jpg",
+      "source_sha256": "b084805f51c7ee910923e117d6e82e4afe7197db765528273bdb7df78d383506",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

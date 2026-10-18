@@ -1,0 +1,92 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 613,
+      "date": "09.07.2026 21:39:04 UTC+03:00",
+      "text": "🚙 Продажа BMW X1 2022 (F48)\n\n✅ Год: 07.2022\n✅ Пробег: 50 000 км\n✅ Мотор: 1.5 (140 л.с.) + Steptronic\n✅ Привод: Передний\n✅ Комплектация: Fashion Edition (кожа, панорама, круговой обзор, адаптивный круиз, цифровая панель)\n\nОтличное состояние, чистый автомобиль.\nЦена: 2 650 000 ₽ (под ключ).",
+      "photos": [
+        "photos/photo_494@09-07-2026_21-39-04.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 614,
+      "date": "09.07.2026 21:39:04 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_495@09-07-2026_21-39-04.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 615,
+      "date": "09.07.2026 21:39:04 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_496@09-07-2026_21-39-04.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 616,
+      "date": "09.07.2026 21:39:04 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_497@09-07-2026_21-39-04.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 617,
+      "date": "09.07.2026 21:39:04 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_498@09-07-2026_21-39-04.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_494@09-07-2026_21-39-04.jpg",
+      "source_sha256": "3864e00c45e136bd865d19f97cbeeef70c83c7103bbc429c40a0583215a41773",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_495@09-07-2026_21-39-04.jpg",
+      "source_sha256": "27a5b1e74f754589d55f8adc76539ddedc4e4885976b8c096b8e18018b01e646",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_496@09-07-2026_21-39-04.jpg",
+      "source_sha256": "4b11b63d530ef44162f54368e5aac8a27beef8ab68f34425e9c6f61d91cebb45",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_497@09-07-2026_21-39-04.jpg",
+      "source_sha256": "25a296f596c2da11cb3a2820fe8aecdcba7e4e35d440895f1173be3a745e9966",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_498@09-07-2026_21-39-04.jpg",
+      "source_sha256": "6f0c476ed3e845dad3735e648adbd1841e650572690703fc15383d16abb3dc45",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

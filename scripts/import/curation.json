@@ -1,0 +1,1359 @@
+{
+  "schema_version": 1,
+  "export_date": "2026-10-18",
+  "vehicles": [
+    {
+      "message_id": 4,
+      "brand": "skoda",
+      "model": "Rapid",
+      "types": [
+        "sedan"
+      ],
+      "country": "cz",
+      "year": 2018,
+      "mileage_km": 85000,
+      "is_new": false,
+      "price": 1440000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 26,
+      "brand": "volkswagen",
+      "model": "Polo",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 84000,
+      "is_new": false,
+      "price": 1799000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 33,
+      "brand": "volkswagen",
+      "model": "Polo",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2020,
+      "mileage_km": 99000,
+      "is_new": false,
+      "price": 1770000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 42,
+      "brand": "volkswagen",
+      "model": "Polo",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2016,
+      "mileage_km": 92000,
+      "is_new": false,
+      "price": 1280000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 78,
+      "brand": "skoda",
+      "model": "Kodiaq",
+      "types": [
+        "suv"
+      ],
+      "country": "cz",
+      "year": 2018,
+      "mileage_km": 92000,
+      "is_new": false,
+      "price": 3190000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 84,
+      "brand": "bmw",
+      "model": "235",
+      "types": [
+        "unspecified"
+      ],
+      "country": "de",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 87,
+      "brand": "zeekr",
+      "model": "8X",
+      "types": [
+        "suv"
+      ],
+      "country": "cn",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 95,
+      "brand": "audi",
+      "model": "Q5",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2012,
+      "mileage_km": 199000,
+      "is_new": false,
+      "price": 1500000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 104,
+      "brand": "toyota",
+      "model": "RAV4",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 105,
+      "brand": "skoda",
+      "model": "Rapid",
+      "types": [
+        "sedan"
+      ],
+      "country": "cz",
+      "year": 2021,
+      "mileage_km": 65000,
+      "is_new": false,
+      "price": 1925000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 116,
+      "brand": "bmw",
+      "model": "3 серии — два автомобиля",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 135,
+      "brand": "bmw",
+      "model": "235 Li",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 6250000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 146,
+      "brand": "bmw",
+      "model": "530Li xDrive",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 8250000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 160,
+      "brand": "bmw",
+      "model": "330i юбилейная версия",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 7199000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 170,
+      "brand": "volkswagen",
+      "model": "Tiguan",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2018,
+      "mileage_km": 118000,
+      "is_new": false,
+      "price": 2750000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 178,
+      "brand": "mazda",
+      "model": "CX-5 Supreme",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": 2017,
+      "mileage_km": 77000,
+      "is_new": false,
+      "price": 2850000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 187,
+      "brand": "ducati",
+      "model": "Streetfighter V4 S",
+      "types": [
+        "motorcycle"
+      ],
+      "country": "it",
+      "year": null,
+      "mileage_km": 11000,
+      "is_new": false,
+      "price": 1900000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 220,
+      "brand": "volkswagen",
+      "model": "Polo",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 109000,
+      "is_new": false,
+      "price": 1625000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 224,
+      "brand": "volkswagen",
+      "model": "T-Roc — предложение модели",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 2200000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 275,
+      "brand": "bmw",
+      "model": "R18 Roland Sands Design",
+      "types": [
+        "motorcycle"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 7800,
+      "is_new": false,
+      "price": 1300000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 278,
+      "brand": "mercedes-benz",
+      "model": "S-Class W223 — предзаказ",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 282,
+      "brand": "skoda",
+      "model": "Octavia",
+      "types": [
+        "liftback"
+      ],
+      "country": "cz",
+      "year": 2020,
+      "mileage_km": 99000,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 291,
+      "brand": "kia",
+      "model": "K5 Prestige",
+      "types": [
+        "sedan"
+      ],
+      "country": "kr",
+      "year": 2020,
+      "mileage_km": 105000,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 298,
+      "brand": "volkswagen",
+      "model": "Golf 280TSI R-Line",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 47000,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 319,
+      "brand": "lexus",
+      "model": "RX 300 — два автомобиля",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 322,
+      "brand": "chevrolet",
+      "model": "Monza",
+      "types": [
+        "sedan"
+      ],
+      "country": "us",
+      "year": 2022,
+      "mileage_km": 42000,
+      "is_new": false,
+      "price": 1370000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 329,
+      "brand": "bmw",
+      "model": "1 серии",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 33000,
+      "is_new": false,
+      "price": 1900000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 337,
+      "brand": "bmw",
+      "model": "X3 30L",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2025,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 6800000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 346,
+      "brand": "mazda",
+      "model": "CX-5 High+",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 35000,
+      "currency": "USD"
+    },
+    {
+      "message_id": 352,
+      "brand": "volkswagen",
+      "model": "Tiguan L 280TSI",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2023,
+      "mileage_km": 63000,
+      "is_new": false,
+      "price": 2660000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 360,
+      "brand": "bmw",
+      "model": "Z4",
+      "types": [
+        "convertible"
+      ],
+      "country": "de",
+      "year": 2023,
+      "mileage_km": 67000,
+      "is_new": false,
+      "price": 5000000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 371,
+      "brand": "skoda",
+      "model": "Octavia PRO — модель 2022, выпуск 2021",
+      "types": [
+        "liftback"
+      ],
+      "country": "cz",
+      "year": 2021,
+      "mileage_km": 42000,
+      "is_new": false,
+      "price": 2225000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 380,
+      "brand": "bmw",
+      "model": "X6 xDrive40i M",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2025,
+      "mileage_km": 20500,
+      "is_new": false,
+      "price": 11300000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 387,
+      "brand": "audi",
+      "model": "A3 Sport Progressive",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 2515000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 394,
+      "brand": "zeekr",
+      "model": "001 YOU Z SPORT",
+      "types": [
+        "electric",
+        "liftback"
+      ],
+      "country": "cn",
+      "year": 2023,
+      "mileage_km": 60000,
+      "is_new": false,
+      "price": 5100000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 404,
+      "brand": "byd",
+      "model": "FangChengBao Leopard 5",
+      "types": [
+        "suv"
+      ],
+      "country": "cn",
+      "year": 2024,
+      "mileage_km": 38100,
+      "is_new": false,
+      "price": 5800000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 417,
+      "brand": "audi",
+      "model": "A3 Sportback 35 TFSI — модель 2022, выпуск 2023",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2023,
+      "mileage_km": 24000,
+      "is_new": false,
+      "price": 2380000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 437,
+      "brand": "nissan",
+      "model": "Xiaoxing 22 — название из объявления",
+      "types": [
+        "unspecified"
+      ],
+      "country": "jp",
+      "year": 2023,
+      "mileage_km": 29195,
+      "is_new": false,
+      "price": 1975000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 445,
+      "brand": "bmw",
+      "model": "xDrive30L Premium M Sport — модель не указана",
+      "types": [
+        "unspecified"
+      ],
+      "country": "de",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 7600000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 448,
+      "brand": "nissan",
+      "model": "X-Trail",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": 2019,
+      "mileage_km": 108000,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 466,
+      "brand": "nissan",
+      "model": "Murano",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": 2019,
+      "mileage_km": 196000,
+      "is_new": false,
+      "price": 2390000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 470,
+      "brand": "bmw",
+      "model": "740Li",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 46700,
+      "is_new": false,
+      "price": 7800000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 480,
+      "brand": "zeekr",
+      "model": "8X — предзаказ",
+      "types": [
+        "suv"
+      ],
+      "country": "cn",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 481,
+      "brand": "bmw",
+      "model": "320d GT xDrive",
+      "types": [
+        "liftback"
+      ],
+      "country": "de",
+      "year": 2018,
+      "mileage_km": 104300,
+      "is_new": false,
+      "price": 2790000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 491,
+      "brand": "volkswagen",
+      "model": "Tiguan L R-Line — модель 2023, выпуск 2022",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 67000,
+      "is_new": false,
+      "price": 2355000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 501,
+      "brand": "geely",
+      "model": "Galaxy Starship 7",
+      "types": [
+        "suv"
+      ],
+      "country": "cn",
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 502,
+      "brand": "chevrolet",
+      "model": "Orlando — год требует проверки",
+      "types": [
+        "minivan"
+      ],
+      "country": "us",
+      "year": 2022,
+      "mileage_km": 52000,
+      "is_new": false,
+      "price": 1850000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 508,
+      "brand": "volkswagen",
+      "model": "Tayron — модель 2023, выпуск 2022",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 22000,
+      "is_new": false,
+      "price": 2650000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 576,
+      "brand": "audi",
+      "model": "A3 New Premium",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": null,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 3750000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 586,
+      "brand": "toyota",
+      "model": "Camry Hybrid",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 4050000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 597,
+      "brand": "land-rover",
+      "model": "Range Rover Sport",
+      "types": [
+        "suv"
+      ],
+      "country": "gb",
+      "year": 2021,
+      "mileage_km": 90500,
+      "is_new": false,
+      "price": 6500000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 613,
+      "brand": "bmw",
+      "model": "X1 F48 Fashion Edition",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 50000,
+      "is_new": false,
+      "price": 2650000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 628,
+      "brand": "mercedes-benz",
+      "model": "GLC 300 Coupe — в тексте Clc",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 676,
+      "brand": "mazda",
+      "model": "CX-5 Supreme",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": 2016,
+      "mileage_km": 73000,
+      "is_new": false,
+      "price": 2400000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 688,
+      "brand": "li-auto",
+      "model": "Lixiang L6 MAX",
+      "types": [
+        "suv"
+      ],
+      "country": "cn",
+      "year": 2024,
+      "mileage_km": 32500,
+      "is_new": false,
+      "price": 5990000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 697,
+      "brand": "kia",
+      "model": "Optima GT",
+      "types": [
+        "sedan"
+      ],
+      "country": "kr",
+      "year": 2016,
+      "mileage_km": 103300,
+      "is_new": false,
+      "price": 1999000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 717,
+      "brand": "audi",
+      "model": "Q5 quattro",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2012,
+      "mileage_km": 110000,
+      "is_new": false,
+      "price": 1890000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 721,
+      "brand": "mercedes-benz",
+      "model": "GLC 300",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2026,
+      "mileage_km": 8,
+      "is_new": false,
+      "price": 8650000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 731,
+      "brand": "skoda",
+      "model": "Octavia A7",
+      "types": [
+        "liftback"
+      ],
+      "country": "cz",
+      "year": 2017,
+      "mileage_km": 122000,
+      "is_new": false,
+      "price": 2090000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 742,
+      "brand": "mitsubishi",
+      "model": "L200",
+      "types": [
+        "pickup"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "is_new": true,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 758,
+      "brand": "bmw",
+      "model": "X3",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 117000,
+      "is_new": false,
+      "price": 4500000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 768,
+      "brand": "mini",
+      "model": "Cooper C",
+      "types": [
+        "hatchback"
+      ],
+      "country": "gb",
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false,
+      "price": null,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 779,
+      "brand": "mini",
+      "model": "Countryman",
+      "types": [
+        "suv"
+      ],
+      "country": "gb",
+      "year": 2026,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 79000,
+      "currency": "GEL"
+    },
+    {
+      "message_id": 789,
+      "brand": "hyundai",
+      "model": "KONA",
+      "types": [
+        "suv"
+      ],
+      "country": "kr",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 2500000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 796,
+      "brand": "qiyuan",
+      "model": "Q07",
+      "types": [
+        "suv"
+      ],
+      "country": "cn",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 3300000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 799,
+      "brand": "volkswagen",
+      "model": "Jetta",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2019,
+      "mileage_km": 70000,
+      "is_new": false,
+      "price": 1450000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 809,
+      "brand": "toyota",
+      "model": "Camry 80 — европейская версия",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 6000000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 811,
+      "brand": "qiyuan",
+      "model": "A07",
+      "types": [
+        "liftback"
+      ],
+      "country": "cn",
+      "year": null,
+      "mileage_km": null,
+      "is_new": false,
+      "price": 2300000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 828,
+      "brand": "porsche",
+      "model": "Taycan Turbo",
+      "types": [
+        "electric",
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 21000,
+      "is_new": false,
+      "price": 9850000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 838,
+      "brand": "toyota",
+      "model": "bZ3X 520 Pro+",
+      "types": [
+        "electric",
+        "suv"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "is_new": true,
+      "price": 2780000,
+      "currency": "RUB"
+    },
+    {
+      "message_id": 455,
+      "variant": 1,
+      "brand": "toyota",
+      "model": "Yaris",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": 2021,
+      "mileage_km": 27000,
+      "price": 1565000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 2,
+      "brand": "audi",
+      "model": "Q3 синий",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 46000,
+      "price": 2725000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 3,
+      "brand": "volkswagen",
+      "model": "Bora",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 41000,
+      "price": 1800000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 4,
+      "brand": "audi",
+      "model": "Q3 белый",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 40000,
+      "price": 2920000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 5,
+      "brand": "audi",
+      "model": "A3",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2023,
+      "mileage_km": 17000,
+      "price": 2585000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 6,
+      "brand": "volkswagen",
+      "model": "Golf R",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 48000,
+      "price": 2305000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 7,
+      "brand": "honda",
+      "model": "XR-V",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": 2021,
+      "mileage_km": 36000,
+      "price": 2000000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 8,
+      "brand": "bmw",
+      "model": "1 серии",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2022,
+      "mileage_km": 30000,
+      "price": 2110000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 9,
+      "brand": "bmw",
+      "model": "1 серии",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 39000,
+      "price": 1830000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 10,
+      "brand": "bmw",
+      "model": "1 серии",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 49000,
+      "price": 1820000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 11,
+      "brand": "suzuki",
+      "model": "Jimny — в источнике «Джимик»",
+      "types": [
+        "suv"
+      ],
+      "country": "jp",
+      "year": 2022,
+      "mileage_km": 70000,
+      "price": 2840000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true,
+      "review_required": true
+    },
+    {
+      "message_id": 455,
+      "variant": 12,
+      "brand": "audi",
+      "model": "A3L седан",
+      "types": [
+        "sedan"
+      ],
+      "country": "de",
+      "year": 2023,
+      "mileage_km": 46000,
+      "price": 2420000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 13,
+      "brand": "audi",
+      "model": "A3 хэтчбек",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 41000,
+      "price": 2350000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 14,
+      "brand": "honda",
+      "model": "Crider — в источнике «Кридер»",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": 2022,
+      "mileage_km": 46000,
+      "price": 1650000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true,
+      "review_required": true
+    },
+    {
+      "message_id": 455,
+      "variant": 15,
+      "brand": "audi",
+      "model": "Q3 белый",
+      "types": [
+        "suv"
+      ],
+      "country": "de",
+      "year": 2021,
+      "mileage_km": 55000,
+      "price": 2610000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 16,
+      "brand": "toyota",
+      "model": "Corolla 1.2T",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": 2022,
+      "mileage_km": 33000,
+      "price": 1775000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 17,
+      "brand": "volkswagen",
+      "model": "Golf R",
+      "types": [
+        "hatchback"
+      ],
+      "country": "de",
+      "year": 2023,
+      "mileage_km": 26000,
+      "price": 2285000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 455,
+      "variant": 18,
+      "brand": "geely",
+      "model": "Emgrand синий",
+      "types": [
+        "sedan"
+      ],
+      "country": "cn",
+      "year": 2023,
+      "mileage_km": 29000,
+      "price": 1505000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 797,
+      "variant": 1,
+      "brand": "toyota",
+      "model": "Camry 80",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "price": 3700000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    },
+    {
+      "message_id": 797,
+      "variant": 2,
+      "brand": "toyota",
+      "model": "Camry 85",
+      "types": [
+        "sedan"
+      ],
+      "country": "jp",
+      "year": null,
+      "mileage_km": null,
+      "price": 4250000,
+      "currency": "RUB",
+      "is_new": false,
+      "shared_album": true
+    }
+  ],
+  "duplicate_messages": {
+    "757": 758,
+    "798": 717,
+    "817": 731
+  },
+  "explicit_photo_links": {
+    "26": [
+      16
+    ],
+    "42": [
+      43
+    ],
+    "78": [
+      70
+    ],
+    "95": [
+      88
+    ]
+  },
+  "needs_review_ids": [
+    84,
+    116,
+    319,
+    437,
+    445,
+    502,
+    628
+  ],
+  "case_ids": [
+    247,
+    351,
+    574,
+    590
+  ],
+  "news_ids": [
+    15,
+    82,
+    201,
+    212,
+    216,
+    230,
+    414,
+    427
+  ],
+  "update_without_reply": {
+    "81": null,
+    "159": null
+  }
+}

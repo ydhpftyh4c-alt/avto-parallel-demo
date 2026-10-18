@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0437",
+  "id": 437,
+  "slug": "nissan-xiaoxing-22-tg-0437",
+  "brand": "nissan",
+  "model": "Xiaoxing 22 — название из объявления",
+  "name": "Nissan Xiaoxing 22 — название из объявления",
+  "types": [
+    "unspecified"
+  ],
+  "country": "jp",
+  "body": "Кузов не указан",
+  "year": "2023 год",
+  "mileage": "29 195 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 1975000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "06.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "06.03.2026",
+  "status": "unknown",
+  "statusDate": "06.03.2026",
+  "review_required": true,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2023,
+    "mileage_km": 29195,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444
+  ],
+  "price_history": [
+    {
+      "date": "06.03.2026",
+      "amount": 1975000,
+      "currency": "RUB",
+      "message_id": 437,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/001.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/002.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/003.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/004.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/005.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/006.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/007.jpg",
+    "data/vehicles/nissan/xiaoxing-22/tg-0437/photos/008.jpg"
+  ],
+  "image": "data/vehicles/nissan/xiaoxing-22/tg-0437/cover.jpg"
+}

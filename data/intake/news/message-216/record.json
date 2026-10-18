@@ -1,0 +1,74 @@
+{
+  "category": "news",
+  "related_message_ids": [
+    216,
+    217,
+    218,
+    219
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 216,
+      "date": "22.01.2026 15:34:07 UTC+03:00",
+      "text": "🤔 ЕЩЕ ОДНА НОВИНКА 🤔\nВ Китае стартовало производство обновлённой Honda Fit, которая доступна по цене от 700 тысяч рублей.\n\nАвтомобиль оснащён большим экраном мультимедийной системы, а под капотом установлен бензиновый двигатель мощностью 124 лошадиные силы. Заявленный пробег на одной заправке составляет до 700 километров.\n\nВ рамках совместного проекта GAC-Honda планируется выпустить около 3000 единиц этой модели.",
+      "photos": [
+        "photos/photo_154@22-01-2026_15-34-07.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 217,
+      "date": "22.01.2026 15:34:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_155@22-01-2026_15-34-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 218,
+      "date": "22.01.2026 15:34:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_156@22-01-2026_15-34-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 219,
+      "date": "22.01.2026 15:34:08 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_157@22-01-2026_15-34-08.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_154@22-01-2026_15-34-07.jpg",
+      "source_file": "photos/photo_154@22-01-2026_15-34-07.jpg",
+      "source_sha256": "54dcb7c51598ed702f4d5800dce19145948544cc866ca7e8afdba24a1aab8d44"
+    },
+    {
+      "file": "photos/photo_155@22-01-2026_15-34-08.jpg",
+      "source_file": "photos/photo_155@22-01-2026_15-34-08.jpg",
+      "source_sha256": "1e68d9ecd7020bc93e0c620d5f0014f3268c4bb255e2320f5fe8ac313fab10c8"
+    },
+    {
+      "file": "photos/photo_156@22-01-2026_15-34-08.jpg",
+      "source_file": "photos/photo_156@22-01-2026_15-34-08.jpg",
+      "source_sha256": "a45f08171bf46b8d0171164682bbfc57aab82a021126881d4be016595346e323"
+    },
+    {
+      "file": "photos/photo_157@22-01-2026_15-34-08.jpg",
+      "source_file": "photos/photo_157@22-01-2026_15-34-08.jpg",
+      "source_sha256": "1117015f5ef90a028df2054989a1986b628e4724c140478ffb64b41ea26cf203"
+    }
+  ]
+}

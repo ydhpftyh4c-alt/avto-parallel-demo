@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 828,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "Porsche Taycan Turbo 2021г.в., 2022 модельный год. дилерский автомобиль, не привезенка. \n\nПробег всего 21.000км! Без ДТП.\n\nБогатая комплектация + дополнение к модификации Turbo: пневмоподвеска, дополнительный монитор на центральной консоли, премиальная аудиосистема \"BOSE\"\n\nДОПы: шумоизоляция кузова - \"капсула\", полностью оклеен прозрачной полиуретановой плёнкой.\nЦена:9️⃣.8️⃣5️⃣0️⃣.0️⃣0️⃣0️⃣",
+      "photos": [
+        "photos/photo_614@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 829,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_615@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 830,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_616@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 831,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_617@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 832,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_618@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 833,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_619@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 834,
+      "date": "17.10.2026 18:56:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_620@17-10-2026_18-56-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 835,
+      "date": "17.10.2026 18:57:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_621@17-10-2026_18-57-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 836,
+      "date": "17.10.2026 18:57:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_622@17-10-2026_18-57-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 837,
+      "date": "17.10.2026 18:57:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_623@17-10-2026_18-57-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_614@17-10-2026_18-56-59.jpg",
+      "source_sha256": "f7adbc92a92a3614e4c61b5696d6f673c9ddd987a0688f5280ac08217f2ce81e",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_615@17-10-2026_18-56-59.jpg",
+      "source_sha256": "68e7423515fd676da9d3f062e2006669182dfa0ba1b34e46042183e32d08500e",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_616@17-10-2026_18-56-59.jpg",
+      "source_sha256": "246e3e23ac78b27fed5aa11e8c80c4c33178ff97f3c9b68d296f1030698c8b4c",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_617@17-10-2026_18-56-59.jpg",
+      "source_sha256": "434d7f65b6ba6566d578b8cb1837f3f9e6e4c62fa676124714a4ee5784b85241",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_618@17-10-2026_18-56-59.jpg",
+      "source_sha256": "8f189111d5e907089a0292ab486df6d32471603480f5b2bf0b52fbb3577c3d71",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_619@17-10-2026_18-56-59.jpg",
+      "source_sha256": "9fab36d8bdd036c854ad6e88be742d712da79ed275ba897628759f57f6dbd0a9",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_620@17-10-2026_18-56-59.jpg",
+      "source_sha256": "1ffc7b0d42985bd0e076d8fab9e344958ce811943cec5aee9e04676dc677c99c",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_621@17-10-2026_18-57-00.jpg",
+      "source_sha256": "ee3f6b28ea270e32f46eb7c20969d5f436a6338963768de55a93eaf89c4b5eff",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_622@17-10-2026_18-57-00.jpg",
+      "source_sha256": "6fc8cd8d72caff9574f3cfb5e983e34cd59890e915b4ba62e7adafa2e295ff3e",
+      "width": 1280,
+      "height": 855
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_623@17-10-2026_18-57-00.jpg",
+      "source_sha256": "ab0d3813b343271fa162b5936117dc87a05321c1e2f4bbc4964a10da38848b7a",
+      "width": 1280,
+      "height": 855
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    27,
+    28
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 27,
+      "date": "11.12.2025 13:33:53 UTC+03:00",
+      "text": "Скоро в Москве !!! Будет интересно!",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": true
+    },
+    {
+      "id": 28,
+      "date": "11.12.2025 13:33:53 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_23@11-12-2025_13-33-53.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_23@11-12-2025_13-33-53.jpg",
+      "source_file": "photos/photo_23@11-12-2025_13-33-53.jpg",
+      "source_sha256": "6c9bfa5210f0e2adb12b9d87fad527ecfbbc8134f2ae3c23b0952f2f11dddcb1"
+    }
+  ]
+}

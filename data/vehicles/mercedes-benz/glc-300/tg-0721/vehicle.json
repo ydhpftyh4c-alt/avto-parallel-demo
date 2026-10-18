@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0721",
+  "id": 721,
+  "slug": "mercedes-glc",
+  "brand": "mercedes-benz",
+  "model": "GLC 300",
+  "name": "Mercedes-Benz GLC 300",
+  "types": [
+    "suv"
+  ],
+  "country": "de",
+  "body": "Кроссовер",
+  "year": "2026 год",
+  "mileage": "8 км",
+  "engine": "2,0 л · бензин · 258 л.с. · 4MATIC",
+  "price": 8550000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "01.10.2026",
+  "priceNote": "Учтено снижение цены от 1 октября в ответе к исходному объявлению. Актуальность требует подтверждения.",
+  "date": "16.09.2026",
+  "status": "unknown",
+  "statusDate": "16.09.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2026,
+    "mileage_km": 8,
+    "is_new": false
+  },
+  "features": [
+    "Полный привод 4MATIC",
+    "Бензиновый двигатель 2,0 л",
+    "Из Кореи — по публикации"
+  ],
+  "description": "Исходное объявление опубликовано 16 сентября 2026 года. Позднее в канале опубликовано связанное снижение цены до 8 550 000 ₽.",
+  "source_message_ids": [
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    730,
+    795
+  ],
+  "price_history": [
+    {
+      "date": "16.09.2026",
+      "amount": 8650000,
+      "currency": "RUB",
+      "message_id": 721,
+      "kind": "initial",
+      "applies_to_current": true
+    },
+    {
+      "date": "01.10.2026",
+      "amount": 8550000,
+      "currency": "RUB",
+      "message_id": 795,
+      "kind": "price_update",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/001.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/002.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/003.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/004.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/005.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/006.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/007.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/008.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/009.jpg",
+    "data/vehicles/mercedes-benz/glc-300/tg-0721/photos/010.jpg"
+  ],
+  "image": "data/vehicles/mercedes-benz/glc-300/tg-0721/cover.jpg"
+}

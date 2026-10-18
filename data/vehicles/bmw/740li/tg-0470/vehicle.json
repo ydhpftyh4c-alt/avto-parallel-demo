@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0470",
+  "id": 470,
+  "slug": "bmw-740li-tg-0470",
+  "brand": "bmw",
+  "model": "740Li",
+  "name": "BMW 740Li",
+  "types": [
+    "sedan"
+  ],
+  "country": "de",
+  "body": "Седан",
+  "year": "2021 год",
+  "mileage": "46 700 км",
+  "engine": "3.0 340л.с.",
+  "price": 7800000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "17.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "17.03.2026",
+  "status": "unknown",
+  "statusDate": "17.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2021,
+    "mileage_km": 46700,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479
+  ],
+  "price_history": [
+    {
+      "date": "17.03.2026",
+      "amount": 7800000,
+      "currency": "RUB",
+      "message_id": 470,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/bmw/740li/tg-0470/photos/001.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/002.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/003.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/004.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/005.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/006.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/007.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/008.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/009.jpg",
+    "data/vehicles/bmw/740li/tg-0470/photos/010.jpg"
+  ],
+  "image": "data/vehicles/bmw/740li/tg-0470/cover.jpg"
+}

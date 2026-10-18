@@ -1,0 +1,92 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 768,
+      "date": "26.09.2026 14:20:20 UTC+03:00",
+      "text": "Mini Cooper C 2026 года \n‼️ЕЩЕ ОДИН АВТО ПРОХОДНОЙ ДО 160л.с и без уплаты утиль сбора ‼️",
+      "photos": [
+        "photos/photo_583@26-09-2026_14-20-20.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 769,
+      "date": "26.09.2026 14:20:20 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_584@26-09-2026_14-20-20.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 770,
+      "date": "26.09.2026 14:20:20 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_585@26-09-2026_14-20-20.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 771,
+      "date": "26.09.2026 14:20:20 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_586@26-09-2026_14-20-20.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 772,
+      "date": "26.09.2026 14:20:20 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_587@26-09-2026_14-20-20.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_583@26-09-2026_14-20-20.jpg",
+      "source_sha256": "9ef29de0375b159f818ae3723f7e8bad71b34a578888f0376266fe154266fb65",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_584@26-09-2026_14-20-20.jpg",
+      "source_sha256": "6a1340135b4828badb649b1557321de8e0293a367f30e1ca9e9f0ec250564473",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_585@26-09-2026_14-20-20.jpg",
+      "source_sha256": "a6a5c5885c3e928decd40b4f5dce751cb4b5295837e699b1a52def2605779c23",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_586@26-09-2026_14-20-20.jpg",
+      "source_sha256": "0ee4f9a334ea2d52d8ae5dec80afccd654b1c48412e744a84c0723ec710efa5a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_587@26-09-2026_14-20-20.jpg",
+      "source_sha256": "3d4fdb5230c614328e1af0d099c0acb4b5627dd7ac144cede919654f667590e3",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}

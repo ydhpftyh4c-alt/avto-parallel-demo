@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 491,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "Volkswagen Tiguan L R-Line 2023 года выпуска, модификация: 2.0TSI 330TSI, переднеприводный R-Line Yuexiang (рестайлинг), автоматическая коробка передач.\n Дата производства: 2022 год, \nпробег: 67 000 км.\n Оригинальное лакокрасочное покрытие на металлических элементах.\n\nЦена под ключ в Уссурийске 2.355.000₽",
+      "photos": [
+        "photos/photo_391@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 492,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_392@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 493,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_393@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 494,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_394@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 495,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_395@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 496,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_396@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 497,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_397@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 498,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_398@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 499,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_399@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 500,
+      "date": "27.03.2026 10:34:54 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_400@27-03-2026_10-34-54.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_391@27-03-2026_10-34-54.jpg",
+      "source_sha256": "dfd37a1de74283ee34a9aeab51c620fea5ac4a40f62b7faf5ee4fb1aac657afd",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_392@27-03-2026_10-34-54.jpg",
+      "source_sha256": "87e0e9c6778f890c28a3548295c432108d515ca8fc80db89e94b31c9603244eb",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_393@27-03-2026_10-34-54.jpg",
+      "source_sha256": "7c066d994b72a60a3649f59f41cc90bd7d449319972c8c8484dd14ba0d1b4d71",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_394@27-03-2026_10-34-54.jpg",
+      "source_sha256": "493fe6c330b9509c134434b5bea8ee679116d6897c8fa82a3f1273c89ae85113",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_395@27-03-2026_10-34-54.jpg",
+      "source_sha256": "0f5b493db4461be05345ce3604effe0069f23bdab4ced0ec833fb822d3dcd90f",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_396@27-03-2026_10-34-54.jpg",
+      "source_sha256": "c0692497b374f038395d06f1828a4929eecb4a5ab1f670271a0cc78ab6f1a38d",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_397@27-03-2026_10-34-54.jpg",
+      "source_sha256": "981db064ab6378f8ddccfc77649ee337276766f401bab4fa354caf27d80bcd0a",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_398@27-03-2026_10-34-54.jpg",
+      "source_sha256": "cab51852bbea6b0904498379945572bdfeb5e2708eb848bb874061aba52ca303",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_399@27-03-2026_10-34-54.jpg",
+      "source_sha256": "6c1fbfba6da16915f2c43de69c704f8e10146b3d99e4cd07e2ad3739aa14cec5",
+      "width": 563,
+      "height": 750
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_400@27-03-2026_10-34-54.jpg",
+      "source_sha256": "9ee9d07360997c82fa5f4ca79c8a2d64091886adc08e7bd269b31a0c4d3e9979",
+      "width": 563,
+      "height": 750
+    }
+  ]
+}

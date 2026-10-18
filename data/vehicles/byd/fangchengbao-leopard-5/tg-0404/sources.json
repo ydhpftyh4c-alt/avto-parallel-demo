@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 404,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "BYD FangChengBao Leopard 5 \n2024, 1.5, гибрид 687 л.с\nПробег: 38100\nКузов: Родной окрас \nАвтотека: Вся зеленая✅\nКомплектация:  Самая максимальная комплектация. Автомобиль полностью русифицирован и сделан интернет, установлены всевозможные приложения. Установлены оригинальные доводчики всех дверей, Сделана полностью дополнительно шумоизоляция всего авто и арок, хотя и в штате она очень тихая. Машина заклеена в матовую пленку SPECTROL 210 мкр. Бронь лобового стекла. Пошиты дорогие ковры из кожи на весь салон, которые покрывают абсолютно все и в том числе и багажник. Керамика салона. Желтые суппорта, брызговики, шторка багажника. Дополнительно зимняя резина. Итого допов на 800.000.\nЦена: 5.800.000\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_313@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 405,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_314@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 406,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_315@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 407,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_316@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 408,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_317@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 409,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_318@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 410,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_319@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 411,
+      "date": "27.02.2026 19:38:12 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_320@27-02-2026_19-38-12.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 412,
+      "date": "27.02.2026 19:38:13 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_321@27-02-2026_19-38-13.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 413,
+      "date": "27.02.2026 19:38:13 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_322@27-02-2026_19-38-13.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_313@27-02-2026_19-38-12.jpg",
+      "source_sha256": "7a63a27c1a93c3a72ea9c59659e9363b78822f8c416ef100ae04d7d05671cd0b",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_314@27-02-2026_19-38-12.jpg",
+      "source_sha256": "7a919807652a852ba9ec08dd28709ac61481015869fa188b8cbffb14749f96a2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_315@27-02-2026_19-38-12.jpg",
+      "source_sha256": "85c4332b43f9d4a179468b6ffd843ccd409e85f0bf868e69752b96a0cbb1344f",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_316@27-02-2026_19-38-12.jpg",
+      "source_sha256": "a53c48e5695f1b85ec1dc7f3c94dc850ee63e662e4fbe88fa2811c681774cdeb",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_317@27-02-2026_19-38-12.jpg",
+      "source_sha256": "1c9a9c65da73c73e1f74d0cb2e0f90fc7b63411fe79ee03a6cc97cc33e9229e2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_318@27-02-2026_19-38-12.jpg",
+      "source_sha256": "3747b3cba1564fc6be0f959b75dd5f10e42fc962b40021b82d25ace8ccbb1e3b",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_319@27-02-2026_19-38-12.jpg",
+      "source_sha256": "89d017e074f5204f426a9af36cc529cda7589a22f95ec57c427efbdc5d6e38d2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_320@27-02-2026_19-38-12.jpg",
+      "source_sha256": "e3ddedf81eb552b471048e562a6c4ad48872eb78ed509a4a4ea92744b5831ee9",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_321@27-02-2026_19-38-13.jpg",
+      "source_sha256": "c0c3fab92f8cfab3a54a8a4f238d62f182cc4fb07383c98c6c3cc7c8b9759fd3",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_322@27-02-2026_19-38-13.jpg",
+      "source_sha256": "6280f57956f6ba8b78b1aef8da8a82119e15d4aaaeaba8808e8c8fcb67d672bb",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

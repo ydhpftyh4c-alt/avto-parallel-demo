@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0291",
+  "id": 291,
+  "slug": "kia-k5-prestige-tg-0291",
+  "brand": "kia",
+  "model": "K5 Prestige",
+  "name": "Kia K5 Prestige",
+  "types": [
+    "sedan"
+  ],
+  "country": "kr",
+  "body": "Седан",
+  "year": "2020 год",
+  "mileage": "105 000 км",
+  "engine": "2.5 Автомат",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "03.02.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "03.02.2026",
+  "status": "sold",
+  "statusDate": "09.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2020,
+    "mileage_km": 105000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    291,
+    447
+  ],
+  "price_history": [],
+  "status_history": [
+    {
+      "date": "09.03.2026",
+      "status": "sold",
+      "message_id": 447
+    }
+  ],
+  "images": [
+    "data/vehicles/kia/k5-prestige/tg-0291/photos/001.jpg"
+  ],
+  "image": "data/vehicles/kia/k5-prestige/tg-0291/cover.jpg"
+}

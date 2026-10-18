@@ -1,0 +1,49 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 278,
+      "date": "31.01.2026 12:20:03 UTC+03:00",
+      "text": "‼️всего 3️⃣квоты забронированы  для наших клиентов‼️\n🚀 Mercedes-Benz представил обновлённый S-Class\n\nMercedes-Benz официально показал рестайлинг флагманского S-Class в кузове W223. Обновление носит эволюционный характер и сосредоточено на технологиях, цифровых сервисах и доработке ассистентов, а не на радикальных изменениях внешности. Визуально модель сохранила узнаваемый облик, получив точечные корректировки 🤩\n📲 Звоните количество заказов ограничено.",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": true
+    },
+    {
+      "id": 279,
+      "date": "31.01.2026 12:20:03 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_197@31-01-2026_12-20-03.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 280,
+      "date": "31.01.2026 12:20:03 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_198@31-01-2026_12-20-03.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_197@31-01-2026_12-20-03.jpg",
+      "source_sha256": "9cbc81b39b513f8bfa1b25b181cbdda59d1f8181679194b2a46ae57914ce03e9",
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_198@31-01-2026_12-20-03.jpg",
+      "source_sha256": "946e884fd15be2c8017b49291b518e540ff1f3bdf9cada453704ce464b49b54f",
+      "width": 1280,
+      "height": 853
+    }
+  ]
+}

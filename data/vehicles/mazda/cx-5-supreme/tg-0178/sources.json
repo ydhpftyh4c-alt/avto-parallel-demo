@@ -1,0 +1,142 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 178,
+      "date": "18.01.2026 12:04:56 UTC+03:00",
+      "text": "‼️АВТОМОБИЛЬ НА КОМИССИИ‼️ \n Мазда СХ-5 | Mazda CX 5\n2017 год.\n2.0 АТ. Полный привод\nПробег 77 000\n\nДва владельца\nКузов: зпд косметика\nТехнически без нареканий.\n\nКомплектация Supreme: Кожаный салон, память сидений, проекция, двойные шумоизолирующие стекла, бесключевой доступ и старт/стоп, камера, эл. привод багажника, парктроники перед/зад, климат, круиз, обогревы всех сидений и руля.\n\nЦена 2 850.000\n\n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_133@18-01-2026_12-04-56.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 179,
+      "date": "18.01.2026 12:04:56 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_134@18-01-2026_12-04-56.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 180,
+      "date": "18.01.2026 12:04:56 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_135@18-01-2026_12-04-56.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 181,
+      "date": "18.01.2026 12:04:56 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_136@18-01-2026_12-04-56.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 182,
+      "date": "18.01.2026 12:04:57 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_137@18-01-2026_12-04-57.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 183,
+      "date": "18.01.2026 12:04:57 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_138@18-01-2026_12-04-57.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 184,
+      "date": "18.01.2026 12:04:57 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_139@18-01-2026_12-04-57.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 269,
+      "date": "29.01.2026 09:14:04 UTC+03:00",
+      "text": "👋Продан👋",
+      "photos": [],
+      "reply_to": 178,
+      "missing_video": false
+    },
+    {
+      "id": 317,
+      "date": "06.02.2026 16:43:50 UTC+03:00",
+      "text": "👋 ПРОДАН👋",
+      "photos": [],
+      "reply_to": 178,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_133@18-01-2026_12-04-56.jpg",
+      "source_sha256": "541c480b8ecd51ba80a6585378f8326836d47de8a85421214fee36fbd7d4681f",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_134@18-01-2026_12-04-56.jpg",
+      "source_sha256": "0aab347c542a85b8036b77cf72a3be3884c91a8e870856c6166b3d6be7fb668d",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_135@18-01-2026_12-04-56.jpg",
+      "source_sha256": "068dfbe728fc90e1f430111347b4f269ae7905b9d015e79b7785ba6eb57ae3f3",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_136@18-01-2026_12-04-56.jpg",
+      "source_sha256": "81dcc07489a159c8e9c0c9cbebe26f4053a7ad8f08cd4d034e3bbe1a18b58a13",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_137@18-01-2026_12-04-57.jpg",
+      "source_sha256": "fa77c4f1d20b010ce2d5aa4cfa38be9d95d9c9b288c3fa71b083d45891199bfd",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_138@18-01-2026_12-04-57.jpg",
+      "source_sha256": "64ee2255cbc298e402c46bccfefa722046c0eab8432f084d850a2d4151cfddec",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_139@18-01-2026_12-04-57.jpg",
+      "source_sha256": "b12c693821833379018201e9163bdf80e32e8c0d94ae22b32af6400568a5a9e7",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

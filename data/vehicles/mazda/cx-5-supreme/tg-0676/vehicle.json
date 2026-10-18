@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0676",
+  "id": 676,
+  "slug": "mazda-cx5",
+  "brand": "mazda",
+  "model": "CX-5 Supreme",
+  "name": "Mazda CX-5 Supreme",
+  "types": [
+    "suv"
+  ],
+  "country": "jp",
+  "body": "Кроссовер",
+  "year": "2016 год",
+  "mileage": "73 000 км",
+  "engine": "2,0 л · бензин · полный привод",
+  "price": 2350000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "22.09.2026",
+  "priceNote": "Учтено снижение цены от 22 сентября в ответе к исходному объявлению.",
+  "date": "11.08.2026",
+  "status": "unknown",
+  "statusDate": "11.08.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2016,
+    "mileage_km": 73000,
+    "is_new": false
+  },
+  "features": [
+    "Комплектация Supreme",
+    "Кожаный салон",
+    "Камера заднего вида",
+    "Парктроники спереди и сзади"
+  ],
+  "description": "Публикация описывает дилерский автомобиль с одним владельцем. Указанные сведения требуют проверки при подборе.",
+  "source_message_ids": [
+    676,
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    741
+  ],
+  "price_history": [
+    {
+      "date": "11.08.2026",
+      "amount": 2400000,
+      "currency": "RUB",
+      "message_id": 676,
+      "kind": "initial",
+      "applies_to_current": true
+    },
+    {
+      "date": "22.09.2026",
+      "amount": 2350000,
+      "currency": "RUB",
+      "message_id": 741,
+      "kind": "price_update",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/001.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/002.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/003.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/004.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/005.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/006.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/007.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/008.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/009.jpg",
+    "data/vehicles/mazda/cx-5-supreme/tg-0676/photos/010.jpg"
+  ],
+  "image": "data/vehicles/mazda/cx-5-supreme/tg-0676/cover.jpg"
+}

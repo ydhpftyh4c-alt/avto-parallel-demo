@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0480",
+  "id": 480,
+  "slug": "zeekr-8x-tg-0480",
+  "brand": "zeekr",
+  "model": "8X — предзаказ",
+  "name": "Zeekr 8X — предзаказ",
+  "types": [
+    "suv"
+  ],
+  "country": "cn",
+  "body": "Кроссовер",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "19.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "19.03.2026",
+  "status": "unknown",
+  "statusDate": "19.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    480
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

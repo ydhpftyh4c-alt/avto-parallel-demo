@@ -1,0 +1,209 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 4,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "*Шкода Рапид | Skoda Rapid*\n2018 год \n1.4 125 л.с. \n\n*Пробег* :85.000\n\n2 владелец, птс оригинал\n*Кузов*:!!*весь в родной краске*!!\nТехнические без нареканий. \n\n*Комплектация*: климатконтроль, мультируль, обогревы лобового стекла, обогрев предних и задних сидений, 4 эл. стеклоподъемника парктроник, подлокотник, usb, aux, bluetooth, Carplay. \n\nЦена 1️⃣.4️⃣4️⃣0️⃣.0️⃣0️⃣0️⃣ \n89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_2@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 5,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_3@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 6,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_4@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 7,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_5@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 8,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_6@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 9,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_7@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 10,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_8@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 11,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_9@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 12,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_10@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 13,
+      "date": "10.12.2025 13:42:38 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_11@10-12-2025_13-42-38.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 103,
+      "date": "26.12.2025 13:10:25 UTC+03:00",
+      "text": "‼️снижение цены ‼️1️⃣.4️⃣2️⃣0️⃣.0️⃣0️⃣0️⃣.",
+      "photos": [],
+      "reply_to": 4,
+      "missing_video": false
+    },
+    {
+      "id": 246,
+      "date": "27.01.2026 12:27:57 UTC+03:00",
+      "text": "‼️снижение цены ‼️1️⃣.4️⃣0️⃣0️⃣.0️⃣0️⃣0️⃣.",
+      "photos": [],
+      "reply_to": 4,
+      "missing_video": false
+    },
+    {
+      "id": 316,
+      "date": "06.02.2026 16:42:39 UTC+03:00",
+      "text": "🫰ЗАБРОНИРОВАН🫰",
+      "photos": [],
+      "reply_to": 4,
+      "missing_video": false
+    },
+    {
+      "id": 321,
+      "date": "10.02.2026 19:01:38 UTC+03:00",
+      "text": "Продан, поехала 🛣️ в тёплый  ☀️Краснодар.",
+      "photos": [],
+      "reply_to": 4,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_2@10-12-2025_13-42-38.jpg",
+      "source_sha256": "731b1eb032b245399fca8969d4c2306dbfd6ac4ddb6e66afdf75cc8f278d1a4a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_3@10-12-2025_13-42-38.jpg",
+      "source_sha256": "603448367de8df6073046ba90455dddc49d890b113f6414d3f23bad045c34892",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_4@10-12-2025_13-42-38.jpg",
+      "source_sha256": "3f938598a7df84bf815e85c8fa617ec84a5cd3ffa6438d95a5257c11bb9be0b5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_5@10-12-2025_13-42-38.jpg",
+      "source_sha256": "ca0cab42c61368294775156444ba34021f5ac27ed4ca5619dbe788112f6ba47a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_6@10-12-2025_13-42-38.jpg",
+      "source_sha256": "688e28bcf1bfd610e417c1d5585d5bece4a2cc6801ccb94cdd53df2a4fb5c177",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_7@10-12-2025_13-42-38.jpg",
+      "source_sha256": "b05ab766528ce86b2e82f802c87f873a55f0ca3edff45069ada2dd4eb7f7c1d9",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_8@10-12-2025_13-42-38.jpg",
+      "source_sha256": "ed34f054e9a6b841eb1f2558556ea8c575852eb1f8c7471f11030bea560c3502",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_9@10-12-2025_13-42-38.jpg",
+      "source_sha256": "f36cf2c15c7f7560070579287255d5073537909e8aca295bf7f1346d0dfc825c",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_10@10-12-2025_13-42-38.jpg",
+      "source_sha256": "b08512feec5a47051977218e385413f97ffbb44fcd0f0d9647934fda95b291b2",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_11@10-12-2025_13-42-38.jpg",
+      "source_sha256": "c6a1295afeb9e96e3bd0c24bc187337e6ce0d1dd2012998a0783f005747d173f",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

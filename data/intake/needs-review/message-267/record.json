@@ -1,0 +1,42 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    267,
+    268
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 267,
+      "date": "27.01.2026 22:12:36 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_195@27-01-2026_22-12-36.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 268,
+      "date": "27.01.2026 22:12:36 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_196@27-01-2026_22-12-36.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_195@27-01-2026_22-12-36.jpg",
+      "source_file": "photos/photo_195@27-01-2026_22-12-36.jpg",
+      "source_sha256": "f6f435c914a0564feee40a29875e91a1b4ab8650f12aab7810d34db88706a647"
+    },
+    {
+      "file": "photos/photo_196@27-01-2026_22-12-36.jpg",
+      "source_file": "photos/photo_196@27-01-2026_22-12-36.jpg",
+      "source_sha256": "60a8a24de47ecf863f1a2e3754ebdd957f5fefcd6afefb73cbd8e2250f463278"
+    }
+  ]
+}

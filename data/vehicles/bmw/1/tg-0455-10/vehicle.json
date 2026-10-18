@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0455-10",
+  "id": 45510,
+  "slug": "bmw-1-tg-0455-10",
+  "brand": "bmw",
+  "model": "1 серии",
+  "name": "BMW 1 серии",
+  "types": [
+    "hatchback"
+  ],
+  "country": "de",
+  "body": "Хэтчбек",
+  "year": "2021 год",
+  "mileage": "49 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 1820000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "12.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "12.03.2026",
+  "status": "unknown",
+  "statusDate": "12.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2021,
+    "mileage_km": 49000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    455
+  ],
+  "price_history": [
+    {
+      "date": "12.03.2026",
+      "amount": 1820000,
+      "currency": "RUB",
+      "message_id": 455,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

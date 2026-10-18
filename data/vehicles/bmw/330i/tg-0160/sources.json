@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 160,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "В наличии📌\n\n🚘 BMW 330 I юбилейная версия. \n\n• Год выпуска: 2025\n• Пробег: Новый\n• Двигатель:бензин  /2.0/245л.с.\n• Цвет:фиолетовый  /  на черном \n\n\nЦена: 7.199.000 торг\n\n☎️ 89999797008 Дмитрий",
+      "photos": [
+        "photos/photo_116@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 161,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_117@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 162,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_118@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 163,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_119@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 164,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_120@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 165,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_121@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 166,
+      "date": "15.01.2026 19:10:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_122@15-01-2026_19-10-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 167,
+      "date": "15.01.2026 19:10:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_123@15-01-2026_19-10-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 168,
+      "date": "15.01.2026 19:10:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_124@15-01-2026_19-10-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 169,
+      "date": "15.01.2026 19:10:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_125@15-01-2026_19-10-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_116@15-01-2026_19-10-16.jpg",
+      "source_sha256": "b2c9feb3110b0a556d67274e3b0c785928e818aa7ddcea75271e66788e892d91",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_117@15-01-2026_19-10-16.jpg",
+      "source_sha256": "5c943701b7db31da8ec979566a1b6532cbac0c360de76aaa7a48fb7f5a53ed8e",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_118@15-01-2026_19-10-16.jpg",
+      "source_sha256": "f9cce32b969912fe1953dcb3d823efdf9d3b340a0edc17edc6a114d8426713f7",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_119@15-01-2026_19-10-16.jpg",
+      "source_sha256": "639b4e69ac1d45de0d52d3541cf3c1d1401824a3a8e6cc4107dbeeb7797799cc",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_120@15-01-2026_19-10-16.jpg",
+      "source_sha256": "29880f8a9c7ab9f1647be8c7fc3b67242a865cb4972e0d647633e65723a5df2c",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_121@15-01-2026_19-10-16.jpg",
+      "source_sha256": "b68319eefe4721868a50523a38b56ae4f5b3ab9380d1a0c51c2d5699f9c5d3bc",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_122@15-01-2026_19-10-16.jpg",
+      "source_sha256": "a041a936e166e34367c241eb0984642d2e710309f030061a1f77566666c18692",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_123@15-01-2026_19-10-17.jpg",
+      "source_sha256": "5347f1a8a41778d9671c8b312f772de54e9368d17d75786afeafc08d87fe5be0",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_124@15-01-2026_19-10-17.jpg",
+      "source_sha256": "3526a87ac25f6a1f05c645fca58eea7598a0edd1bda14ca6c83e128404825cec",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_125@15-01-2026_19-10-17.jpg",
+      "source_sha256": "c177be19cf75ea992518ff7a2b91140ce3ec74f83bd6f1ceebe0d476204519dc",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

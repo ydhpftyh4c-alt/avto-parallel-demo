@@ -59,3 +59,5 @@
 #copy-car-link{border:0;background:var(--navy);color:white;padding:12px;font-size:11px}
 #share-status{font-size:11px;line-height:1.7;margin:10px 0 0;color:var(--muted)}
 @media(max-width:760px){.catalog-tools{grid-template-columns:1fr;gap:16px;margin-top:20px}.catalog-tools input,.catalog-tools select,#car-share-url{font-size:16px}.catalog-results{font-size:11px;align-items:start;gap:12px}#catalog-reset{font-size:11px}.share-car>div{flex-direction:column}.share-car{padding:12px}#copy-car-link{min-height:44px}}
+.catalog-toolbar{flex-direction:column}.country-filter{align-self:flex-end}.catalog-tools{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,1fr);gap:18px}.catalog-state{display:flex;flex-direction:column;gap:10px;min-width:0;font-size:11px;color:var(--muted)}.load-more-wrap{display:flex;justify-content:center;margin-top:28px}.gallery-controls button:disabled{opacity:.35;cursor:default}.car-price{overflow-wrap:anywhere}
+@media(max-width:760px){.catalog-tools{grid-template-columns:1fr}.country-filter{align-self:stretch}.catalog-state select{font-size:16px}.filters .filter{font-size:11px}}

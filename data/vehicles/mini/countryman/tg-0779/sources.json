@@ -1,0 +1,92 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 779,
+      "date": "27.09.2026 12:06:16 UTC+03:00",
+      "text": "Mini Countryman  🆕  2026 год, \nДо 160 л.с.  \nЦена от: 7️⃣9️⃣.0️⃣0️⃣0️⃣лари.\nТак же можем привезти из Китая 🇨🇳, Европы🇪🇺, Кореи.🇰🇷",
+      "photos": [
+        "photos/photo_588@27-09-2026_12-06-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 780,
+      "date": "27.09.2026 12:06:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_589@27-09-2026_12-06-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 781,
+      "date": "27.09.2026 12:06:16 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_590@27-09-2026_12-06-16.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 782,
+      "date": "27.09.2026 12:06:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_591@27-09-2026_12-06-17.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 783,
+      "date": "27.09.2026 12:06:17 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_586@26-09-2026_14-20-20.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_586@26-09-2026_14-20-20.jpg",
+      "source_sha256": "0ee4f9a334ea2d52d8ae5dec80afccd654b1c48412e744a84c0723ec710efa5a",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_588@27-09-2026_12-06-16.jpg",
+      "source_sha256": "ac37461a02004d85e268e54a277946c4dc59ec82babaa2e3e624125fa9e4c512",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_589@27-09-2026_12-06-16.jpg",
+      "source_sha256": "b50220c67713c412595b81cef1612d3e0ae005d25cadd280c2715593504f4e88",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_590@27-09-2026_12-06-16.jpg",
+      "source_sha256": "280ed492e85b7290eeb83e600c4ee3b9ee4b6c9fde8f421427a7e2e138d43e59",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_591@27-09-2026_12-06-17.jpg",
+      "source_sha256": "9d33a6bf31be651f78c22ae35d90bc78d7b2f940915f59c3422f4fa6c6483e70",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

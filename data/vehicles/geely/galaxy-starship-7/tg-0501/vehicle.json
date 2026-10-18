@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0501",
+  "id": 501,
+  "slug": "geely-galaxy-starship-7-tg-0501",
+  "brand": "geely",
+  "model": "Galaxy Starship 7",
+  "name": "Geely Galaxy Starship 7",
+  "types": [
+    "suv"
+  ],
+  "country": "cn",
+  "body": "Кроссовер",
+  "year": "2026 год",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "02.04.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "02.04.2026",
+  "status": "unknown",
+  "statusDate": "02.04.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2026,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    501
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "channel-notes",
+  "related_message_ids": [
+    589
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 589,
+      "date": "01.06.2026 16:24:31 UTC+03:00",
+      "text": "",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": true
+    }
+  ],
+  "media": []
+}

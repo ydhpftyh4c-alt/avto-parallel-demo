@@ -1,0 +1,18 @@
+{
+  "category": "channel-notes",
+  "related_message_ids": [
+    101
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 101,
+      "date": "25.12.2025 18:59:47 UTC+03:00",
+      "text": "Вот такая красотка досталась к новому году с подарком внутри нашему дорогому клиенту !",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": []
+}

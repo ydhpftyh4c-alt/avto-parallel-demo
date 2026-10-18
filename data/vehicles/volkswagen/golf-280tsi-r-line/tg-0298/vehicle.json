@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0298",
+  "id": 298,
+  "slug": "volkswagen-golf-280tsi-r-line-tg-0298",
+  "brand": "volkswagen",
+  "model": "Golf 280TSI R-Line",
+  "name": "Volkswagen Golf 280TSI R-Line",
+  "types": [
+    "hatchback"
+  ],
+  "country": "de",
+  "body": "Хэтчбек",
+  "year": "2021 год",
+  "mileage": "47 000 км",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "04.02.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "04.02.2026",
+  "status": "sold",
+  "statusDate": "06.02.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2021,
+    "mileage_km": 47000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    318
+  ],
+  "price_history": [],
+  "status_history": [
+    {
+      "date": "06.02.2026",
+      "status": "sold",
+      "message_id": 318
+    }
+  ],
+  "images": [
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/001.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/002.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/003.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/004.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/005.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/006.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/007.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/008.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/009.jpg",
+    "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/photos/010.jpg"
+  ],
+  "image": "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/cover.jpg"
+}

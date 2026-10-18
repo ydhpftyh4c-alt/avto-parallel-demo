@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0811",
+  "id": 811,
+  "slug": "qiyuan-a07",
+  "brand": "qiyuan",
+  "model": "A07",
+  "name": "Qiyuan A07",
+  "types": [
+    "liftback"
+  ],
+  "country": "cn",
+  "body": "Лифтбек",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Электрическая / гибридная версии",
+  "price": 2300000,
+  "currency": "RUB",
+  "pricePrefix": "от ",
+  "priceDate": "15.10.2026",
+  "priceNote": "Стартовая цена из объявления для российского рынка. Версия и состав расходов не уточнены.",
+  "date": "15.10.2026",
+  "status": "unknown",
+  "statusDate": "15.10.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [
+    "Доступен к заказу — по публикации",
+    "Электрическая и гибридная версии",
+    "Комплектацию необходимо согласовать"
+  ],
+  "description": "Объявление описывает несколько версий модели. Цена не привязана к конкретной комплектации; параметры выбранной машины требуют отдельного подтверждения.",
+  "source_message_ids": [
+    811,
+    812,
+    813,
+    814,
+    815,
+    816
+  ],
+  "price_history": [
+    {
+      "date": "15.10.2026",
+      "amount": 2300000,
+      "currency": "RUB",
+      "message_id": 811,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/qiyuan/a07/tg-0811/photos/001.jpg",
+    "data/vehicles/qiyuan/a07/tg-0811/photos/002.jpg",
+    "data/vehicles/qiyuan/a07/tg-0811/photos/003.jpg",
+    "data/vehicles/qiyuan/a07/tg-0811/photos/004.jpg",
+    "data/vehicles/qiyuan/a07/tg-0811/photos/005.jpg",
+    "data/vehicles/qiyuan/a07/tg-0811/photos/006.jpg"
+  ],
+  "image": "data/vehicles/qiyuan/a07/tg-0811/cover.jpg"
+}

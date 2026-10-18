@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0481",
+  "id": 481,
+  "slug": "bmw-320d-gt-xdrive-tg-0481",
+  "brand": "bmw",
+  "model": "320d GT xDrive",
+  "name": "BMW 320d GT xDrive",
+  "types": [
+    "liftback"
+  ],
+  "country": "de",
+  "body": "Лифтбек",
+  "year": "2018 год",
+  "mileage": "104 300 км",
+  "engine": "2018 год 2.0 дизель Полный привод",
+  "price": 2790000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "19.03.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "19.03.2026",
+  "status": "unknown",
+  "statusDate": "19.03.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2018,
+    "mileage_km": 104300,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490
+  ],
+  "price_history": [
+    {
+      "date": "19.03.2026",
+      "amount": 2790000,
+      "currency": "RUB",
+      "message_id": 481,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/001.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/002.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/003.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/004.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/005.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/006.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/007.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/008.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/009.jpg",
+    "data/vehicles/bmw/320d-gt-xdrive/tg-0481/photos/010.jpg"
+  ],
+  "image": "data/vehicles/bmw/320d-gt-xdrive/tg-0481/cover.jpg"
+}

@@ -1,0 +1,58 @@
+{
+  "category": "news",
+  "related_message_ids": [
+    414,
+    415,
+    416
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 414,
+      "date": "01.03.2026 11:06:39 UTC+03:00",
+      "text": "⚡ В сети его уже прозвали «Rolls-Royce для бедных». Всё из-за двухцветного кузова — верх и низ разделены, как у люксовых марок. Смотрится солидно. А ценник — около 2 млн рублей.\n\nПод капотом — 2,0-литровый VC-Turbo на 243 л.с., работает с вариатором. Не просто «для вида», а вполне бодрый набор.\n\nВ салоне — фирменные сиденья Spinal. Передние кресла с вентиляцией, подогревом и массажем. Почти трон, только без короны в комплекте.",
+      "photos": [
+        "photos/photo_323@01-03-2026_11-06-39.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 415,
+      "date": "01.03.2026 11:06:39 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_324@01-03-2026_11-06-39.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 416,
+      "date": "01.03.2026 11:06:39 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_325@01-03-2026_11-06-39.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_323@01-03-2026_11-06-39.jpg",
+      "source_file": "photos/photo_323@01-03-2026_11-06-39.jpg",
+      "source_sha256": "db0208d7fc896915f6420cdeae204cb0f7ccb1ea985050047a23baa14230cf61"
+    },
+    {
+      "file": "photos/photo_324@01-03-2026_11-06-39.jpg",
+      "source_file": "photos/photo_324@01-03-2026_11-06-39.jpg",
+      "source_sha256": "7198dd6cdbd9366227edccc7201458bb0201668eab1014eb667d78d9db4944b3"
+    },
+    {
+      "file": "photos/photo_325@01-03-2026_11-06-39.jpg",
+      "source_file": "photos/photo_325@01-03-2026_11-06-39.jpg",
+      "source_sha256": "6aba62969c0085da00ca1089a14bfd8e7d1007d229fb0e17c970f9de7b2ac324"
+    }
+  ]
+}

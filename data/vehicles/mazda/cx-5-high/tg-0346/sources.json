@@ -1,0 +1,92 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 346,
+      "date": "18.02.2026 19:16:59 UTC+03:00",
+      "text": "👉Mazda Cx-5👈 Новый 🆕 \nВ наличии в Грузии 🇬🇪\nКомплектация самая максимальная : High +\nЦена: 35.000 💵 \nОсталось 4 цвета: Черный, белый, серый, серебристый. \nПо другим цветам так же пишите возможен предзаказ.",
+      "photos": [
+        "photos/photo_256@18-02-2026_19-16-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 347,
+      "date": "18.02.2026 19:16:59 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_257@18-02-2026_19-16-59.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 348,
+      "date": "18.02.2026 19:17:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_258@18-02-2026_19-17-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 349,
+      "date": "18.02.2026 19:17:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_259@18-02-2026_19-17-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 350,
+      "date": "18.02.2026 19:17:00 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_260@18-02-2026_19-17-00.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_256@18-02-2026_19-16-59.jpg",
+      "source_sha256": "82b7a67539b3cc153e419ed5f1104559443e21e6942f7c7d18995d9a528bf2dd",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_257@18-02-2026_19-16-59.jpg",
+      "source_sha256": "5a998b89bbcaa672af0ccf339b33235c45ce6435ef4aba3f1d3a3fd24e3fd4d1",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_258@18-02-2026_19-17-00.jpg",
+      "source_sha256": "86eee9356823a8a961ab4d8c65b72c95061599aabf704c3f006fb555ecbef6a7",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_259@18-02-2026_19-17-00.jpg",
+      "source_sha256": "b07f4dd4be41a5130aa61f8ad115299c5bc336a5dd0ce59a9895a449f1128ae5",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_260@18-02-2026_19-17-00.jpg",
+      "source_sha256": "7d2d1bf3b02d377319ac4ab3bd4976c5a1b40dfbec91de43624f77ffb344b6c6",
+      "width": 1200,
+      "height": 900
+    }
+  ]
+}

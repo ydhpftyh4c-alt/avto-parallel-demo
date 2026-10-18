@@ -1,0 +1,143 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 329,
+      "date": "15.02.2026 11:13:14 UTC+03:00",
+      "text": "👍BMW 1👍2022 год \n33.000км \n1.5т 140сил\nПередний привод \nРезвый и стильный автомобиль.\nЦена 1.900.000₽",
+      "photos": [
+        "photos/photo_239@15-02-2026_11-13-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 330,
+      "date": "15.02.2026 11:13:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_240@15-02-2026_11-13-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 331,
+      "date": "15.02.2026 11:13:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_241@15-02-2026_11-13-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 332,
+      "date": "15.02.2026 11:13:14 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_242@15-02-2026_11-13-14.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 333,
+      "date": "15.02.2026 11:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_243@15-02-2026_11-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 334,
+      "date": "15.02.2026 11:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_244@15-02-2026_11-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 335,
+      "date": "15.02.2026 11:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_245@15-02-2026_11-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 336,
+      "date": "15.02.2026 11:13:15 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_246@15-02-2026_11-13-15.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_239@15-02-2026_11-13-14.jpg",
+      "source_sha256": "0a6c71db3a4f5cbe7c0b22d58f29e74e3abf649eabcf0793e7e48e3a6e1ba6aa",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_240@15-02-2026_11-13-14.jpg",
+      "source_sha256": "98e3b84c2f1381451b09936ddf3fd6235deece2621cd94126f5067f424c83f4a",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_241@15-02-2026_11-13-14.jpg",
+      "source_sha256": "3af18a610f40655222caa33c442b19dee951f7fab652c8af8059d629aad2137b",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_242@15-02-2026_11-13-14.jpg",
+      "source_sha256": "8aea1025d2511b53dcac7c8784f7a02cc27653e1dbc7c9536c7a22657ddf2e0b",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_243@15-02-2026_11-13-15.jpg",
+      "source_sha256": "d13af62f1984d0fada6c94a108091f838d38545a7b3b971392d17a8d1ecbab88",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_244@15-02-2026_11-13-15.jpg",
+      "source_sha256": "8b44ffa6b4eb1733d12682fd89a5149a837d5928866fc0e72b0e3392ce72f879",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_245@15-02-2026_11-13-15.jpg",
+      "source_sha256": "182b9f2b2ac39c167a57b7bd49a8e5002a3526440877bec55d6ae915517e8e90",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_246@15-02-2026_11-13-15.jpg",
+      "source_sha256": "e1b19859c83dd5f8d0c2a45b9ed2818f3246485944057a7c8e457462c3534ad4",
+      "width": 720,
+      "height": 540
+    }
+  ]
+}

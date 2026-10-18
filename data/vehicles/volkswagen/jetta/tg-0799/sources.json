@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 799,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "Volkswagen Jetta 2019 год 70.000 км\nДо РФ 🇷🇺1️⃣.4️⃣5️⃣0️⃣.0️⃣0️⃣0️⃣.",
+      "photos": [
+        "photos/photo_598@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 800,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_599@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 801,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_600@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 802,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_601@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 803,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_602@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 804,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_603@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 805,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_604@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 806,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_605@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 807,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_606@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 808,
+      "date": "05.10.2026 11:30:43 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_607@05-10-2026_11-30-43.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_598@05-10-2026_11-30-43.jpg",
+      "source_sha256": "533bfe3b5e501e1ca5af08e0cd564683a0fee01ff0fd418b419af68056bc33b4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_599@05-10-2026_11-30-43.jpg",
+      "source_sha256": "debf0ca0a985f6735bfdbc40a61c88bde54c3f67c523276ea6729ed090f310ea",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_600@05-10-2026_11-30-43.jpg",
+      "source_sha256": "f2fc16e673afa59f72ecac8239c224963beb3a0a0021576297bbf25ee91e40df",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_601@05-10-2026_11-30-43.jpg",
+      "source_sha256": "b4aae98be5f3e87fa89f80fa41a3b1a31cfabeabbf67eefaf5b20640255816ba",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_602@05-10-2026_11-30-43.jpg",
+      "source_sha256": "9ba60ccc0b857e6e90e34ce663d74d34bf5af7bf818d78f2ff97dbe96704eccd",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_603@05-10-2026_11-30-43.jpg",
+      "source_sha256": "d1f1dbee24b982067f81a21c561a64a9823ecf7be33f4830add6cd282d3dc5b3",
+      "width": 607,
+      "height": 1080
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_604@05-10-2026_11-30-43.jpg",
+      "source_sha256": "e31bac4d55bb71a1d4926b64d8c5b91b0f88f257a1802f6331f75532e765654c",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_605@05-10-2026_11-30-43.jpg",
+      "source_sha256": "8321cb9f2a9ff0111d92e7186e6bc093a90eb32b84a2a0fc463ae6eca0b436d2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_606@05-10-2026_11-30-43.jpg",
+      "source_sha256": "2853979d4008c7a75af17c4a22c6f992d76b777ed29abd10838fb52012720bd7",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_607@05-10-2026_11-30-43.jpg",
+      "source_sha256": "5648d9cd2117baf93d5d3dccdedc89306a1e64c583229f666b30dbe44a9fff22",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

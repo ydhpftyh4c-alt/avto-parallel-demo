@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0688",
+  "id": 688,
+  "slug": "li-auto-lixiang-l6-max-tg-0688",
+  "brand": "li-auto",
+  "model": "Lixiang L6 MAX",
+  "name": "Li Auto Lixiang L6 MAX",
+  "types": [
+    "suv"
+  ],
+  "country": "cn",
+  "body": "Кроссовер",
+  "year": "2024 год",
+  "mileage": "32 500 км",
+  "engine": "Уточняйте по объявлению",
+  "price": 5990000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "23.08.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "23.08.2026",
+  "status": "sold",
+  "statusDate": "29.09.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2024,
+    "mileage_km": 32500,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    688,
+    689,
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    696,
+    707,
+    787
+  ],
+  "price_history": [
+    {
+      "date": "23.08.2026",
+      "amount": 5990000,
+      "currency": "RUB",
+      "message_id": 688,
+      "kind": "initial",
+      "applies_to_current": true
+    },
+    {
+      "date": "15.09.2026",
+      "amount": 5500000,
+      "currency": "RUB",
+      "message_id": 707,
+      "kind": "temporary",
+      "applies_to_current": false
+    }
+  ],
+  "status_history": [
+    {
+      "date": "29.09.2026",
+      "status": "sold",
+      "message_id": 787
+    }
+  ],
+  "images": [
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/001.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/002.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/003.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/004.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/005.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/006.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/007.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/008.jpg",
+    "data/vehicles/li-auto/lixiang-l6-max/tg-0688/photos/009.jpg"
+  ],
+  "image": "data/vehicles/li-auto/lixiang-l6-max/tg-0688/cover.jpg"
+}

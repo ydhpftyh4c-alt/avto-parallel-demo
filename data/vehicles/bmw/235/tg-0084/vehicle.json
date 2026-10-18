@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0084",
+  "id": 84,
+  "slug": "bmw-235-tg-0084",
+  "brand": "bmw",
+  "model": "235",
+  "name": "BMW 235",
+  "types": [
+    "unspecified"
+  ],
+  "country": "de",
+  "body": "Кузов не указан",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "20.12.2025",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "20.12.2025",
+  "status": "unknown",
+  "statusDate": "20.12.2025",
+  "review_required": true,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    84
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [],
+  "image": "assets/no-photo.svg"
+}

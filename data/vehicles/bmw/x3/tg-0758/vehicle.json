@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0758",
+  "id": 758,
+  "slug": "bmw-x3",
+  "brand": "bmw",
+  "model": "X3",
+  "name": "BMW X3",
+  "types": [
+    "suv"
+  ],
+  "country": "de",
+  "body": "Кроссовер",
+  "year": "2022 год · рестайлинг",
+  "mileage": "117 000 км",
+  "engine": "Двигатель не указан",
+  "price": 4500000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "26.09.2026",
+  "priceNote": "Цена из объявления. Наличие и условия торга уточняйте.",
+  "date": "26.09.2026",
+  "status": "unknown",
+  "statusDate": "26.09.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2022,
+    "mileage_km": 117000,
+    "is_new": false
+  },
+  "features": [
+    "Панорамная крыша",
+    "Колёсные диски 19″",
+    "Электронная приборная панель",
+    "Адаптивные фары"
+  ],
+  "description": "В объявлении указаны один владелец и оригинальный ПТС. Это сведения продавца; независимая проверка на сайте не проводилась.",
+  "source_message_ids": [
+    749,
+    750,
+    751,
+    752,
+    753,
+    754,
+    755,
+    756,
+    757,
+    758,
+    759,
+    760,
+    761,
+    762,
+    763,
+    764,
+    765,
+    766,
+    767
+  ],
+  "price_history": [
+    {
+      "date": "26.09.2026",
+      "amount": 4500000,
+      "currency": "RUB",
+      "message_id": 758,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/bmw/x3/tg-0758/photos/001.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/002.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/003.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/004.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/005.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/006.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/007.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/008.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/009.jpg",
+    "data/vehicles/bmw/x3/tg-0758/photos/010.jpg"
+  ],
+  "image": "data/vehicles/bmw/x3/tg-0758/cover.jpg"
+}

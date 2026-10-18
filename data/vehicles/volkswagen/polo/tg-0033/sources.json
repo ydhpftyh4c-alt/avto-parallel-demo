@@ -1,0 +1,151 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 33,
+      "date": "11.12.2025 19:15:41 UTC+03:00",
+      "text": "Поло | WV Polo\n2020 год\n1.4 (125 л.с)\nПробег 99 000\n\n1 владелец \nРодной окрас\nЗеленая автотека \n\nКомплектация максимальная: цифровая приборная панель, диодные фары iQ.light, круиз, климат, кнопка стартстоп, комфортный доступ, обогревы всех сидений, руля и лобового. Камера, парктроники перед/зад. aux, bluetooth, CarPlay, диски р16. Автозапуск\n\nЦена 1️⃣.7️⃣7️⃣0️⃣.0️⃣0️⃣0️⃣ торг \n89999797008 Дмитрий",
+      "photos": [],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 34,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_28@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 35,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_29@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 36,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_30@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 37,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_31@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 38,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_32@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 39,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_33@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 40,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_34@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 41,
+      "date": "11.12.2025 19:15:44 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_35@11-12-2025_19-15-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_28@11-12-2025_19-15-44.jpg",
+      "source_sha256": "bc8ce9959563a96ad42723041b344cb7f49f25b5e0c9017de6611b78ea531832",
+      "width": 1280,
+      "height": 902
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_29@11-12-2025_19-15-44.jpg",
+      "source_sha256": "4b2cf2e7f66413e947e073cf0e6a459de6990257a9d4f96663a8aa134b2b8aa4",
+      "width": 1280,
+      "height": 836
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_30@11-12-2025_19-15-44.jpg",
+      "source_sha256": "c6ab3d1ea19d5a6b4f69aaf71f897266374f041c982b1e9352b3afbd6140bcc4",
+      "width": 1280,
+      "height": 874
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_31@11-12-2025_19-15-44.jpg",
+      "source_sha256": "1db275477b97c7c2a85c380217c2fa02403811d8c99819106ee38edb2cbeb543",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_32@11-12-2025_19-15-44.jpg",
+      "source_sha256": "195c6d20d96dd3e8619ebf1522c8d8a5f7e9604069997cc13ab18b55c3b6c719",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_33@11-12-2025_19-15-44.jpg",
+      "source_sha256": "1656eab903473e548a0176a9417762d8fdf5c187c8de62141233484f40f1b5a4",
+      "width": 785,
+      "height": 1080
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_34@11-12-2025_19-15-44.jpg",
+      "source_sha256": "5529aff5398bf96b5d493e946f9fcf6c9cf19a9cf4fc9be50046675717954774",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_35@11-12-2025_19-15-44.jpg",
+      "source_sha256": "9f01247a471100bdd146c72afa07b1650193ffc899801c9dffe9bbe171964bcf",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

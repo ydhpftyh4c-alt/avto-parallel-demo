@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0116",
+  "id": 116,
+  "slug": "bmw-3-tg-0116",
+  "brand": "bmw",
+  "model": "3 серии — два автомобиля",
+  "name": "BMW 3 серии — два автомобиля",
+  "types": [
+    "sedan"
+  ],
+  "country": "de",
+  "body": "Седан",
+  "year": "Год не указан",
+  "mileage": "Пробег не указан",
+  "engine": "Уточняйте по объявлению",
+  "price": null,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "10.01.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "10.01.2026",
+  "status": "unknown",
+  "statusDate": "10.01.2026",
+  "review_required": true,
+  "record_kind": "offer_group",
+  "specs": {
+    "year": null,
+    "mileage_km": null,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125
+  ],
+  "price_history": [],
+  "status_history": [],
+  "images": [
+    "data/vehicles/bmw/3/tg-0116/photos/001.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/002.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/003.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/004.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/005.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/006.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/007.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/008.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/009.jpg",
+    "data/vehicles/bmw/3/tg-0116/photos/010.jpg"
+  ],
+  "image": "data/vehicles/bmw/3/tg-0116/cover.jpg"
+}

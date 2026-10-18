@@ -1,0 +1,109 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 811,
+      "date": "15.10.2026 20:02:34 UTC+03:00",
+      "text": "Доступен к заказу :\nQiyuan A07 — лифтбек, доступный в электрической и гибридной версиях. Электрическая версия оснащена электромотором мощностью 258 л. с., запас хода по NEDC составляет 515 км.\n\nЦена : на внутреннем рынке Китая варьируется в диапазоне от 139 900 до 159 900 юаней в зависимости от емкости батареи, запаса хода (от 515 до 710–730 км) и конкретных скидок дилеров.\nНа нашем рынке от 2️⃣.3️⃣0️⃣0️⃣.0️⃣0️⃣0️⃣",
+      "photos": [
+        "photos/photo_608@15-10-2026_20-02-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 812,
+      "date": "15.10.2026 20:02:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_609@15-10-2026_20-02-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 813,
+      "date": "15.10.2026 20:02:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_610@15-10-2026_20-02-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 814,
+      "date": "15.10.2026 20:02:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_611@15-10-2026_20-02-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 815,
+      "date": "15.10.2026 20:02:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_612@15-10-2026_20-02-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 816,
+      "date": "15.10.2026 20:02:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_613@15-10-2026_20-02-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_608@15-10-2026_20-02-34.jpg",
+      "source_sha256": "f44c0f03aebc65799f685d38f17f3803ebdb4dd745066fd58f2559505210a732",
+      "width": 590,
+      "height": 590
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_609@15-10-2026_20-02-34.jpg",
+      "source_sha256": "74bb21ba833590d5bee2c22bd1da09179bc365e66a86e61a99a1683f89dda662",
+      "width": 590,
+      "height": 590
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_610@15-10-2026_20-02-34.jpg",
+      "source_sha256": "511157e7d11c5442331bf9396a7b83318fc82595d28e2a030ac2af8f74cf5fff",
+      "width": 590,
+      "height": 590
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_611@15-10-2026_20-02-34.jpg",
+      "source_sha256": "4cca623316375748e70d8aaa63c2f864393de3fffdcd320077ed2f95bee21fd0",
+      "width": 590,
+      "height": 590
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_612@15-10-2026_20-02-34.jpg",
+      "source_sha256": "373bb1c05e5acd3614ac7f1a3d54c2be81777aea6f32de594b1f1c9719e63341",
+      "width": 590,
+      "height": 590
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_613@15-10-2026_20-02-34.jpg",
+      "source_sha256": "d71436b76df9c71a4cf6276ed0a8a3bde3675e0aaadee7f823735e6c222c9908",
+      "width": 590,
+      "height": 590
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 789,
+      "date": "01.10.2026 12:30:11 UTC+03:00",
+      "text": "Hyundai KONA 🩷♥️🩶  \nЦена до РФ 🇷🇺 2.5 🍋\nБензиновой версии.",
+      "photos": [
+        "photos/photo_593@01-10-2026_12-30-11.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 790,
+      "date": "01.10.2026 12:30:11 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_594@01-10-2026_12-30-11.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 791,
+      "date": "01.10.2026 12:30:11 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_595@01-10-2026_12-30-11.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 792,
+      "date": "01.10.2026 12:30:11 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_596@01-10-2026_12-30-11.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 793,
+      "date": "01.10.2026 12:30:11 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_597@01-10-2026_12-30-11.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_593@01-10-2026_12-30-11.jpg",
+      "source_sha256": "a98e1dea55bde33cffc5a37ec83b35d421becc1066eb54a34eb42713a9890b32",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_594@01-10-2026_12-30-11.jpg",
+      "source_sha256": "f20aae8ccfceebfe21c470028d983ba61bea54bd18d0805c4f39514a8a4c9e77",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_595@01-10-2026_12-30-11.jpg",
+      "source_sha256": "0438612d787355e2a646636bbedfe374b90172884a6f41c1f34f9abdd465ed23",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_596@01-10-2026_12-30-11.jpg",
+      "source_sha256": "c066c9e230337d6764f86dc29ad8cf9d92053e5554819dc834fd13a355966e84",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_597@01-10-2026_12-30-11.jpg",
+      "source_sha256": "e929454293da61e8aec32f02ed733892615a4b722958b143d0d8e138c7e38d46",
+      "width": 1280,
+      "height": 960
+    }
+  ]
+}

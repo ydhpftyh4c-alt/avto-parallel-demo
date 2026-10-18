@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0731",
+  "id": 731,
+  "slug": "skoda-octavia-a7-tg-0731",
+  "brand": "skoda",
+  "model": "Octavia A7",
+  "name": "Skoda Octavia A7",
+  "types": [
+    "liftback"
+  ],
+  "country": "cz",
+  "body": "Лифтбек",
+  "year": "2017 год",
+  "mileage": "122 000 км",
+  "engine": "1.8 180 бензин .",
+  "price": 2090000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "21.09.2026",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "16.10.2026",
+  "status": "unknown",
+  "statusDate": "21.09.2026",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2017,
+    "mileage_km": 122000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737,
+    738,
+    739,
+    740,
+    817
+  ],
+  "price_history": [
+    {
+      "date": "21.09.2026",
+      "amount": 2090000,
+      "currency": "RUB",
+      "message_id": 731,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/001.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/002.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/003.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/004.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/005.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/006.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/007.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/008.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/009.jpg",
+    "data/vehicles/skoda/octavia-a7/tg-0731/photos/010.jpg"
+  ],
+  "image": "data/vehicles/skoda/octavia-a7/tg-0731/cover.jpg"
+}

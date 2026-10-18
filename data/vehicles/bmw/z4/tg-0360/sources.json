@@ -1,0 +1,177 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 360,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "BMW Z4 2023 \n\n🔹 Двигатель: 2.0\n🔹 Привод: задний\n🔹 Пробег: 67 000 км \n\nЦена под ключ: 5 000 000",
+      "photos": [
+        "photos/photo_270@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 361,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_271@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 362,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_272@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 363,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_273@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 364,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_274@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 365,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_275@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 366,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_276@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 367,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_277@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 368,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_278@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 369,
+      "date": "25.02.2026 16:47:34 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_279@25-02-2026_16-47-34.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_270@25-02-2026_16-47-34.jpg",
+      "source_sha256": "3d8964f58d9c774257ebd1de0a0eb047e93ea109f41ceb2fe0e70f73f32ef23a",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_271@25-02-2026_16-47-34.jpg",
+      "source_sha256": "8e9d7d13e164909c96db1931612b9fb0cda355d3c7adfeefa033b0fbc90b06bf",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_272@25-02-2026_16-47-34.jpg",
+      "source_sha256": "f005cd355b4a8312d5fb5ad8e0e709b20f083f50d0c2c4af04157817463f75d5",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_273@25-02-2026_16-47-34.jpg",
+      "source_sha256": "eec75b1ced182a34d1fe81b421dce4aa6ca3c0aff789837829071074db49d7d4",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_274@25-02-2026_16-47-34.jpg",
+      "source_sha256": "7e516b1b159846f133aab79f9a170757ef4a2640d7dc0bc273deda7aa686bfd8",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_275@25-02-2026_16-47-34.jpg",
+      "source_sha256": "3be69b182232b6cdc96fdccea5bfbd6ec9825f5d1db473dba81c20bd4d3c99a4",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_276@25-02-2026_16-47-34.jpg",
+      "source_sha256": "43fb4622a44f57dbf4c0bcd9056f24ea2eec6d8d908f6b801c2e43d4b2cc01cb",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/008.jpg",
+      "source_file": "photos/photo_277@25-02-2026_16-47-34.jpg",
+      "source_sha256": "44ce20cc41c6d56e277dcaf9c2eead51a275b2df7105570b9d8ea6da14fedef3",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/009.jpg",
+      "source_file": "photos/photo_278@25-02-2026_16-47-34.jpg",
+      "source_sha256": "02db35c028b14afee93ad91d1c631141ae088e717171676abe7af7888159797a",
+      "width": 720,
+      "height": 540
+    },
+    {
+      "file": "photos/010.jpg",
+      "source_file": "photos/photo_279@25-02-2026_16-47-34.jpg",
+      "source_sha256": "8630dddec52163d58b9b1668d4a3d00a8135a78ef214562d3ac27084388f8ba9",
+      "width": 720,
+      "height": 540
+    }
+  ]
+}

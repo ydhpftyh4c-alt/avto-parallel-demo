@@ -1,0 +1,26 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    159
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 159,
+      "date": "15.01.2026 18:58:44 UTC+03:00",
+      "text": "Продан‼️",
+      "photos": [
+        "photos/photo_115@15-01-2026_18-58-44.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_115@15-01-2026_18-58-44.jpg",
+      "source_file": "photos/photo_115@15-01-2026_18-58-44.jpg",
+      "source_sha256": "83e573962a6b20d1ba528b72b76feb95fbb1133fbef7244253bffa701fb0dc2d"
+    }
+  ]
+}

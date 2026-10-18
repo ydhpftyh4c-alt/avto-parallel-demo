@@ -1,0 +1,58 @@
+{
+  "category": "news",
+  "related_message_ids": [
+    201,
+    202,
+    203
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 201,
+      "date": "21.01.2026 10:02:29 UTC+03:00",
+      "text": "👀 В России начали продавать новые BMW X7 российской сборки — их делают из оставшихся с 2022 года машинокомплектов.\n\nОдна из таких машин представлена у дилера за ₽11,9 миллиона — у неё указан 2025 год выпуска и российский «Автотор» в качестве производителя.",
+      "photos": [
+        "photos/photo_148@21-01-2026_10-02-29.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 202,
+      "date": "21.01.2026 10:02:30 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_149@21-01-2026_10-02-30.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 203,
+      "date": "21.01.2026 10:02:30 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_150@21-01-2026_10-02-30.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_148@21-01-2026_10-02-29.jpg",
+      "source_file": "photos/photo_148@21-01-2026_10-02-29.jpg",
+      "source_sha256": "77162aebb9893c2c0aaaceee982a0a608976157200926ee00b5cca4a3a813008"
+    },
+    {
+      "file": "photos/photo_149@21-01-2026_10-02-30.jpg",
+      "source_file": "photos/photo_149@21-01-2026_10-02-30.jpg",
+      "source_sha256": "7d7ae1d7f1441b99f11f4a068b5ffadddd64b940e95e96aa287d8922b047e01e"
+    },
+    {
+      "file": "photos/photo_150@21-01-2026_10-02-30.jpg",
+      "source_file": "photos/photo_150@21-01-2026_10-02-30.jpg",
+      "source_sha256": "88372cdf68e9a4d7647be86913e098161bf059fbd1e7f3d969abf86cebd38496"
+    }
+  ]
+}

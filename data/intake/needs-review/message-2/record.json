@@ -1,0 +1,26 @@
+{
+  "category": "needs-review",
+  "related_message_ids": [
+    2
+  ],
+  "reason": "Not promoted to a product without reliable vehicle identification or media association.",
+  "messages": [
+    {
+      "id": 2,
+      "date": "",
+      "text": "",
+      "photos": [
+        "photos/photo_1@10-12-2025_12-53-11.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/photo_1@10-12-2025_12-53-11.jpg",
+      "source_file": "photos/photo_1@10-12-2025_12-53-11.jpg",
+      "source_sha256": "bba52a990b361659c2f551bcbd5b6a464676367f3595b1c5bccc7d07a169fa27"
+    }
+  ]
+}

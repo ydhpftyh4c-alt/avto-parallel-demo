@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "record_id": "tg-0078",
+  "id": 78,
+  "slug": "skoda-kodiaq-tg-0078",
+  "brand": "skoda",
+  "model": "Kodiaq",
+  "name": "Skoda Kodiaq",
+  "types": [
+    "suv"
+  ],
+  "country": "cz",
+  "body": "Кроссовер",
+  "year": "2018 год",
+  "mileage": "92 000 км",
+  "engine": "2.0 дизель , полный привод",
+  "price": 3190000,
+  "currency": "RUB",
+  "pricePrefix": "",
+  "priceDate": "15.12.2025",
+  "priceNote": "Цена и состав расходов указаны в публикации продавца. Актуальность и наличие требуют подтверждения.",
+  "date": "15.12.2025",
+  "status": "unknown",
+  "statusDate": "15.12.2025",
+  "review_required": false,
+  "record_kind": "vehicle",
+  "specs": {
+    "year": 2018,
+    "mileage_km": 92000,
+    "is_new": false
+  },
+  "features": [],
+  "description": "Данные перенесены из публикации агентства. Характеристики, состояние и историю необходимо проверить перед покупкой.",
+  "source_message_ids": [
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+  ],
+  "price_history": [
+    {
+      "date": "15.12.2025",
+      "amount": 3190000,
+      "currency": "RUB",
+      "message_id": 78,
+      "kind": "initial",
+      "applies_to_current": true
+    }
+  ],
+  "status_history": [],
+  "images": [
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/001.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/002.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/003.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/004.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/005.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/006.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/007.jpg",
+    "data/vehicles/skoda/kodiaq/tg-0078/photos/008.jpg"
+  ],
+  "image": "data/vehicles/skoda/kodiaq/tg-0078/cover.jpg"
+}

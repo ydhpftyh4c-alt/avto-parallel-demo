@@ -1,0 +1,126 @@
+{
+  "export_date": "2026-10-18",
+  "messages": [
+    {
+      "id": 838,
+      "date": "17.10.2026 19:06:25 UTC+03:00",
+      "text": "🚗 TOYOTA bZ3X 520 Pro+ — НОВЫЙ ЭЛЕКТРИЧЕСКИЙ КРОССОВЕР\n🔥 Цена под ключ в России — 2 780 000 ₽ 🇷🇺\nToyota bZ3X — современный полностью электрический кроссовер, разработанный специально для китайского рынка совместным предприятием GAC Toyota. Версия 520 Pro+ сочетает большой салон, современные технологии и запас хода до 520 км по циклу CLTC.\n⚡️ Основные характеристики:\n• Запас хода — 520 км CLTC\n• Полностью электрический привод\n• Большой 14,6\" центральный экран\n• Панорамная крыша\n• Интеллектуальные системы помощи водителю\n• Ассистент парковки\n• Подогрев и вентиляция передних сидений\n• Электропривод багажника\n• Просторный салон и колёсная база 2765 мм\n💰 2 780 000 ₽ ПОД КЛЮЧ В РОССИИ\nВ стоимость уже рассчитан автомобиль с доставкой и оформлением — клиент получает понятную конечную стоимость без необходимости самостоятельно заниматься покупкой автомобиля в Китае, логистикой и таможней. MO",
+      "photos": [
+        "photos/photo_624@17-10-2026_19-06-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 839,
+      "date": "17.10.2026 19:06:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_625@17-10-2026_19-06-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 840,
+      "date": "17.10.2026 19:06:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_626@17-10-2026_19-06-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 841,
+      "date": "17.10.2026 19:06:25 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_627@17-10-2026_19-06-25.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 842,
+      "date": "17.10.2026 19:06:26 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_628@17-10-2026_19-06-26.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 843,
+      "date": "17.10.2026 19:06:26 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_629@17-10-2026_19-06-26.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    },
+    {
+      "id": 844,
+      "date": "17.10.2026 19:06:26 UTC+03:00",
+      "text": "",
+      "photos": [
+        "photos/photo_630@17-10-2026_19-06-26.jpg"
+      ],
+      "reply_to": null,
+      "missing_video": false
+    }
+  ],
+  "media": [
+    {
+      "file": "photos/001.jpg",
+      "source_file": "photos/photo_624@17-10-2026_19-06-25.jpg",
+      "source_sha256": "ab7dfaa8f366e10bcdff0bf4a89116f6e5dd8af0a7da2a6964f6c1ec8d977640",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/002.jpg",
+      "source_file": "photos/photo_625@17-10-2026_19-06-25.jpg",
+      "source_sha256": "d3c434650cb0f21299e3ed06d5b28d3461ebd19e3ae2e707ec671d421dd64698",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/003.jpg",
+      "source_file": "photos/photo_626@17-10-2026_19-06-25.jpg",
+      "source_sha256": "ef5ac4a39016894af33e41909da6126d0c18dfa044f6489dc8f716500fb493c5",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/004.jpg",
+      "source_file": "photos/photo_627@17-10-2026_19-06-25.jpg",
+      "source_sha256": "8685fb697c7cc805c582a6533ad1b0e710174180626286891bcf81eb477f64fd",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/005.jpg",
+      "source_file": "photos/photo_628@17-10-2026_19-06-26.jpg",
+      "source_sha256": "f8b74188d4b7b20b4cc51cd7d13dac29e967bf5bb5f889fb331052584527a965",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "file": "photos/006.jpg",
+      "source_file": "photos/photo_629@17-10-2026_19-06-26.jpg",
+      "source_sha256": "4008d61e48bc01f455afe6a6dc5b9f40ffb90672a8d88e88753c96b475c507bf",
+      "width": 810,
+      "height": 1080
+    },
+    {
+      "file": "photos/007.jpg",
+      "source_file": "photos/photo_630@17-10-2026_19-06-26.jpg",
+      "source_sha256": "1e0ebd25058a7cd17e21d9908e97a904e80681eaeefa5ebc3468b67a68721313",
+      "width": 810,
+      "height": 1080
+    }
+  ]
+}
