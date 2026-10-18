@@ -1,0 +1,299 @@
+/* Curated from the owner-provided Telegram export. See CATALOG-SOURCES.md. */
+const catalogCars = [
+  {
+    "id": 838,
+    "slug": "toyota-bz3x",
+    "name": "Toyota bZ3X 520 Pro+",
+    "types": [
+      "suv",
+      "electric"
+    ],
+    "country": "jp",
+    "body": "Электрокроссовер",
+    "year": "Новый автомобиль",
+    "mileage": "Пробег не указан",
+    "engine": "Электрический привод",
+    "price": 2780000,
+    "pricePrefix": "",
+    "priceDate": "17.10.2026",
+    "priceNote": "В объявлении — под ключ в России. Состав расходов и актуальную цену уточняйте.",
+    "features": [
+      "Версия 520 Pro+",
+      "Панорамная крыша",
+      "Подогрев и вентиляция передних сидений",
+      "Электропривод багажника"
+    ],
+    "description": "В публикации указан запас хода до 520 км CLTC. Фактический запас хода зависит от условий эксплуатации.",
+    "date": "17.10.2026",
+    "images": [
+      "assets/catalog/toyota-bz3x-1.jpg",
+      "assets/catalog/toyota-bz3x-2.jpg",
+      "assets/catalog/toyota-bz3x-3.jpg",
+      "assets/catalog/toyota-bz3x-4.jpg",
+      "assets/catalog/toyota-bz3x-5.jpg",
+      "assets/catalog/toyota-bz3x-6.jpg",
+      "assets/catalog/toyota-bz3x-7.jpg"
+    ],
+    "image": "assets/catalog/toyota-bz3x-card.jpg"
+  },
+  {
+    "id": 828,
+    "slug": "porsche-taycan",
+    "name": "Porsche Taycan Turbo",
+    "types": [
+      "electric",
+      "sedan"
+    ],
+    "country": "de",
+    "body": "Электроседан",
+    "year": "2021 год · 2022 модельный",
+    "mileage": "21 000 км",
+    "engine": "Электрический привод",
+    "price": 9850000,
+    "pricePrefix": "",
+    "priceDate": "17.10.2026",
+    "priceNote": "Цена из объявления. Текущие условия и наличие уточняйте.",
+    "features": [
+      "Пневмоподвеска",
+      "Аудиосистема BOSE",
+      "Дополнительный экран",
+      "Защитная полиуретановая плёнка"
+    ],
+    "description": "По описанию продавца — дилерский автомобиль. Историю, состояние и комплект документов необходимо проверить перед покупкой.",
+    "date": "17.10.2026",
+    "images": [
+      "assets/catalog/porsche-taycan-1.jpg",
+      "assets/catalog/porsche-taycan-2.jpg",
+      "assets/catalog/porsche-taycan-3.jpg",
+      "assets/catalog/porsche-taycan-4.jpg",
+      "assets/catalog/porsche-taycan-5.jpg",
+      "assets/catalog/porsche-taycan-6.jpg",
+      "assets/catalog/porsche-taycan-7.jpg",
+      "assets/catalog/porsche-taycan-8.jpg",
+      "assets/catalog/porsche-taycan-9.jpg",
+      "assets/catalog/porsche-taycan-10.jpg"
+    ],
+    "image": "assets/catalog/porsche-taycan-card.jpg"
+  },
+  {
+    "id": 811,
+    "slug": "qiyuan-a07",
+    "name": "Qiyuan A07",
+    "types": [
+      "liftback"
+    ],
+    "country": "cn",
+    "body": "Лифтбек",
+    "year": "Год не указан",
+    "mileage": "Пробег не указан",
+    "engine": "Электрическая / гибридная версии",
+    "price": 2300000,
+    "pricePrefix": "от ",
+    "priceDate": "15.10.2026",
+    "priceNote": "Стартовая цена из объявления для российского рынка. Версия и состав расходов не уточнены.",
+    "features": [
+      "Доступен к заказу — по публикации",
+      "Электрическая и гибридная версии",
+      "Комплектацию необходимо согласовать"
+    ],
+    "description": "Объявление описывает несколько версий модели. Цена не привязана к конкретной комплектации; параметры выбранной машины требуют отдельного подтверждения.",
+    "date": "15.10.2026",
+    "images": [
+      "assets/catalog/qiyuan-a07-1.jpg",
+      "assets/catalog/qiyuan-a07-2.jpg",
+      "assets/catalog/qiyuan-a07-3.jpg",
+      "assets/catalog/qiyuan-a07-4.jpg",
+      "assets/catalog/qiyuan-a07-5.jpg",
+      "assets/catalog/qiyuan-a07-6.jpg"
+    ],
+    "image": "assets/catalog/qiyuan-a07-card.jpg"
+  },
+  {
+    "id": 799,
+    "slug": "volkswagen-jetta",
+    "name": "Volkswagen Jetta",
+    "types": [
+      "sedan"
+    ],
+    "country": "de",
+    "body": "Седан",
+    "year": "2019 год",
+    "mileage": "70 000 км",
+    "engine": "Двигатель не указан",
+    "price": 1450000,
+    "pricePrefix": "",
+    "priceDate": "05.10.2026",
+    "priceNote": "В публикации — цена «до РФ». Таможенные платежи, оформление и доставка до города требуют уточнения.",
+    "features": [
+      "Год выпуска — 2019",
+      "Пробег по объявлению — 70 000 км"
+    ],
+    "description": "Характеристики и стоимость перенесены из объявления. Комплектация, двигатель и условия доставки в тексте не указаны.",
+    "date": "05.10.2026",
+    "images": [
+      "assets/catalog/volkswagen-jetta-1.jpg",
+      "assets/catalog/volkswagen-jetta-2.jpg",
+      "assets/catalog/volkswagen-jetta-3.jpg",
+      "assets/catalog/volkswagen-jetta-4.jpg",
+      "assets/catalog/volkswagen-jetta-5.jpg",
+      "assets/catalog/volkswagen-jetta-6.jpg",
+      "assets/catalog/volkswagen-jetta-7.jpg",
+      "assets/catalog/volkswagen-jetta-8.jpg",
+      "assets/catalog/volkswagen-jetta-9.jpg",
+      "assets/catalog/volkswagen-jetta-10.jpg"
+    ],
+    "image": "assets/catalog/volkswagen-jetta-card.jpg"
+  },
+  {
+    "id": 758,
+    "slug": "bmw-x3",
+    "name": "BMW X3",
+    "types": [
+      "suv"
+    ],
+    "country": "de",
+    "body": "Кроссовер",
+    "year": "2022 год · рестайлинг",
+    "mileage": "117 000 км",
+    "engine": "Двигатель не указан",
+    "price": 4500000,
+    "pricePrefix": "",
+    "priceDate": "26.09.2026",
+    "priceNote": "Цена из объявления. Наличие и условия торга уточняйте.",
+    "features": [
+      "Панорамная крыша",
+      "Колёсные диски 19″",
+      "Электронная приборная панель",
+      "Адаптивные фары"
+    ],
+    "description": "В объявлении указаны один владелец и оригинальный ПТС. Это сведения продавца; независимая проверка на сайте не проводилась.",
+    "date": "26.09.2026",
+    "images": [
+      "assets/catalog/bmw-x3-1.jpg",
+      "assets/catalog/bmw-x3-2.jpg",
+      "assets/catalog/bmw-x3-3.jpg",
+      "assets/catalog/bmw-x3-4.jpg",
+      "assets/catalog/bmw-x3-5.jpg",
+      "assets/catalog/bmw-x3-6.jpg",
+      "assets/catalog/bmw-x3-7.jpg",
+      "assets/catalog/bmw-x3-8.jpg",
+      "assets/catalog/bmw-x3-9.jpg",
+      "assets/catalog/bmw-x3-10.jpg"
+    ],
+    "image": "assets/catalog/bmw-x3-card.jpg"
+  },
+  {
+    "id": 721,
+    "slug": "mercedes-glc",
+    "name": "Mercedes-Benz GLC 300",
+    "types": [
+      "suv"
+    ],
+    "country": "de",
+    "body": "Кроссовер",
+    "year": "2026 год",
+    "mileage": "8 км",
+    "engine": "2,0 л · бензин · 258 л.с. · 4MATIC",
+    "price": 8550000,
+    "pricePrefix": "",
+    "priceDate": "01.10.2026",
+    "priceNote": "Учтено снижение цены от 1 октября в ответе к исходному объявлению. Актуальность требует подтверждения.",
+    "features": [
+      "Полный привод 4MATIC",
+      "Бензиновый двигатель 2,0 л",
+      "Из Кореи — по публикации"
+    ],
+    "description": "Исходное объявление опубликовано 16 сентября 2026 года. Позднее в канале опубликовано связанное снижение цены до 8 550 000 ₽.",
+    "date": "16.09.2026",
+    "images": [
+      "assets/catalog/mercedes-glc-1.jpg",
+      "assets/catalog/mercedes-glc-2.jpg",
+      "assets/catalog/mercedes-glc-3.jpg",
+      "assets/catalog/mercedes-glc-4.jpg",
+      "assets/catalog/mercedes-glc-5.jpg",
+      "assets/catalog/mercedes-glc-6.jpg",
+      "assets/catalog/mercedes-glc-7.jpg",
+      "assets/catalog/mercedes-glc-8.jpg",
+      "assets/catalog/mercedes-glc-9.jpg",
+      "assets/catalog/mercedes-glc-10.jpg"
+    ],
+    "image": "assets/catalog/mercedes-glc-card.jpg"
+  },
+  {
+    "id": 697,
+    "slug": "kia-optima",
+    "name": "Kia Optima GT",
+    "types": [
+      "sedan"
+    ],
+    "country": "kr",
+    "body": "Седан",
+    "year": "2016 год",
+    "mileage": "103 300 км",
+    "engine": "2,0 л · автомат · 245 л.с.",
+    "price": 1900000,
+    "pricePrefix": "",
+    "priceDate": "13.10.2026",
+    "priceNote": "Учтено снижение цены от 13 октября в ответе к исходному объявлению.",
+    "features": [
+      "Комплектация GT",
+      "Панорамная крыша",
+      "Аудиосистема Harman Kardon",
+      "Подогрев и вентиляция сидений"
+    ],
+    "description": "В исходной публикации указаны один владелец и сервисная книжка. Состояние и историю необходимо проверить перед покупкой.",
+    "date": "26.08.2026",
+    "images": [
+      "assets/catalog/kia-optima-1.jpg",
+      "assets/catalog/kia-optima-2.jpg",
+      "assets/catalog/kia-optima-3.jpg",
+      "assets/catalog/kia-optima-4.jpg",
+      "assets/catalog/kia-optima-5.jpg",
+      "assets/catalog/kia-optima-6.jpg",
+      "assets/catalog/kia-optima-7.jpg",
+      "assets/catalog/kia-optima-8.jpg",
+      "assets/catalog/kia-optima-9.jpg",
+      "assets/catalog/kia-optima-10.jpg"
+    ],
+    "image": "assets/catalog/kia-optima-card.jpg"
+  },
+  {
+    "id": 676,
+    "slug": "mazda-cx5",
+    "name": "Mazda CX-5 Supreme",
+    "types": [
+      "suv"
+    ],
+    "country": "jp",
+    "body": "Кроссовер",
+    "year": "2016 год",
+    "mileage": "73 000 км",
+    "engine": "2,0 л · бензин · полный привод",
+    "price": 2350000,
+    "pricePrefix": "",
+    "priceDate": "22.09.2026",
+    "priceNote": "Учтено снижение цены от 22 сентября в ответе к исходному объявлению.",
+    "features": [
+      "Комплектация Supreme",
+      "Кожаный салон",
+      "Камера заднего вида",
+      "Парктроники спереди и сзади"
+    ],
+    "description": "Публикация описывает дилерский автомобиль с одним владельцем. Указанные сведения требуют проверки при подборе.",
+    "date": "11.08.2026",
+    "images": [
+      "assets/catalog/mazda-cx5-1.jpg",
+      "assets/catalog/mazda-cx5-2.jpg",
+      "assets/catalog/mazda-cx5-3.jpg",
+      "assets/catalog/mazda-cx5-4.jpg",
+      "assets/catalog/mazda-cx5-5.jpg",
+      "assets/catalog/mazda-cx5-6.jpg",
+      "assets/catalog/mazda-cx5-7.jpg",
+      "assets/catalog/mazda-cx5-8.jpg",
+      "assets/catalog/mazda-cx5-9.jpg",
+      "assets/catalog/mazda-cx5-10.jpg"
+    ],
+    "image": "assets/catalog/mazda-cx5-card.jpg"
+  }
+];
+

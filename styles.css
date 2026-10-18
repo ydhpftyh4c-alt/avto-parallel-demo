@@ -5,3 +5,41 @@
 @media(max-width:760px){html{scroll-padding-top:18px}.header{padding:0 6%;height:78px}.brand img{width:40px;height:40px}.brand b{font-size:16px}.menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:6px;width:46px;height:46px;border:1px solid #b7bfc4;background:transparent;padding:12px}.menu-toggle span{height:1px;background:var(--navy);width:100%;transition:transform .2s}.menu-toggle[aria-expanded=true] span:first-child{transform:translateY(3.5px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-3.5px) rotate(-45deg)}.header nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);padding:20px 6% 30px;box-shadow:0 20px 25px #081c3120;flex-direction:column;align-items:stretch;gap:4px}.header nav.open{display:flex}.header nav a{font-size:16px}.nav-cta{margin-top:14px;justify-content:space-between}.hero{height:calc(92svh - 78px);min-height:620px;max-height:850px}.hero-content{padding:52px 6%}.hero .eyebrow{margin-bottom:35px;font-size:9px}h1{font-size:clamp(55px,11vw,82px);letter-spacing:-3px;line-height:1.04;margin-bottom:23px}.hero-copy{font-size:14px}.hero-photo{object-position:64% 50%}.hero-shade{background:linear-gradient(90deg,#06192ad9,#06192a40),linear-gradient(0deg,#06192acc,transparent 50%)}.hero-bottom{bottom:23px;align-items:center;gap:12px}.hero-bottom>span{font-size:7px;letter-spacing:1px;max-width:155px;line-height:1.8}.hero-bottom a{font-size:10px}.hero-index{display:none}.section{padding:64px 6%}.section-heading{display:block;margin-bottom:30px}.section-heading .section-intro{margin-top:25px;font-size:12px}.eyebrow{font-size:9px;letter-spacing:1.7px;margin-bottom:24px}h2{font-size:42px;letter-spacing:-1.8px}.catalog-toolbar{flex-direction:column;gap:10px}.filters{gap:3px;flex-wrap:wrap}.filter{padding:11px 10px;font-size:11px}.country-filter select{padding-left:10px}.car-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.car-visual{height:180px}.car h3{font-size:20px}.car-tag{top:10px;left:10px;font-size:8px;padding:6px}.car-meta{font-size:9px;line-height:1.6;min-height:28px}.car-bottom{font-size:10px;gap:10px}.catalog-bottom{flex-direction:column;text-align:center;align-items:center;gap:12px;line-height:1.6}.calculator,.request{grid-template-columns:1fr;gap:38px}.calc-intro>p:not(.eyebrow){max-width:none;margin:24px 0}.calc-warning{max-width:none}.calc-panel{padding:24px}.calc-total strong{font-size:36px}.steps{grid-template-columns:1fr 1fr;gap:32px 24px;margin-top:40px}.step-number{margin-bottom:26px}.steps h3{font-size:20px}.trust-line{grid-template-columns:1fr;gap:15px;margin-top:40px;padding-top:32px}.trust-line>p{font-size:30px}.request-symbol{display:none}.request h2{font-size:44px}.request-copy>p:not(.eyebrow){font-size:13px}footer{padding:35px 6% 24px}footer>p{order:3;width:100%;line-height:1.7}.footer-note{order:4;margin-top:4px}}
 @media(max-width:420px){.car-grid{grid-template-columns:1fr}.car-visual{height:235px}.car-meta{min-height:0}.car h3{font-size:25px}.car-bottom{font-size:12px}.input-pair{gap:12px}.calc-panel{padding:20px 16px}.calc-panel label{font-size:10px}h2{font-size:38px}.request h2{font-size:38px}.steps h3{font-size:17px}.hero .button{font-size:12px;gap:20px}.brand{gap:9px}.brand b{font-size:15px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.motion-ready .reveal:not(.visible){opacity:1;transform:none}}
+/* Real channel catalog and accessible photo viewer */
+.car-mileage{font-size:12px;color:var(--muted);margin:0 0 18px}
+.car-price{display:block;font-size:21px;font-weight:500;letter-spacing:-.5px;color:var(--ink)}
+.price-date{display:block;font-size:10px;margin-top:7px}
+.car-tag{font-size:8px;letter-spacing:.7px}
+.real-contact{margin-top:38px;display:flex;flex-direction:column;gap:14px}
+.real-contact>span{font-size:9px;letter-spacing:1.5px}
+.real-contact>a{font-size:clamp(22px,2.4vw,35px);letter-spacing:-1px;color:var(--navy);width:fit-content}
+.real-contact small{font-size:10px;line-height:1.7;color:var(--muted);max-width:350px}
+.dialog-open{overflow:hidden}
+.car-dialog{border:0;padding:0;width:min(1180px,94vw);max-width:1180px;max-height:92svh;overflow:auto;background:var(--paper);color:var(--ink)}
+.car-dialog::backdrop{background:#061729d9;backdrop-filter:blur(5px)}
+.dialog-close{position:sticky;top:12px;float:right;z-index:2;margin:12px 12px -56px 0;border:1px solid #c0c7cc;background:var(--paper);color:var(--navy);width:44px;height:44px;border-radius:50%;font-size:30px}
+.detail-layout{display:grid;grid-template-columns:1.1fr 1fr}
+.detail-gallery{background:#e4e6e3;padding:24px;min-width:0}
+.detail-gallery>img{display:block;width:100%;height:460px;object-fit:contain;background:#daddd9}
+.gallery-controls{display:flex;justify-content:space-between;align-items:center;padding:18px 0 0;font-size:12px}
+.gallery-controls button{border:1px solid #adb6bc;background:var(--paper);width:46px;height:46px;font-size:22px}
+.gallery-controls button:hover{background:var(--orange)}
+.gallery-caption{font-size:10px;line-height:1.7;margin:16px 0 0;color:#505a60}
+.detail-copy{padding:50px 36px 36px;min-width:0}
+.detail-copy .eyebrow{font-size:9px;margin-bottom:22px}
+.detail-copy h2{font-size:36px;letter-spacing:-1.4px;margin-bottom:14px}
+#detail-meta{font-size:12px;color:var(--muted);line-height:1.7}
+#detail-price{font-size:34px;font-weight:500;letter-spacing:-1px}
+#detail-price-date,#detail-price-note,#detail-source{font-size:11px;line-height:1.75;color:var(--muted)}
+#detail-price-date{margin:10px 0}
+#detail-specs{display:grid;grid-template-columns:95px 1fr;gap:14px 16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;margin:22px 0;font-size:12px;line-height:1.6}
+#detail-specs dt{color:var(--muted)}
+#detail-specs dd{margin:0}
+#detail-features{padding-left:18px;font-size:12px;line-height:1.8}
+#detail-description{font-size:12px;line-height:1.8}
+#detail-source{border-top:1px solid var(--line);padding-top:18px}
+.detail-copy .button{width:100%;margin-top:14px;font-size:12px}
+.detail-select{background:transparent;border:1px solid #9da8b0;color:var(--navy)}
+@media(max-width:1000px){.detail-gallery>img{height:370px}.detail-copy{padding:50px 24px 24px}}
+@media(max-width:760px){.detail-layout{grid-template-columns:1fr}.car-dialog{width:94vw;max-height:94svh}.detail-gallery{padding:16px}.detail-gallery>img{height:300px}.detail-copy{padding:28px 22px}.detail-copy h2{font-size:30px}.car-price{font-size:19px}.calc-panel input,.calc-panel select{font-size:16px}.real-contact{margin-top:24px}}
+@media(max-width:420px){.detail-gallery>img{height:240px}.detail-copy{padding:24px 18px}.detail-copy h2{font-size:28px}#detail-price{font-size:30px}}
