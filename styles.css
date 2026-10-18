@@ -43,3 +43,19 @@
 @media(max-width:1000px){.detail-gallery>img{height:370px}.detail-copy{padding:50px 24px 24px}}
 @media(max-width:760px){.detail-layout{grid-template-columns:1fr}.car-dialog{width:94vw;max-height:94svh}.detail-gallery{padding:16px}.detail-gallery>img{height:300px}.detail-copy{padding:28px 22px}.detail-copy h2{font-size:30px}.car-price{font-size:19px}.calc-panel input,.calc-panel select{font-size:16px}.real-contact{margin-top:24px}}
 @media(max-width:420px){.detail-gallery>img{height:240px}.detail-copy{padding:24px 18px}.detail-copy h2{font-size:28px}#detail-price{font-size:30px}}
+.catalog-tools{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;margin-top:24px}
+.catalog-search,.catalog-sort{display:flex;flex-direction:column;gap:10px;min-width:0;font-size:11px;color:var(--muted)}
+.catalog-tools input,.catalog-tools select{width:100%;min-width:0;height:48px;border:1px solid #b9c0c4;border-radius:0;background:transparent;padding:12px;color:var(--ink);font-size:13px}
+.catalog-results{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:0 0 24px;min-height:32px;font-size:12px;color:var(--muted)}
+#catalog-status{margin:0;line-height:1.6}
+#catalog-reset{border:0;background:transparent;color:var(--navy);text-decoration:underline;text-underline-offset:4px;padding:9px 0;flex-shrink:0;font-size:12px}
+#empty{padding:35px 0;font-size:15px;line-height:1.7}
+.real-contact>.telegram-link{font-size:16px;letter-spacing:0;border-bottom:1px solid #a3afb8;padding-bottom:5px}
+.telegram-button{background:#e2e8eb;color:var(--navy);border:1px solid #aab6bd}
+.share-car{border:1px solid #c5cace;padding:15px;margin:22px 0}
+.share-car>label{font-size:11px;display:block;margin-bottom:10px}
+.share-car>div{display:flex;gap:8px;align-items:stretch}
+#car-share-url{width:100%;min-width:0;border:1px solid #c5cace;background:var(--paper);padding:10px;font-size:11px;color:var(--navy);border-radius:0}
+#copy-car-link{border:0;background:var(--navy);color:white;padding:12px;font-size:11px}
+#share-status{font-size:11px;line-height:1.7;margin:10px 0 0;color:var(--muted)}
+@media(max-width:760px){.catalog-tools{grid-template-columns:1fr;gap:16px;margin-top:20px}.catalog-tools input,.catalog-tools select,#car-share-url{font-size:16px}.catalog-results{font-size:11px;align-items:start;gap:12px}#catalog-reset{font-size:11px}.share-car>div{flex-direction:column}.share-car{padding:12px}#copy-car-link{min-height:44px}}
