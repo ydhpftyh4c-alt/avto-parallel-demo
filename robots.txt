@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ydhpftyh4c-alt.github.io/avto-parallel-demo/sitemap.xml

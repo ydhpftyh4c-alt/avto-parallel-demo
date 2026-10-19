@@ -1,7 +1,16 @@
 'use strict';
 const agentCars=catalogCars;
-let cars=importModelCars;
-let catalogView='models';
+let importModelCars=[];
+let cars=agentCars;
+let catalogView='offers';
+let modelsPromise=null,catalogRequest=0;
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-4').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
+const favorites=readSaved('parallel-favorites-v1');
+const comparison=new Set();
+function persistFavorites(){try{localStorage.setItem('parallel-favorites-v1',JSON.stringify([...favorites]));}catch{document.querySelector('#selection-status').textContent='Избранное сохранено до закрытия страницы: хранилище браузера недоступно.';}}
+const carPage=car=>(isModel(car)?'models/':'cars/')+car.slug+'/';
+
 const isModel=car=>car.record_kind==='model';
 const marketLabels={cn:'Китай',kr:'Корея',eu:'Европа'};
 const direction=document.querySelector('#model-direction');
@@ -52,26 +61,29 @@ function renderCars(resetLimit=true){
   const activeLimitCount=limits.filter(([,input])=>input.value!=='').length;
   document.querySelector('#advanced-summary').textContent='Бюджет, год и пробег'+(activeLimitCount?' · '+activeLimitCount:'');
   const words=normalizeSearch(search.value).split(' ').filter(Boolean);
-  const visible = cars.filter(car => (activeType === 'all' || car.types.includes(activeType)) && (country.value === 'all' || car.country === country.value) && (brandFilter.value==='all' || brandName(car)===brandFilter.value) && (catalogView==='models' || stateFilter.value==='all' || car.status===stateFilter.value) && matchesLimits(car) && words.every(word=>normalizeSearch(car.name).replace(/\s/g,'').includes(word.replace(/\s/g,''))));
+  const visible = cars.filter(car => (!document.querySelector('#favorites-only').checked || favorites.has(car.record_id)) && (activeType === 'all' || car.types.includes(activeType)) && (country.value === 'all' || car.country === country.value) && (brandFilter.value==='all' || brandName(car)===brandFilter.value) && (catalogView==='models' || stateFilter.value==='all' || car.status===stateFilter.value) && matchesLimits(car) && words.every(word=>normalizeSearch(car.name).replace(/\s/g,'').includes(word.replace(/\s/g,''))));
   visible.sort((a,b)=>{if(catalogView==='models')return a.name.localeCompare(b.name,'ru');if(sort.value==='newest')return dateValue(b.date).localeCompare(dateValue(a.date)) || b.id-a.id;const aKnown=a.price!==null && a.currency==='RUB',bKnown=b.price!==null && b.currency==='RUB';if(aKnown!==bKnown)return aKnown?-1:1;return aKnown?(sort.value==='price-asc'?a.price-b.price:b.price-a.price):dateValue(b.date).localeCompare(dateValue(a.date));});
   grid.replaceChildren(...visible.slice(0,shownLimit).map(car => {
     const article = el('article',isModel(car)?'car model-card':'car');
     const visual = el('div','car-visual');
     const image = el('img');
-    image.src=car.image; image.alt=isModel(car)?'Схематичная иллюстрация автомобиля, не фотография модели':car.images.length?car.name+' — фотография из объявления':'Фотография отсутствует в экспорте'; image.width=720; image.height=480; image.loading='lazy'; image.decoding='async';
-    visual.append(image,el('span','car-tag',isModel(car)?'МОДЕЛЬ ПОД ЗАКАЗ':car.status==='unknown'?'ПУБЛИКАЦИЯ '+car.date:statusLabels[car.status]));
+    image.src=car.image_small||car.image;if(car.image_small){image.srcset=car.image_small+' 480w, '+car.image_large+' 960w';image.sizes='(max-width:420px) 90vw, (max-width:760px) 44vw, 30vw';} image.alt=isModel(car)?'Схематичная иллюстрация автомобиля, не фотография модели':car.images.length?car.name+' — фотография из объявления':'Фотография отсутствует в экспорте'; image.width=720; image.height=480; image.loading='lazy'; image.decoding='async';
+    if(isModel(car) && car.example_image){image.src=car.example_image;image.removeAttribute('srcset');image.alt=car.name+' — пример из объявления агентства, версия может отличаться';visual.append(image);article.classList.add('model-has-example');}else if(!isModel(car))visual.append(image);else visual.append(el('span','model-brand-name',brandLabels[car.brand]||car.brand),el('span','model-body-label',car.body));
+    visual.append(el('span','car-tag',isModel(car)?'МОДЕЛЬ ПОД ЗАКАЗ':car.status==='unknown'?'ПУБЛИКАЦИЯ '+car.date:statusLabels[car.status]));
     const data=el('div','car-data');
-    data.append(el('p','car-meta',car.body+' / '+car.year),el('h3','',car.name),el('p','car-mileage',car.mileage));
+    const heading=el('h3');const pageLink=el('a','',car.name);pageLink.href=carPage(car);heading.append(pageLink);data.append(el('p','car-meta',isModel(car)?car.body:car.body+' / '+car.year),heading,el('p','car-mileage',isModel(car)?'Выбор года и версии — при подборе':car.mileage));
     const bottom=el('div','car-bottom');
     const price=el('div','');price.append(el('strong','car-price',priceLabel(car)),el('small','price-date',isModel(car)?'Стоимость после выбора версии':car.price===null?'Сумма не указана в публикации':'Цена на '+car.priceDate));
     const button=el('button','','↗');button.type='button';button.setAttribute('aria-label','Подробнее о '+car.name);button.addEventListener('click',()=>openCar(car));
-    bottom.append(price,button);data.append(bottom);article.append(visual,data);return article;
+    bottom.append(price,button);data.append(bottom);
+    const actions=el('div','car-actions');const favorite=el('button','',favorites.has(car.record_id)?'♥ Сохранено':'♡ В избранное');favorite.type='button';favorite.setAttribute('aria-pressed',String(favorites.has(car.record_id)));favorite.setAttribute('aria-label','Избранное: '+car.name);favorite.addEventListener('click',()=>{if(favorites.has(car.record_id))favorites.delete(car.record_id);else favorites.add(car.record_id);persistFavorites();if(document.querySelector('#favorites-only').checked)renderCars(false);else{favorite.textContent=favorites.has(car.record_id)?'♥ Сохранено':'♡ В избранное';favorite.setAttribute('aria-pressed',String(favorites.has(car.record_id)));updateSelectionCounts();}});
+    const compare=el('button','',comparison.has(car.record_id)?'✓ В сравнении':'+ Сравнить');compare.type='button';compare.setAttribute('aria-pressed',String(comparison.has(car.record_id)));compare.addEventListener('click',()=>{if(comparison.has(car.record_id))comparison.delete(car.record_id);else if(comparison.size<3)comparison.add(car.record_id);else{document.querySelector('#selection-status').textContent='Можно сравнить до трёх автомобилей. Удалите один в окне сравнения.';return;}compare.textContent=comparison.has(car.record_id)?'✓ В сравнении':'+ Сравнить';compare.setAttribute('aria-pressed',String(comparison.has(car.record_id)));updateSelectionCounts();});actions.append(favorite,compare);data.append(actions);if(car.example_caption)data.append(el('p','example-caption',car.example_caption));article.append(visual,data);return article;
   }));
   document.querySelector('#empty').hidden = visible.length > 0;
-  document.querySelector('#empty').textContent=catalogView==='models'?'Модель пока не добавлена в справочник. Обсудите индивидуальный подбор с агентством.':'Автомобилей по этим условиям нет. Измените поиск или сбросьте фильтры.';
+  document.querySelector('#empty').textContent=catalogView==='models'?'Модель пока не добавлена в справочник. Обсудите индивидуальный подбор с агентством.':document.querySelector('#favorites-only').checked?'В этом разделе нет сохранённых автомобилей по выбранным условиям. Отключите «Только избранное» или смените раздел.':'Автомобилей по этим условиям нет. Измените поиск или сбросьте фильтры.';
   document.querySelector('#catalog-status').textContent = `Показано ${Math.min(shownLimit,visible.length)} из ${visible.length} по условиям · всего в каталоге ${cars.length}`;
-  more.hidden=visible.length<=shownLimit;
-  reset.hidden=activeType==='all' && brandFilter.value==='all' && country.value==='all' && !search.value && sort.value==='newest' && stateFilter.value==='unknown' && !hasLimits();
+  more.hidden=visible.length<=shownLimit;updateSelectionCounts();
+  reset.hidden=!document.querySelector('#favorites-only').checked && activeType==='all' && brandFilter.value==='all' && country.value==='all' && !search.value && sort.value==='newest' && stateFilter.value==='unknown' && !hasLimits();
 }
 function renderPhoto(){
   const image=document.querySelector('#detail-image');
@@ -83,7 +95,7 @@ function renderPhoto(){
 }
 function openCar(car, writeHistory = true){
   selectedCar=car;photoIndex=0;
-  document.querySelector('#detail-title').textContent=car.name;
+  document.querySelector('#detail-title').textContent=car.name;document.querySelector('#detail-page-link').href=carPage(car);
   document.querySelector('#detail-kind').textContent=isModel(car)?'СПРАВОЧНИК МОДЕЛЕЙ':'ИЗ КАНАЛА АГЕНТСТВА';
   document.querySelector('.gallery-caption').textContent=isModel(car)?'Иллюстрация справочная. Фотографии конкретных машин появятся после подключения предложений поставщиков.':'Фотографии из объявления. Используйте стрелки для просмотра.';
   document.querySelector('#detail-meta').textContent=car.body+' · '+car.year;
@@ -124,7 +136,7 @@ dialog.addEventListener('close',()=>{
 });
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('keydown',event=>{if(event.target.matches('input,textarea,select'))return;if(event.key==='ArrowLeft'){event.preventDefault();movePhoto(-1);}if(event.key==='ArrowRight'){event.preventDefault();movePhoto(1);}});
-document.querySelector('#detail-select').addEventListener('click',()=>{const car=selectedCar;dialog.close();document.querySelector('#lead-message').value=isModel(car)?`Интересует подбор ${car.name}. Планируемое направление: ${marketLabels[direction.value]}. Прошу проверить возможность поставки и рассчитать предварительную стоимость для подходящей версии.`:`Интересует ${car.name}. Цена в объявлении на ${car.priceDate}: ${priceLabel(car)}. Прошу уточнить наличие и актуальные условия.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-form input').focus({preventScroll:true});});
+document.querySelector('#detail-select').addEventListener('click',()=>{const car=selectedCar;dialog.close();document.querySelector('#lead-message').value=isModel(car)?`Интересует подбор ${car.name}. Планируемое направление: ${marketLabels[direction.value]}. Прошу проверить возможность поставки и рассчитать предварительную стоимость для подходящей версии.`:`Интересует ${car.name}. Цена в объявлении на ${car.priceDate}: ${priceLabel(car)}. Прошу уточнить наличие и актуальные условия.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
 document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{
   activeType=button.dataset.type;
   document.querySelectorAll('.filter').forEach(item=>{item.classList.toggle('active',item===button);item.setAttribute('aria-pressed',String(item===button));});updateCatalog();
@@ -140,23 +152,23 @@ function applyView(view){
   for(const [id,active] of [['view-models',modelView],['view-offers',!modelView]]){const button=document.getElementById(id);button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));}
   document.querySelector('.catalog-state').hidden=modelView;document.querySelector('#advanced-filters').hidden=modelView;document.querySelector('#offers-note').hidden=modelView;document.querySelector('#model-direction-wrap').hidden=!modelView;
   sort.options[0].textContent=modelView?'По названию':'Сначала свежие публикации';sort.disabled=modelView;sort.title=modelView?'Модели упорядочены по названию':'';
-  document.querySelector('#catalog-purpose').textContent=modelView?'Выберите модель для индивидуального подбора из Китая, Кореи или Европы. Это начальная подборка, не полный мировой каталог. Доступность и возможность ввоза каждой версии требуют проверки.':'Конкретные автомобили из публикаций агентства. Цены и статусы относятся к датам сообщений, текущее наличие уточняйте.';
+  document.querySelector('#catalog-purpose').textContent=modelView?'Справочник моделей для подбора. Версию, доступность и возможность ввоза проверяем индивидуально.':'Фотографии и данные из публикаций агентства. Актуальную цену и наличие уточняйте у Дмитрия.';
   if(modelView){limits.forEach(([,input])=>input.value='');sort.value='newest';}
 }
-function switchView(view){applyView(view);setActiveType('all');country.value='all';brandFilter.value='all';search.value='';sort.value='newest';stateFilter.value='unknown';limits.forEach(([,input])=>input.value='');updateCatalog();}
+async function switchView(view){const request=++catalogRequest;try{if(view==='models')await ensureModels();}catch{document.querySelector('#catalog-status').textContent='Не удалось загрузить модели. Попробуйте ещё раз или позвоните Дмитрию.';return;}if(request!==catalogRequest)return;applyView(view);setActiveType('all');country.value='all';brandFilter.value='all';search.value='';sort.value='newest';stateFilter.value='unknown';limits.forEach(([,input])=>input.value='');updateCatalog();}
 document.querySelector('#view-models').addEventListener('click',()=>switchView('models'));document.querySelector('#view-offers').addEventListener('click',()=>switchView('offers'));direction.addEventListener('change',writeCatalogUrl);
 function writeCatalogUrl(){
   const url=new URL(location.href);url.searchParams.set('view',catalogView);if(catalogView==='models')url.searchParams.set('from',direction.value);else url.searchParams.delete('from');
-  for(const [key,value,defaultValue] of [['brand',brandFilter.value,'all'],['q',search.value.trim(),''],['type',activeType,'all'],['country',country.value,'all'],['sort',sort.value,'newest'],['status',stateFilter.value,'unknown']]){if(value===defaultValue)url.searchParams.delete(key);else url.searchParams.set(key,value);}
+  for(const [key,value,defaultValue] of [['saved',document.querySelector('#favorites-only').checked?'1':'',''],['brand',brandFilter.value,'all'],['q',search.value.trim(),''],['type',activeType,'all'],['country',country.value,'all'],['sort',sort.value,'newest'],['status',stateFilter.value,'unknown']]){if(value===defaultValue)url.searchParams.delete(key);else url.searchParams.set(key,value);}
   for(const [key,input] of limits){if(input.value!=='' && input.validity.valid)url.searchParams.set(key,input.value);else url.searchParams.delete(key);}
   history.replaceState(history.state,'',url);
 }
 function updateCatalog(){renderCars();writeCatalogUrl();}
-function restoreCatalog(){
-  const params=new URL(location.href).searchParams;
+async function restoreCatalog(){const request=++catalogRequest;
+  const params=new URL(location.href).searchParams;document.querySelector('#favorites-only').checked=params.get('saved')==='1';
   const linkedOffer=agentCars.some(car=>car.slug===params.get('car'));
   const legacyFilters=!params.has('view') && ['status','budget','yearFrom','kmTo'].some(key=>params.has(key));
-  applyView(params.get('view')==='offers'||linkedOffer||legacyFilters?'offers':'models');direction.value=['cn','kr','eu'].includes(params.get('from'))?params.get('from'):'cn';
+  const view=params.get('view')==='models'||params.get('car')?.startsWith('model-')?'models':'offers';try{if(view==='models' || params.get('compare')?.includes('model-'))await ensureModels();}catch{document.querySelector('#catalog-status').textContent='Не удалось загрузить модели. Переключитесь на объявления или повторите попытку.';return;}if(request!==catalogRequest)return;applyView(view);direction.value=['cn','kr','eu'].includes(params.get('from'))?params.get('from'):'cn';
   const type=params.get('type');setActiveType([...document.querySelectorAll('.filter')].some(button=>button.dataset.type===type)?type:'all');
   brandFilter.value=[...brandFilter.options].some(option=>option.value===params.get('brand'))?params.get('brand'):'all';
   country.value=[...country.options].some(option=>option.value===params.get('country'))?params.get('country'):'all';
@@ -164,7 +176,8 @@ function restoreCatalog(){
   stateFilter.value=[...stateFilter.options].some(option=>option.value===params.get('status'))?params.get('status'):'unknown';
   for(const [key,input] of limits){const value=params.get(key)||'';input.value=/^\d{1,10}$/.test(value)?value:'';if(!input.validity.valid)input.value='';}
   document.querySelector('#advanced-filters').open=hasLimits();
-  search.value=(params.get('q')||'').slice(0,80);renderCars();
+  if(params.has('compare')){comparison.clear();const known=new Set([...agentCars,...importModelCars].map(car=>car.record_id));for(const id of params.get('compare').split(',').slice(0,3))if(known.has(id))comparison.add(id);}
+  search.value=(params.get('q')||'').slice(0,80);renderCars();if(comparison.size && params.has('compare'))openComparison();
   if(catalogView==='models'){sort.value='newest';stateFilter.value='unknown';limits.forEach(([,input])=>input.value='');renderCars();}
   const car=cars.find(item=>item.slug===params.get('car'));
   if(car)openCar(car,false);else{if(dialog.open)dialog.close();if(params.has('car'))document.querySelector('#catalog-status').textContent='Автомобиль по этой ссылке не найден. Выберите другой из каталога.';}
@@ -172,7 +185,7 @@ function restoreCatalog(){
 limits.forEach(([,input])=>input.addEventListener('input',updateCatalog));
 stateFilter.addEventListener('change',updateCatalog);more.addEventListener('click',()=>{shownLimit+=12;renderCars(false);});
 brandFilter.addEventListener('change',updateCatalog);country.addEventListener('change',updateCatalog);sort.addEventListener('change',updateCatalog);search.addEventListener('input',updateCatalog);
-reset.addEventListener('click',()=>{setActiveType('all');country.value='all';brandFilter.value='all';sort.value='newest';stateFilter.value='unknown';search.value='';limits.forEach(([,input])=>input.value='');document.querySelector('#advanced-filters').open=false;updateCatalog();search.focus();});
+reset.addEventListener('click',()=>{document.querySelector('#favorites-only').checked=false;setActiveType('all');country.value='all';brandFilter.value='all';sort.value='newest';stateFilter.value='unknown';search.value='';limits.forEach(([,input])=>input.value='');document.querySelector('#advanced-filters').open=false;updateCatalog();search.focus();});
 window.addEventListener('popstate',restoreCatalog);
 document.querySelector('#copy-car-link').addEventListener('click',async()=>{
   const input=document.querySelector('#car-share-url');const status=document.querySelector('#share-status');
@@ -201,11 +214,9 @@ function calculate(){
 }
 calc.addEventListener('input',calculate);
 document.querySelector('#currency').addEventListener('change',()=>{document.querySelector('#rate').value='';calculate();});
-calc.addEventListener('submit',event=>{event.preventDefault();calculate();if(budget===null)return;document.querySelector('#lead-message').value=`Хочу обсудить предварительный бюджет ${rubles.format(budget)}. Цена: ${document.querySelector('#car-price').value} ${document.querySelector('#currency').value}; курс: ${document.querySelector('#rate').value} ₽. Логистика: ${document.querySelector('#delivery').value} ₽; услуги: ${document.querySelector('#service').value} ₽; платежи: ${document.querySelector('#duties').value} ₽. Все суммы введены мной и требуют проверки.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-form input').focus({preventScroll:true});});
+calc.addEventListener('submit',event=>{event.preventDefault();calculate();if(budget===null)return;document.querySelector('#lead-message').value=`Хочу обсудить предварительный бюджет ${rubles.format(budget)}. Цена: ${document.querySelector('#car-price').value} ${document.querySelector('#currency').value}; курс: ${document.querySelector('#rate').value} ₽. Логистика: ${document.querySelector('#delivery').value} ₽; услуги: ${document.querySelector('#service').value} ₽; платежи: ${document.querySelector('#duties').value} ₽. Все суммы введены мной и требуют проверки.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
 const lead = document.querySelector('#lead-form');
-lead.addEventListener('submit',event=>{event.preventDefault();const phone=lead.elements.phone;const digits=phone.value.replace(/\D/g,'');if(digits.length<10 || digits.length>15){phone.setCustomValidity('Введите от 10 до 15 цифр номера телефона.');phone.reportValidity();return;}document.querySelector('#lead-status').textContent='Демопроверка пройдена. Заявка не отправлена. Для реальных обращений нужно подключить приём заявок и добавить документы компании.';});
-lead.elements.phone.addEventListener('input',()=>{lead.elements.phone.setCustomValidity('');document.querySelector('#lead-status').textContent='';});
-lead.addEventListener('input',()=>{document.querySelector('#lead-status').textContent='';});
+lead.addEventListener('submit',async event=>{event.preventDefault();const text=document.querySelector('#lead-message').value.trim();const status=document.querySelector('#lead-status');if(!text){status.textContent='Добавьте модель или пожелания.';document.querySelector('#lead-message').focus();return;}try{await navigator.clipboard.writeText(text);status.textContent='Пожелания скопированы. Их можно использовать в личном обращении. Ничего не отправлено.';}catch{document.querySelector('#lead-message').select();status.textContent='Текст выделен — скопируйте его вручную. Ничего не отправлено.';}});
 if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(element=>observer.observe(element));document.documentElement.classList.add('motion-ready');}
 
 
@@ -213,7 +224,7 @@ if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: red
 
 
 // Quick selection uses the same catalogue state and shareable filters.
-document.querySelector('#hero-finder').addEventListener('submit',event=>{event.preventDefault();switchView('models');direction.value=document.querySelector('#hero-market').value;search.value=document.querySelector('#hero-query').value.trim();updateCatalog();document.querySelector('#catalog').scrollIntoView();search.focus({preventScroll:true});});
+document.querySelector('#hero-finder').addEventListener('submit',async event=>{event.preventDefault();await switchView('models');if(catalogView!=='models')return;direction.value=document.querySelector('#hero-market').value;search.value=document.querySelector('#hero-query').value.trim();updateCatalog();document.querySelector('#catalog').scrollIntoView();search.focus({preventScroll:true});});
 let scrollFrame=0;
 function updateScrollEffects(){scrollFrame=0;const max=document.documentElement.scrollHeight-innerHeight;document.querySelector('.reading-progress').style.transform='scaleX('+(max>0?Math.min(1,scrollY/max):0)+')';}
 addEventListener('scroll',()=>{if(!scrollFrame)scrollFrame=requestAnimationFrame(updateScrollEffects);},{passive:true});
@@ -242,3 +253,17 @@ document.querySelectorAll('[data-story]').forEach(button=>button.addEventListene
 document.querySelector('#story-next-photo').addEventListener('click',()=>{const car=agentCars.find(item=>item.slug===drivingStories[storyIndex].slug);storyPhotoIndex=(storyPhotoIndex+1)%car.images.length;showDrivingStory();});
 document.querySelector('#story-open').addEventListener('click',()=>{const car=agentCars.find(item=>item.slug===drivingStories[storyIndex].slug);switchView('offers');openCar(car);});
 showDrivingStory(false);
+
+function updateSelectionCounts(){document.querySelector('#favorites-count').textContent=favorites.size;document.querySelector('#compare-count').textContent=comparison.size+' / 3';}
+function renderComparison(){
+ const records=[...agentCars,...importModelCars];const panel=document.querySelector('#compare-grid');
+ panel.replaceChildren(...[...comparison].map(id=>{const car=records.find(item=>item.record_id===id);if(!car)return el('p','','Автомобиль недоступен');const card=el('article','compare-card');const title=el('h3');const link=el('a','',car.name);link.href=carPage(car);title.append(link);card.append(title);const spec=el('dl');for(const [label,value] of [['Тип',isModel(car)?'Модель под заказ':'Объявление агентства'],['Кузов',car.body],['Год',isModel(car)?'Выбирается при подборе':car.year],['Пробег',isModel(car)?'Выбирается при подборе':car.mileage],['Двигатель',isModel(car)?'Выбирается при подборе':car.engine],['Стоимость',priceLabel(car)],['Актуальность',isModel(car)?'Поставка требует проверки':'Цена на '+car.priceDate+' · '+statusLabels[car.status]]])spec.append(el('dt','',label),el('dd','',value));card.append(spec);const remove=el('button','','Убрать из сравнения ×');remove.type='button';remove.addEventListener('click',()=>{comparison.delete(id);renderComparison();renderCars(false);document.querySelector('#close-compare').focus();});card.append(remove);return card;}));
+ const share=new URL(location.href);share.search='';share.searchParams.set('compare',[...comparison].join(','));share.hash='catalog';document.querySelector('#compare-share-url').value=comparison.size?share.href:'';
+ document.querySelector('#compare-status').textContent=comparison.size?'':'Добавьте до трёх автомобилей кнопкой «Сравнить» в каталоге.';document.querySelector('#copy-selection').disabled=!comparison.size;
+}
+function openComparison(){renderComparison();const panel=document.querySelector('#compare-dialog');if(!panel.open)panel.showModal();}
+document.querySelector('#favorites-only').addEventListener('change',()=>{renderCars();writeCatalogUrl();});
+document.querySelector('#open-compare').addEventListener('click',openComparison);document.querySelector('#close-compare').addEventListener('click',()=>document.querySelector('#compare-dialog').close());
+document.querySelector('#copy-selection').addEventListener('click',async()=>{const url=new URL(location.href);url.search='';url.searchParams.set('compare',[...comparison].join(','));url.hash='catalog';try{await navigator.clipboard.writeText(url.href);document.querySelector('#compare-status').textContent='Ссылка на сравнение скопирована.';}catch{const status=document.querySelector('#compare-status');status.replaceChildren(el('span','','Скопируйте ссылку: '));const input=el('input');input.type='url';input.readOnly=true;input.value=url.href;status.append(input);input.select();}});
+
+document.querySelector('#compare-dialog').addEventListener('close',()=>{const url=new URL(location.href);url.searchParams.delete('compare');history.replaceState(history.state,'',url);});

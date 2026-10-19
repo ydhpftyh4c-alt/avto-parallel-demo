@@ -1,3 +1,5 @@
+import {checkGeneratedPages} from './check-pages.mjs';
+import {generatePages} from './generate-pages.mjs';
 import {readFile, mkdir, copyFile, cp, stat} from 'node:fs/promises';
 import path from 'node:path';
 import {generateCatalog} from './generate-catalog.mjs';
@@ -19,8 +21,10 @@ const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
 if(new Set(ids).size!==ids.length)throw Error('Duplicate HTML IDs');
 for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)){if(!ids.includes(anchor))throw Error('Broken anchor: '+anchor);}
 await mkdir('dist',{recursive:true});
-for(const file of ['index.html','styles.css','app.js','catalog-data.js','import-catalog-data.js','.nojekyll'])await copyFile(file,'dist/'+file);
+for(const file of ['index.html','styles.css','app.js','catalog-data.js','import-catalog-data.js','import-catalog.json','.nojekyll'])await copyFile(file,'dist/'+file);
 await cp('assets','dist/assets',{recursive:true});
 await cp('data/vehicles','dist/data/vehicles',{recursive:true});
+await generatePages(catalog,importCatalog);
+await checkGeneratedPages(catalog,importCatalog);
 console.log('Build passed: script syntax, local assets, unique IDs and anchor targets. Output: dist/');
 

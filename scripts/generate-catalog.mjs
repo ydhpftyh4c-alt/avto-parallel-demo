@@ -1,5 +1,6 @@
 import {readFile,writeFile,readdir} from 'node:fs/promises';
 import path from 'node:path';
+import {existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 export async function readVehicles(directory='data/vehicles'){
  const result=[];
@@ -12,8 +13,8 @@ export async function generateCatalog(){
  const visible=all.filter(car=>!car.review_required && car.record_kind==='vehicle');
  // Full source texts are never shipped to the browser bundle.
  const fields=['record_id','id','slug','brand','name','types','country','body','year','mileage','engine','price','currency','pricePrefix','priceDate','priceNote','date','status','statusDate','specs','price_history','features','description','images','image'];
- const publicCars=visible.map(car=>Object.fromEntries(fields.map(key=>[key,car[key]])));
- await writeFile('catalog-data.js','// Generated from per-vehicle JSON. Do not edit directly.\nconst catalogCars = '+JSON.stringify(publicCars,null,2)+';\n');
+ const publicCars=visible.map(car=>{const record=Object.fromEntries(fields.map(key=>[key,car[key]]));if(existsSync('assets/vehicles/'+car.slug+'-480.webp')){record.image_small='assets/vehicles/'+car.slug+'-480.webp';record.image_large='assets/vehicles/'+car.slug+'-960.webp';}return record;});
+ await writeFile('catalog-data.js','// Generated from per-vehicle JSON. Do not edit directly.\nconst catalogCars = '+JSON.stringify(publicCars)+';\n');
  console.log(`Catalog generated: ${visible.length} public records, ${all.length-visible.length} records awaiting review.`);
  return publicCars;
 }

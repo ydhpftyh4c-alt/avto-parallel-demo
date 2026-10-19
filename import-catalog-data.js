@@ -79,7 +79,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.audi.co.uk/en/models/",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/audi/a3-sport-progressive/tg-0387/cover.jpg",
+    "example_slug": "audi-a3-sport-progressive-tg-0387",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 3,
@@ -405,7 +408,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.audi.co.uk/en/models/",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/audi/q5/tg-0095/cover.jpg",
+    "example_slug": "audi-q5-tg-0095",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 11,
@@ -1013,7 +1019,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.bmw.co.uk/en/all-models.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/bmw/x1-f48-fashion-edition/tg-0613/cover.jpg",
+    "example_slug": "bmw-x1-f48-fashion-edition-tg-0613",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 26,
@@ -1093,7 +1102,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.bmw.co.uk/en/all-models.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/bmw/x3-30l/tg-0337/cover.jpg",
+    "example_slug": "bmw-x3-30l-tg-0337",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 28,
@@ -1213,7 +1225,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.bmw.co.uk/en/all-models.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/bmw/x6-xdrive40i-m/tg-0380/cover.jpg",
+    "example_slug": "bmw-x6-xdrive40i-m-tg-0380",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 31,
@@ -1293,7 +1308,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.bmw.co.uk/en/all-models.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/bmw/z4/tg-0360/cover.jpg",
+    "example_slug": "bmw-z4-tg-0360",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 33,
@@ -2181,7 +2199,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.hyundai.com/worldwide/en/vehicles",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/hyundai/kona/tg-0789/cover.jpg",
+    "example_slug": "hyundai-kona-tg-0789",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 55,
@@ -2624,7 +2645,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.kia.com/kr/redirect/sitemap",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/kia/k5-prestige/tg-0291/cover.jpg",
+    "example_slug": "kia-k5-prestige-tg-0291",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 66,
@@ -3025,7 +3049,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.volkswagen.co.uk/en/new.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/volkswagen/golf-280tsi-r-line/tg-0298/cover.jpg",
+    "example_slug": "volkswagen-golf-280tsi-r-line-tg-0298",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 81,
@@ -3391,7 +3418,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.volkswagen.co.uk/en/new.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/volkswagen/polo/tg-0026/cover.jpg",
+    "example_slug": "volkswagen-polo-tg-0026",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 85,
@@ -3471,7 +3501,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.volkswagen.co.uk/en/new.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/volkswagen/t-roc/tg-0224/cover.jpg",
+    "example_slug": "volkswagen-t-roc-tg-0224",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 87,
@@ -3591,7 +3624,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.volkswagen.co.uk/en/new.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/volkswagen/tayron-2023-2022/tg-0508/cover.jpg",
+    "example_slug": "volkswagen-tayron-2023-2022-tg-0508",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 90,
@@ -3631,7 +3667,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.volkswagen.co.uk/en/new.html",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/volkswagen/tiguan/tg-0170/cover.jpg",
+    "example_slug": "volkswagen-tiguan-tg-0170",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 91,
@@ -3712,7 +3751,10 @@ const importModelCars = [
     "image": "assets/import-model.svg",
     "images": [],
     "source_url": "https://www.zeekrlife.com/global/",
-    "source_checked_at": "2026-10-19"
+    "source_checked_at": "2026-10-19",
+    "example_image": "data/vehicles/zeekr/001-you-z-sport/tg-0394/cover.jpg",
+    "example_slug": "zeekr-001-you-z-sport-tg-0394",
+    "example_caption": "Пример из объявления агентства. Год и версия могут отличаться."
   },
   {
     "id": 93,
