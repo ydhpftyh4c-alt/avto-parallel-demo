@@ -4,7 +4,7 @@ let importModelCars=[];
 let cars=agentCars;
 let catalogView='offers';
 let modelsPromise=null,catalogRequest=0;
-async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-4').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-5').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
 function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
 const favorites=readSaved('parallel-favorites-v1');
 const comparison=new Set();
@@ -82,7 +82,7 @@ function renderCars(resetLimit=true){
   document.querySelector('#empty').hidden = visible.length > 0;
   document.querySelector('#empty').textContent=catalogView==='models'?'Модель пока не добавлена в справочник. Обсудите индивидуальный подбор с агентством.':document.querySelector('#favorites-only').checked?'В этом разделе нет сохранённых автомобилей по выбранным условиям. Отключите «Только избранное» или смените раздел.':'Автомобилей по этим условиям нет. Измените поиск или сбросьте фильтры.';
   document.querySelector('#catalog-status').textContent = `Показано ${Math.min(shownLimit,visible.length)} из ${visible.length} по условиям · всего в каталоге ${cars.length}`;
-  more.hidden=visible.length<=shownLimit;updateSelectionCounts();
+  more.hidden=visible.length<=shownLimit;updateSelectionCounts();syncSearchSuggestions();
   reset.hidden=!document.querySelector('#favorites-only').checked && activeType==='all' && brandFilter.value==='all' && country.value==='all' && !search.value && sort.value==='newest' && stateFilter.value==='unknown' && !hasLimits();
 }
 function renderPhoto(){
@@ -94,7 +94,7 @@ function renderPhoto(){
   document.querySelector('#photo-counter').textContent=hasPhotos?(photoIndex+1)+' / '+selectedCar.images.length:isModel(selectedCar)?'Выбор модели':'Нет фотографий';
 }
 function openCar(car, writeHistory = true){
-  selectedCar=car;photoIndex=0;
+  selectedCar=car;photoIndex=0;setGalleryExpanded(false);document.querySelector('#photo-expand').hidden=!car.images.length;
   document.querySelector('#detail-title').textContent=car.name;document.querySelector('#detail-page-link').href=carPage(car);
   document.querySelector('#detail-kind').textContent=isModel(car)?'СПРАВОЧНИК МОДЕЛЕЙ':'ИЗ КАНАЛА АГЕНТСТВА';
   document.querySelector('.gallery-caption').textContent=isModel(car)?'Иллюстрация справочная. Фотографии конкретных машин появятся после подключения предложений поставщиков.':'Фотографии из объявления. Используйте стрелки для просмотра.';
@@ -255,11 +255,18 @@ document.querySelector('#story-open').addEventListener('click',()=>{const car=ag
 showDrivingStory(false);
 
 function updateSelectionCounts(){document.querySelector('#favorites-count').textContent=favorites.size;document.querySelector('#compare-count').textContent=comparison.size+' / 3';}
+function comparisonFields(car){return [['Тип',isModel(car)?'Модель под заказ':'Объявление агентства'],['Кузов',car.body],['Год',isModel(car)?'Выбирается при подборе':car.year],['Пробег',isModel(car)?'Выбирается при подборе':car.mileage],['Двигатель',isModel(car)?'Выбирается при подборе':car.engine],['Стоимость',priceLabel(car)],['Актуальность',isModel(car)?'Поставка требует проверки':'Цена на '+car.priceDate+' · '+statusLabels[car.status]]];}
 function renderComparison(){
- const records=[...agentCars,...importModelCars];const panel=document.querySelector('#compare-grid');
- panel.replaceChildren(...[...comparison].map(id=>{const car=records.find(item=>item.record_id===id);if(!car)return el('p','','Автомобиль недоступен');const card=el('article','compare-card');const title=el('h3');const link=el('a','',car.name);link.href=carPage(car);title.append(link);card.append(title);const spec=el('dl');for(const [label,value] of [['Тип',isModel(car)?'Модель под заказ':'Объявление агентства'],['Кузов',car.body],['Год',isModel(car)?'Выбирается при подборе':car.year],['Пробег',isModel(car)?'Выбирается при подборе':car.mileage],['Двигатель',isModel(car)?'Выбирается при подборе':car.engine],['Стоимость',priceLabel(car)],['Актуальность',isModel(car)?'Поставка требует проверки':'Цена на '+car.priceDate+' · '+statusLabels[car.status]]])spec.append(el('dt','',label),el('dd','',value));card.append(spec);const remove=el('button','','Убрать из сравнения ×');remove.type='button';remove.addEventListener('click',()=>{comparison.delete(id);renderComparison();renderCars(false);document.querySelector('#close-compare').focus();});card.append(remove);return card;}));
+ const records=[...agentCars,...importModelCars];const selected=[...comparison].map(id=>records.find(car=>car.record_id===id)).filter(Boolean);const panel=document.querySelector('#compare-grid');
+ panel.style.gridTemplateColumns='repeat('+Math.max(selected.length,1)+',minmax(0,1fr))';
+ const fields=selected.map(comparisonFields);const different=fields[0]?.map((_,row)=>new Set(fields.map(values=>values[row][1])).size>1)||[];
+ const filter=document.querySelector('#compare-differences');filter.disabled=selected.length<2;if(filter.disabled)filter.checked=false;
+ panel.replaceChildren(...selected.map((car,column)=>{const card=el('article','compare-card');const title=el('h3');const link=el('a','',car.name);link.href=carPage(car);title.append(link);card.append(title);
+ const photo=car.image_small||car.example_image;if(photo){const image=el('img','compare-image');image.src=photo;image.alt=car.name+(isModel(car)?' — пример из объявления, версия может отличаться':' — фото из объявления');image.width=480;image.height=320;image.loading='lazy';card.append(image);if(isModel(car))card.append(el('p','example-caption','Фото примера; год и версия могут отличаться.'));}else card.append(el('div','compare-no-photo','Фото конкретной версии пока нет'));
+ const spec=el('dl');for(const [row,[label,value]] of fields[column].entries()){const group=el('div','compare-row');group.classList.toggle('different',different[row]);group.hidden=filter.checked&&!different[row];group.append(el('dt','',label),el('dd','',value));spec.append(group);}card.append(spec);
+ const remove=el('button','','Убрать из сравнения ×');remove.type='button';remove.addEventListener('click',()=>{comparison.delete(car.record_id);renderComparison();renderCars(false);document.querySelector('#close-compare').focus();});card.append(remove);return card;}));
  const share=new URL(location.href);share.search='';share.searchParams.set('compare',[...comparison].join(','));share.hash='catalog';document.querySelector('#compare-share-url').value=comparison.size?share.href:'';
- document.querySelector('#compare-status').textContent=comparison.size?'':'Добавьте до трёх автомобилей кнопкой «Сравнить» в каталоге.';document.querySelector('#copy-selection').disabled=!comparison.size;
+ document.querySelector('#compare-status').textContent=comparison.size?'':'Добавьте до трёх автомобилей кнопкой «Сравнить» в каталоге.';document.querySelector('#copy-selection').disabled=!comparison.size;document.querySelector('#compare-brief').disabled=!comparison.size;
 }
 function openComparison(){renderComparison();const panel=document.querySelector('#compare-dialog');if(!panel.open)panel.showModal();}
 document.querySelector('#favorites-only').addEventListener('change',()=>{renderCars();writeCatalogUrl();});
@@ -267,3 +274,23 @@ document.querySelector('#open-compare').addEventListener('click',openComparison)
 document.querySelector('#copy-selection').addEventListener('click',async()=>{const url=new URL(location.href);url.search='';url.searchParams.set('compare',[...comparison].join(','));url.hash='catalog';try{await navigator.clipboard.writeText(url.href);document.querySelector('#compare-status').textContent='Ссылка на сравнение скопирована.';}catch{const status=document.querySelector('#compare-status');status.replaceChildren(el('span','','Скопируйте ссылку: '));const input=el('input');input.type='url';input.readOnly=true;input.value=url.href;status.append(input);input.select();}});
 
 document.querySelector('#compare-dialog').addEventListener('close',()=>{const url=new URL(location.href);url.searchParams.delete('compare');history.replaceState(history.state,'',url);});
+
+function hideSearchSuggestions(){document.querySelector('#search-suggestions').hidden=true;search.setAttribute('aria-expanded','false');search.removeAttribute('aria-activedescendant');}
+function syncSearchSuggestions(){
+ document.querySelector('#clear-search').hidden=!search.value;
+ const list=document.querySelector('#search-suggestions');const words=normalizeSearch(search.value).split(' ').filter(Boolean);
+ if(document.activeElement!==search||!words.length){hideSearchSuggestions();return;}
+ const matches=cars.filter(car=>(brandFilter.value==='all'||brandName(car)===brandFilter.value)&&(country.value==='all'||car.country===country.value)&&(activeType==='all'||car.types.includes(activeType))&&(catalogView==='models'||stateFilter.value==='all'||car.status===stateFilter.value)&&(!document.querySelector('#favorites-only').checked||favorites.has(car.record_id))&&matchesLimits(car)&&words.every(word=>normalizeSearch(car.name).replace(/\s/g,'').includes(word.replace(/\s/g,'')))).slice(0,6);
+ list.replaceChildren(...matches.map((car,index)=>{const option=el('div','search-option');option.id='search-option-'+index;option.setAttribute('role','option');option.setAttribute('aria-selected','false');option.append(el('span','',car.name),el('small','',isModel(car)?'Модель под заказ':priceLabel(car)));option.addEventListener('pointerdown',event=>event.preventDefault());option.addEventListener('click',()=>chooseSearchSuggestion(car.name));return option;}));
+ list.hidden=!matches.length;search.setAttribute('aria-expanded',String(matches.length>0));search.removeAttribute('aria-activedescendant');
+}
+function chooseSearchSuggestion(name){search.value=name;updateCatalog();hideSearchSuggestions();search.focus({preventScroll:true});}
+search.addEventListener('focus',syncSearchSuggestions);search.addEventListener('blur',hideSearchSuggestions);
+search.addEventListener('keydown',event=>{const list=document.querySelector('#search-suggestions');if(event.key==='Escape'){hideSearchSuggestions();return;}if(list.hidden)return;const options=[...list.children];let index=options.findIndex(option=>option.id===search.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();index=index<0?(event.key==='ArrowDown'?0:options.length-1):(index+(event.key==='ArrowDown'?1:-1)+options.length)%options.length;for(const [i,option] of options.entries())option.setAttribute('aria-selected',String(i===index));search.setAttribute('aria-activedescendant',options[index].id);}if(event.key==='Enter'&&index>=0){event.preventDefault();chooseSearchSuggestion(options[index].querySelector('span').textContent);}});
+document.querySelector('#clear-search').addEventListener('click',()=>{search.value='';updateCatalog();search.focus();});
+document.querySelector('#compare-differences').addEventListener('change',renderComparison);
+document.querySelector('#compare-brief').addEventListener('click',()=>{const records=[...agentCars,...importModelCars];const names=[...comparison].map(id=>records.find(car=>car.record_id===id)?.name).filter(Boolean);document.querySelector('#compare-dialog').close();document.querySelector('#lead-message').value='Хочу обсудить подборку: '+names.join(', ')+'. Прошу уточнить наличие, состояние, стоимость и подходящие версии.';document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
+function setGalleryExpanded(expanded){dialog.classList.toggle('gallery-expanded',expanded);const button=document.querySelector('#photo-expand');button.setAttribute('aria-pressed',String(expanded));button.textContent=expanded?'Вернуться к характеристикам ↙':'Увеличить фото ⛶';}
+document.querySelector('#photo-expand').addEventListener('click',()=>setGalleryExpanded(!dialog.classList.contains('gallery-expanded')));
+document.querySelector('#detail-image').addEventListener('click',()=>{if(selectedCar?.images.length)setGalleryExpanded(!dialog.classList.contains('gallery-expanded'));});
+dialog.addEventListener('cancel',event=>{if(dialog.classList.contains('gallery-expanded')){event.preventDefault();setGalleryExpanded(false);document.querySelector('#photo-expand').focus();}});
