@@ -6,7 +6,7 @@
   <title>Авто || ПараLLель — Автомобили без границ</title>
   <meta name="description" content="Авто || ПараLLель. Подбор автомобиля и планирование импорта. Демоверсия сайта: каталог, предварительный бюджет и этапы работы.">
   <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
-  <link rel="stylesheet" href="styles.css?v=20261019-2"><script src="catalog-data.js?v=20261019-2" defer></script><script src="import-catalog-data.js?v=20261019-2" defer></script><script src="app.js?v=20261019-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261019-3"><script src="catalog-data.js?v=20261019-3" defer></script><script src="import-catalog-data.js?v=20261019-3" defer></script><script src="app.js?v=20261019-3" defer></script>
 </head>
 <body>
 <div class="reading-progress" aria-hidden="true"></div>
@@ -14,7 +14,7 @@
 <header class="header">
   <a class="brand" href="#" aria-label="Авто Параллель — на главную"><img src="assets/mark.svg" width="46" height="46" alt=""><span>АВТО <b>ПАРА<span class="orange">LL</span>ЕЛЬ</b><small>ДРУГОЙ МАРШРУТ. ВАШ АВТОМОБИЛЬ.</small></span></a>
   <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
-  <nav id="navigation" aria-label="Основная навигация"><a href="#catalog">Автомобили</a><a href="#calculator">Расчёт стоимости</a><a href="#process">Как мы работаем</a><a class="nav-cta" href="#request">Обсудить подбор <span>↗</span></a></nav>
+  <nav id="navigation" aria-label="Основная навигация"><a href="#inspiration">Вдохновение</a><a href="#catalog">Автомобили</a><a href="#calculator">Расчёт стоимости</a><a href="#process">Как мы работаем</a><a class="nav-cta" href="#request">Обсудить подбор <span>↗</span></a></nav>
 </header>
 <main id="main">
   <section class="hero" aria-labelledby="hero-title">
@@ -24,6 +24,13 @@
     <form class="hero-finder" id="hero-finder"><div><span class="finder-kicker">ВАШ СЛЕДУЮЩИЙ АВТОМОБИЛЬ</span><p>С чего начнём?</p></div><label><span>Направление</span><select id="hero-market"><option value="cn">Китай</option><option value="kr">Корея</option><option value="eu">Европа</option></select></label><label><span>Марка или модель</span><input id="hero-query" type="search" maxlength="80" placeholder="Например, Kia Sorento"></label><button class="button orange-button" type="submit">Подобрать <span>↗</span></button></form><div class="hero-bottom"><span>ОТ ПЕРВОГО ВЫБОРА — ДО НОВОЙ ДОРОГИ</span><a href="#catalog" aria-label="К каталогу">Листайте вниз <span>↓</span></a></div>
     <span class="hero-index" aria-hidden="true">01 / 05</span>
   </section>
+
+  <div class="drive-story" id="inspiration" aria-labelledby="story-heading">
+    <div class="story-heading"><p class="eyebrow">НЕ ПРОСТО ДОБРАТЬСЯ. ПОЧУВСТВОВАТЬ.</p><h2 id="story-heading">Какой у вас <em>ритм?</em></h2><p>У каждого автомобиля — свой характер.<br>Найдите тот, который близок вам.</p></div>
+    <div class="story-tabs" role="group" aria-label="Характер автомобиля"><button type="button" data-story="0" aria-pressed="true" class="active"><span>01</span> Энергия</button><button type="button" data-story="1" aria-pressed="false"><span>02</span> Свобода</button><button type="button" data-story="2" aria-pressed="false"><span>03</span> Новый взгляд</button></div>
+    <div class="story-stage"><img id="story-image" src="data/vehicles/porsche/taycan-turbo/tg-0828/cover.jpg" alt="Porsche Taycan Turbo — фото из объявления" width="1440" height="1080" loading="lazy" decoding="async"><div class="story-shade"></div><span class="story-watermark" aria-hidden="true">DRIVE</span><div class="story-topline"><span>АВТО || ПАРАLLЕЛЬ / ВЫБОР ХАРАКТЕРА</span><div class="story-photo-controls"><span id="story-photo-count"></span><button type="button" id="story-next-photo" aria-label="Следующий ракурс автомобиля">Другой ракурс ↗</button></div></div><div class="story-copy"><p id="story-kicker" class="eyebrow">ЭЛЕКТРИЧЕСКИЙ РИТМ</p><h3 id="story-title">Почувствуйте<br>каждый поворот.</h3><p id="story-description">Когда сам маршрут становится причиной отправиться в путь.</p><button id="story-open" class="button orange-button" type="button">Рассмотреть автомобиль <span>↗</span></button></div><div class="story-car-label"><strong id="story-car-name">Porsche Taycan Turbo</strong><span id="story-source">Из публикаций агентства · наличие уточняйте</span></div></div>
+    <div class="story-footnote"><span>Реальные фотографии из объявлений агентства</span><a href="#catalog">Перейти ко всем автомобилям ↗</a></div>
+  </div>
   <section class="catalog section" id="catalog" aria-labelledby="catalog-title">
     <div class="section-heading reveal"><div><p class="eyebrow">01 / ВЫБРАТЬ НАПРАВЛЕНИЕ</p><h2 id="catalog-title">Следующий — <em>ваш.</em></h2></div><p class="section-intro">От городских маршрутов до больших путешествий.<br>Начните с того, что близко вам.</p></div>
     <div class="catalog-views" role="group" aria-label="Раздел каталога"><button type="button" id="view-models" class="catalog-view active" aria-pressed="true">Модели под заказ</button><button type="button" id="view-offers" class="catalog-view" aria-pressed="false">Объявления агентства</button></div>

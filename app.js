@@ -218,3 +218,27 @@ let scrollFrame=0;
 function updateScrollEffects(){scrollFrame=0;const max=document.documentElement.scrollHeight-innerHeight;document.querySelector('.reading-progress').style.transform='scaleX('+(max>0?Math.min(1,scrollY/max):0)+')';}
 addEventListener('scroll',()=>{if(!scrollFrame)scrollFrame=requestAnimationFrame(updateScrollEffects);},{passive:true});
 updateScrollEffects();
+
+const drivingStories=[
+ {slug:'porsche-taycan',kicker:'ЭЛЕКТРИЧЕСКИЙ РИТМ',title:'Почувствуйте\nкаждый поворот.',description:'Когда сам маршрут становится причиной отправиться в путь.'},
+ {slug:'mercedes-glc',kicker:'МЕСТО ДЛЯ ВАШИХ ПЛАНОВ',title:'Горизонт\nстановится ближе.',description:'Городские будни. Загородные выходные. Планы, которым хочется дать больше пространства.'},
+ {slug:'toyota-bz3x',kicker:'ДРУГОЙ ВЗГЛЯД НА ПРИВЫЧНОЕ',title:'Откройте\nновый маршрут.',description:'Знакомые улицы могут ощущаться по-новому. Начните с автомобиля, который вам интересен.'}
+];
+let storyIndex=0,storyPhotoIndex=0,storyAnimation=null;
+const storyImage=document.querySelector('#story-image');
+function showDrivingStory(animate=true){
+ const story=drivingStories[storyIndex],car=agentCars.find(item=>item.slug===story.slug);if(!car)return;
+ const src=car.images[storyPhotoIndex]||car.image;
+ storyImage.src=src;storyImage.alt=car.name+' — фотография '+(storyPhotoIndex+1)+' из объявления';
+ document.querySelector('#story-kicker').textContent=story.kicker;document.querySelector('#story-title').textContent=story.title;document.querySelector('#story-description').textContent=story.description;
+ document.querySelector('#story-car-name').textContent=car.name;
+ document.querySelector('#story-source').textContent='Публикация '+car.date+' · '+(statusLabels[car.status]||'Наличие уточняйте');
+ document.querySelector('#story-photo-count').textContent=String(storyPhotoIndex+1).padStart(2,'0')+' / '+String(car.images.length).padStart(2,'0');
+ document.querySelectorAll('[data-story]').forEach((button,index)=>{button.classList.toggle('active',index===storyIndex);button.setAttribute('aria-pressed',String(index===storyIndex));});
+ if(storyAnimation)storyAnimation.cancel();
+ if(animate && !matchMedia('(prefers-reduced-motion: reduce)').matches)storyAnimation=storyImage.animate([{opacity:.35,transform:'scale(1.035)'},{opacity:1,transform:'scale(1)'}],{duration:650,easing:'cubic-bezier(.2,.65,.3,1)'});
+}
+document.querySelectorAll('[data-story]').forEach(button=>button.addEventListener('click',()=>{storyIndex=Number(button.dataset.story);storyPhotoIndex=0;showDrivingStory();}));
+document.querySelector('#story-next-photo').addEventListener('click',()=>{const car=agentCars.find(item=>item.slug===drivingStories[storyIndex].slug);storyPhotoIndex=(storyPhotoIndex+1)%car.images.length;showDrivingStory();});
+document.querySelector('#story-open').addEventListener('click',()=>{const car=agentCars.find(item=>item.slug===drivingStories[storyIndex].slug);switchView('offers');openCar(car);});
+showDrivingStory(false);
