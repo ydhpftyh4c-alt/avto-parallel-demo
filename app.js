@@ -4,7 +4,7 @@ let importModelCars=[];
 let cars=agentCars;
 let catalogView='offers';
 let modelsPromise=null,catalogRequest=0;
-async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-5').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-6').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
 function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
 const favorites=readSaved('parallel-favorites-v1');
 const comparison=new Set();
@@ -82,7 +82,7 @@ function renderCars(resetLimit=true){
   document.querySelector('#empty').hidden = visible.length > 0;
   document.querySelector('#empty').textContent=catalogView==='models'?'Модель пока не добавлена в справочник. Обсудите индивидуальный подбор с агентством.':document.querySelector('#favorites-only').checked?'В этом разделе нет сохранённых автомобилей по выбранным условиям. Отключите «Только избранное» или смените раздел.':'Автомобилей по этим условиям нет. Измените поиск или сбросьте фильтры.';
   document.querySelector('#catalog-status').textContent = `Показано ${Math.min(shownLimit,visible.length)} из ${visible.length} по условиям · всего в каталоге ${cars.length}`;
-  more.hidden=visible.length<=shownLimit;updateSelectionCounts();syncSearchSuggestions();
+  more.hidden=visible.length<=shownLimit;updateSelectionCounts();syncSearchSuggestions();renderActiveFilters();
   reset.hidden=!document.querySelector('#favorites-only').checked && activeType==='all' && brandFilter.value==='all' && country.value==='all' && !search.value && sort.value==='newest' && stateFilter.value==='unknown' && !hasLimits();
 }
 function renderPhoto(){
@@ -136,7 +136,7 @@ dialog.addEventListener('close',()=>{
 });
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('keydown',event=>{if(event.target.matches('input,textarea,select'))return;if(event.key==='ArrowLeft'){event.preventDefault();movePhoto(-1);}if(event.key==='ArrowRight'){event.preventDefault();movePhoto(1);}});
-document.querySelector('#detail-select').addEventListener('click',()=>{const car=selectedCar;dialog.close();document.querySelector('#lead-message').value=isModel(car)?`Интересует подбор ${car.name}. Планируемое направление: ${marketLabels[direction.value]}. Прошу проверить возможность поставки и рассчитать предварительную стоимость для подходящей версии.`:`Интересует ${car.name}. Цена в объявлении на ${car.priceDate}: ${priceLabel(car)}. Прошу уточнить наличие и актуальные условия.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
+document.querySelector('#detail-select').addEventListener('click',()=>{const car=selectedCar;dialog.close();setBriefCar(car);document.querySelector('#lead-message').value=isModel(car)?`Интересует подбор ${car.name}. Планируемое направление: ${marketLabels[direction.value]}. Прошу проверить возможность поставки и рассчитать предварительную стоимость для подходящей версии.`:`Интересует ${car.name}. Цена в объявлении на ${car.priceDate}: ${priceLabel(car)}. Прошу уточнить наличие и актуальные условия.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
 document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{
   activeType=button.dataset.type;
   document.querySelectorAll('.filter').forEach(item=>{item.classList.toggle('active',item===button);item.setAttribute('aria-pressed',String(item===button));});updateCatalog();
@@ -177,7 +177,7 @@ async function restoreCatalog(){const request=++catalogRequest;
   for(const [key,input] of limits){const value=params.get(key)||'';input.value=/^\d{1,10}$/.test(value)?value:'';if(!input.validity.valid)input.value='';}
   document.querySelector('#advanced-filters').open=hasLimits();
   if(params.has('compare')){comparison.clear();const known=new Set([...agentCars,...importModelCars].map(car=>car.record_id));for(const id of params.get('compare').split(',').slice(0,3))if(known.has(id))comparison.add(id);}
-  search.value=(params.get('q')||'').slice(0,80);renderCars();if(comparison.size && params.has('compare'))openComparison();
+  search.value=(params.get('q')||'').slice(0,80);renderCars();if(location.hash==='#request')prefillBriefFromSearch();if(comparison.size && params.has('compare'))openComparison();
   if(catalogView==='models'){sort.value='newest';stateFilter.value='unknown';limits.forEach(([,input])=>input.value='');renderCars();}
   const car=cars.find(item=>item.slug===params.get('car'));
   if(car)openCar(car,false);else{if(dialog.open)dialog.close();if(params.has('car'))document.querySelector('#catalog-status').textContent='Автомобиль по этой ссылке не найден. Выберите другой из каталога.';}
@@ -289,8 +289,38 @@ search.addEventListener('focus',syncSearchSuggestions);search.addEventListener('
 search.addEventListener('keydown',event=>{const list=document.querySelector('#search-suggestions');if(event.key==='Escape'){hideSearchSuggestions();return;}if(list.hidden)return;const options=[...list.children];let index=options.findIndex(option=>option.id===search.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();index=index<0?(event.key==='ArrowDown'?0:options.length-1):(index+(event.key==='ArrowDown'?1:-1)+options.length)%options.length;for(const [i,option] of options.entries())option.setAttribute('aria-selected',String(i===index));search.setAttribute('aria-activedescendant',options[index].id);}if(event.key==='Enter'&&index>=0){event.preventDefault();chooseSearchSuggestion(options[index].querySelector('span').textContent);}});
 document.querySelector('#clear-search').addEventListener('click',()=>{search.value='';updateCatalog();search.focus();});
 document.querySelector('#compare-differences').addEventListener('change',renderComparison);
-document.querySelector('#compare-brief').addEventListener('click',()=>{const records=[...agentCars,...importModelCars];const names=[...comparison].map(id=>records.find(car=>car.record_id===id)?.name).filter(Boolean);document.querySelector('#compare-dialog').close();document.querySelector('#lead-message').value='Хочу обсудить подборку: '+names.join(', ')+'. Прошу уточнить наличие, состояние, стоимость и подходящие версии.';document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
+document.querySelector('#compare-brief').addEventListener('click',()=>{const records=[...agentCars,...importModelCars];const names=[...comparison].map(id=>records.find(car=>car.record_id===id)?.name).filter(Boolean);document.querySelector('#compare-dialog').close();document.querySelector('#brief-model').value=names.join(', ');delete document.querySelector('#brief-model').dataset.recordId;document.querySelector('#brief-market').value='';document.querySelector('#lead-message').value='Хочу обсудить подборку: '+names.join(', ')+'. Прошу уточнить наличие, состояние, стоимость и подходящие версии.';document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
 function setGalleryExpanded(expanded){dialog.classList.toggle('gallery-expanded',expanded);const button=document.querySelector('#photo-expand');button.setAttribute('aria-pressed',String(expanded));button.textContent=expanded?'Вернуться к характеристикам ↙':'Увеличить фото ⛶';}
 document.querySelector('#photo-expand').addEventListener('click',()=>setGalleryExpanded(!dialog.classList.contains('gallery-expanded')));
 document.querySelector('#detail-image').addEventListener('click',()=>{if(selectedCar?.images.length)setGalleryExpanded(!dialog.classList.contains('gallery-expanded'));});
 dialog.addEventListener('cancel',event=>{if(dialog.classList.contains('gallery-expanded')){event.preventDefault();setGalleryExpanded(false);document.querySelector('#photo-expand').focus();}});
+
+function renderActiveFilters(){
+ const panel=document.querySelector('#active-filters');const chips=[];
+ function add(label,clear){const button=el('button','',label+' ×');button.type='button';button.setAttribute('aria-label','Снять фильтр: '+label);button.addEventListener('click',()=>{clear();updateCatalog();document.querySelector('#catalog-status').tabIndex=-1;document.querySelector('#catalog-status').focus({preventScroll:true});});chips.push(button);}
+ if(activeType!=='all')add(document.querySelector('.filter.active').textContent,()=>setActiveType('all'));
+ if(brandFilter.value!=='all')add('Марка: '+brandFilter.selectedOptions[0].textContent,()=>brandFilter.value='all');
+ if(country.value!=='all')add('Страна марки: '+country.selectedOptions[0].textContent,()=>country.value='all');
+ if(search.value.trim())add('Поиск: '+search.value.trim(),()=>search.value='');
+ if(catalogView==='offers'&&stateFilter.value!=='unknown')add('Статус: '+stateFilter.selectedOptions[0].textContent,()=>stateFilter.value='unknown');
+ if(document.querySelector('#favorites-only').checked)add('Избранное',()=>document.querySelector('#favorites-only').checked=false);
+ for(const [key,input] of limits){if(input.value!=='')add(({budget:'Бюджет до: ',yearFrom:'Год от: ',kmTo:'Пробег до: '}[key])+input.value+({budget:' ₽',yearFrom:'',kmTo:' км'}[key]),()=>input.value='');}
+ panel.replaceChildren(...chips);panel.hidden=!chips.length;
+}
+function setBriefCar(car){document.querySelector('#brief-model').value=car.name;document.querySelector('#brief-model').dataset.recordId=car.record_id;document.querySelector('#brief-market').value=isModel(car)?direction.value:'';}
+document.querySelector('#compose-brief').addEventListener('click',()=>{
+ const model=document.querySelector('#brief-model');const market=document.querySelector('#brief-market');const condition=document.querySelector('#brief-condition');const amount=document.querySelector('#brief-budget');
+ if(!amount.reportValidity())return;
+ const car=[...agentCars,...importModelCars].find(item=>item.record_id===model.dataset.recordId&&item.name===model.value.trim());
+ const lines=['Здравствуйте! '+(model.value.trim()?'Интересует подбор: '+model.value.trim()+'.':'Хочу обсудить подбор автомобиля.')];
+ if(market.value)lines.push('Планируемое направление: '+marketLabels[market.value]+'.');
+ if(condition.value)lines.push('Состояние: '+(condition.value==='new'?'новый автомобиль':'автомобиль с пробегом')+'.');
+ if(amount.value)lines.push('Желаемый бюджет до '+priceFormat.format(Number(amount.value))+' ₽. Это мой ориентир, не расчёт стоимости.');
+ if(car&&!isModel(car))lines.push('В объявлении на '+car.priceDate+': '+priceLabel(car)+'. Актуальность цены и наличие прошу подтвердить.');
+ lines.push('Прошу уточнить доступные версии, возможность поставки и полный состав расходов.');
+ if(car)lines.push(new URL(carPage(car),location.href).href);
+ document.querySelector('#lead-message').value=lines.join('\n');document.querySelector('#lead-status').textContent='Текст подготовлен. Его можно изменить и скопировать. Ничего не отправлено.';document.querySelector('#lead-message').focus({preventScroll:true});
+});
+
+function prefillBriefFromSearch(){const model=document.querySelector('#brief-model');if(!model.value.trim() && search.value.trim()){model.value=search.value.trim();document.querySelector('#brief-market').value=catalogView==='models'?direction.value:'';document.querySelector('.brief-builder').open=true;}}
+document.querySelectorAll('a[href="#request"]').forEach(link=>link.addEventListener('click',prefillBriefFromSearch));
