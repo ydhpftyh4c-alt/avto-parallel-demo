@@ -77,6 +77,7 @@ function renderPhoto(){
   const image=document.querySelector('#detail-image');
   const hasPhotos=selectedCar.images.length>0;
   image.src=hasPhotos?selectedCar.images[photoIndex]:selectedCar.image;image.alt=hasPhotos?selectedCar.name+' — фото '+(photoIndex+1)+' из '+selectedCar.images.length:isModel(selectedCar)?'Схематичная иллюстрация автомобиля':'Фото в экспорте отсутствует';
+  document.querySelectorAll('#gallery-thumbs button').forEach((button,index)=>{button.classList.toggle('selected',index===photoIndex);button.setAttribute('aria-pressed',String(index===photoIndex));});
   document.querySelector('#photo-prev').disabled=!hasPhotos;document.querySelector('#photo-next').disabled=!hasPhotos;
   document.querySelector('#photo-counter').textContent=hasPhotos?(photoIndex+1)+' / '+selectedCar.images.length:isModel(selectedCar)?'Выбор модели':'Нет фотографий';
 }
@@ -107,6 +108,8 @@ function openCar(car, writeHistory = true){
   const shareUrl=new URL(location.href);shareUrl.search='';shareUrl.searchParams.set('car',car.slug);shareUrl.searchParams.set('view',isModel(car)?'models':'offers');if(isModel(car))shareUrl.searchParams.set('from',direction.value);shareUrl.hash='catalog';
   document.querySelector('#car-share-url').value=shareUrl.href;
   document.querySelector('#share-status').textContent='';
+  document.querySelector('#gallery-thumbs').replaceChildren(...selectedCar.images.map((src,index)=>{const button=el('button',index===photoIndex?'selected':'');button.type='button';button.setAttribute('aria-label','Показать фото '+(index+1));button.setAttribute('aria-pressed',String(index===photoIndex));const thumbnail=el('img');thumbnail.src=src;thumbnail.alt='';thumbnail.loading='lazy';thumbnail.width=100;thumbnail.height=72;button.append(thumbnail);button.addEventListener('click',()=>{photoIndex=index;renderPhoto();});return button;}));
+  document.querySelector('#gallery-thumbs').hidden=selectedCar.images.length<2;
   renderPhoto();if(!dialog.open)dialog.showModal();document.body.classList.add('dialog-open');
 }
 function movePhoto(direction){if(!selectedCar || !selectedCar.images.length)return;photoIndex=(photoIndex+direction+selectedCar.images.length)%selectedCar.images.length;renderPhoto();}
@@ -208,3 +211,10 @@ if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: red
 
 
 
+
+// Quick selection uses the same catalogue state and shareable filters.
+document.querySelector('#hero-finder').addEventListener('submit',event=>{event.preventDefault();switchView('models');direction.value=document.querySelector('#hero-market').value;search.value=document.querySelector('#hero-query').value.trim();updateCatalog();document.querySelector('#catalog').scrollIntoView();search.focus({preventScroll:true});});
+let scrollFrame=0;
+function updateScrollEffects(){scrollFrame=0;const max=document.documentElement.scrollHeight-innerHeight;document.querySelector('.reading-progress').style.transform='scaleX('+(max>0?Math.min(1,scrollY/max):0)+')';}
+addEventListener('scroll',()=>{if(!scrollFrame)scrollFrame=requestAnimationFrame(updateScrollEffects);},{passive:true});
+updateScrollEffects();
