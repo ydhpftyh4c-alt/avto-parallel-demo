@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "design_only_not_a_calculator",
+  "target_markets": ["cn", "kr", "eu"],
+  "required_inputs": ["model_id", "variant_id", "manufacture_date", "engine_type", "engine_cc", "power_kw", "mileage_km", "buyer_category", "import_purpose", "source_market", "destination", "calculation_date", "supplier_quote_id", "exchange_rate_source", "exchange_rate_timestamp"],
+  "cost_components": ["vehicle_purchase", "source_country_fees", "logistics", "insurance", "customs_payments", "recycling_fee", "certification", "registration_documents", "agency_fee", "delivery_to_destination"],
+  "each_component_requires": ["amount_or_range", "currency", "source", "effective_at", "expires_at", "scope", "included_in_supplier_quote"],
+  "required_checks": ["variant_matches_quote", "current_quote", "valid_exchange_rate", "route_eligibility", "buyer_and_vehicle_eligibility", "active_official_ruleset", "no_duplicate_costs", "all_required_components_present"],
+  "output_when_incomplete": {"status": "insufficient_data", "low_rub": null, "high_rub": null},
+  "future_output": ["low_rub", "high_rub", "breakdown", "assumptions", "excluded_costs", "sources", "ruleset_id", "calculated_at", "valid_until"],
+  "recycling_fee": {"formula": null, "rates": null, "source": null},
+  "customs_payments": {"formula": null, "rates": null, "source": null}
+}

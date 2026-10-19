@@ -4,6 +4,7 @@ const catalogCars = [
     "record_id": "tg-0004",
     "id": 4,
     "slug": "skoda-rapid-tg-0004",
+    "brand": "skoda",
     "name": "Skoda Rapid",
     "types": [
       "sedan"
@@ -72,6 +73,7 @@ const catalogCars = [
     "record_id": "tg-0026",
     "id": 26,
     "slug": "volkswagen-polo-tg-0026",
+    "brand": "volkswagen",
     "name": "Volkswagen Polo",
     "types": [
       "sedan"
@@ -124,6 +126,7 @@ const catalogCars = [
     "record_id": "tg-0033",
     "id": 33,
     "slug": "volkswagen-polo-tg-0033",
+    "brand": "volkswagen",
     "name": "Volkswagen Polo",
     "types": [
       "sedan"
@@ -174,6 +177,7 @@ const catalogCars = [
     "record_id": "tg-0042",
     "id": 42,
     "slug": "volkswagen-polo-tg-0042",
+    "brand": "volkswagen",
     "name": "Volkswagen Polo",
     "types": [
       "sedan"
@@ -226,6 +230,7 @@ const catalogCars = [
     "record_id": "tg-0078",
     "id": 78,
     "slug": "skoda-kodiaq-tg-0078",
+    "brand": "skoda",
     "name": "Skoda Kodiaq",
     "types": [
       "suv"
@@ -276,6 +281,7 @@ const catalogCars = [
     "record_id": "tg-0087",
     "id": 87,
     "slug": "zeekr-8x-tg-0087",
+    "brand": "zeekr",
     "name": "Zeekr 8X",
     "types": [
       "suv"
@@ -308,6 +314,7 @@ const catalogCars = [
     "record_id": "tg-0095",
     "id": 95,
     "slug": "audi-q5-tg-0095",
+    "brand": "audi",
     "name": "Audi Q5",
     "types": [
       "suv"
@@ -373,6 +380,7 @@ const catalogCars = [
     "record_id": "tg-0104",
     "id": 104,
     "slug": "toyota-rav4-tg-0104",
+    "brand": "toyota",
     "name": "Toyota RAV4",
     "types": [
       "suv"
@@ -405,6 +413,7 @@ const catalogCars = [
     "record_id": "tg-0105",
     "id": 105,
     "slug": "skoda-rapid-tg-0105",
+    "brand": "skoda",
     "name": "Skoda Rapid",
     "types": [
       "sedan"
@@ -465,6 +474,7 @@ const catalogCars = [
     "record_id": "tg-0135",
     "id": 135,
     "slug": "bmw-235-li-tg-0135",
+    "brand": "bmw",
     "name": "BMW 235 Li",
     "types": [
       "sedan"
@@ -517,6 +527,7 @@ const catalogCars = [
     "record_id": "tg-0146",
     "id": 146,
     "slug": "bmw-530li-xdrive-tg-0146",
+    "brand": "bmw",
     "name": "BMW 530Li xDrive",
     "types": [
       "sedan"
@@ -569,6 +580,7 @@ const catalogCars = [
     "record_id": "tg-0160",
     "id": 160,
     "slug": "bmw-330i-tg-0160",
+    "brand": "bmw",
     "name": "BMW 330i юбилейная версия",
     "types": [
       "sedan"
@@ -621,6 +633,7 @@ const catalogCars = [
     "record_id": "tg-0170",
     "id": 170,
     "slug": "volkswagen-tiguan-tg-0170",
+    "brand": "volkswagen",
     "name": "Volkswagen Tiguan",
     "types": [
       "suv"
@@ -670,6 +683,7 @@ const catalogCars = [
     "record_id": "tg-0178",
     "id": 178,
     "slug": "mazda-cx-5-supreme-tg-0178",
+    "brand": "mazda",
     "name": "Mazda CX-5 Supreme",
     "types": [
       "suv"
@@ -719,6 +733,7 @@ const catalogCars = [
     "record_id": "tg-0187",
     "id": 187,
     "slug": "ducati-streetfighter-v4-s-tg-0187",
+    "brand": "ducati",
     "name": "Ducati Streetfighter V4 S",
     "types": [
       "motorcycle"
@@ -769,6 +784,7 @@ const catalogCars = [
     "record_id": "tg-0220",
     "id": 220,
     "slug": "volkswagen-polo-tg-0220",
+    "brand": "volkswagen",
     "name": "Volkswagen Polo",
     "types": [
       "sedan"
@@ -815,6 +831,7 @@ const catalogCars = [
     "record_id": "tg-0224",
     "id": 224,
     "slug": "volkswagen-t-roc-tg-0224",
+    "brand": "volkswagen",
     "name": "Volkswagen T-Roc — предложение модели",
     "types": [
       "suv"
@@ -863,6 +880,7 @@ const catalogCars = [
     "record_id": "tg-0275",
     "id": 275,
     "slug": "bmw-r18-roland-sands-design-tg-0275",
+    "brand": "bmw",
     "name": "BMW R18 Roland Sands Design",
     "types": [
       "motorcycle"
@@ -904,6 +922,7 @@ const catalogCars = [
     "record_id": "tg-0278",
     "id": 278,
     "slug": "mercedes-benz-s-class-w223-tg-0278",
+    "brand": "mercedes-benz",
     "name": "Mercedes-Benz S-Class W223 — предзаказ",
     "types": [
       "sedan"
@@ -939,6 +958,7 @@ const catalogCars = [
     "record_id": "tg-0282",
     "id": 282,
     "slug": "skoda-octavia-tg-0282",
+    "brand": "skoda",
     "name": "Skoda Octavia",
     "types": [
       "liftback"
@@ -979,6 +999,7 @@ const catalogCars = [
     "record_id": "tg-0291",
     "id": 291,
     "slug": "kia-k5-prestige-tg-0291",
+    "brand": "kia",
     "name": "Kia K5 Prestige",
     "types": [
       "sedan"
@@ -1013,6 +1034,7 @@ const catalogCars = [
     "record_id": "tg-0298",
     "id": 298,
     "slug": "volkswagen-golf-280tsi-r-line-tg-0298",
+    "brand": "volkswagen",
     "name": "Volkswagen Golf 280TSI R-Line",
     "types": [
       "hatchback"
@@ -1056,6 +1078,7 @@ const catalogCars = [
     "record_id": "tg-0322",
     "id": 322,
     "slug": "chevrolet-monza-tg-0322",
+    "brand": "chevrolet",
     "name": "Chevrolet Monza",
     "types": [
       "sedan"
@@ -1105,6 +1128,7 @@ const catalogCars = [
     "record_id": "tg-0329",
     "id": 329,
     "slug": "bmw-1-tg-0329",
+    "brand": "bmw",
     "name": "BMW 1 серии",
     "types": [
       "hatchback"
@@ -1155,6 +1179,7 @@ const catalogCars = [
     "record_id": "tg-0337",
     "id": 337,
     "slug": "bmw-x3-30l-tg-0337",
+    "brand": "bmw",
     "name": "BMW X3 30L",
     "types": [
       "suv"
@@ -1206,6 +1231,7 @@ const catalogCars = [
     "record_id": "tg-0346",
     "id": 346,
     "slug": "mazda-cx-5-high-tg-0346",
+    "brand": "mazda",
     "name": "Mazda CX-5 High+",
     "types": [
       "suv"
@@ -1253,6 +1279,7 @@ const catalogCars = [
     "record_id": "tg-0352",
     "id": 352,
     "slug": "volkswagen-tiguan-l-280tsi-tg-0352",
+    "brand": "volkswagen",
     "name": "Volkswagen Tiguan L 280TSI",
     "types": [
       "suv"
@@ -1303,6 +1330,7 @@ const catalogCars = [
     "record_id": "tg-0360",
     "id": 360,
     "slug": "bmw-z4-tg-0360",
+    "brand": "bmw",
     "name": "BMW Z4",
     "types": [
       "convertible"
@@ -1355,6 +1383,7 @@ const catalogCars = [
     "record_id": "tg-0371",
     "id": 371,
     "slug": "skoda-octavia-pro-2022-2021-tg-0371",
+    "brand": "skoda",
     "name": "Skoda Octavia PRO — модель 2022, выпуск 2021",
     "types": [
       "liftback"
@@ -1406,6 +1435,7 @@ const catalogCars = [
     "record_id": "tg-0380",
     "id": 380,
     "slug": "bmw-x6-xdrive40i-m-tg-0380",
+    "brand": "bmw",
     "name": "BMW X6 xDrive40i M",
     "types": [
       "suv"
@@ -1455,6 +1485,7 @@ const catalogCars = [
     "record_id": "tg-0387",
     "id": 387,
     "slug": "audi-a3-sport-progressive-tg-0387",
+    "brand": "audi",
     "name": "Audi A3 Sport Progressive",
     "types": [
       "sedan"
@@ -1504,6 +1535,7 @@ const catalogCars = [
     "record_id": "tg-0394",
     "id": 394,
     "slug": "zeekr-001-you-z-sport-tg-0394",
+    "brand": "zeekr",
     "name": "Zeekr 001 YOU Z SPORT",
     "types": [
       "electric",
@@ -1557,6 +1589,7 @@ const catalogCars = [
     "record_id": "tg-0404",
     "id": 404,
     "slug": "byd-fangchengbao-leopard-5-tg-0404",
+    "brand": "byd",
     "name": "BYD FangChengBao Leopard 5",
     "types": [
       "suv"
@@ -1609,6 +1642,7 @@ const catalogCars = [
     "record_id": "tg-0417",
     "id": 417,
     "slug": "audi-a3-sportback-35-tfsi-2022-2023-tg-0417",
+    "brand": "audi",
     "name": "Audi A3 Sportback 35 TFSI — модель 2022, выпуск 2023",
     "types": [
       "hatchback"
@@ -1661,6 +1695,7 @@ const catalogCars = [
     "record_id": "tg-0448",
     "id": 448,
     "slug": "nissan-x-trail-tg-0448",
+    "brand": "nissan",
     "name": "Nissan X-Trail",
     "types": [
       "suv"
@@ -1701,6 +1736,7 @@ const catalogCars = [
     "record_id": "tg-0455-01",
     "id": 45501,
     "slug": "toyota-yaris-tg-0455-01",
+    "brand": "toyota",
     "name": "Toyota Yaris",
     "types": [
       "sedan"
@@ -1742,6 +1778,7 @@ const catalogCars = [
     "record_id": "tg-0455-02",
     "id": 45502,
     "slug": "audi-q3-tg-0455-02",
+    "brand": "audi",
     "name": "Audi Q3 синий",
     "types": [
       "suv"
@@ -1783,6 +1820,7 @@ const catalogCars = [
     "record_id": "tg-0455-03",
     "id": 45503,
     "slug": "volkswagen-bora-tg-0455-03",
+    "brand": "volkswagen",
     "name": "Volkswagen Bora",
     "types": [
       "sedan"
@@ -1824,6 +1862,7 @@ const catalogCars = [
     "record_id": "tg-0455-04",
     "id": 45504,
     "slug": "audi-q3-tg-0455-04",
+    "brand": "audi",
     "name": "Audi Q3 белый",
     "types": [
       "suv"
@@ -1865,6 +1904,7 @@ const catalogCars = [
     "record_id": "tg-0455-05",
     "id": 45505,
     "slug": "audi-a3-tg-0455-05",
+    "brand": "audi",
     "name": "Audi A3",
     "types": [
       "sedan"
@@ -1906,6 +1946,7 @@ const catalogCars = [
     "record_id": "tg-0455-06",
     "id": 45506,
     "slug": "volkswagen-golf-r-tg-0455-06",
+    "brand": "volkswagen",
     "name": "Volkswagen Golf R",
     "types": [
       "hatchback"
@@ -1947,6 +1988,7 @@ const catalogCars = [
     "record_id": "tg-0455-07",
     "id": 45507,
     "slug": "honda-xr-v-tg-0455-07",
+    "brand": "honda",
     "name": "Honda XR-V",
     "types": [
       "suv"
@@ -1988,6 +2030,7 @@ const catalogCars = [
     "record_id": "tg-0455-08",
     "id": 45508,
     "slug": "bmw-1-tg-0455-08",
+    "brand": "bmw",
     "name": "BMW 1 серии",
     "types": [
       "hatchback"
@@ -2029,6 +2072,7 @@ const catalogCars = [
     "record_id": "tg-0455-09",
     "id": 45509,
     "slug": "bmw-1-tg-0455-09",
+    "brand": "bmw",
     "name": "BMW 1 серии",
     "types": [
       "hatchback"
@@ -2070,6 +2114,7 @@ const catalogCars = [
     "record_id": "tg-0455-10",
     "id": 45510,
     "slug": "bmw-1-tg-0455-10",
+    "brand": "bmw",
     "name": "BMW 1 серии",
     "types": [
       "hatchback"
@@ -2111,6 +2156,7 @@ const catalogCars = [
     "record_id": "tg-0455-12",
     "id": 45512,
     "slug": "audi-a3l-tg-0455-12",
+    "brand": "audi",
     "name": "Audi A3L седан",
     "types": [
       "sedan"
@@ -2152,6 +2198,7 @@ const catalogCars = [
     "record_id": "tg-0455-13",
     "id": 45513,
     "slug": "audi-a3-tg-0455-13",
+    "brand": "audi",
     "name": "Audi A3 хэтчбек",
     "types": [
       "hatchback"
@@ -2193,6 +2240,7 @@ const catalogCars = [
     "record_id": "tg-0455-15",
     "id": 45515,
     "slug": "audi-q3-tg-0455-15",
+    "brand": "audi",
     "name": "Audi Q3 белый",
     "types": [
       "suv"
@@ -2234,6 +2282,7 @@ const catalogCars = [
     "record_id": "tg-0455-16",
     "id": 45516,
     "slug": "toyota-corolla-1-2t-tg-0455-16",
+    "brand": "toyota",
     "name": "Toyota Corolla 1.2T",
     "types": [
       "sedan"
@@ -2275,6 +2324,7 @@ const catalogCars = [
     "record_id": "tg-0455-17",
     "id": 45517,
     "slug": "volkswagen-golf-r-tg-0455-17",
+    "brand": "volkswagen",
     "name": "Volkswagen Golf R",
     "types": [
       "hatchback"
@@ -2316,6 +2366,7 @@ const catalogCars = [
     "record_id": "tg-0455-18",
     "id": 45518,
     "slug": "geely-emgrand-tg-0455-18",
+    "brand": "geely",
     "name": "Geely Emgrand синий",
     "types": [
       "sedan"
@@ -2357,6 +2408,7 @@ const catalogCars = [
     "record_id": "tg-0466",
     "id": 466,
     "slug": "nissan-murano-tg-0466",
+    "brand": "nissan",
     "name": "Nissan Murano",
     "types": [
       "suv"
@@ -2409,6 +2461,7 @@ const catalogCars = [
     "record_id": "tg-0470",
     "id": 470,
     "slug": "bmw-740li-tg-0470",
+    "brand": "bmw",
     "name": "BMW 740Li",
     "types": [
       "sedan"
@@ -2461,6 +2514,7 @@ const catalogCars = [
     "record_id": "tg-0480",
     "id": 480,
     "slug": "zeekr-8x-tg-0480",
+    "brand": "zeekr",
     "name": "Zeekr 8X — предзаказ",
     "types": [
       "suv"
@@ -2493,6 +2547,7 @@ const catalogCars = [
     "record_id": "tg-0481",
     "id": 481,
     "slug": "bmw-320d-gt-xdrive-tg-0481",
+    "brand": "bmw",
     "name": "BMW 320d GT xDrive",
     "types": [
       "liftback"
@@ -2545,6 +2600,7 @@ const catalogCars = [
     "record_id": "tg-0491",
     "id": 491,
     "slug": "volkswagen-tiguan-l-r-line-2023-2022-tg-0491",
+    "brand": "volkswagen",
     "name": "Volkswagen Tiguan L R-Line — модель 2023, выпуск 2022",
     "types": [
       "suv"
@@ -2597,6 +2653,7 @@ const catalogCars = [
     "record_id": "tg-0501",
     "id": 501,
     "slug": "geely-galaxy-starship-7-tg-0501",
+    "brand": "geely",
     "name": "Geely Galaxy Starship 7",
     "types": [
       "suv"
@@ -2629,6 +2686,7 @@ const catalogCars = [
     "record_id": "tg-0508",
     "id": 508,
     "slug": "volkswagen-tayron-2023-2022-tg-0508",
+    "brand": "volkswagen",
     "name": "Volkswagen Tayron — модель 2023, выпуск 2022",
     "types": [
       "suv"
@@ -2680,6 +2738,7 @@ const catalogCars = [
     "record_id": "tg-0576",
     "id": 576,
     "slug": "audi-a3-new-premium-tg-0576",
+    "brand": "audi",
     "name": "Audi A3 New Premium",
     "types": [
       "sedan"
@@ -2732,6 +2791,7 @@ const catalogCars = [
     "record_id": "tg-0586",
     "id": 586,
     "slug": "toyota-camry-hybrid-tg-0586",
+    "brand": "toyota",
     "name": "Toyota Camry Hybrid",
     "types": [
       "sedan"
@@ -2791,6 +2851,7 @@ const catalogCars = [
     "record_id": "tg-0597",
     "id": 597,
     "slug": "land-rover-range-rover-sport-tg-0597",
+    "brand": "land-rover",
     "name": "Land Rover Range Rover Sport",
     "types": [
       "suv"
@@ -2843,6 +2904,7 @@ const catalogCars = [
     "record_id": "tg-0613",
     "id": 613,
     "slug": "bmw-x1-f48-fashion-edition-tg-0613",
+    "brand": "bmw",
     "name": "BMW X1 F48 Fashion Edition",
     "types": [
       "suv"
@@ -2890,6 +2952,7 @@ const catalogCars = [
     "record_id": "tg-0676",
     "id": 676,
     "slug": "mazda-cx5",
+    "brand": "mazda",
     "name": "Mazda CX-5 Supreme",
     "types": [
       "suv"
@@ -2955,6 +3018,7 @@ const catalogCars = [
     "record_id": "tg-0688",
     "id": 688,
     "slug": "li-auto-lixiang-l6-max-tg-0688",
+    "brand": "li-auto",
     "name": "Li Auto Lixiang L6 MAX",
     "types": [
       "suv"
@@ -3014,6 +3078,7 @@ const catalogCars = [
     "record_id": "tg-0697",
     "id": 697,
     "slug": "kia-optima",
+    "brand": "kia",
     "name": "Kia Optima GT",
     "types": [
       "sedan"
@@ -3079,6 +3144,7 @@ const catalogCars = [
     "record_id": "tg-0717",
     "id": 717,
     "slug": "audi-q5-quattro-tg-0717",
+    "brand": "audi",
     "name": "Audi Q5 quattro",
     "types": [
       "suv"
@@ -3131,6 +3197,7 @@ const catalogCars = [
     "record_id": "tg-0721",
     "id": 721,
     "slug": "mercedes-glc",
+    "brand": "mercedes-benz",
     "name": "Mercedes-Benz GLC 300",
     "types": [
       "suv"
@@ -3195,6 +3262,7 @@ const catalogCars = [
     "record_id": "tg-0731",
     "id": 731,
     "slug": "skoda-octavia-a7-tg-0731",
+    "brand": "skoda",
     "name": "Skoda Octavia A7",
     "types": [
       "liftback"
@@ -3247,6 +3315,7 @@ const catalogCars = [
     "record_id": "tg-0742",
     "id": 742,
     "slug": "mitsubishi-l200-tg-0742",
+    "brand": "mitsubishi",
     "name": "Mitsubishi L200",
     "types": [
       "pickup"
@@ -3286,6 +3355,7 @@ const catalogCars = [
     "record_id": "tg-0758",
     "id": 758,
     "slug": "bmw-x3",
+    "brand": "bmw",
     "name": "BMW X3",
     "types": [
       "suv"
@@ -3343,6 +3413,7 @@ const catalogCars = [
     "record_id": "tg-0768",
     "id": 768,
     "slug": "mini-cooper-c-tg-0768",
+    "brand": "mini",
     "name": "MINI Cooper C",
     "types": [
       "hatchback"
@@ -3381,6 +3452,7 @@ const catalogCars = [
     "record_id": "tg-0779",
     "id": 779,
     "slug": "mini-countryman-tg-0779",
+    "brand": "mini",
     "name": "MINI Countryman",
     "types": [
       "suv"
@@ -3428,6 +3500,7 @@ const catalogCars = [
     "record_id": "tg-0789",
     "id": 789,
     "slug": "hyundai-kona-tg-0789",
+    "brand": "hyundai",
     "name": "Hyundai KONA",
     "types": [
       "suv"
@@ -3475,6 +3548,7 @@ const catalogCars = [
     "record_id": "tg-0796",
     "id": 796,
     "slug": "qiyuan-q07-tg-0796",
+    "brand": "qiyuan",
     "name": "Qiyuan Q07",
     "types": [
       "suv"
@@ -3516,6 +3590,7 @@ const catalogCars = [
     "record_id": "tg-0797-01",
     "id": 79701,
     "slug": "toyota-camry-80-tg-0797-01",
+    "brand": "toyota",
     "name": "Toyota Camry 80",
     "types": [
       "sedan"
@@ -3557,6 +3632,7 @@ const catalogCars = [
     "record_id": "tg-0797-02",
     "id": 79702,
     "slug": "toyota-camry-85-tg-0797-02",
+    "brand": "toyota",
     "name": "Toyota Camry 85",
     "types": [
       "sedan"
@@ -3598,6 +3674,7 @@ const catalogCars = [
     "record_id": "tg-0799",
     "id": 799,
     "slug": "volkswagen-jetta",
+    "brand": "volkswagen",
     "name": "Volkswagen Jetta",
     "types": [
       "sedan"
@@ -3653,6 +3730,7 @@ const catalogCars = [
     "record_id": "tg-0809",
     "id": 809,
     "slug": "toyota-camry-80-tg-0809",
+    "brand": "toyota",
     "name": "Toyota Camry 80 — европейская версия",
     "types": [
       "sedan"
@@ -3694,6 +3772,7 @@ const catalogCars = [
     "record_id": "tg-0811",
     "id": 811,
     "slug": "qiyuan-a07",
+    "brand": "qiyuan",
     "name": "Qiyuan A07",
     "types": [
       "liftback"
@@ -3746,6 +3825,7 @@ const catalogCars = [
     "record_id": "tg-0828",
     "id": 828,
     "slug": "porsche-taycan",
+    "brand": "porsche",
     "name": "Porsche Taycan Turbo",
     "types": [
       "electric",
@@ -3804,6 +3884,7 @@ const catalogCars = [
     "record_id": "tg-0838",
     "id": 838,
     "slug": "toyota-bz3x",
+    "brand": "toyota",
     "name": "Toyota bZ3X 520 Pro+",
     "types": [
       "electric",

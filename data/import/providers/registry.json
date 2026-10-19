@@ -1,0 +1,33 @@
+[
+  {
+    "id": "mobile-de",
+    "region": "eu",
+    "status": "requires_access",
+    "method": "official_api",
+    "documentation": "https://services.mobile.de/manual/index.html",
+    "credentials_in_browser": false
+  },
+  {
+    "id": "autoru-catalog",
+    "region": "reference",
+    "status": "requires_access",
+    "method": "official_api",
+    "documentation": "https://yandex.ru/dev/autoru/doc/ru/reference/all-resources",
+    "credentials_in_browser": false
+  },
+  {
+    "id": "encar",
+    "region": "kr",
+    "status": "not_connected",
+    "method": "supplier_export_or_approved_integration",
+    "website": "https://www.encar.com/",
+    "note": "Automated access returned an access restriction; no bypass attempted."
+  },
+  {
+    "id": "china-supplier",
+    "region": "cn",
+    "status": "not_selected",
+    "method": "supplier_export_or_approved_api",
+    "website": null
+  }
+]

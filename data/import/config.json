@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_markets": [
+    "cn",
+    "kr",
+    "eu"
+  ],
+  "coverage": "initial_reference_selection_not_exhaustive",
+  "live_supplier_feeds": 0,
+  "eligibility": "requires_verification_for_each_variant_and_route",
+  "pricing": {
+    "enabled": false,
+    "reason": "No connected supplier quotes or verified ruleset",
+    "rates": null
+  },
+  "updated_at": "2026-10-19"
+}

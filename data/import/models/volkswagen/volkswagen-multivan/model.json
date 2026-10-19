@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "model_id": "model-volkswagen-multivan",
+  "slug": "model-volkswagen-multivan",
+  "brand": "volkswagen",
+  "model": "Multivan",
+  "name": "Volkswagen Multivan",
+  "types": [
+    "minivan"
+  ],
+  "brand_country": "de",
+  "body": "Минивэн",
+  "source": {
+    "kind": "manufacturer_catalog",
+    "url": "https://www.volkswagen.co.uk/en/new.html",
+    "checked_at": "2026-10-19",
+    "scope": "Model name reference only; regional variants and import eligibility not verified"
+  },
+  "import_status": "requires_verification",
+  "target_markets": [
+    "cn",
+    "kr",
+    "eu"
+  ],
+  "variant_ids": [],
+  "estimate": {
+    "status": "not_calculated",
+    "low_rub": null,
+    "high_rub": null,
+    "calculated_at": null,
+    "ruleset_id": null
+  },
+  "image": null,
+  "images": [],
+  "photo_rights": "not_acquired"
+}

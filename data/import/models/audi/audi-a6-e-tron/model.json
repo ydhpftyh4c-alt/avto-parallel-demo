@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "model_id": "model-audi-a6-e-tron",
+  "slug": "model-audi-a6-e-tron",
+  "brand": "audi",
+  "model": "A6 e-tron",
+  "name": "Audi A6 e-tron",
+  "types": [
+    "sedan",
+    "wagon",
+    "electric"
+  ],
+  "brand_country": "de",
+  "body": "Седан / Универсал",
+  "source": {
+    "kind": "manufacturer_catalog",
+    "url": "https://www.audi.co.uk/en/models/",
+    "checked_at": "2026-10-19",
+    "scope": "Model name reference only; regional variants and import eligibility not verified"
+  },
+  "import_status": "requires_verification",
+  "target_markets": [
+    "cn",
+    "kr",
+    "eu"
+  ],
+  "variant_ids": [],
+  "estimate": {
+    "status": "not_calculated",
+    "low_rub": null,
+    "high_rub": null,
+    "calculated_at": null,
+    "ruleset_id": null
+  },
+  "image": null,
+  "images": [],
+  "photo_rights": "not_acquired"
+}
