@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {normalizePreferences,selectVehicles} from '../selection-engine.mjs';
+const offer=(id,patch={})=>({record_id:id,name:id,status:'unknown',types:['suv'],price:2000000,pricePrefix:'',currency:'RUB',date:'01.10.2026',images:['cover.jpg'],...patch});
+const offers=[offer('current'),offer('sold',{status:'sold'}),offer('reserved',{status:'reserved'}),offer('foreign',{currency:'EUR'}),offer('missing',{price:null}),offer('from',{pricePrefix:'от '}),offer('over',{price:4000000}),offer('bike',{types:['motorcycle']}),offer('recent',{date:'19.10.2026'})];
+let result=selectVehicles(offers,[offer('model',{record_kind:'model',price:null})],{body:'suv',market:'kr',budget:3000000});
+assert.deepEqual(result.offers.map(car=>car.record_id),['recent','current']);assert.equal(result.preferences.market,'kr');assert.equal(result.models[0].price,null);
+assert.equal(selectVehicles(offers,[],{body:'sedan',budget:null}).offerCount,0);
+assert.ok(selectVehicles(offers,[],{body:'any'}).offers.every(car=>!car.types.includes('motorcycle')));
+assert.deepEqual(normalizePreferences({body:'unsupported',market:'unknown',budget:''}),{body:'any',market:'any',budget:null});
+for(const value of [-1,0,'2.5','abc',Infinity,true,1000000001])assert.throws(()=>normalizePreferences({budget:value}));
+assert.equal(selectVehicles([offer('china',{country:'cn'})],[],{market:'eu'}).offerCount,1,'Market is a wish, not proof of route availability.');
+assert.equal(selectVehicles([offer('unknown-budget',{price:null})],[],{budget:1}).offerCount,0);
+console.log('Selection engine passed: budget, unknown/foreign/from prices, statuses, body types and route semantics.');
+assert.equal(selectVehicles([offer('kia',{name:'Kia Sorento'}),offer('bmw',{name:'BMW X5'})],[],{query:'Kia'}).offerCount,1);
+assert.equal(selectVehicles([offer('foreign-spaces',{name:'Mercedes-Benz GLC'})],[],{query:'Mercedes Benz'}).offerCount,1);

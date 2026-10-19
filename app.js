@@ -4,10 +4,11 @@ let importModelCars=[];
 let cars=agentCars;
 let catalogView='offers';
 let modelsPromise=null,catalogRequest=0;
-async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-6').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-7').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
 function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
 const favorites=readSaved('parallel-favorites-v1');
 const comparison=new Set();
+let comparisonBriefContext=null;
 function persistFavorites(){try{localStorage.setItem('parallel-favorites-v1',JSON.stringify([...favorites]));}catch{document.querySelector('#selection-status').textContent='Избранное сохранено до закрытия страницы: хранилище браузера недоступно.';}}
 const carPage=car=>(isModel(car)?'models/':'cars/')+car.slug+'/';
 
@@ -136,7 +137,7 @@ dialog.addEventListener('close',()=>{
 });
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('keydown',event=>{if(event.target.matches('input,textarea,select'))return;if(event.key==='ArrowLeft'){event.preventDefault();movePhoto(-1);}if(event.key==='ArrowRight'){event.preventDefault();movePhoto(1);}});
-document.querySelector('#detail-select').addEventListener('click',()=>{const car=selectedCar;dialog.close();setBriefCar(car);document.querySelector('#lead-message').value=isModel(car)?`Интересует подбор ${car.name}. Планируемое направление: ${marketLabels[direction.value]}. Прошу проверить возможность поставки и рассчитать предварительную стоимость для подходящей версии.`:`Интересует ${car.name}. Цена в объявлении на ${car.priceDate}: ${priceLabel(car)}. Прошу уточнить наличие и актуальные условия.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
+document.querySelector('#detail-select').addEventListener('click',()=>{const car=selectedCar;dialog.close();setBriefCar(car);document.querySelector('#lead-message').value=isModel(car)?`Интересует подбор ${car.name}. Планируемое направление: ${marketLabels[direction.value]}. Прошу проверить возможность поставки и рассчитать предварительную стоимость для подходящей версии.`:`Интересует ${car.name}. Цена в объявлении на ${car.priceDate}: ${priceLabel(car)}. Прошу уточнить наличие и актуальные условия.`;document.querySelector('#request').scrollIntoView();persistBriefDraft();document.querySelector('#lead-message').focus({preventScroll:true});});
 document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{
   activeType=button.dataset.type;
   document.querySelectorAll('.filter').forEach(item=>{item.classList.toggle('active',item===button);item.setAttribute('aria-pressed',String(item===button));});updateCatalog();
@@ -176,7 +177,7 @@ async function restoreCatalog(){const request=++catalogRequest;
   stateFilter.value=[...stateFilter.options].some(option=>option.value===params.get('status'))?params.get('status'):'unknown';
   for(const [key,input] of limits){const value=params.get(key)||'';input.value=/^\d{1,10}$/.test(value)?value:'';if(!input.validity.valid)input.value='';}
   document.querySelector('#advanced-filters').open=hasLimits();
-  if(params.has('compare')){comparison.clear();const known=new Set([...agentCars,...importModelCars].map(car=>car.record_id));for(const id of params.get('compare').split(',').slice(0,3))if(known.has(id))comparison.add(id);}
+  if(params.has('compare')){const cap=params.get('wishBudget')||'';comparisonBriefContext={market:['cn','kr','eu'].includes(params.get('wishMarket'))?params.get('wishMarket'):'',budget:/^\d{1,10}$/.test(cap)&&Number(cap)>0&&Number(cap)<=1000000000?Number(cap):null};comparison.clear();const known=new Set([...agentCars,...importModelCars].map(car=>car.record_id));for(const id of params.get('compare').split(',').slice(0,3))if(known.has(id))comparison.add(id);}
   search.value=(params.get('q')||'').slice(0,80);renderCars();if(location.hash==='#request')prefillBriefFromSearch();if(comparison.size && params.has('compare'))openComparison();
   if(catalogView==='models'){sort.value='newest';stateFilter.value='unknown';limits.forEach(([,input])=>input.value='');renderCars();}
   const car=cars.find(item=>item.slug===params.get('car'));
@@ -214,7 +215,7 @@ function calculate(){
 }
 calc.addEventListener('input',calculate);
 document.querySelector('#currency').addEventListener('change',()=>{document.querySelector('#rate').value='';calculate();});
-calc.addEventListener('submit',event=>{event.preventDefault();calculate();if(budget===null)return;document.querySelector('#lead-message').value=`Хочу обсудить предварительный бюджет ${rubles.format(budget)}. Цена: ${document.querySelector('#car-price').value} ${document.querySelector('#currency').value}; курс: ${document.querySelector('#rate').value} ₽. Логистика: ${document.querySelector('#delivery').value} ₽; услуги: ${document.querySelector('#service').value} ₽; платежи: ${document.querySelector('#duties').value} ₽. Все суммы введены мной и требуют проверки.`;document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
+calc.addEventListener('submit',event=>{event.preventDefault();calculate();if(budget===null)return;document.querySelector('#lead-message').value=`Хочу обсудить предварительный бюджет ${rubles.format(budget)}. Цена: ${document.querySelector('#car-price').value} ${document.querySelector('#currency').value}; курс: ${document.querySelector('#rate').value} ₽. Логистика: ${document.querySelector('#delivery').value} ₽; услуги: ${document.querySelector('#service').value} ₽; платежи: ${document.querySelector('#duties').value} ₽. Все суммы введены мной и требуют проверки.`;document.querySelector('#request').scrollIntoView();persistBriefDraft();document.querySelector('#lead-message').focus({preventScroll:true});});
 const lead = document.querySelector('#lead-form');
 lead.addEventListener('submit',async event=>{event.preventDefault();const text=document.querySelector('#lead-message').value.trim();const status=document.querySelector('#lead-status');if(!text){status.textContent='Добавьте модель или пожелания.';document.querySelector('#lead-message').focus();return;}try{await navigator.clipboard.writeText(text);status.textContent='Пожелания скопированы. Их можно использовать в личном обращении. Ничего не отправлено.';}catch{document.querySelector('#lead-message').select();status.textContent='Текст выделен — скопируйте его вручную. Ничего не отправлено.';}});
 if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(element=>observer.observe(element));document.documentElement.classList.add('motion-ready');}
@@ -265,15 +266,15 @@ function renderComparison(){
  const photo=car.image_small||car.example_image;if(photo){const image=el('img','compare-image');image.src=photo;image.alt=car.name+(isModel(car)?' — пример из объявления, версия может отличаться':' — фото из объявления');image.width=480;image.height=320;image.loading='lazy';card.append(image);if(isModel(car))card.append(el('p','example-caption','Фото примера; год и версия могут отличаться.'));}else card.append(el('div','compare-no-photo','Фото конкретной версии пока нет'));
  const spec=el('dl');for(const [row,[label,value]] of fields[column].entries()){const group=el('div','compare-row');group.classList.toggle('different',different[row]);group.hidden=filter.checked&&!different[row];group.append(el('dt','',label),el('dd','',value));spec.append(group);}card.append(spec);
  const remove=el('button','','Убрать из сравнения ×');remove.type='button';remove.addEventListener('click',()=>{comparison.delete(car.record_id);renderComparison();renderCars(false);document.querySelector('#close-compare').focus();});card.append(remove);return card;}));
- const share=new URL(location.href);share.search='';share.searchParams.set('compare',[...comparison].join(','));share.hash='catalog';document.querySelector('#compare-share-url').value=comparison.size?share.href:'';
+ const share=new URL(location.href);share.search='';share.searchParams.set('compare',[...comparison].join(','));if(comparisonBriefContext?.market)share.searchParams.set('wishMarket',comparisonBriefContext.market);if(comparisonBriefContext?.budget)share.searchParams.set('wishBudget',comparisonBriefContext.budget);share.hash='catalog';document.querySelector('#compare-share-url').value=comparison.size?share.href:'';
  document.querySelector('#compare-status').textContent=comparison.size?'':'Добавьте до трёх автомобилей кнопкой «Сравнить» в каталоге.';document.querySelector('#copy-selection').disabled=!comparison.size;document.querySelector('#compare-brief').disabled=!comparison.size;
 }
 function openComparison(){renderComparison();const panel=document.querySelector('#compare-dialog');if(!panel.open)panel.showModal();}
 document.querySelector('#favorites-only').addEventListener('change',()=>{renderCars();writeCatalogUrl();});
 document.querySelector('#open-compare').addEventListener('click',openComparison);document.querySelector('#close-compare').addEventListener('click',()=>document.querySelector('#compare-dialog').close());
-document.querySelector('#copy-selection').addEventListener('click',async()=>{const url=new URL(location.href);url.search='';url.searchParams.set('compare',[...comparison].join(','));url.hash='catalog';try{await navigator.clipboard.writeText(url.href);document.querySelector('#compare-status').textContent='Ссылка на сравнение скопирована.';}catch{const status=document.querySelector('#compare-status');status.replaceChildren(el('span','','Скопируйте ссылку: '));const input=el('input');input.type='url';input.readOnly=true;input.value=url.href;status.append(input);input.select();}});
+document.querySelector('#copy-selection').addEventListener('click',async()=>{const input=document.querySelector('#compare-share-url');try{await navigator.clipboard.writeText(input.value);document.querySelector('#compare-status').textContent='Ссылка на сравнение скопирована.';}catch{input.focus();input.select();document.querySelector('#compare-status').textContent='Скопируйте выделенную ссылку вручную.';}});
 
-document.querySelector('#compare-dialog').addEventListener('close',()=>{const url=new URL(location.href);url.searchParams.delete('compare');history.replaceState(history.state,'',url);});
+document.querySelector('#compare-dialog').addEventListener('close',()=>{const url=new URL(location.href);for(const key of ['compare','wishMarket','wishBudget'])url.searchParams.delete(key);history.replaceState(history.state,'',url);});
 
 function hideSearchSuggestions(){document.querySelector('#search-suggestions').hidden=true;search.setAttribute('aria-expanded','false');search.removeAttribute('aria-activedescendant');}
 function syncSearchSuggestions(){
@@ -289,7 +290,7 @@ search.addEventListener('focus',syncSearchSuggestions);search.addEventListener('
 search.addEventListener('keydown',event=>{const list=document.querySelector('#search-suggestions');if(event.key==='Escape'){hideSearchSuggestions();return;}if(list.hidden)return;const options=[...list.children];let index=options.findIndex(option=>option.id===search.getAttribute('aria-activedescendant'));if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();index=index<0?(event.key==='ArrowDown'?0:options.length-1):(index+(event.key==='ArrowDown'?1:-1)+options.length)%options.length;for(const [i,option] of options.entries())option.setAttribute('aria-selected',String(i===index));search.setAttribute('aria-activedescendant',options[index].id);}if(event.key==='Enter'&&index>=0){event.preventDefault();chooseSearchSuggestion(options[index].querySelector('span').textContent);}});
 document.querySelector('#clear-search').addEventListener('click',()=>{search.value='';updateCatalog();search.focus();});
 document.querySelector('#compare-differences').addEventListener('change',renderComparison);
-document.querySelector('#compare-brief').addEventListener('click',()=>{const records=[...agentCars,...importModelCars];const names=[...comparison].map(id=>records.find(car=>car.record_id===id)?.name).filter(Boolean);document.querySelector('#compare-dialog').close();document.querySelector('#brief-model').value=names.join(', ');delete document.querySelector('#brief-model').dataset.recordId;document.querySelector('#brief-market').value='';document.querySelector('#lead-message').value='Хочу обсудить подборку: '+names.join(', ')+'. Прошу уточнить наличие, состояние, стоимость и подходящие версии.';document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});});
+document.querySelector('#compare-brief').addEventListener('click',()=>{const records=[...agentCars,...importModelCars];const names=[...comparison].map(id=>records.find(car=>car.record_id===id)?.name).filter(Boolean);document.querySelector('#compare-dialog').close();document.querySelector('#brief-model').value=names.join(', ');delete document.querySelector('#brief-model').dataset.recordId;document.querySelector('#brief-market').value=comparisonBriefContext?.market||'';if(comparisonBriefContext)document.querySelector('#brief-budget').value=comparisonBriefContext.budget??'';document.querySelector('#lead-message').value='Хочу обсудить подборку: '+names.join(', ')+'. Прошу уточнить наличие, состояние, стоимость и подходящие версии.';if(comparisonBriefContext?.market||comparisonBriefContext?.budget)document.querySelector('#compose-brief').click();document.querySelector('#request').scrollIntoView();persistBriefDraft();document.querySelector('#lead-message').focus({preventScroll:true});});
 function setGalleryExpanded(expanded){dialog.classList.toggle('gallery-expanded',expanded);const button=document.querySelector('#photo-expand');button.setAttribute('aria-pressed',String(expanded));button.textContent=expanded?'Вернуться к характеристикам ↙':'Увеличить фото ⛶';}
 document.querySelector('#photo-expand').addEventListener('click',()=>setGalleryExpanded(!dialog.classList.contains('gallery-expanded')));
 document.querySelector('#detail-image').addEventListener('click',()=>{if(selectedCar?.images.length)setGalleryExpanded(!dialog.classList.contains('gallery-expanded'));});
@@ -319,8 +320,31 @@ document.querySelector('#compose-brief').addEventListener('click',()=>{
  if(car&&!isModel(car))lines.push('В объявлении на '+car.priceDate+': '+priceLabel(car)+'. Актуальность цены и наличие прошу подтвердить.');
  lines.push('Прошу уточнить доступные версии, возможность поставки и полный состав расходов.');
  if(car)lines.push(new URL(carPage(car),location.href).href);
- document.querySelector('#lead-message').value=lines.join('\n');document.querySelector('#lead-status').textContent='Текст подготовлен. Его можно изменить и скопировать. Ничего не отправлено.';document.querySelector('#lead-message').focus({preventScroll:true});
+ document.querySelector('#lead-message').value=lines.join('\n');document.querySelector('#lead-status').textContent='Текст подготовлен. Его можно изменить и скопировать. Ничего не отправлено.';persistBriefDraft();document.querySelector('#lead-message').focus({preventScroll:true});
 });
 
 function prefillBriefFromSearch(){const model=document.querySelector('#brief-model');if(!model.value.trim() && search.value.trim()){model.value=search.value.trim();document.querySelector('#brief-market').value=catalogView==='models'?direction.value:'';document.querySelector('.brief-builder').open=true;}}
 document.querySelectorAll('a[href="#request"]').forEach(link=>link.addEventListener('click',prefillBriefFromSearch));
+
+function persistBriefDraft(){
+ const text=document.querySelector('#lead-message').value.slice(0,1500);const model=document.querySelector('#brief-model');const budget=document.querySelector('#brief-budget');const draft={text,model:model.value.slice(0,150),recordId:model.dataset.recordId||'',market:document.querySelector('#brief-market').value,condition:document.querySelector('#brief-condition').value,budget:budget.validity.valid?budget.value:''};
+ try{if(!text&&!draft.model&&!draft.budget)localStorage.removeItem('parallel-brief-draft-v1');else localStorage.setItem('parallel-brief-draft-v1',JSON.stringify(draft));document.querySelector('#draft-status').textContent=text||draft.model?'Черновик сохранён на этом устройстве.':'';}catch{document.querySelector('#draft-status').textContent='Черновик доступен до закрытия страницы: сохранение недоступно.';}
+ document.querySelector('#clear-draft').hidden=!text&&!draft.model&&!draft.budget;
+}
+function restoreBriefDraft(){
+ try{const draft=JSON.parse(localStorage.getItem('parallel-brief-draft-v1')||'null');if(!draft||typeof draft!=='object'||Array.isArray(draft))return;
+ if(typeof draft.text==='string')document.querySelector('#lead-message').value=draft.text.slice(0,1500);
+ if(typeof draft.model==='string')document.querySelector('#brief-model').value=draft.model.slice(0,150);
+ if(typeof draft.recordId==='string'&&draft.recordId.length<150)document.querySelector('#brief-model').dataset.recordId=draft.recordId;
+ document.querySelector('#brief-market').value=['cn','kr','eu'].includes(draft.market)?draft.market:'';
+ document.querySelector('#brief-condition').value=['new','used'].includes(draft.condition)?draft.condition:'';
+ const amount=String(draft.budget??'');document.querySelector('#brief-budget').value=/^\d{1,10}$/.test(amount)&&Number(amount)>0&&Number(amount)<=1000000000?amount:'';
+ if(document.querySelector('#lead-message').value||document.querySelector('#brief-model').value){document.querySelector('#draft-status').textContent='Восстановлен черновик с этого устройства.';document.querySelector('#clear-draft').hidden=false;}
+ }catch{}
+}
+restoreBriefDraft();
+let briefSaveTimer;
+document.querySelector('#lead-form').addEventListener('input',()=>{clearTimeout(briefSaveTimer);briefSaveTimer=setTimeout(persistBriefDraft,350);});
+document.querySelector('#lead-form').addEventListener('change',persistBriefDraft);
+document.querySelector('#clear-draft').addEventListener('click',()=>{clearTimeout(briefSaveTimer);document.querySelector('#lead-message').value='';document.querySelector('#brief-model').value='';delete document.querySelector('#brief-model').dataset.recordId;for(const id of ['brief-budget','brief-market','brief-condition'])document.getElementById(id).value='';try{localStorage.removeItem('parallel-brief-draft-v1');}catch{}document.querySelector('#draft-status').textContent='Черновик удалён.';document.querySelector('#clear-draft').hidden=true;document.querySelector('#lead-status').textContent='';document.querySelector('#lead-message').focus();});
+addEventListener('pagehide',()=>{if(briefSaveTimer){clearTimeout(briefSaveTimer);persistBriefDraft();}});

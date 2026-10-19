@@ -15,3 +15,7 @@ with Image.open(root/'assets/hero.jpg') as raw:
  for width in [640,1280,1920]:
   im=raw.convert('RGB');im.thumbnail((width,width));im.save(root/('assets/hero-'+str(width)+'.webp'),'WEBP',quality=82)
 print('Responsive WebP derivatives generated; source images unchanged.')
+with Image.open(root/'assets/brand-logo.png') as raw:
+ im=raw.convert('RGB');im.thumbnail((192,192));im.save(root/'assets/brand-logo.webp','WEBP',quality=90)
+ for size,name in [(64,'brand-icon.png'),(180,'apple-touch-icon.png')]:
+  im=raw.convert('RGB');im.thumbnail((size,size));im.save(root/'assets'/name,optimize=True)
