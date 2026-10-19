@@ -14,7 +14,7 @@ for(const car of catalog){if(!car.image || (car.price!==null && !(car.price>0)) 
 const resources=[...html.matchAll(/(?:src|href)="([^"#]+)"/g)].map(match=>match[1]).filter(value=>!/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(value));
 resources.push(...importCatalog.map(car=>car.image));
 resources.push(...catalog.flatMap(car=>[car.image,...car.images]));
-for(const resource of new Set(resources)){const file=path.resolve(root,resource);if(!file.startsWith(root+path.sep))throw Error('Invalid resource path');await stat(file);}
+for(const resource of new Set(resources)){const file=path.resolve(root,resource.split('?')[0]);if(!file.startsWith(root+path.sep))throw Error('Invalid resource path');await stat(file);}
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
 if(new Set(ids).size!==ids.length)throw Error('Duplicate HTML IDs');
 for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)){if(!ids.includes(anchor))throw Error('Broken anchor: '+anchor);}
