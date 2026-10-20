@@ -1,33 +1,53 @@
 [
   {
     "id": "mobile-de",
+    "name": "mobile.de",
     "region": "eu",
-    "status": "requires_access",
+    "website": "https://www.mobile.de/ru",
+    "status": "reference_connected_ads_require_access",
     "method": "official_api",
-    "documentation": "https://services.mobile.de/manual/index.html",
-    "credentials_in_browser": false
-  },
-  {
-    "id": "autoru-catalog",
-    "region": "reference",
-    "status": "requires_access",
-    "method": "official_api",
-    "documentation": "https://yandex.ru/dev/autoru/doc/ru/reference/all-resources",
-    "credentials_in_browser": false
+    "documentation": "https://services.mobile.de/docs/search-api.html",
+    "reference_file": "data/import/reference/mobile-de.json",
+    "note": "Unauthenticated make/model reference imported. Ad API requires activation and credentials.",
+    "checked_at": "2026-10-20",
+    "credentials_in_browser": false,
+    "live_listing_feed": false
   },
   {
     "id": "encar",
+    "name": "Encar",
     "region": "kr",
-    "status": "not_connected",
-    "method": "supplier_export_or_approved_integration",
-    "website": "https://www.encar.com/",
-    "note": "Automated access returned an access restriction; no bypass attempted."
+    "website": "https://www.encar.com/index.htm",
+    "status": "automated_access_restricted",
+    "method": "listing_link_request",
+    "note": "Index redirects to a restricted page; no listings imported and no bypass attempted.",
+    "checked_at": "2026-10-20",
+    "credentials_in_browser": false,
+    "live_listing_feed": false
   },
   {
-    "id": "china-supplier",
+    "id": "che168",
+    "name": "Che168 Global",
     "region": "cn",
-    "status": "not_selected",
-    "method": "supplier_export_or_approved_api",
-    "website": null
+    "website": "https://global.che168.com/ru",
+    "status": "automated_access_challenge",
+    "method": "listing_link_request",
+    "note": "Ordinary HTTP returned a bot challenge, not catalog data. No challenge bypass attempted.",
+    "checked_at": "2026-10-20",
+    "credentials_in_browser": false,
+    "live_listing_feed": false
+  },
+  {
+    "id": "lotte",
+    "name": "LOTTE Auto Global",
+    "region": "kr",
+    "website": "https://m.lotte-autoglobal.net/co/main/mainView.do",
+    "status": "prior_consent_required",
+    "method": "listing_link_request",
+    "terms": "https://m.lotte-autoglobal.net/co/main/popSpltInfoView.do?mode=20",
+    "note": "Terms Articles 13(viii) and 15(2) require prior consent for automated collection and commercial reproduction. No listings or media republished.",
+    "checked_at": "2026-10-20",
+    "credentials_in_browser": false,
+    "live_listing_feed": false
   }
 ]

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node --check app.js && node --check guide.js && node --check catalog-data.js && node scripts/build.mjs",
+    "build": "node --check app.js && node --check guide.js && node --check suppliers.js && node --check catalog-data.js && node scripts/build.mjs",
     "dev": "node scripts/serve.mjs"
   },
   "engines": {

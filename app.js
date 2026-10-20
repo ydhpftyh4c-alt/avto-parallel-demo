@@ -4,7 +4,7 @@ let importModelCars=[];
 let cars=agentCars;
 let catalogView='offers';
 let modelsPromise=null,catalogRequest=0;
-async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261019-7').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261020-2').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
 function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
 const favorites=readSaved('parallel-favorites-v1');
 const comparison=new Set();
