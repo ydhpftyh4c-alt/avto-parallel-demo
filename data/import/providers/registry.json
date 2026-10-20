@@ -42,12 +42,13 @@
     "name": "LOTTE Auto Global",
     "region": "kr",
     "website": "https://m.lotte-autoglobal.net/co/main/mainView.do",
-    "status": "prior_consent_required",
-    "method": "listing_link_request",
+    "status": "public_catalog_imported",
+    "method": "public_listing_pagination",
     "terms": "https://m.lotte-autoglobal.net/co/main/popSpltInfoView.do?mode=20",
-    "note": "Terms Articles 13(viii) and 15(2) require prior consent for automated collection and commercial reproduction. No listings or media republished.",
+    "note": "Public anonymous listing endpoint used for a dated snapshot. Availability and import eligibility remain unverified; no account or access bypass used.",
     "checked_at": "2026-10-20",
     "credentials_in_browser": false,
-    "live_listing_feed": false
+    "live_listing_feed": false,
+    "snapshot_file": "data/import/listings/lotte.json"
   }
 ]

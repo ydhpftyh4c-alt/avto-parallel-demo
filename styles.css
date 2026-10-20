@@ -126,3 +126,5 @@
 #supplier-status{font-size:14px;line-height:1.6}#supplier-retry{margin-bottom:20px}
 @media(max-width:900px){.supplier-sites,.supplier-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){.supplier-content{padding:20px 16px}.supplier-panel>summary{padding:22px 18px}.supplier-fields{grid-template-columns:minmax(0,1fr)}.supplier-sites{gap:8px}.supplier-sites a{padding:15px 10px}.supplier-sites strong{font-size:15px}.supplier-submit .button{width:100%}.supplier-submit{gap:4px}.supplier-panel summary strong{font-size:22px}}
+
+.catalog-views{flex-wrap:wrap}.order-catalog-link{display:flex;align-items:center;text-decoration:none;background:#FF882B!important;color:#0D2948!important;min-width:0}.catalog-view{min-width:0}@media(max-width:600px){.catalog-views{display:flex;width:100%;flex-direction:column}.catalog-views .catalog-view{width:100%;box-sizing:border-box}}

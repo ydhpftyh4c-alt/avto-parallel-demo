@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mobile-de",
+    "name": "mobile.de",
+    "market": "eu",
+    "url": "https://services.mobile.de/search-api/search",
+    "status": "api_access_required",
+    "checked_at": "2026-10-20T12:12:36.234Z",
+    "http_status": 401,
+    "response_bytes": 0,
+    "automatic_import": false,
+    "note": "Response is not a verified public listing feed. No access bypass attempted."
+  },
+  {
+    "id": "encar",
+    "name": "Encar",
+    "market": "kr",
+    "url": "https://api.encar.com/search/car/list/general",
+    "status": "access_restricted",
+    "checked_at": "2026-10-20T12:12:36.340Z",
+    "http_status": 404,
+    "response_bytes": 170,
+    "automatic_import": false,
+    "note": "Response is not a verified public listing feed. No access bypass attempted."
+  },
+  {
+    "id": "che168",
+    "name": "Che168 Global",
+    "market": "cn",
+    "url": "https://global.che168.com/ru",
+    "status": "bot_challenge",
+    "checked_at": "2026-10-20T12:12:36.723Z",
+    "http_status": 200,
+    "response_bytes": 984,
+    "automatic_import": false,
+    "note": "Response is not a verified public listing feed. No access bypass attempted."
+  }
+]

@@ -7,12 +7,15 @@ import './check-data.mjs';
 import './check-import-data.mjs';
 import './check-selection.mjs';
 import './check-suppliers.mjs';
+import './check-order.mjs';
+import {generateOrderCatalog} from './generate-order-catalog.mjs';
 import {generateImportCatalog} from './generate-import-catalog.mjs';
 const root=process.cwd();
 const html=await readFile('index.html','utf8');
 const app=await readFile('app.js','utf8');
 const guideSource=await readFile('guide.js','utf8');
 const supplierSource=await readFile('suppliers.js','utf8');
+await generateOrderCatalog();
 const catalog=await generateCatalog();
 const importCatalog=await generateImportCatalog();
 if(new Set(catalog.map(car=>car.id)).size!==catalog.length)throw Error('Duplicate listing IDs');
@@ -29,7 +32,7 @@ const referencedIds=[...uiSource.matchAll(/querySelector\(\s*['"]#([a-zA-Z0-9_-]
 for(const id of new Set(referencedIds))if(!ids.includes(id)&&!dynamicIds.includes(id))throw Error('UI control is missing from HTML: '+id);
 for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)){if(!ids.includes(anchor))throw Error('Broken anchor: '+anchor);}
 await mkdir('dist',{recursive:true});
-for(const file of ['index.html','styles.css','app.js','guide.js','selection-engine.mjs','suppliers.js','supplier-engine.mjs','catalog-data.js','import-catalog-data.js','import-catalog.json','.nojekyll'])await copyFile(file,'dist/'+file);
+for(const file of ['index.html','styles.css','app.js','guide.js','selection-engine.mjs','suppliers.js','supplier-engine.mjs','catalog-data.js','import-catalog-data.js','import-catalog.json','order.html','order.css','order.js','order-engine.mjs','order-catalog.json','.nojekyll'])await copyFile(file,'dist/'+file);
 await cp('assets','dist/assets',{recursive:true});
 await cp('data/import/reference','dist/data/import/reference',{recursive:true});
 await cp('data/vehicles','dist/data/vehicles',{recursive:true});

@@ -4,7 +4,7 @@ let importModelCars=[];
 let cars=agentCars;
 let catalogView='offers';
 let modelsPromise=null,catalogRequest=0;
-async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261020-2').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261020-3').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
 function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
 const favorites=readSaved('parallel-favorites-v1');
 const comparison=new Set();
@@ -98,7 +98,7 @@ function openCar(car, writeHistory = true){
   selectedCar=car;photoIndex=0;setGalleryExpanded(false);document.querySelector('#photo-expand').hidden=!car.images.length;
   document.querySelector('#detail-title').textContent=car.name;document.querySelector('#detail-page-link').href=carPage(car);
   document.querySelector('#detail-kind').textContent=isModel(car)?'СПРАВОЧНИК МОДЕЛЕЙ':'ИЗ КАНАЛА АГЕНТСТВА';
-  document.querySelector('.gallery-caption').textContent=isModel(car)?'Иллюстрация справочная. Фотографии конкретных машин появятся после подключения предложений поставщиков.':'Фотографии из объявления. Используйте стрелки для просмотра.';
+  document.querySelector('.gallery-caption').textContent=isModel(car)?'Это справочная модель. Конкретные машины с фото смотрите в разделе «Под заказ».':'Фотографии из объявления. Используйте стрелки для просмотра.';
   document.querySelector('#detail-meta').textContent=car.body+' · '+car.year;
   document.querySelector('#detail-price').textContent=priceLabel(car);
   document.querySelector('#detail-price-date').textContent=isModel(car)?'Автоматическая оценка пока не подключена':(car.price===null?'Цена не указана':'Цена из канала на '+car.priceDate)+' · '+(statusLabels[car.status]||'Наличие уточняйте');
