@@ -4,7 +4,7 @@ let importModelCars=[];
 let cars=agentCars;
 let catalogView='offers';
 let modelsPromise=null,catalogRequest=0;
-async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261020-3').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
+async function ensureModels(){if(importModelCars.length)return;if(!modelsPromise)modelsPromise=fetch('import-catalog.json?v=20261020-5').then(response=>{if(!response.ok)throw Error('Models unavailable');return response.json();}).then(data=>{if(!Array.isArray(data))throw Error('Invalid models');importModelCars=data;}).catch(error=>{modelsPromise=null;throw error;});await modelsPromise;}
 function readSaved(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return new Set(Array.isArray(value)?value.filter(id=>typeof id==='string'):[]);}catch{return new Set();}}
 const favorites=readSaved('parallel-favorites-v1');
 const comparison=new Set();
@@ -180,7 +180,7 @@ async function restoreCatalog(){const request=++catalogRequest;
   if(params.has('compare')){const cap=params.get('wishBudget')||'';comparisonBriefContext={market:['cn','kr','eu'].includes(params.get('wishMarket'))?params.get('wishMarket'):'',budget:/^\d{1,10}$/.test(cap)&&Number(cap)>0&&Number(cap)<=1000000000?Number(cap):null};comparison.clear();const known=new Set([...agentCars,...importModelCars].map(car=>car.record_id));for(const id of params.get('compare').split(',').slice(0,3))if(known.has(id))comparison.add(id);}
   search.value=(params.get('q')||'').slice(0,80);renderCars();if(location.hash==='#request')prefillBriefFromSearch();if(comparison.size && params.has('compare'))openComparison();
   if(catalogView==='models'){sort.value='newest';stateFilter.value='unknown';limits.forEach(([,input])=>input.value='');renderCars();}
-  const car=cars.find(item=>item.slug===params.get('car'));
+  const car=document.getElementById('buyer-catalog')?null:cars.find(item=>item.slug===params.get('car'));
   if(car)openCar(car,false);else{if(dialog.open)dialog.close();if(params.has('car'))document.querySelector('#catalog-status').textContent='Автомобиль по этой ссылке не найден. Выберите другой из каталога.';}
 }
 limits.forEach(([,input])=>input.addEventListener('input',updateCatalog));

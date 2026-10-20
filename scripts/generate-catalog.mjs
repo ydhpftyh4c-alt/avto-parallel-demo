@@ -10,12 +10,12 @@ export async function readVehicles(directory='data/vehicles'){
 export async function generateCatalog(){
  const all=await readVehicles();const seen=new Set();
  for(const car of all){if(seen.has(car.record_id))throw Error('Duplicate record: '+car.record_id);seen.add(car.record_id);if(!car.slug || !car.name || !Array.isArray(car.images) || !car.date)throw Error('Incomplete record: '+car.record_id);if(car.price!==null && (!Number.isFinite(car.price)||car.price<=0))throw Error('Invalid price: '+car.record_id);}
- const visible=all.filter(car=>!car.review_required && car.record_kind==='vehicle');
+ const visible=all.filter(car=>!car.review_required && car.record_kind==='vehicle' && car.images.length>0);
  // Full source texts are never shipped to the browser bundle.
  const fields=['record_id','id','slug','brand','name','types','country','body','year','mileage','engine','price','currency','pricePrefix','priceDate','priceNote','date','status','statusDate','specs','price_history','features','description','images','image'];
  const publicCars=visible.map(car=>{const record=Object.fromEntries(fields.map(key=>[key,car[key]]));if(existsSync('assets/vehicles/'+car.slug+'-480.webp')){record.image_small='assets/vehicles/'+car.slug+'-480.webp';record.image_large='assets/vehicles/'+car.slug+'-960.webp';}return record;});
  await writeFile('catalog-data.js','// Generated from per-vehicle JSON. Do not edit directly.\nconst catalogCars = '+JSON.stringify(publicCars)+';\n');
- console.log(`Catalog generated: ${visible.length} public records, ${all.length-visible.length} records awaiting review.`);
+ console.log(`Catalog generated: ${visible.length} records with photos; ${all.filter(car=>!car.review_required&&!car.images.length).length} without photos hidden; ${all.filter(car=>car.review_required).length} awaiting review.`);
  return publicCars;
 }
 if(process.argv[1] && path.resolve(process.argv[1])===fileURLToPath(import.meta.url))await generateCatalog();

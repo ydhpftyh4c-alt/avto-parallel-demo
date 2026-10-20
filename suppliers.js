@@ -1,4 +1,4 @@
-import {identifyListing,makeSupplierBrief} from './supplier-engine.mjs?v=20261020-3';
+import {identifyListing,makeSupplierBrief} from './supplier-engine.mjs?v=20261020-5';
 const panel=document.getElementById('supplier-catalog');
 const form=document.getElementById('supplier-form');
 const brand=document.getElementById('supplier-brand'),model=document.getElementById('supplier-model'),provider=document.getElementById('supplier-provider');
@@ -10,7 +10,7 @@ async function loadReference(){
  loading=(async()=>{
   referenceStatus.textContent='Загружаем справочник марок…';
   try{
-   const response=await fetch('data/import/reference/mobile-de.json?v=20261020-3');if(!response.ok)throw Error('Reference fetch failed');
+   const response=await fetch('data/import/reference/mobile-de.json?v=20261020-5');if(!response.ok)throw Error('Reference fetch failed');
    reference=await response.json();if(!Array.isArray(reference.brands))throw Error('Invalid reference');
    for(const item of [...reference.brands].sort((a,b)=>a.name.localeCompare(b.name)))brand.append(option(item.id,item.name));
    brand.disabled=false;

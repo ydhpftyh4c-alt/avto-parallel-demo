@@ -1,5 +1,6 @@
 import {readFile,stat} from 'node:fs/promises';
 import path from 'node:path';
+import {readVehicles} from './generate-catalog.mjs';
 export async function checkGeneratedPages(catalog,models){
  const root=process.cwd();let links=0;
  for(const car of [...catalog,...models]){
@@ -12,5 +13,9 @@ export async function checkGeneratedPages(catalog,models){
    await stat(target);links++;
   }
  }
- console.log('Static page audit passed: '+(catalog.length+models.length)+' pages, '+links+' local links/assets.');
+ for(const car of (await readVehicles()).filter(car=>!car.review_required&&!car.images.length)){
+  const html=await readFile('cars/'+car.slug+'/index.html','utf8');
+  if(!html.includes('noindex,follow')||html.includes('assets/import-model.svg')||!html.includes('Карточка скрыта из каталога'))throw Error('Photo-less page is still advertising a car: '+car.slug);
+ }
+ console.log('Static page audit passed: '+(catalog.length+models.length)+' pages, '+links+' local links/assets; photo-less pages hidden.');
 }
