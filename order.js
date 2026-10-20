@@ -1,4 +1,4 @@
-import {bodyLabels,filterListings,sourceImage,listingBrief} from './order-engine.mjs?v=20261020-5';
+import {bodyLabels,filterListings,sourceImage,listingBrief} from './order-engine.mjs?v=20261020-6';
 const $=id=>document.getElementById(id),format=new Intl.NumberFormat('ru-RU'),labels={kr:'Корея',cn:'Китай',eu:'Европа'};
 let data,limit=24,current=null,photo=0,loading=false;
 const unavailable=new Set(),failedImages=new Map();
@@ -58,7 +58,7 @@ $('order-filters').addEventListener('submit',event=>{event.preventDefault();rend
 for(const button of document.querySelectorAll('[data-order-scope]'))button.addEventListener('click',()=>{controls.scope.value=button.dataset.orderScope;controls.provider.value='all';controls.currency.value='all';controls.price.value='';if(controls.sort.value.startsWith('price-'))controls.sort.value='default';populateBrands();render();});
 $('order-filters').addEventListener('reset',()=>{const scope=controls.scope.value;setTimeout(()=>{controls.scope.value=scope;populateBrands();render();},0);});$('order-more').addEventListener('click',()=>{limit+=24;render(false);});$('order-retry').addEventListener('click',load);
 async function load(){if(loading)return;loading=true;$('order-retry').hidden=true;
- try{const response=await fetch('order-catalog.json?v=20261020-5');if(!response.ok)throw Error('Catalog HTTP '+response.status);const received=await response.json();if(!Array.isArray(received.listings)||!Array.isArray(received.sources))throw Error('Invalid catalog');data=received;
+ try{const response=await fetch('order-catalog.json?v=20261020-6');if(!response.ok)throw Error('Catalog HTTP '+response.status);const received=await response.json();if(!Array.isArray(received.listings)||!Array.isArray(received.sources))throw Error('Invalid catalog');data=received;
   const known=new Set(data.listings.map(car=>car.id));saved=new Set([...saved].filter(id=>known.has(id)));persist();
   for(const [id,name] of [...new Map(data.listings.map(car=>[car.provider,car.provider_name]))])chooseOption(controls.provider,id,name);
   for(const [id,name] of [...new Map(data.listings.map(car=>[car.brand,car.brand_name]))].sort((a,b)=>a[1].localeCompare(b[1])))chooseOption(controls.brand,id,name);
@@ -67,7 +67,7 @@ async function load(){if(loading)return;loading=true;$('order-retry').hidden=tru
   controls.scope.value=params.get('view')==='offers'?'agency':params.get('view')==='all'||params.get('scope')==='all'?'all':'supplier';
   for(const [key,input] of Object.entries(controls)){if(!params.has(key))continue;const value=params.get(key);if(key==='saved')input.checked=value==='true';else if(input.tagName==='SELECT'){if([...input.options].some(option=>option.value===value))input.value=value;}else{input.value=value.slice(0,input.type==='search'?100:10);if(!input.validity.valid)input.value='';}}
   $('order-freshness').textContent=`Под заказ: объявления загружены ${new Date(data.completed_at).toLocaleDateString('ru-RU')}. Объявления агентства: цены на даты публикаций.`;
-  const statuses={public_catalog_imported:'выдача загружена',access_restricted:'загрузка ограничена площадкой',api_access_required:'нужен доступ к API объявлений',bot_challenge:'вместо каталога возвращается проверка доступа'};
+  const statuses={public_catalog_imported:'срез выдачи загружен',partial_public_search:'часть публичной выдачи · каталог площадки загружен не полностью',access_restricted:'загрузка ограничена площадкой',api_access_required:'нужен доступ к API объявлений',bot_challenge:'вместо каталога возвращается проверка доступа'};
   $('order-sources').replaceChildren(...data.sources.map(source=>el('li','',source.name+' — '+(statuses[source.status]||'не загружено')+(source.unique_listings?' · '+format.format(source.unique_listings)+' объявлений':''))));
   populateBrands();render();if(['body','year','mileage','price','currency','sort','status'].some(key=>params.has(key)))$('order-advanced').open=true;const linked=data.listings.find(car=>car.id===params.get('car')||car.legacy_slug===params.get('car'));if(linked)openCar(linked,false);else if(params.has('car'))$('order-error').textContent='Объявление отсутствует в текущем срезе. Выберите другое или обсудите его с агентством.';
  }catch{$('order-freshness').textContent='Не удалось загрузить каталог.';$('order-error').textContent='Попробуйте ещё раз или свяжитесь с Дмитрием по телефону.';$('order-retry').hidden=false;}finally{loading=false;}

@@ -7,6 +7,7 @@ import './check-data.mjs';
 import './check-import-data.mjs';
 import './check-selection.mjs';
 import './check-suppliers.mjs';
+import './check-supplier-parsers.mjs';
 import {generateOrderCatalog} from './generate-order-catalog.mjs';
 import {generateImportCatalog} from './generate-import-catalog.mjs';
 import {generateBuyerSection} from './generate-buyer-section.mjs';

@@ -12,7 +12,8 @@ export function filterListings(cars,filters,saved=new Set()){
  return result;
 }
 export function sourceImage(path,width=640){
- if(/^(?:data\/vehicles|assets\/vehicles|assets\/buyer-photos)\/[a-zA-Z0-9_./-]+\.(jpg|jpeg|png|webp)$/i.test(path||'')&&!path.includes('..'))return path;
+ if(/^https:\/\/img\.classistatic\.de\/api\/v1\/mo-prod\/images\/[a-f0-9/-]+\?rule=mo-\d+$/i.test(path||''))return path;
+ if(/^(?:data\/vehicles|assets\/vehicles|assets\/buyer-photos)\/[a-zA-Z0-9_./-]+\.(jpg|jpeg|png|webp|avif)$/i.test(path||'')&&!path.includes('..'))return path;
  if(!/^\/goods\/[a-zA-Z0-9_./-]+\.(jpg|jpeg|png)$/i.test(path||'')||path.includes('..'))return 'assets/import-model.svg';
  return 'https://img.lotte-autoglobal.net'+path+'/dims/format/webp/resize/'+width+'/cropcenter/'+width+'x'+Math.round(width/1.4)+'/composite/wm_224/quality/90/optimize';
 }

@@ -4,14 +4,15 @@
     "name": "mobile.de",
     "region": "eu",
     "website": "https://www.mobile.de/ru",
-    "status": "reference_connected_ads_require_access",
-    "method": "official_api",
+    "status": "partial_public_search",
+    "method": "public_search_html",
     "documentation": "https://services.mobile.de/docs/search-api.html",
     "reference_file": "data/import/reference/mobile-de.json",
-    "note": "Unauthenticated make/model reference imported. Ad API requires activation and credentials.",
+    "note": "Public search HTML accessible without API credentials. 50-page search window imported; not full platform coverage. Official ad API still requires a separate account.",
     "checked_at": "2026-10-20",
     "credentials_in_browser": false,
-    "live_listing_feed": false
+    "live_listing_feed": false,
+    "snapshot_file": "data/import/listings/mobile-de.json"
   },
   {
     "id": "encar",
@@ -20,7 +21,7 @@
     "website": "https://www.encar.com/index.htm",
     "status": "automated_access_restricted",
     "method": "listing_link_request",
-    "note": "Index redirects to a restricted page; no listings imported and no bypass attempted.",
+    "note": "Homepage and search shell load normally, but the ad API returns has_been_cr_blocked_AWS and browser search shows no listing cards. No bypass attempted.",
     "checked_at": "2026-10-20",
     "credentials_in_browser": false,
     "live_listing_feed": false
