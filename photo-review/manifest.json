@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-20",
+  "method": "imagegen_conservative_edit_samples",
+  "catalog_applied": false,
+  "items": [
+    {
+      "id": "lotte-2610696940",
+      "name": "Chevrolet Trax",
+      "slug": "chevrolet-trax",
+      "original": ".local-source/photo-edit-inputs/lotte-2610696940.webp",
+      "change": "Проба удаления наложенной надписи и рекламного знака на фоне.",
+      "source_sha256": "e06987b4712ee44a69811b5f947c2bbf5640c0fde0589b7bfa924bdf6e9d9f2b",
+      "edited": "assets/photo-edits/20261020/chevrolet-trax-sample-v1.png",
+      "original_public": "assets/photo-edits/20261020/chevrolet-trax-original.webp",
+      "edited_sha256": "66539fd8f488a4bd70be8109f47c2540d2e62e7777d099947d3493111d2ba3b4",
+      "status": "review_only_not_used_in_catalog"
+    },
+    {
+      "id": "agency-tg-0838",
+      "name": "Toyota bZ3X 520 Pro+",
+      "slug": "toyota-bz3x",
+      "original": "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/001.jpg",
+      "change": "Проба нейтрального баланса белого и более спокойного фона.",
+      "source_sha256": "a948f8faf15df41801788feeea7caee126b78d2b44a8a092782740b71932987c",
+      "edited": "assets/photo-edits/20261020/toyota-bz3x-sample-v1.png",
+      "original_public": "data/vehicles/toyota/bz3x-520-pro/tg-0838/photos/001.jpg",
+      "edited_sha256": "9afdb0f31377c0c692e9b09a78c5b5e3e3bf57642e74447b745b74280c9ad279",
+      "status": "review_only_not_used_in_catalog"
+    },
+    {
+      "id": "agency-tg-0828",
+      "name": "Porsche Taycan Turbo",
+      "slug": "porsche-taycan",
+      "original": "data/vehicles/porsche/taycan-turbo/tg-0828/photos/001.jpg",
+      "change": "Проба осветления теней и коррекции зеленоватого освещения.",
+      "source_sha256": "99eb55345609a915b6e00dd5da711edf6f55af8c75e08eb9c5624775706a5d40",
+      "edited": "assets/photo-edits/20261020/porsche-taycan-sample-v1.png",
+      "original_public": "data/vehicles/porsche/taycan-turbo/tg-0828/photos/001.jpg",
+      "edited_sha256": "0f1b5c7157f85ef3739885c8eebdf4ace6851716871024db5fbeaa1f97b3b93e",
+      "status": "review_only_not_used_in_catalog"
+    },
+    {
+      "id": "agency-tg-0731",
+      "name": "Škoda Octavia A7",
+      "slug": "skoda-octavia",
+      "original": "data/vehicles/skoda/octavia-a7/tg-0731/photos/001.jpg",
+      "change": "Проба баланса серебристого цвета и светлых участков.",
+      "source_sha256": "670fdbac17a9027da1e3dea838e60bbf19d12ff67b85811d92a41d25ee33b466",
+      "edited": "assets/photo-edits/20261020/skoda-octavia-sample-v1.png",
+      "original_public": "data/vehicles/skoda/octavia-a7/tg-0731/photos/001.jpg",
+      "edited_sha256": "ac75c61ae6c1132376e0934e818fc21398b8f4117a8814602506f6de5eb61e11",
+      "status": "review_only_not_used_in_catalog"
+    }
+  ]
+}

@@ -36,6 +36,7 @@ for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)){if(!ids.includes(ancho
 await mkdir('dist',{recursive:true});
 for(const file of ['index.html','styles.css','app.js','guide.js','selection-engine.mjs','suppliers.js','supplier-engine.mjs','catalog-data.js','import-catalog-data.js','import-catalog.json','order.html','order.css','order.js','order-engine.mjs','order-catalog.json','.nojekyll'])await copyFile(file,'dist/'+file);
 await cp('assets','dist/assets',{recursive:true});
+await cp('photo-review','dist/photo-review',{recursive:true});
 await cp('data/import/reference','dist/data/import/reference',{recursive:true});
 await cp('data/vehicles','dist/data/vehicles',{recursive:true});
 await generatePages(catalog,importCatalog);
