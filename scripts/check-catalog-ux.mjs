@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {activeListingFilters,clearListingFilter,listingCardText} from '../assets/catalog-ux.mjs';
+const filters={scope:'supplier',q:'Kia',brand:'kia',body:'all',provider:'all',year:2021,mileage:0,price:20000,currency:'USD',sort:'price-asc',status:'unknown',saved:false};
+const cleared=clearListingFilter(filters,'currency');assert.equal(cleared.currency,'all');assert.equal(cleared.price,null);assert.equal(cleared.sort,'default');assert.equal(cleared.q,'Kia');assert.equal(cleared.scope,'supplier');assert.equal(filters.currency,'USD');
+assert.equal(clearListingFilter({...filters,sort:'year-desc'},'currency').sort,'year-desc');assert.equal(clearListingFilter(filters,'status').status,'unknown');
+const active=activeListingFilters(filters,{brand:'Kia',sort:'Сначала дешевле'});assert.ok(active.some(item=>item.key==='mileage'&&item.label.includes('0')));assert.ok(active.some(item=>item.key==='price'&&item.label.endsWith('USD')));assert.ok(!active.some(item=>item.key==='currency'));assert.ok(!active.some(item=>item.key==='status'));
+assert.ok(activeListingFilters({...filters,price:null}).some(item=>item.key==='currency'));
+const source={provider:'lotte',brand:'bmw',brand_name:'BMW',model:'7 SERIES',trim:'730 ld xDrive',name:'BMW 7 SERIES 730 ld xDrive'};
+assert.deepEqual(listingCardText(source),{title:'BMW 7 Series',subtitle:'730 ld xDrive',full:source.name});
+assert.equal(listingCardText({...source,name:'BMW 7 — версия с моей правкой'}).title,'BMW 7 — версия с моей правкой');
+assert.equal(listingCardText({...source,provider:'agency'}).title,source.name);assert.equal(listingCardText({...source,model:'G80',name:'BMW G80 730 ld xDrive'}).title,'BMW G80');
+console.log('Catalog UX checks passed: currency dependencies, zero mileage, filter labels and preserved editorial titles.');

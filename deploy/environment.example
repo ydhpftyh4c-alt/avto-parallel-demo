@@ -1,0 +1,6 @@
+# Public configuration only; passwords do not belong in this file.
+ADMIN_HOST=127.0.0.1
+ADMIN_PORT=4181
+ADMIN_ORIGIN=https://your-domain.example
+PUBLIC_SITE_URL=https://your-domain.example/
+ADMIN_DATA_DIR=/var/lib/avto-parallel

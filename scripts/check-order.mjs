@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile,stat} from 'node:fs/promises';
 import {normalizeLotte} from './parse-supplier-listings.mjs';
-import {filterListings,listingBrief,sourceImage} from '../order-engine.mjs';
+import {filterListings,listingBrief,sourceImage,matchesListingQuery,modelSuggestions} from '../order-engine.mjs';
 const raw={gdId:'1234567890',mcmpNm:'KIA',modelNm:'SORENTO',gradNm:'2.2 Diesel',mnfYear:'2021',drgMil:50000,dpmVal:2199,carAmt:'18000',dcCarAmt:'17500',mocaCdNm:'SUV',gasSeNm:'DIESEL'};
 const car=normalizeLotte(raw,[{gdId:'1234567890',afilePath:'/goods/test/',regFileNm:'test.jpg'}],'2026-10-20T12:00:00Z');
 assert.equal(car.price,17500);assert.equal(car.currency,'USD');assert.equal(car.body,'suv');assert.equal(car.engine_cc,2199);assert.equal(car.images[0],'/goods/test/test.jpg');assert.equal(car.availability,'requires_confirmation');assert.equal(car.clsNo,undefined);assert.equal(car.selerId,undefined);
@@ -17,8 +17,28 @@ assert.match(listingBrief([car]),/17500 USD/);assert.match(listingBrief([car]),/
 const snapshot=JSON.parse(await readFile('data/import/listings/lotte.json','utf8'));assert.ok(snapshot.sources[0].pages_fetched>0);assert.equal(snapshot.sources[0].unique_listings,snapshot.listings.length);assert.equal(new Set(snapshot.listings.map(item=>item.id)).size,snapshot.listings.length);
 for(const item of snapshot.listings){assert.equal(item.availability,'requires_confirmation');assert.equal(item.import_eligibility,'not_verified');assert.equal(item.price_basis,'seller_listing_excludes_import');assert.equal(item.clsNo,undefined);for(const field of ['mileage_km','engine_cc'])assert.ok(item[field]===null||Number.isFinite(item[field])&&item[field]>=0);}
 const html=await readFile('catalog-section.html','utf8'),js=await readFile('order.js','utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);assert.equal(new Set(ids).size,ids.length);
-for(const [,id] of js.matchAll(/\$\('([^']+)'\)/g))assert.ok(ids.includes(id),'Missing order UI element: '+id);
+const page=await readFile('index.html','utf8'),pageIds=[...page.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+for(const [,id] of js.matchAll(/\$\('([^']+)'\)/g))assert.ok((id.startsWith('arrival-')||id==='catalog'?pageIds:ids).includes(id),'Missing order UI element: '+id);
 for(const [,resource] of html.matchAll(/(?:src|href)="([^"#]+)"/g))if(!/^[a-z]+:/i.test(resource))await stat(resource.split(/[?#]/)[0]||'.');
 console.log(`Unified catalog checks passed: parser, ${snapshot.listings.length} actual records, currency-safe filters, photo URLs, selection and UI links.`);
 
-const buyer=JSON.parse(await readFile('order-catalog.json','utf8'));assert.ok(buyer.listings.every(item=>item.images.length>0));assert.equal(buyer.agency_photo_count,buyer.listings.filter(item=>item.category==='agency').length);assert.ok(buyer.agency_hidden_without_photos>0);assert.ok(buyer.listings.some(item=>item.category==='agency'));assert.ok(buyer.listings.some(item=>item.category==='supplier'));assert.equal(filterListings([{...car,images:[]}],{}).length,0);assert.equal(filterListings([{...car,category:'agency'}],{scope:'supplier'}).length,0);assert.equal(sourceImage('data/vehicles/kia/test/photos/001.jpg'),'data/vehicles/kia/test/photos/001.jpg');
+const buyer=JSON.parse(await readFile('order-catalog.json','utf8'));assert.ok(buyer.listings.every(item=>item.images.length>0));assert.equal(buyer.agency_photo_count,buyer.listings.filter(item=>item.category==='agency').length);assert.ok(buyer.agency_hidden_without_photos>0);assert.equal(new Set(buyer.listings.map(item=>item.id)).size,buyer.listings.length);assert.equal(filterListings([{...car,images:[]}],{}).length,0);assert.equal(filterListings([{...car,category:'agency'}],{scope:'supplier'}).length,0);assert.equal(sourceImage('data/vehicles/kia/test/photos/001.jpg'),'data/vehicles/kia/test/photos/001.jpg');
+
+// Buyer search accepts common Russian names, punctuation and model spacing.
+assert.ok(matchesListingQuery('HYUNDAI SANTA FE','Хёндай Сантафе'));
+assert.ok(matchesListingQuery('HYUNDAI SantaFe','Хендай Санта Фе'));
+assert.ok(matchesListingQuery('MAZDA CX-5','мазда CX5'));
+assert.ok(matchesListingQuery('Mercedes-Benz','мерседес'));
+assert.ok(matchesListingQuery('GEELY MONJARO','джили'));
+assert.equal(filterListings([car],{q:'киа соренто 2021'}).length,1);
+assert.equal(filterListings([car],{q:'киа соренто 2022'}).length,0);
+assert.equal(filterListings([car],{q:'киа соренто',scope:'agency'}).length,0);
+assert.equal(filterListings([car],{q:'киа соренто',currency:'EUR'}).length,0);
+assert.equal(filterListings([car],{q:'<script>'}).length,0);
+const cars=[car,{...car,id:'second'},{...car,id:'third',model:'SPORTAGE',name:'KIA SPORTAGE'},{...car,id:'no-photo',images:[]}];
+const suggestions=modelSuggestions(cars,'киа');assert.equal(suggestions.length,2);assert.equal(suggestions[0].count,2);assert.ok(suggestions[0].label.includes('SORENTO'));
+assert.equal(modelSuggestions(cars,'Киа Соренто').length,0);
+assert.equal(modelSuggestions(cars,'к').length,0);
+assert.equal(modelSuggestions(cars,'несуществующая модель').length,0);
+assert.equal(modelSuggestions(cars,'киа',1).length,1);
+console.log('Buyer search passed: Russian aliases, punctuation, model spacing, year, filter isolation and real-model suggestions.');

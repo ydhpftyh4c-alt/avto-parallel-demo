@@ -6,6 +6,7 @@ import {generateCatalog} from './generate-catalog.mjs';
 import './check-data.mjs';
 import './check-import-data.mjs';
 import './check-selection.mjs';
+import './check-catalog-ux.mjs';
 import './check-suppliers.mjs';
 import './check-supplier-parsers.mjs';
 import {generateOrderCatalog} from './generate-order-catalog.mjs';

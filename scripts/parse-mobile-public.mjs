@@ -25,14 +25,16 @@ export function parseMobileSearch(html,observedAt=new Date().toISOString()){
  return {total:Number(total[0].replace(/\s/g,'')),pages,listings};
 }
 export async function syncMobileSearch({maxPages=50,fromCache=false}={}){
- const cache='.local-source/suppliers/mobile-pages';await mkdir(cache,{recursive:true});const records=new Map(),signatures=new Set();let first,last=1,fetched=0;const started_at=new Date().toISOString();
+ if(!Number.isInteger(maxPages)||maxPages<1||maxPages>50)throw Error('maxPages must be between 1 and 50');
+ const cache='.local-source/suppliers/mobile-pages';await mkdir(cache,{recursive:true});const records=new Map(),signatures=new Set();let first,last=1,fetched=0,snapshot;const started_at=new Date().toISOString();
  for(let page=1;page<=Math.min(last,maxPages);page++){
   const file=path.join(cache,page+'.html');const url=new URL(search);url.search=new URLSearchParams({dam:'false',isSearchRequest:'true',s:'Car',vc:'Car',pageNumber:String(page)}).toString();
   const html=fromCache?await readFile(file,'utf8'):await(await getPublic(url)).text();const parsed=parseMobileSearch(html);first??=parsed;last=first.pages;
   const signature=parsed.listings.map(x=>x.id).join(',');if(signatures.has(signature))throw Error('Repeated mobile.de page; stopping');signatures.add(signature);
   if(!fromCache)await writeFile(file,html);for(const car of parsed.listings)records.set(car.id,car);fetched++;
-  const snapshot={schema_version:1,kind:'supplier_listings_snapshot',started_at,completed_at:new Date().toISOString(),sources:[{id:'mobile-de',name:'mobile.de',market:'eu',url:search,status:'partial_public_search',expected_at_start:first.total,pages_fetched:fetched,search_page_limit:last,unique_listings:records.size,coverage:'partial_search_window',note:'Public search exposes at most 50 pages. This is NOT the complete platform inventory.'}],listings:[...records.values()]};
-  await atomic('data/import/listings/mobile-de.json',snapshot);console.log(`mobile.de ${page}/${Math.min(last,maxPages)}: ${records.size} unique; platform count ${first.total}; coverage PARTIAL`);if(page<Math.min(last,maxPages)&&!fromCache)await pause(750);
+  snapshot={schema_version:1,kind:'supplier_listings_snapshot',started_at,completed_at:new Date().toISOString(),sources:[{id:'mobile-de',name:'mobile.de',market:'eu',url:search,status:'partial_public_search',expected_at_start:first.total,pages_fetched:fetched,search_page_limit:last,unique_listings:records.size,coverage:'partial_search_window',note:'Public search exposes at most 50 pages. This is NOT the complete platform inventory.'}],listings:[...records.values()]};
+  await atomic('.local-source/suppliers/mobile-progress.json',snapshot);console.log(`mobile.de ${page}/${Math.min(last,maxPages)}: ${records.size} unique; platform count ${first.total}; coverage PARTIAL`);if(page<Math.min(last,maxPages)&&!fromCache)await pause(750);
  }
+ await atomic('data/import/listings/mobile-de.json',snapshot);
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))await syncMobileSearch({maxPages:Number(process.argv.find(x=>x.startsWith('--pages='))?.split('=')[1]||50),fromCache:process.argv.includes('--from-cache')});

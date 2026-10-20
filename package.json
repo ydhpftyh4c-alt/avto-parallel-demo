@@ -7,9 +7,11 @@
     "dev": "node scripts/serve.mjs",
     "import:suppliers": "node scripts/sync-suppliers.mjs",
     "download:suppliers": "node scripts/download-supplier-library.mjs",
-    "apply:supplier-edits": "node scripts/apply-supplier-library.mjs"
+    "apply:supplier-edits": "node scripts/apply-supplier-library.mjs",
+    "admin": "node server/index.mjs",
+    "test:admin": "node --test server/admin.test.mjs server/jobs.test.mjs server/import.test.mjs server/photos.test.mjs"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=22.13"
   }
 }

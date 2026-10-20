@@ -1,0 +1,22 @@
+[Unit]
+Description=Avto Parallel website and administration
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=avto
+Group=avto
+WorkingDirectory=/opt/avto-parallel-demo
+EnvironmentFile=/etc/avto-parallel.env
+ExecStart=/usr/bin/node /opt/avto-parallel-demo/server/index.mjs
+Restart=on-failure
+RestartSec=10
+KillSignal=SIGTERM
+TimeoutStopSec=45
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
