@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {recyclingScreen,matchesRecyclingScreen} from '../assets/recycling-screen.mjs';
+import {filterListings} from '../order-engine.mjs';
+import {activeListingFilters,clearListingFilter} from '../assets/catalog-ux.mjs';
+import {cleanCatalogSearch} from '../assets/vehicle-page-data.mjs';
+const car={body:'sedan',fuel:'GASOLINE',engine_cc:3000,power_kw:117.68,power_hp:160,images:['real.jpg'],external_id:'1',name:'Real car',category:'supplier'};
+assert.equal(recyclingScreen(car),'technical_match');
+for(const edit of [{power_hp:160.01},{power_kw:117.69},{engine_cc:3001},{engine_cc:null},{engine_cc:0},{fuel:'HYBRID'},{fuel:'ELECTRICITY'},{fuel:null},{fuel:'GASOLINE HYBRID'},{body:'bus'},{body:'truck'},{body:'other'}])assert.equal(recyclingScreen({...car,...edit}),'excluded');
+const missing={...car,power_kw:null,power_hp:null};assert.equal(recyclingScreen(missing),'unknown_power');
+assert.equal(recyclingScreen({...missing,power_hp:'150'}),'unknown_power');assert.equal(recyclingScreen({...missing,power_hp:NaN}),'unknown_power');
+assert.equal(matchesRecyclingScreen(missing,'known'),false);assert.equal(matchesRecyclingScreen(missing,'precheck'),true);
+assert.equal(matchesRecyclingScreen(car,'all'),true);assert.equal(matchesRecyclingScreen(car,'bogus'),false);
+assert.equal(filterListings([car,missing],{util:'known'}).length,1);assert.equal(filterListings([car,missing],{util:'precheck'}).length,2);
+assert.equal(clearListingFilter({util:'known',q:'Kia'},'util').util,'all');assert.equal(activeListingFilters({util:'precheck'})[0].key,'util');
+assert.equal(new URLSearchParams(cleanCatalogSearch('util=known&brand=kia')).get('util'),'known');
+console.log('Recycling shortlist passed: exact technical boundaries, no unknown-power qualification, hybrid/non-passenger exclusion, filter and return-state persistence.');

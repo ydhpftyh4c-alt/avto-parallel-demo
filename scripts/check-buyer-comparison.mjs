@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {comparisonRows} from '../assets/buyer-comparison.mjs';
+const a={id:'one',price:20000,currency:'USD',year:2021,mileage_km:0,engine_cc:null,fuel:'DIESEL',body:'suv',category:'supplier',provider_name:'LOTTE',market:'kr',status:'unknown'};
+const b={...a,id:'two',currency:'EUR',mileage_km:null,fuel:'diesel'};
+const rows=comparisonRows([a,b]),row=key=>rows.find(item=>item.key===key);
+assert.equal(row('price').same,false);assert.match(row('price').values[0],/USD$/);assert.match(row('price').values[1],/EUR$/);
+assert.equal(row('mileage').same,false);assert.equal(row('mileage').values[0],'0 км');assert.equal(row('mileage').values[1],'Не указан');
+assert.equal(row('fuel').same,true);assert.equal(row('engine').same,true);assert.equal(row('year').same,true);assert.match(row('status').values[0],/Без отметки/);
+assert.equal(comparisonRows([a,{...a,id:'from',price_prefix:'от '}]).find(item=>item.key==='price').same,false);
+assert.equal(comparisonRows([a,{...a,id:'unknown',price:null}]).find(item=>item.key==='price').values[1],'По запросу');
+assert.equal(comparisonRows([a,{...a,id:'sold',status:'sold'}]).find(item=>item.key==='status').same,false);
+assert.equal(comparisonRows([a,{...a,id:'engine',engine_text:'2.0 TDI'}]).find(item=>item.key==='engine').values[1],'2.0 TDI');
+assert.throws(()=>comparisonRows([a]));assert.throws(()=>comparisonRows([a,a]));assert.throws(()=>comparisonRows(Array.from({length:6},(_,id)=>({...a,id:String(id)}))));
+assert.equal(comparisonRows(Array.from({length:5},(_,id)=>({...a,id:String(id)}))).length,11);
+console.log('Buyer comparison passed: currencies, from-prices, missing data, zero mileage, statuses and selection bounds.');

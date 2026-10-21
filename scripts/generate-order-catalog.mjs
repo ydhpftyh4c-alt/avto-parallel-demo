@@ -2,6 +2,7 @@ import {readFile,writeFile,readdir} from 'node:fs/promises';
 import {readVehicles} from './generate-catalog.mjs';
 import {sourceImage} from '../order-engine.mjs';
 import {applyAdminOverlay,readAdminOverlay} from '../lib/admin-overlay.mjs';
+import {generateShards} from './generate-shards.mjs';
 export async function generateOrderCatalog(){
  const snapshots=await Promise.all((await readdir('data/import/listings')).filter(file=>file.endsWith('.json')).sort().map(async file=>JSON.parse(await readFile('data/import/listings/'+file,'utf8'))));
  const snapshot={...snapshots[0],sources:snapshots.flatMap(item=>item.sources),listings:snapshots.flatMap(item=>item.listings)};
@@ -21,5 +22,5 @@ export async function generateOrderCatalog(){
   return {...result,category:'supplier',status:'unknown'};
  });
  const listings=[...supplier.filter(car=>car.images.length&&!car.hidden),...agency];
- const base={...snapshot,listings,sources:[...snapshot.sources,...access.filter(item=>!snapshot.sources.some(source=>source.id===item.id))],agency_photo_count:agency.length,agency_hidden_without_photos:rows.filter(car=>!car.review_required&&!car.images.length).length};const result=applyAdminOverlay(base,await readAdminOverlay());await writeFile('order-catalog.json',JSON.stringify(result)+'\n');console.log(`Unified catalog: ${snapshot.listings.length} supplier listings and ${agency.length} agency listings with photos.`);return result;
+ const base={...snapshot,listings,sources:[...snapshot.sources,...access.filter(item=>!snapshot.sources.some(source=>source.id===item.id))],agency_photo_count:agency.length,agency_hidden_without_photos:rows.filter(car=>!car.review_required&&!car.images.length).length};const result=applyAdminOverlay(base,await readAdminOverlay());await writeFile('order-catalog.json',JSON.stringify(result)+'\n');await generateShards(result);console.log(`Unified catalog: ${snapshot.listings.length} supplier listings and ${agency.length} agency listings with photos.`);return result;
 }

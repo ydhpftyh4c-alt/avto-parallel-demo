@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFile,stat} from 'node:fs/promises';
+import path from 'node:path';
+import {vehicleHref,vehicleBackHref,cleanCatalogSearch,vehiclePrice,vehicleFacts} from '../assets/vehicle-page-data.mjs';
+const query='?view=all&budgetWish=3000000&year=2021&saved=true&q=Киа&car=old&redirect=https://evil.example';
+const href=vehicleHref('lotte-123',query),url=new URL(href,'https://example.com/project/');assert.equal(url.pathname,'/project/cars/vehicle/');assert.equal(url.searchParams.get('id'),'lotte-123');const back=new URLSearchParams(url.searchParams.get('back'));assert.equal(back.get('year'),'2021');assert.equal(back.get('q'),'Киа');assert.equal(back.get('budgetWish'),'3000000');assert.equal(back.get('saved'),'true');assert.equal(back.has('car'),false);assert.equal(back.has('redirect'),false);
+assert.equal(vehicleBackHref('https://evil.example'),'../../catalog/#catalog');assert.equal(vehicleBackHref('redirect=//evil.example'),'../../catalog/#catalog');assert.equal(cleanCatalogSearch('?q='+('x'.repeat(500))).length,102);
+assert.match(vehiclePrice({price:0,currency:'USD'}),/USD$/);assert.equal(vehiclePrice({price:null}),'Цена по запросу');assert.match(vehiclePrice({price:100,price_prefix:'от ',currency:'EUR'}),/^от 100 EUR$/);
+const facts=vehicleFacts({year:2021,mileage_km:0,engine_cc:null,body:'suv'});assert.equal(facts.find(([key])=>key==='Пробег')[1],'0 км');assert.equal(facts.find(([key])=>key==='Двигатель')[1],'Не указан');
+const html=await readFile('cars/vehicle/index.html','utf8'),js=await readFile('assets/vehicle-page.js','utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);assert.equal(new Set(ids).size,ids.length);for(const [,id] of js.matchAll(/\$\('([^']+)'\)/g))assert.ok(ids.includes(id),'Missing detail control: '+id);
+for(const [,resource] of html.matchAll(/(?:src|href)="([^"#]+)"/g))if(!/^[a-z]+:/i.test(resource))await stat(path.resolve('cars/vehicle',resource.split(/[?#]/)[0]||'.'));
+assert.ok(html.includes('noindex,follow'));assert.ok(html.includes('Автоматическая отправка не подключена'));
+console.log('Vehicle page passed: project-relative routes, safe return state, budget context, zero values, assets and control bindings.');

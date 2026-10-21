@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {normalizeBuyerNeeds,applyBuyerNeeds,buyerNeedsBrief} from '../assets/buyer-needs.mjs';
+import {filterListings} from '../order-engine.mjs';
+const filters={q:'sorento',scope:'supplier',provider:'all',brand:'kia',currency:'USD',price:20000,sort:'price-asc',status:'unknown',saved:false};
+const wishes={body:'suv',budget:3000000,year:2021,mileage:0};
+const next=applyBuyerNeeds(filters,wishes);
+assert.deepEqual(next,{...filters,body:'suv',year:2021,mileage:0});assert.equal(next.price,20000);assert.equal(next.currency,'USD');assert.equal(filters.year,undefined);
+const sample={id:'a',name:'KIA SORENTO',brand:'kia',provider:'lotte',category:'supplier',status:'unknown',body:'suv',year:2021,mileage_km:0,price:19000,currency:'USD',images:['photo.jpg'],external_id:'a'};
+assert.equal(filterListings([sample],next).length,1);
+assert.equal(filterListings([{...sample,mileage_km:null}],next).length,0);
+assert.equal(filterListings([{...sample,year:2020}],next).length,0);
+assert.equal(normalizeBuyerNeeds({budget:'',year:'',mileage:''}).budget,null);assert.equal(normalizeBuyerNeeds({body:'truck'}).body,'truck');
+for(const invalid of [{budget:0},{budget:1000000001},{budget:'3 млн'},{budget:true},{year:2200},{mileage:-1},{mileage:1.2}])assert.throws(()=>normalizeBuyerNeeds(invalid));
+const brief=buyerNeedsBrief(wishes,filters);assert.match(brief,/3.000.000 ₽/);assert.match(brief,/Пробег до 0 км/);assert.match(brief,/sorento/);assert.match(brief,/с учётом всех расходов/);assert.ok(!brief.includes('undefined'));
+const html=await readFile('catalog-section.html','utf8');assert.equal([...html.matchAll(/data-needs-step=/g)].length,3);assert.ok(html.includes('id="order-needs-budget-note"'));
+const guide=await readFile('guide.js','utf8');assert.ok(guide.includes("if(!document.querySelector('#buyer-catalog'))document.querySelectorAll('[data-open-guide]')"),'Primary entries must use the unified catalog instead of two assistants');
+console.log('Unified selection passed: optional fields, zero mileage, validation, preserved filters, budget isolation and request context.');

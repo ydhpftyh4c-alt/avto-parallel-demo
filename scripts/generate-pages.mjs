@@ -3,7 +3,7 @@ import {readVehicles} from './generate-catalog.mjs';
 const base='https://ydhpftyh4c-alt.github.io/avto-parallel-demo/';
 const escape=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 export async function generatePages(offers,models){
- const urls=[base];
+ const urls=[base,...['catalog/','import/','budget/','contacts/'].map(route=>base+route)];
  for(const car of [...offers,...models]){
   const model=car.record_kind==='model';const section=model?'models':'cars';const relative=section+'/'+car.slug+'/';const url=base+relative;urls.push(url);
   const price=model?'Расчёт по запросу':car.price===null?'Цена по запросу':(car.pricePrefix||'')+new Intl.NumberFormat('ru-RU').format(car.price)+' '+({RUB:'₽',USD:'USD',GEL:'GEL'}[car.currency]||car.currency);
@@ -20,5 +20,5 @@ export async function generatePages(offers,models){
   await mkdir(folder,{recursive:true});await writeFile(folder+'index.html',page);await mkdir('dist/'+folder,{recursive:true});await writeFile('dist/'+folder+'index.html',page);
  }
  const xml='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls.map(url=>'<url><loc>'+url+'</loc></url>').join('')+'</urlset>';
- await writeFile('sitemap.xml',xml);await writeFile('robots.txt','User-agent: *\nAllow: /\nSitemap: '+base+'sitemap.xml\n');await cp('sitemap.xml','dist/sitemap.xml');await cp('robots.txt','dist/robots.txt');console.log('Generated '+(urls.length-1)+' static vehicle/model pages with canonical links and sitemap.');
+ await writeFile('sitemap.xml',xml);await writeFile('robots.txt','User-agent: *\nAllow: /\nSitemap: '+base+'sitemap.xml\n');await cp('sitemap.xml','dist/sitemap.xml');await cp('robots.txt','dist/robots.txt');console.log('Generated '+(offers.length+models.length)+' static vehicle/model pages with canonical links and sitemap.');
 }

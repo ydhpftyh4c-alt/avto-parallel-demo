@@ -3,7 +3,14 @@ import {activeListingFilters,clearListingFilter,listingCardText} from '../assets
 const filters={scope:'supplier',q:'Kia',brand:'kia',body:'all',provider:'all',year:2021,mileage:0,price:20000,currency:'USD',sort:'price-asc',status:'unknown',saved:false};
 const cleared=clearListingFilter(filters,'currency');assert.equal(cleared.currency,'all');assert.equal(cleared.price,null);assert.equal(cleared.sort,'default');assert.equal(cleared.q,'Kia');assert.equal(cleared.scope,'supplier');assert.equal(filters.currency,'USD');
 assert.equal(clearListingFilter({...filters,sort:'year-desc'},'currency').sort,'year-desc');assert.equal(clearListingFilter(filters,'status').status,'unknown');
+assert.equal(clearListingFilter({...filters,util:'known'},'util').util,'all');
+assert.equal(clearListingFilter({...filters,fuel:'DIESEL'},'fuel').fuel,'all');
+assert.equal(clearListingFilter({...filters,drive:'4WD'},'drive').drive,'all');
 const active=activeListingFilters(filters,{brand:'Kia',sort:'Сначала дешевле'});assert.ok(active.some(item=>item.key==='mileage'&&item.label.includes('0')));assert.ok(active.some(item=>item.key==='price'&&item.label.endsWith('USD')));assert.ok(!active.some(item=>item.key==='currency'));assert.ok(!active.some(item=>item.key==='status'));
+assert.ok(activeListingFilters({...filters,fuel:'DIESEL'},{fuel:'Дизель'}).some(item=>item.key==='fuel'&&item.label.includes('Дизель')));
+assert.ok(activeListingFilters({...filters,drive:'4WD'},{drive:'Полный (4WD)'}).some(item=>item.key==='drive'&&item.label.includes('Полный')));
+assert.ok(activeListingFilters({...filters,util:'known'}).some(item=>item.key==='util'&&item.label.includes('мощность указана')));
+assert.ok(activeListingFilters({...filters,util:'precheck'}).some(item=>item.key==='util'&&item.label.includes('предварительный')));
 assert.ok(activeListingFilters({...filters,price:null}).some(item=>item.key==='currency'));
 const source={provider:'lotte',brand:'bmw',brand_name:'BMW',model:'7 SERIES',trim:'730 ld xDrive',name:'BMW 7 SERIES 730 ld xDrive'};
 assert.deepEqual(listingCardText(source),{title:'BMW 7 Series',subtitle:'730 ld xDrive',full:source.name});

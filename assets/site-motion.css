@@ -1,0 +1,47 @@
+/* Navigation motion: native document transitions preserve normal links/history. */
+:root{--motion-fast:160ms;--motion-page:280ms;--motion-ease:cubic-bezier(.22,.68,.25,1)}
+@view-transition{navigation:auto}
+.header,.car-header{view-transition-name:site-header}
+body>main{view-transition-name:page-content}
+::view-transition-group(site-header){animation-duration:var(--motion-page);animation-timing-function:var(--motion-ease);z-index:2}
+::view-transition-old(site-header),::view-transition-new(site-header){animation:none;mix-blend-mode:normal}
+::view-transition-new(site-header){opacity:1}
+::view-transition-old(page-content){animation:page-leave 180ms ease-in both;mix-blend-mode:normal}
+::view-transition-new(page-content){animation:page-arrive var(--motion-page) var(--motion-ease) both;mix-blend-mode:normal}
+::view-transition-group(page-content){animation-duration:var(--motion-page)}
+::view-transition-old(root){animation:surface-leave 180ms ease-in both}
+::view-transition-new(root){animation:surface-arrive var(--motion-page) ease-out both}
+@keyframes page-leave{to{opacity:0;transform:translateY(-8px)}}
+@keyframes page-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes surface-leave{to{opacity:0}}
+@keyframes surface-arrive{from{opacity:0}to{opacity:1}}
+/* A gentle entrance on browsers without the view-transition property. */
+@supports not (view-transition-name:page-content){body>main{animation:page-arrive 240ms var(--motion-ease) both}}
+.site-page .header nav>a{position:relative;min-height:44px;display:inline-flex;align-items:center;transition:color var(--motion-fast) ease,background-color var(--motion-fast) ease,transform var(--motion-fast) var(--motion-ease)}
+.site-page .header nav>a:not(.nav-cta){text-decoration:none}
+.site-page .header nav>a:not(.nav-cta)::after{content:"";position:absolute;inset:auto 0 5px;height:2px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform 220ms var(--motion-ease)}
+.site-page .header nav>a[aria-current=page]:not(.nav-cta)::after,.site-page .header nav>a:not(.nav-cta):focus-visible::after{transform:scaleX(1)}
+.site-page .header nav>a[aria-current=page]{text-decoration:none}
+:is(.site-page,.car-purchase,.car-request,.car-mobile-action) :is(.button,.car-button),.hero-search button,.site-page .header .nav-cta,.order-card-actions :is(a,button){transition:background-color 180ms ease,color 180ms ease,border-color 180ms ease,transform 180ms var(--motion-ease),box-shadow 180ms ease}
+.home-paths a{transition:background-color 180ms ease}
+.home-paths a b,.button>span,.hero-search button svg{display:inline-block;transition:transform 220ms var(--motion-ease)}
+.home-paths a:focus-visible b,.button:focus-visible>span{transform:translate(3px,-3px)}
+.car-header>a{transition:color 180ms ease;text-underline-offset:5px}
+.buyer-tabs button,.buyer-marque{transition:background-color 180ms ease,border-color 180ms ease,color 180ms ease}
+@media(hover:hover) and (pointer:fine){
+ .site-page .header nav>a:not(.nav-cta):hover::after{transform:scaleX(1)}
+ .site-page .header .nav-cta:hover{background:#ffa158;transform:translateY(-2px);box-shadow:0 6px 16px #061b2b24}
+ :is(.site-page,.car-purchase,.car-request) :is(.button,.car-button):not(:disabled):hover,.hero-search button:hover,.order-card-actions :is(a,button):not(:disabled):hover{transform:translateY(-2px)}
+ .home-paths a:hover b,.button:hover>span{transform:translate(4px,-4px)}
+ .hero-search button:hover svg{transform:translateX(3px)}
+ .car-header>a:hover{color:var(--orange)}
+}
+.site-page .header .nav-cta:active,:is(.site-page,.car-purchase,.car-request,.car-mobile-action) :is(.button,.car-button):not(:disabled):active,.hero-search button:active,.order-card-actions :is(a,button):not(:disabled):active{transform:translateY(0) scale(.98);box-shadow:none}
+@media(max-width:760px){.site-page .header nav>a:not(.nav-cta)::after{inset-inline-end:auto;width:32px}}
+@media(prefers-reduced-motion:reduce){
+ @view-transition{navigation:none}
+ ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
+ body>main{animation:none!important}
+ .site-page .header nav>a::after{transition:none!important}
+ .site-page .header nav>a,.home-paths a,.home-paths a b,.button,.car-button,.button>span,.hero-search button,.hero-search button svg,.order-card-actions :is(a,button),.buyer-tabs button,.buyer-marque,.car-header>a{transition:none!important;transform:none!important}
+}

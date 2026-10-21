@@ -1,0 +1,7 @@
+import {bodyLabels} from '../order-engine.mjs';
+const allowed=new Set(['util','view','q','provider','brand','body','year','mileage','price','currency','sort','saved','status','budgetWish']);
+export function cleanCatalogSearch(search=''){const result=new URLSearchParams();for(const [key,value] of new URLSearchParams(search))if(allowed.has(key))result.set(key,value.slice(0,100));return result.toString();}
+export function vehicleHref(id,search=''){const query=new URLSearchParams({id:String(id)}),back=cleanCatalogSearch(search);if(back)query.set('back',back);return 'cars/vehicle/?'+query;}
+export function vehicleBackHref(search=''){const query=cleanCatalogSearch(search);return '../../catalog/'+(query?'?'+query:'')+'#catalog';}
+export function vehiclePrice(car){return typeof car.price!=='number'||!Number.isFinite(car.price)?'Цена по запросу':(car.price_prefix||'')+new Intl.NumberFormat('ru-RU').format(car.price)+' '+(car.currency==='RUB'?'₽':car.currency||'Валюта не указана');}
+export function vehicleFacts(car){const f=new Intl.NumberFormat('ru-RU'),n=(value,suffix='')=>typeof value==='number'&&Number.isFinite(value)?f.format(value)+suffix:'Не указан';return [['Год выпуска',n(car.year)],['Пробег',n(car.mileage_km,' км')],['Двигатель',car.engine_text||n(car.engine_cc,' см³')],['Топливо',car.fuel||'Не указано'],['Коробка передач',car.transmission||'Не указана'],['Привод',car.drive||'Не указан'],['Кузов',bodyLabels[car.body]||'Не указан'],['Цвет',car.color||'Не указан']];}

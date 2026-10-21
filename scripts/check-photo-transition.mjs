@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {photoSequence} from '../assets/photo-transition.mjs';
+const waiting=new Map(),commits=[],busy=[];
+const sequence=photoSequence({load:url=>new Promise((resolve,reject)=>waiting.set(url,{resolve,reject})),commit:url=>commits.push(url),busy:value=>busy.push(value)});
+const first=sequence.show('first'),second=sequence.show('second');
+waiting.get('second').resolve();assert.equal(await second,'shown');
+waiting.get('first').resolve();assert.equal(await first,'stale');assert.deepEqual(commits,['second']);
+const broken=sequence.show('broken');waiting.get('broken').reject(new Error('offline'));
+assert.equal(await broken,'failed');assert.deepEqual(commits,['second']);assert.equal(busy.at(-1),false);
+const closing=sequence.show('closing');sequence.cancel();waiting.get('closing').resolve();
+assert.equal(await closing,'stale');assert.deepEqual(commits,['second']);assert.equal(busy.at(-1),false);
+const oldFailure=sequence.show('old-failure'),newest=sequence.show('newest');waiting.get('old-failure').reject(new Error('late failure'));
+assert.equal(await oldFailure,'stale');assert.equal(busy.at(-1),true);waiting.get('newest').resolve();assert.equal(await newest,'shown');
+assert.deepEqual(commits,['second','newest']);
+console.log('Photo navigation passed: latest request wins, failures retain previous frame, cancellation and late failures cannot replace current photo.');

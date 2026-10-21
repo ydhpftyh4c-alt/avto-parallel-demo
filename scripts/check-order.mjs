@@ -11,13 +11,15 @@ assert.equal(normalizeLotte({...raw,gdId:'U2502571387'},[],car.observed_at).id,'
 assert.equal(sourceImage('/goods/../private.jpg'),'assets/import-model.svg');assert.equal(sourceImage('https://evil.example/x.jpg'),'assets/import-model.svg');assert.match(sourceImage(car.images[0]),/img\.lotte-autoglobal\.net\/goods\/test\/test.jpg/);assert.match(sourceImage(car.images[0]),/composite\/wm_224/);
 const filters={currency:'USD'};assert.equal(filterListings([car],{...filters,q:'киа соренто'}).length,1);assert.equal(filterListings([car],{...filters,price:17000}).length,0);assert.equal(filterListings([car],{...filters,price:17500,year:2021,mileage:50000}).length,1);
 assert.equal(filterListings([{...car,mileage_km:null}],{...filters,mileage:50000}).length,0);assert.equal(filterListings([{...car,mileage_km:0}],{...filters,mileage:0}).length,1);
+assert.equal(filterListings([car],{...filters,fuel:'DIESEL'}).length,1);assert.equal(filterListings([car],{...filters,fuel:'GASOLINE'}).length,0);
+assert.equal(filterListings([{...car,drive:'4WD'}],{...filters,drive:'4WD'}).length,1);assert.equal(filterListings([{...car,drive:'4WD'}],{...filters,drive:'2WD'}).length,0);
 assert.equal(filterListings([car],{currency:'all',price:20000}).length,0);assert.equal(filterListings([car],{currency:'KRW'}).length,0);assert.equal(filterListings([car],{...filters,saved:true},new Set()).length,0);
 assert.equal(filterListings([{...car,id:'x',price:null},car],{...filters,sort:'price-asc'})[0].id,car.id);
 assert.match(listingBrief([car]),/17500 USD/);assert.match(listingBrief([car]),/полную стоимость/);assert.throws(()=>listingBrief([]));assert.throws(()=>listingBrief(Array(6).fill(car)));
 const snapshot=JSON.parse(await readFile('data/import/listings/lotte.json','utf8'));assert.ok(snapshot.sources[0].pages_fetched>0);assert.equal(snapshot.sources[0].unique_listings,snapshot.listings.length);assert.equal(new Set(snapshot.listings.map(item=>item.id)).size,snapshot.listings.length);
 for(const item of snapshot.listings){assert.equal(item.availability,'requires_confirmation');assert.equal(item.import_eligibility,'not_verified');assert.equal(item.price_basis,'seller_listing_excludes_import');assert.equal(item.clsNo,undefined);for(const field of ['mileage_km','engine_cc'])assert.ok(item[field]===null||Number.isFinite(item[field])&&item[field]>=0);}
 const html=await readFile('catalog-section.html','utf8'),js=await readFile('order.js','utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);assert.equal(new Set(ids).size,ids.length);
-const page=await readFile('index.html','utf8'),pageIds=[...page.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+const page=(await readFile('index.html','utf8'))+(await readFile('catalog/index.html','utf8')),pageIds=[...page.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
 for(const [,id] of js.matchAll(/\$\('([^']+)'\)/g))assert.ok((id.startsWith('arrival-')||id==='catalog'?pageIds:ids).includes(id),'Missing order UI element: '+id);
 for(const [,resource] of html.matchAll(/(?:src|href)="([^"#]+)"/g))if(!/^[a-z]+:/i.test(resource))await stat(resource.split(/[?#]/)[0]||'.');
 console.log(`Unified catalog checks passed: parser, ${snapshot.listings.length} actual records, currency-safe filters, photo URLs, selection and UI links.`);
@@ -30,6 +32,17 @@ assert.ok(matchesListingQuery('HYUNDAI SantaFe','Хендай Санта Фе'))
 assert.ok(matchesListingQuery('MAZDA CX-5','мазда CX5'));
 assert.ok(matchesListingQuery('Mercedes-Benz','мерседес'));
 assert.ok(matchesListingQuery('GEELY MONJARO','джили'));
+assert.ok(matchesListingQuery('BMW X5 xDrive30d','бмв х5'));
+assert.ok(matchesListingQuery('PORSCHE TAYCAN 4S','порше тайкан'));
+assert.ok(matchesListingQuery('KIA CARNIVAL','киа карнивал'));
+assert.ok(matchesListingQuery('GEELY MONJARO','монджаро'));
+assert.ok(matchesListingQuery('ZEEKR 001','зикр 001'));
+assert.ok(matchesListingQuery('HYUNDAI GRANDEUR','хендай грандер'));
+assert.ok(matchesListingQuery('GENESIS G80','дженезис г80'));
+assert.ok(matchesListingQuery('KIA K5 2.0','киа к5'));
+assert.ok(matchesListingQuery('KIA K7 Premier','киа к7'));
+assert.ok(matchesListingQuery('HYUNDAI STARIA Lounge','стария'));
+assert.ok(matchesListingQuery('SSANGYONG REXTON','сангенг рекстон'));
 assert.equal(filterListings([car],{q:'киа соренто 2021'}).length,1);
 assert.equal(filterListings([car],{q:'киа соренто 2022'}).length,0);
 assert.equal(filterListings([car],{q:'киа соренто',scope:'agency'}).length,0);

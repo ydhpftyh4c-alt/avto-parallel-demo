@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {rememberViewed,recentListings,searchSnapshot,rememberSearch} from '../assets/buyer-discovery.mjs';
+const history=Array.from({length:8},(_,i)=>'car-'+i);
+assert.deepEqual(rememberViewed(history,'car-3'),['car-3','car-0','car-1','car-2','car-4','car-5','car-6','car-7']);assert.equal(rememberViewed(history,'new').length,8);assert.deepEqual(rememberViewed([null,'',12,'ok'],'ok'),['ok']);
+const cars=history.map(id=>({id,images:['photo.jpg']}));assert.equal(recentListings(history,cars).length,8);assert.equal(recentListings(['old','car-0','car-1'],[{id:'car-0',images:[]},cars[1]]).length,1);
+const query='view=all&brand=kia&year=2021&mileage=0&budgetWish=3000000&saved=true&car=secret&redirect=https://evil.example';const entry=searchSnapshot(query,'Киа по моим условиям'),params=new URLSearchParams(entry.query);assert.equal(params.get('mileage'),'0');assert.equal(params.get('budgetWish'),'3000000');assert.equal(params.get('saved'),'true');assert.equal(params.has('car'),false);assert.equal(params.has('redirect'),false);
+assert.equal(searchSnapshot('year=2021&view=all','A').query,searchSnapshot('view=all&year=2021','B').query);
+let saved=[];for(let i=0;i<6;i++)saved=rememberSearch(saved,searchSnapshot('year='+(2020+i),'Год '+i));assert.equal(saved.length,5);assert.equal(new URLSearchParams(saved[0].query).get('year'),'2025');
+saved=rememberSearch(saved,searchSnapshot('year=2023','Повтор'));assert.equal(saved.length,5);assert.equal(saved.filter(item=>item.query==='year=2023').length,1);assert.equal(saved[0].label,'Повтор');assert.equal(searchSnapshot('', 'x'.repeat(100)).label.length,80);
+console.log('Discovery checks passed: recent ordering, all eight slots, stale/photo-less exclusion, search deduplication, state retention and limits.');

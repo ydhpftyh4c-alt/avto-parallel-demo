@@ -8,7 +8,7 @@ const preferenceKey='parallel-selection-preferences-v1';
 const guideMarkets={cn:'Китай',kr:'Корея',eu:'Европа',any:'Направление пока не выбрано'};
 function guideButton(text,action,className='guide-choice'){const button=el('button',className,text);button.type='button';button.addEventListener('click',action);return button;}
 function guideText(text,className=''){return el('p',className,text);}
-function updateGuideEntry(saved){document.querySelectorAll('[data-open-guide]').forEach(button=>button.textContent=saved?'Продолжить подбор ↗':button.closest('.hero-actions')?'Подобрать за 3 шага ↗':'Помогите выбрать ↗');}
+function updateGuideEntry(saved){if(document.querySelector('#buyer-catalog'))return;document.querySelectorAll('[data-open-guide]').forEach(button=>button.textContent=saved?'Продолжить подбор ↗':button.closest('.hero-actions')?'Подобрать за 3 шага ↗':'Помогите выбрать ↗');}
 async function openGuide(){guideEditing=false;
  if(!guide.open)guide.showModal();
  try{const engine=await import('./selection-engine.mjs?v=20261020-5');let saved=null;try{saved=JSON.parse(localStorage.getItem(preferenceKey)||'null');}catch{}
@@ -54,7 +54,7 @@ async function showGuideResults(){guideEditing=false;
 function prepareGuideBrief(selected){
  guide.close();const model=document.querySelector('#brief-model');model.value=selected.map(car=>car.name).join(', ')||guidePreferences.query||({suv:'Кроссовер',sedan:'Седан или лифтбек',electric:'Автомобиль с электрическим приводом'}[guidePreferences.body]||'');delete model.dataset.recordId;if(selected.length===1)setBriefCar(selected[0]);document.querySelector('#brief-market').value=guidePreferences.market==='any'?'':guidePreferences.market;document.querySelector('#brief-budget').value=guidePreferences.budget??'';document.querySelector('#brief-condition').value='';document.querySelector('.brief-builder').open=true;document.querySelector('#compose-brief').click();document.querySelector('#request').scrollIntoView();document.querySelector('#lead-message').focus({preventScroll:true});
 }
-document.querySelectorAll('[data-open-guide]').forEach(button=>button.addEventListener('click',openGuide));
+if(!document.querySelector('#buyer-catalog'))document.querySelectorAll('[data-open-guide]').forEach(button=>button.addEventListener('click',openGuide));
 document.querySelector('#guide-close').addEventListener('click',()=>guide.close());
 document.querySelector('#guide-back').addEventListener('click',()=>{guideStep=guideStep===3?2:Math.max(0,guideStep-1);renderGuideStep();});
 document.querySelector('#guide-restart').addEventListener('click',()=>{guideEditing=false;guidePreferences={body:'any',budget:null,market:'any'};guideStep=0;renderGuideStep();});
@@ -62,7 +62,7 @@ document.querySelector('#guide-forget').addEventListener('click',()=>{try{localS
 guide.addEventListener('close',()=>{guideRevision++;const url=new URL(location.href);if(url.searchParams.get('guide')==='1'){for(const key of ['guide','pick','market','cap','term'])url.searchParams.delete(key);history.replaceState(history.state,'',url);}});
 try{updateGuideEntry(Boolean(localStorage.getItem(preferenceKey)));}catch{}
 const guideLinkParams=new URL(location.href).searchParams;
-if(guideLinkParams.get('guide')==='1'&&!guideLinkParams.has('compare')&&!guideLinkParams.has('car'))restoreGuideLink();
+if(!document.querySelector('#buyer-catalog')&&guideLinkParams.get('guide')==='1'&&!guideLinkParams.has('compare')&&!guideLinkParams.has('car'))restoreGuideLink();
 async function restoreGuideLink(){
  if(!guide.open)guide.showModal();let engine;
  try{engine=await import('./selection-engine.mjs?v=20261020-5');}catch{guideTitle.textContent='Помощник временно недоступен';guideContent.replaceChildren(guideText('Не удалось загрузить подбор. Проверьте подключение и повторите попытку.'),guideButton('Повторить',restoreGuideLink,'button dark-button'));return;}
